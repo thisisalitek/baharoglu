@@ -1,0 +1,4 @@
+﻿ALTER TABLE Kategoriler ALTER COLUMN KategoriIsim nVARCHAR(100);
+
+GO
+

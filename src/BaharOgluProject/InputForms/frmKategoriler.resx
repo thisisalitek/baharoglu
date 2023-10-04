@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>278, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADI
+        CgAAAk1TRnQBSQFMAgEBAwEAAQgBBQEIAQUBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wQAAvQB/wQAARoB9AYA
+        BfAHvAMAAf8B8wL/AwAB8wEbAQgBGwHzAf8UAAH0A5oCGgH0Af8BGgF6AfQFAAXwAfED8AO8AgAB9AEa
+        A5oBGgLzAXgBVwF4AlcB8QH/EwABGwOaAnoDeQJ6AfQEAAHyAfADvALwAbwE8AIAARsDmgJ6AZoBeAE1
+        AVcB/wF4ATUBVwHzAf8SAAEbApoDegN5AnoBGwQAAfIB8QTwArwE8AIAARsDmgJ6AZkCVwF4Af8BmAJX
+        AQgB8xIAARsCmgN6A3kCegEbBAAB8wHyAfAC8QPwAbwB8AHxAfACAAEbA5oCegGZAXgF/wGYAXgB8xIA
+        ARsBoAGaA3oDeQKaARsEAALzAvEC8gLxAfAB8QHyAfACAAEbA5oCegGZAZcCmAH/ApgBlwGYAfMSAAH/
+        AZkBmgN6AnkDmgEbBAAC9AHyAfME8gLwAfMB8QIAAf8BGwKaAnoBmgF3AU8BlwH/AZ0BTwFxAfEB/xMA
+        ARoBmgN6AnkDmgEbBAAC9AHyA/MC8gHxAfIB8wHyAwAB/wKaA3oBmQJxAZ0CcQEIAf8UAAEaAZoDegJ5
+        A6ABGwQAAvQB8gTzAvIB9AHzAfIDAAH/ApoCegJ5ARoBmAGdAZgB8gH/FQABGgGaA3oCeQOgARsEAAL0
+        AfID8wLyA/MB8gMAAf8CmgJ6AnkBmgOgAf8WAAEaAZoDegJ5A6ABGwQAAvQF8wLyAfEB8wHyAwAB/wKa
+        AnoCeQGaA6AB/xYAARoBmgN6AnkBwwKgARsEAAL0AfID8wHyAfMB8gLzAfIDAAH/ApoCegJ5AZoBwwGg
+        AcMB/xYAARoBmgN6AnkDwwEbBAAB9AH/CPMC9AMAAf8CmgJ6AnkBmgPDAf8WAAEaAZoDegJ5A8MB9AQA
+        AvQB8gHzAfID/wH0Af8B9AQAAf8CmgJ6AnkBmgPDAf8WAAHzApoCegN5AaABwwH0BAAB9Af/AfMB9AYA
+        ARoCmgF6A3kBmgLDAf8XAAL/AfYB9AHzAfEBGgKZAfQEAAHzBvQB8wHyCAAC/wL0ARsBGgKZARoB/xMA
+        AUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAHjAc8BwAEDAYcBAwIAAcABBwHA
+        AQMBAAEBAgABwAEDAcABAwQAAcABAwHAAQMEAAHAAQMBwAEDBAABwAEDAcABAwQAAcABAwHAAQMEAAHg
+        AQMBwAEDAYABAQIAAeABAwHAAQMBgAEDAgAB4AEDAcABAwGAAQcCAAHgAQMBwAEDAYABBwIAAeABAwHA
+        AQMBgAEHAgAB4AEDAcABAwGAAQcCAAHgAQMBwAEHAYABBwIAAeABAwHAAQ8BwAEHAgAB8AEDAcABHwHg
+        AQcCAAs=
+</value>
+  </data>
+  <metadata name="tbKategori.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>721, 17</value>
+  </metadata>
+  <metadata name="FirmConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 17</value>
+  </metadata>
+  <metadata name="SqlCommand28.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand28.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand28.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand26.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand26.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand26.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand26.CommandText" xml:space="preserve">
+    <value>INSERT INTO Kategoriler (
+Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , UstKategoriID , KategoriKod
+ , KategoriIsim , StokKodFormat , IntCode , tempGrup , Resim1 , Resim2 , Resim3
+ , Resim4 , Resim5 , KendiFiyatBedenKullan , KendiMasrafKullan)
+ VALUES (
+@Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @UstKategoriID , @KategoriKod
+ , @KategoriIsim , @StokKodFormat , @IntCode , @tempGrup , @Resim1 , @Resim2 , @Resim3
+ , @Resim4 , @Resim5 , @KendiFiyatBedenKullan , @KendiMasrafKullan)
+SELECT @PRIMARYFIELD_KategoriID = SCOPE_IDENTITY() 
+</value>
+  </data>
+  <metadata name="SqlCommand25.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand25.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand27.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand27.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand27.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand27.CommandText" xml:space="preserve">
+    <value>UPDATE Kategoriler SET 
+Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , UstKategoriID = @UstKategoriID , KategoriKod = @KategoriKod
+ , KategoriIsim = @KategoriIsim , StokKodFormat = @StokKodFormat , IntCode = @IntCode , tempGrup = @tempGrup , Resim1 = @Resim1 , Resim2 = @Resim2 , Resim3 = @Resim3
+ , Resim4 = @Resim4 , Resim5 = @Resim5 , KendiFiyatBedenKullan = @KendiFiyatBedenKullan , KendiMasrafKullan = @KendiMasrafKullan
+WHERE KategoriID = @KategoriID</value>
+  </data>
+  <metadata name="tbSipDetay.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>476, 17</value>
+  </metadata>
+  <metadata name="SqlCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO SipDetay (
+Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , SiparisID , StokKod
+ , StokRecNo , SiparisAciklama , OkulID , BolumKod , KategoriID , Miktar , Maliyet
+ , Fiyat , Tutar , Tarih , TerminTarihi , MusteriSipNo , SiparisiAlan , Iptal
+ , Resim1 , Resim2 , Resim3 , Resim4 , Resim5 , StokIsmi , Bagli
+ , BagliSipDetayID , OkulFarki , Durumu , TeslimMiktar , AnaRenk , Bedenler , bSerbestFiyat
+ , Hazirlanan , FasondaMi , FasonFisID , Iskonto , NakitIskonto , IskontoTutar , NakitIskontoTutar)
+ VALUES (
+@Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @SiparisID , @StokKod
+ , @StokRecNo , @SiparisAciklama , @OkulID , @BolumKod , @KategoriID , @Miktar , @Maliyet
+ , @Fiyat , @Tutar , @Tarih , @TerminTarihi , @MusteriSipNo , @SiparisiAlan , @Iptal
+ , @Resim1 , @Resim2 , @Resim3 , @Resim4 , @Resim5 , @StokIsmi , @Bagli
+ , @BagliSipDetayID , @OkulFarki , @Durumu , @TeslimMiktar , @AnaRenk , @Bedenler , @bSerbestFiyat
+ , @Hazirlanan , @FasondaMi , @FasonFisID , @Iskonto , @NakitIskonto , @IskontoTutar , @NakitIskontoTutar)
+SELECT @PRIMARYFIELD_SipDetayID = SCOPE_IDENTITY() 
+</value>
+  </data>
+  <metadata name="SqlCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE SipDetay SET 
+Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , SiparisID = @SiparisID , StokKod = @StokKod
+ , StokRecNo = @StokRecNo , SiparisAciklama = @SiparisAciklama , OkulID = @OkulID , BolumKod = @BolumKod , KategoriID = @KategoriID , Miktar = @Miktar , Maliyet = @Maliyet
+ , Fiyat = @Fiyat , Tutar = @Tutar , Tarih = @Tarih , TerminTarihi = @TerminTarihi , MusteriSipNo = @MusteriSipNo , SiparisiAlan = @SiparisiAlan , Iptal = @Iptal
+ , Resim1 = @Resim1 , Resim2 = @Resim2 , Resim3 = @Resim3 , Resim4 = @Resim4 , Resim5 = @Resim5 , StokIsmi = @StokIsmi , Bagli = @Bagli
+ , BagliSipDetayID = @BagliSipDetayID , OkulFarki = @OkulFarki , Durumu = @Durumu , TeslimMiktar = @TeslimMiktar , AnaRenk = @AnaRenk , Bedenler = @Bedenler , bSerbestFiyat = @bSerbestFiyat
+ , Hazirlanan = @Hazirlanan , FasondaMi = @FasondaMi , FasonFisID = @FasonFisID , Iskonto = @Iskonto , NakitIskonto = @NakitIskonto , IskontoTutar = @IskontoTutar , NakitIskontoTutar = @NakitIskontoTutar
+WHERE SipDetayID = @SipDetayID</value>
+  </data>
+  <metadata name="tbOkul.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>388, 17</value>
+  </metadata>
+  <metadata name="SqlCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand1.CommandText" xml:space="preserve">
+    <value>SELECT     Okullar.OkulID, Okullar.OkulKod, Okullar.OkulIsmi, Okullar.IlceID, Okullar.IlID, Il.IlIsmi, Ilce.IlceIsmi
+,Okullar.OkulIsmi + ' / ' + ISNULL(Il.IlIsmi,'') + ' - ' + ISNULL(Ilce.IlceIsmi,'') as DisplayText
+FROM         Okullar LEFT OUTER JOIN
+                      Il ON Okullar.IlID = Il.IlID LEFT OUTER JOIN
+                      Ilce ON Okullar.IlceID = Ilce.IlceID
+WHERE     (Okullar.Deleted = 0) AND Okullar.Pasif=0 </value>
+  </data>
+  <metadata name="SqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="ContextMenuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="tbKategoriFiyat.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>587, 17</value>
+  </metadata>
+  <metadata name="SqlCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO KategoriFiyat (
+Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , KategoriID , BedenNo
+ , BedenKod , Fiyat , BazBedenMi)
+ VALUES (
+@Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @KategoriID , @BedenNo
+ , @BedenKod , @Fiyat , @BazBedenMi)
+SELECT @PRIMARYFIELD_KategoriFiyatID = SCOPE_IDENTITY() 
+</value>
+  </data>
+  <metadata name="SqlCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand11.CommandText" xml:space="preserve">
+    <value>UPDATE KategoriFiyat SET 
+Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , KategoriID = @KategoriID , BedenNo = @BedenNo
+ , BedenKod = @BedenKod , Fiyat = @Fiyat , BazBedenMi = @BazBedenMi
+WHERE KategoriFiyatID = @KategoriFiyatID</value>
+  </data>
+  <metadata name="tbKategoriEkFiyat.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>324, 56</value>
+  </metadata>
+  <metadata name="SqlCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand20.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand18.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand18.CommandText" xml:space="preserve">
+    <value>INSERT INTO KategoriEkFiyat (
+Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , KategoriID , MasrafKod
+ , MasrafIsmi , Fiyat , BedenArtis)
+ VALUES (
+@Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @KategoriID , @MasrafKod
+ , @MasrafIsmi , @Fiyat , @BedenArtis)
+SELECT @PRIMARYFIELD_KategoriEkFiyatID = SCOPE_IDENTITY() 
+</value>
+  </data>
+  <metadata name="SqlCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand19.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand19.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand19.CommandText" xml:space="preserve">
+    <value>UPDATE KategoriEkFiyat SET 
+Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , KategoriID = @KategoriID , MasrafKod = @MasrafKod
+ , MasrafIsmi = @MasrafIsmi , Fiyat = @Fiyat , BedenArtis = @BedenArtis
+WHERE KategoriEkFiyatID = @KategoriEkFiyatID</value>
+  </data>
+  <metadata name="tbSipDetayFiyatlar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 56</value>
+  </metadata>
+  <metadata name="SqlCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand14.CommandText" xml:space="preserve">
+    <value>INSERT INTO SipDetayFiyatlar (
+Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , SipDetayID , BedenKod
+ , BazFiyat , BrutFiyat , Iskonto , NakitIskonto , NetFiyat , Miktar , Tutar
+ , KategoriFiyatID , DetayAciklama , RenkKod , BdnHarNo)
+ VALUES (
+@Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @SipDetayID , @BedenKod
+ , @BazFiyat , @BrutFiyat , @Iskonto , @NakitIskonto , @NetFiyat , @Miktar , @Tutar
+ , @KategoriFiyatID , @DetayAciklama , @RenkKod , @BdnHarNo)
+SELECT @PRIMARYFIELD_SipDetayFiyatAdetID = SCOPE_IDENTITY() 
+</value>
+  </data>
+  <metadata name="SqlCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand13.CommandText" xml:space="preserve">
+    <value>SELECT * FROM (
+SELECT dbo.fnBedenNoSipDetayID(SipDetayID,BedenKod) as BedenNo, * FROM SipDetayFiyatlar
+WHERE Deleted = 0 AND SipDetayID&gt;0 and SipDetayID=@SipDetayID
+) X
+ORDER BY BedenNo,SipDetayFiyatAdetID</value>
+  </data>
+  <metadata name="SqlCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand15.CommandText" xml:space="preserve">
+    <value>UPDATE SipDetayFiyatlar SET 
+Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , SipDetayID = @SipDetayID , BedenKod = @BedenKod
+ , BazFiyat = @BazFiyat , BrutFiyat = @BrutFiyat , Iskonto = @Iskonto , NakitIskonto = @NakitIskonto , NetFiyat = @NetFiyat , Miktar = @Miktar , Tutar = @Tutar
+ , KategoriFiyatID = @KategoriFiyatID , DetayAciklama = @DetayAciklama , RenkKod = @RenkKod , BdnHarNo = @BdnHarNo
+WHERE SipDetayFiyatAdetID = @SipDetayFiyatAdetID</value>
+  </data>
+  <metadata name="tbSipDetayEkFiyatlar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>471, 56</value>
+  </metadata>
+  <metadata name="SqlCommand24.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand24.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand22.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand22.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand22.CommandText" xml:space="preserve">
+    <value>INSERT INTO SipDetayEkFiyatlar (
+Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , SipDetayID , MasrafKod
+ , MasrafIsmi , EkFiyat , BedenArtis)
+ VALUES (
+@Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @SipDetayID , @MasrafKod
+ , @MasrafIsmi , @EkFiyat , @BedenArtis)
+SELECT @PRIMARYFIELD_SipDetayEkFiyatID = SCOPE_IDENTITY() 
+</value>
+  </data>
+  <metadata name="SqlCommand21.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand21.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand23.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand23.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlCommand23.CommandText" xml:space="preserve">
+    <value>UPDATE SipDetayEkFiyatlar SET 
+Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , SipDetayID = @SipDetayID , MasrafKod = @MasrafKod
+ , MasrafIsmi = @MasrafIsmi , EkFiyat = @EkFiyat , BedenArtis = @BedenArtis
+WHERE SipDetayEkFiyatID = @SipDetayEkFiyatID</value>
+  </data>
+  <metadata name="tmrRapair.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>634, 56</value>
+  </metadata>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 15</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>91</value>
+  </metadata>
+</root>
