@@ -20,10 +20,10 @@ Partial Class frmSiparisler
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim StyleFormatCondition2 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
+        Dim StyleFormatCondition1 As DevExpress.XtraGrid.StyleFormatCondition = New DevExpress.XtraGrid.StyleFormatCondition()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSiparisler))
-        Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject4 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Me.SqlCommand1 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand2 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand3 = New System.Data.SqlClient.SqlCommand()
@@ -561,7 +561,7 @@ Partial Class frmSiparisler
         '
         Me.BaseTab2.Controls.Add(Me.XtraTabControl2)
         Me.BaseTab2.Controls.Add(Me.panelAdmin)
-        Me.BaseTab2.Size = New System.Drawing.Size(887, 442)
+        Me.BaseTab2.Size = New System.Drawing.Size(887, 381)
         Me.BaseTab2.Tag = True
         Me.BaseTab2.Controls.SetChildIndex(Me.panelAuthCodes, 0)
         Me.BaseTab2.Controls.SetChildIndex(Me.panelAdmin, 0)
@@ -569,6 +569,7 @@ Partial Class frmSiparisler
         '
         'GridControl1
         '
+        Me.GridControl1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.GridControl1.DataSource = Me.MasterLink
         Me.GridControl1.Location = New System.Drawing.Point(0, 61)
         Me.GridControl1.Size = New System.Drawing.Size(887, 362)
@@ -641,7 +642,7 @@ Partial Class frmSiparisler
         '
         'panelAuthCodes
         '
-        Me.panelAuthCodes.Location = New System.Drawing.Point(0, 416)
+        Me.panelAuthCodes.Location = New System.Drawing.Point(0, 355)
         '
         'cboAuthCodes
         '
@@ -1258,7 +1259,7 @@ Partial Class frmSiparisler
         Me.GridControl2.MenuManager = Me.BarManager1
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit1, Me.RepositoryItemLookUpEdit2, Me.btnGridSipDetay, Me.btnGridSipDetayRemove, Me.RepositoryItemLookUpEdit4, Me.txtStokKod, Me.txtStokIsmi, Me.RepositoryItemCheckEdit3, Me.RepositoryItemComboBox1, Me.RepositoryItemLookUpEdit6})
-        Me.GridControl2.Size = New System.Drawing.Size(881, 105)
+        Me.GridControl2.Size = New System.Drawing.Size(881, 44)
         Me.GridControl2.TabIndex = 2
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -1296,13 +1297,13 @@ Partial Class frmSiparisler
         'GridView2
         '
         Me.GridView2.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSipDetayID1, Me.colSipDetayID, Me.colSipDetayID3, Me.colSiparisID1, Me.colOkulID, Me.colKategoriID, Me.colKategoriID1, Me.colMiktar, Me.colDurumu, Me.colBoyahane, Me.colStokRecNo, Me.colSiparisAciklama, Me.colFiyat, Me.colTutar, Me.colDovizTipi, Me.colDovizKuru, Me.colGenelToplam, Me.colDovizliTutar, Me.colKdvOran, Me.colKdvTutar, Me.colTarih1, Me.colTerminTarihi, Me.colSipDetayID2, Me.colBolumKod, Me.colStokKod, Me.colStokIsmi, Me.colBagli, Me.colBagliSipDetayID, Me.colIskonto, Me.colIskontoTutar, Me.colNakitIskonto, Me.colNakitIskontoTutar})
-        StyleFormatCondition2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        StyleFormatCondition2.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        StyleFormatCondition2.Appearance.Options.UseBackColor = True
-        StyleFormatCondition2.ApplyToRow = True
-        StyleFormatCondition2.Condition = DevExpress.XtraGrid.FormatConditionEnum.Expression
-        StyleFormatCondition2.Expression = "[Bagli] == 1"
-        Me.GridView2.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition2})
+        StyleFormatCondition1.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        StyleFormatCondition1.Appearance.BackColor2 = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        StyleFormatCondition1.Appearance.Options.UseBackColor = True
+        StyleFormatCondition1.ApplyToRow = True
+        StyleFormatCondition1.Condition = DevExpress.XtraGrid.FormatConditionEnum.Expression
+        StyleFormatCondition1.Expression = "[Bagli] == 1"
+        Me.GridView2.FormatConditions.AddRange(New DevExpress.XtraGrid.StyleFormatCondition() {StyleFormatCondition1})
         Me.GridView2.GridControl = Me.GridControl2
         Me.GridView2.Name = "GridView2"
         Me.GridView2.OptionsCustomization.AllowSort = False
@@ -1326,7 +1327,7 @@ Partial Class frmSiparisler
         'btnGridSipDetayRemove
         '
         Me.btnGridSipDetayRemove.AutoHeight = False
-        Me.btnGridSipDetayRemove.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "X", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("btnGridSipDetayRemove.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject3, "", Nothing, Nothing, True)})
+        Me.btnGridSipDetayRemove.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "X", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("btnGridSipDetayRemove.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, "", Nothing, Nothing, True)})
         Me.btnGridSipDetayRemove.Name = "btnGridSipDetayRemove"
         Me.btnGridSipDetayRemove.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
@@ -1343,7 +1344,7 @@ Partial Class frmSiparisler
         'btnGridSipDetay
         '
         Me.btnGridSipDetay.AutoHeight = False
-        Me.btnGridSipDetay.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("btnGridSipDetay.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject4, "", Nothing, Nothing, True)})
+        Me.btnGridSipDetay.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("btnGridSipDetay.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject2, "", Nothing, Nothing, True)})
         Me.btnGridSipDetay.Name = "btnGridSipDetay"
         Me.btnGridSipDetay.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
@@ -1863,7 +1864,7 @@ Partial Class frmSiparisler
         Me.XtraTabControl2.Location = New System.Drawing.Point(0, 34)
         Me.XtraTabControl2.Name = "XtraTabControl2"
         Me.XtraTabControl2.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl2.Size = New System.Drawing.Size(887, 382)
+        Me.XtraTabControl2.Size = New System.Drawing.Size(887, 321)
         Me.XtraTabControl2.TabIndex = 3
         Me.XtraTabControl2.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1})
         '
@@ -1874,7 +1875,7 @@ Partial Class frmSiparisler
         Me.XtraTabPage1.Controls.Add(Me.SplitterControl1)
         Me.XtraTabPage1.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(881, 354)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(881, 293)
         Me.XtraTabPage1.Text = "Sipariş"
         '
         'PanelControl1
@@ -1898,7 +1899,7 @@ Partial Class frmSiparisler
         Me.PanelControl1.Controls.Add(Me.TextEdit6)
         Me.PanelControl1.Controls.Add(Me.cboDoviz)
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PanelControl1.Location = New System.Drawing.Point(0, 305)
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 244)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(881, 49)
         Me.PanelControl1.TabIndex = 4
