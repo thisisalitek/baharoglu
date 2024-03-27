@@ -66,6 +66,7 @@ Partial Class frmSiparisRaporu
         Me.ÜretimHazırlıkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetUretimde = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetOrgude = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuSetBoyaHazirlik = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetBoyada = New System.Windows.Forms.ToolStripMenuItem()
         Me.KesimHazirlikToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetKesimde = New System.Windows.Forms.ToolStripMenuItem()
@@ -178,6 +179,13 @@ Partial Class frmSiparisRaporu
         Me.SqlCommand15 = New System.Data.SqlClient.SqlCommand()
         Me.colBoyahane = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.RepositoryItemLookUpEdit3 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
+        Me.colArma = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colAstar = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colFermuar = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colOzelEtiket = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colParcaModel = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colModelFarki = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colMansetFarki = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.MasterTable_SiparisID = New System.Data.DataColumn()
         Me.MasterTable_SipEvrakSeri = New System.Data.DataColumn()
         Me.MasterTable_SipEvrakSira = New System.Data.DataColumn()
@@ -261,6 +269,15 @@ Partial Class frmSiparisRaporu
         Me.MasterTable_R018_EtekManseti = New System.Data.DataColumn()
         Me.MasterTable_R018_EtekMansetiCizgiler = New System.Data.DataColumn()
         Me.MasterTable_SaticiIsmi = New System.Data.DataColumn()
+        Me.MasterTable_ModelFarki = New System.Data.DataColumn()
+        Me.MasterTable_ParcaModel = New System.Data.DataColumn()
+        Me.MasterTable_Astar = New System.Data.DataColumn()
+        Me.MasterTable_Arma = New System.Data.DataColumn()
+        Me.MasterTable_Femuar = New System.Data.DataColumn()
+        Me.MasterTable_OzelEtiket = New System.Data.DataColumn()
+        Me.MasterTable_OmuzRecme = New System.Data.DataColumn()
+        Me.MasterTable_Fason = New System.Data.DataColumn()
+        Me.MasterTable_MansetFarki = New System.Data.DataColumn()
         Me.MasterTable_CreatedBy = New System.Data.DataColumn()
         Me.MasterTable_CreatedDate = New System.Data.DataColumn()
         Me.MasterTable_ModifiedBy = New System.Data.DataColumn()
@@ -332,15 +349,12 @@ Partial Class frmSiparisRaporu
         '
         'barDockControlLeft
         '
-        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 67)
         Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 439)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.Location = New System.Drawing.Point(1190, 67)
         Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 439)
         '
         'GridControl1
         '
@@ -354,7 +368,7 @@ Partial Class frmSiparisRaporu
         '
         'GridView1
         '
-        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSipDetayID, Me.colSiparisID, Me.colSipEvrakSeri, Me.colSipEvrakSira, Me.colsSiparisType, Me.colCariKod, Me.colCariUnvan, Me.colDurumu, Me.colBoyahane, Me.colOnayli, Me.colOnaylayan, Me.colIptal, Me.colBolumKod, Me.colKategoriID, Me.colKategoriKod, Me.colKategoriIsim, Me.colsAnaRenk, Me.colMiktar, Me.colTerminTarihi, Me.colMusteriSipNo, Me.colSiparisiAlanID, Me.colBedenler, Me.colIlceID, Me.colIlID, Me.colOkulIsmi, Me.colOkulKod, Me.colTarih, Me.colSiparisNo, Me.colOdemeDurumu, Me.colOdenen, Me.colIskontoTutar, Me.colNakitIskontoTutar, Me.colIskonto, Me.colNakitIskonto, Me.colFiyat, Me.colKdvOran, Me.colKdvTutari, Me.colTutar, Me.colVadeFarkiOran, Me.colVadeFarkiTutar, Me.colToplamTutar, Me.colDovizTipi, Me.colDovizKuru, Me.colDovizTutar, Me.colTeslimMiktar, Me.colKalan, Me.colSevkDurumu, Me.colIlkSevkTarihi, Me.colIlkSevkEvrakNo, Me.colSonSevkTarihi, Me.colSonSevkEvrakNo, Me.colSevkAdet, Me.colSevkTutar, Me.colSevkVadeFarkiTutar, Me.colSevkKdvTutar, Me.colSevkToplamTutar, Me.colSevkDovizTutar, Me.colFasondaMi, Me.colIlceIsmi, Me.colIlIsmi, Me.colR012_LakosYaka, Me.colR012_LakosYakaCizgiler, Me.colR002_Lastik, Me.colR002_LastikCizgiler, Me.colR003_Yaka, Me.colR003_YakaCizgiler, Me.colR004_DubleLastikCep, Me.colR004_DubleLastikCepCizgiler, Me.colR005_DubleLastikPilotYaka, Me.colR005_DubleLastikPilotYakaCizgiler, Me.colR006_DubleLastik, Me.colR006_DubleLastikCizgiler, Me.colR007_DubleYaka, Me.colR007_DubleYakaCizgiler, Me.colR008_TorbaliBant, Me.colR008_TorbaliBantCizgiler, Me.colR013_Manset2cm, Me.colR013_Manset2cmCizgiler, Me.colR014_Manset6cm, Me.colR014_Manset6cmCizgiler, Me.colR018_EtekManseti, Me.colR018_EtekMansetiCizgiler, Me.colSaticiIsmi, Me.colCreatedBy, Me.colCreatedDate, Me.colModifiedBy, Me.colModifiedDate})
+        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSipDetayID, Me.colSiparisID, Me.colSipEvrakSeri, Me.colSipEvrakSira, Me.colsSiparisType, Me.colCariKod, Me.colCariUnvan, Me.colDurumu, Me.colBoyahane, Me.colOnayli, Me.colOnaylayan, Me.colIptal, Me.colBolumKod, Me.colKategoriID, Me.colKategoriKod, Me.colKategoriIsim, Me.colsAnaRenk, Me.colMiktar, Me.colTerminTarihi, Me.colMusteriSipNo, Me.colSiparisiAlanID, Me.colBedenler, Me.colIlceID, Me.colIlID, Me.colOkulIsmi, Me.colOkulKod, Me.colTarih, Me.colSiparisNo, Me.colOdemeDurumu, Me.colOdenen, Me.colIskontoTutar, Me.colNakitIskontoTutar, Me.colIskonto, Me.colNakitIskonto, Me.colFiyat, Me.colKdvOran, Me.colKdvTutari, Me.colTutar, Me.colVadeFarkiOran, Me.colVadeFarkiTutar, Me.colToplamTutar, Me.colDovizTipi, Me.colDovizKuru, Me.colDovizTutar, Me.colTeslimMiktar, Me.colKalan, Me.colSevkDurumu, Me.colIlkSevkTarihi, Me.colIlkSevkEvrakNo, Me.colSonSevkTarihi, Me.colSonSevkEvrakNo, Me.colSevkAdet, Me.colSevkTutar, Me.colSevkVadeFarkiTutar, Me.colSevkKdvTutar, Me.colSevkToplamTutar, Me.colSevkDovizTutar, Me.colFasondaMi, Me.colIlceIsmi, Me.colIlIsmi, Me.colR012_LakosYaka, Me.colR012_LakosYakaCizgiler, Me.colR002_Lastik, Me.colR002_LastikCizgiler, Me.colR003_Yaka, Me.colR003_YakaCizgiler, Me.colR004_DubleLastikCep, Me.colR004_DubleLastikCepCizgiler, Me.colR005_DubleLastikPilotYaka, Me.colR005_DubleLastikPilotYakaCizgiler, Me.colR006_DubleLastik, Me.colR006_DubleLastikCizgiler, Me.colR007_DubleYaka, Me.colR007_DubleYakaCizgiler, Me.colR008_TorbaliBant, Me.colR008_TorbaliBantCizgiler, Me.colR013_Manset2cm, Me.colR013_Manset2cmCizgiler, Me.colR014_Manset6cm, Me.colR014_Manset6cmCizgiler, Me.colR018_EtekManseti, Me.colR018_EtekMansetiCizgiler, Me.colSaticiIsmi, Me.colCreatedBy, Me.colCreatedDate, Me.colModifiedBy, Me.colModifiedDate, Me.colArma, Me.colAstar, Me.colFermuar, Me.colOzelEtiket, Me.colParcaModel, Me.colModelFarki, Me.colMansetFarki})
         Me.GridView1.OptionsBehavior.Editable = False
         Me.GridView1.OptionsFilter.AllowFilterEditor = False
         Me.GridView1.OptionsFilter.DefaultFilterEditorView = DevExpress.XtraEditors.FilterEditorViewMode.Text
@@ -431,9 +445,19 @@ Partial Class frmSiparisRaporu
         '
         Me.btnHelp.Glyph = CType(resources.GetObject("btnHelp.Glyph"), System.Drawing.Image)
         '
+        'MasterConn
+        '
+        Me.MasterConn.ConnectionString = "Data Source=(local)\SQL2019;Initial Catalog=ProbarSiparisDB2020_2024;Integrated S" &
+    "ecurity=True;"
+        '
+        'FirmConn
+        '
+        Me.FirmConn.ConnectionString = "Data Source=(local)\SQL2019;Initial Catalog=ProbarSiparisDB2020_2024;Integrated S" &
+    "ecurity=True;"
+        '
         'MasterTable
         '
-        Me.MasterTable.Columns.AddRange(New System.Data.DataColumn() {Me.MasterTable_SiparisID, Me.MasterTable_SipEvrakSeri, Me.MasterTable_SipEvrakSira, Me.MasterTable_CariKod, Me.MasterTable_CariUnvan, Me.MasterTable_Onayli, Me.MasterTable_Onaylayan, Me.MasterTable_Iptal, Me.MasterTable_BolumKod, Me.MasterTable_KategoriID, Me.MasterTable_KategoriKod, Me.MasterTable_KategoriIsim, Me.MasterTable_Miktar, Me.MasterTable_TerminTarihi, Me.MasterTable_MusteriSipNo, Me.MasterTable_Bedenler, Me.MasterTable_OkulKod, Me.MasterTable_Tarih, Me.MasterTable_SiparisNo, Me.MasterTable_SipDetayID, Me.MasterTable_OdemeDurumu, Me.MasterTable_Odenen, Me.MasterTable_sSiparisType, Me.MasterTable_AnaRenk, Me.MasterTable_Durumu, Me.MasterTable_BoyahaneID, Me.MasterTable_SiparisAlanID, Me.MasterTable_Iskonto, Me.MasterTable_NakitIskonto, Me.MasterTable_IskontoTutar, Me.MasterTable_NakitIskontoTutar, Me.MasterTable_Fiyat, Me.MasterTable_Tutar, Me.MasterTable_VadeFarkiOran, Me.MasterTable_VadeFarkiTutar, Me.MasterTable_KdvOran, Me.MasterTable_KdvTutari, Me.MasterTable_ToplamTutar, Me.MasterTable_DovizTipi, Me.MasterTable_DovizTutar, Me.MasterTable_DovizKuru, Me.MasterTable_TeslimMiktar, Me.MasterTable_Kalan, Me.MasterTable_SevkDurumu, Me.MasterTable_IlkSevkTarihi, Me.MasterTable_IlkSevkEvrakNo, Me.MasterTable_SonSevkTarihi, Me.MasterTable_SonSevkEvrakNo, Me.MasterTable_SevkAdet, Me.MasterTable_SevkTutar, Me.MasterTable_SevkVadeFarkiTutar, Me.MasterTable_SevkKdvTutar, Me.MasterTable_SevkToplamTutar, Me.MasterTable_SevkDovizTutar, Me.MasterTable_FasondaMi, Me.MasterTable_OkulIsmi, Me.MasterTable_IlceID, Me.MasterTable_IlID, Me.MasterTable_IlIsmi, Me.MasterTable_IlceIsmi, Me.MasterTable_R002_Lastik, Me.MasterTable_R002_LastikCizgiler, Me.MasterTable_R003_Yaka, Me.MasterTable_R003_YakaCizgiler, Me.MasterTable_R004_DubleLastikCep, Me.MasterTable_R004_DubleLastikCepCizgiler, Me.MasterTable_R005_DubleLastikPilotYaka, Me.MasterTable_R005_DubleLastikPilotYakaCizgiler, Me.MasterTable_R006_DubleLastik, Me.MasterTable_R006_DubleLastikCizgiler, Me.MasterTable_R007_DubleYaka, Me.MasterTable_R007_DubleYakaCizgiler, Me.MasterTable_R008_TorbaliBant, Me.MasterTable_R008_TorbaliBantCizgiler, Me.MasterTable_R012_LakosYaka, Me.MasterTable_R012_LakosYakaCizgiler, Me.MasterTable_R013_Manset2cm, Me.MasterTable_R013_Manset2cmCizgiler, Me.MasterTable_R014_Manset6cm, Me.MasterTable_R014_Manset6cmCizgiler, Me.MasterTable_R018_EtekManseti, Me.MasterTable_R018_EtekMansetiCizgiler, Me.MasterTable_SaticiIsmi, Me.MasterTable_CreatedBy, Me.MasterTable_CreatedDate, Me.MasterTable_ModifiedBy, Me.MasterTable_ModifiedDate})
+        Me.MasterTable.Columns.AddRange(New System.Data.DataColumn() {Me.MasterTable_SiparisID, Me.MasterTable_SipEvrakSeri, Me.MasterTable_SipEvrakSira, Me.MasterTable_CariKod, Me.MasterTable_CariUnvan, Me.MasterTable_Onayli, Me.MasterTable_Onaylayan, Me.MasterTable_Iptal, Me.MasterTable_BolumKod, Me.MasterTable_KategoriID, Me.MasterTable_KategoriKod, Me.MasterTable_KategoriIsim, Me.MasterTable_Miktar, Me.MasterTable_TerminTarihi, Me.MasterTable_MusteriSipNo, Me.MasterTable_Bedenler, Me.MasterTable_OkulKod, Me.MasterTable_Tarih, Me.MasterTable_SiparisNo, Me.MasterTable_SipDetayID, Me.MasterTable_OdemeDurumu, Me.MasterTable_Odenen, Me.MasterTable_sSiparisType, Me.MasterTable_AnaRenk, Me.MasterTable_Durumu, Me.MasterTable_BoyahaneID, Me.MasterTable_SiparisAlanID, Me.MasterTable_Iskonto, Me.MasterTable_NakitIskonto, Me.MasterTable_IskontoTutar, Me.MasterTable_NakitIskontoTutar, Me.MasterTable_Fiyat, Me.MasterTable_Tutar, Me.MasterTable_VadeFarkiOran, Me.MasterTable_VadeFarkiTutar, Me.MasterTable_KdvOran, Me.MasterTable_KdvTutari, Me.MasterTable_ToplamTutar, Me.MasterTable_DovizTipi, Me.MasterTable_DovizTutar, Me.MasterTable_DovizKuru, Me.MasterTable_TeslimMiktar, Me.MasterTable_Kalan, Me.MasterTable_SevkDurumu, Me.MasterTable_IlkSevkTarihi, Me.MasterTable_IlkSevkEvrakNo, Me.MasterTable_SonSevkTarihi, Me.MasterTable_SonSevkEvrakNo, Me.MasterTable_SevkAdet, Me.MasterTable_SevkTutar, Me.MasterTable_SevkVadeFarkiTutar, Me.MasterTable_SevkKdvTutar, Me.MasterTable_SevkToplamTutar, Me.MasterTable_SevkDovizTutar, Me.MasterTable_FasondaMi, Me.MasterTable_OkulIsmi, Me.MasterTable_IlceID, Me.MasterTable_IlID, Me.MasterTable_IlIsmi, Me.MasterTable_IlceIsmi, Me.MasterTable_R002_Lastik, Me.MasterTable_R002_LastikCizgiler, Me.MasterTable_R003_Yaka, Me.MasterTable_R003_YakaCizgiler, Me.MasterTable_R004_DubleLastikCep, Me.MasterTable_R004_DubleLastikCepCizgiler, Me.MasterTable_R005_DubleLastikPilotYaka, Me.MasterTable_R005_DubleLastikPilotYakaCizgiler, Me.MasterTable_R006_DubleLastik, Me.MasterTable_R006_DubleLastikCizgiler, Me.MasterTable_R007_DubleYaka, Me.MasterTable_R007_DubleYakaCizgiler, Me.MasterTable_R008_TorbaliBant, Me.MasterTable_R008_TorbaliBantCizgiler, Me.MasterTable_R012_LakosYaka, Me.MasterTable_R012_LakosYakaCizgiler, Me.MasterTable_R013_Manset2cm, Me.MasterTable_R013_Manset2cmCizgiler, Me.MasterTable_R014_Manset6cm, Me.MasterTable_R014_Manset6cmCizgiler, Me.MasterTable_R018_EtekManseti, Me.MasterTable_R018_EtekMansetiCizgiler, Me.MasterTable_SaticiIsmi, Me.MasterTable_ModelFarki, Me.MasterTable_ParcaModel, Me.MasterTable_Astar, Me.MasterTable_Arma, Me.MasterTable_Femuar, Me.MasterTable_OzelEtiket, Me.MasterTable_OmuzRecme, Me.MasterTable_Fason, Me.MasterTable_MansetFarki, Me.MasterTable_CreatedBy, Me.MasterTable_CreatedDate, Me.MasterTable_ModifiedBy, Me.MasterTable_ModifiedDate})
         Me.MasterTable.Connection = Me.FirmConn
         Me.MasterTable.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"SiparisID", "SipDetayID"}, True)})
         Me.MasterTable.DataSourceLink = Me.MasterLink
@@ -464,7 +488,6 @@ Partial Class frmSiparisRaporu
         Me.panelFormDateFilter.Controls.Add(Me.GroupControl1)
         Me.panelFormDateFilter.Controls.Add(Me.chkHaftaSonra)
         Me.panelFormDateFilter.Controls.Add(Me.TrackBarControl1)
-        Me.panelFormDateFilter.Location = New System.Drawing.Point(0, 67)
         Me.panelFormDateFilter.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.panelFormDateFilter.Size = New System.Drawing.Size(1190, 104)
         Me.panelFormDateFilter.Visible = True
@@ -521,7 +544,7 @@ Partial Class frmSiparisRaporu
         '
         'TicariConn
         '
-        Me.TicariConn.ConnectionString = "Data Source=(local)\SQL2019;Initial Catalog=MikroDB_V16_BAHAR2020;Integrated Secu" &
+        Me.TicariConn.ConnectionString = "Data Source=(local)\SQL2019;Initial Catalog=MikroDB_V16_BAHAR2024;Integrated Secu" &
     "rity=True;"
         '
         'SqlCommand1
@@ -783,7 +806,7 @@ Partial Class frmSiparisRaporu
         '
         'DurumunuDeğiştirToolStripMenuItem
         '
-        Me.DurumunuDeğiştirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ÜretimHazırlıkToolStripMenuItem, Me.mnuSetUretimde, Me.mnuSetOrgude, Me.mnuSetBoyada, Me.KesimHazirlikToolStripMenuItem, Me.mnuSetKesimde, Me.ÜtüdeToolStripMenuItem, Me.mnuSetDepoda, Me.mnuSetKilis, Me.FasondaToolStripMenuItem, Me.YakaÖrgüToolStripMenuItem, Me.mnuSetBitti, Me.ToolStripMenuItem2, Me.mnuSetBos})
+        Me.DurumunuDeğiştirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ÜretimHazırlıkToolStripMenuItem, Me.mnuSetUretimde, Me.mnuSetOrgude, Me.mnuSetBoyaHazirlik, Me.mnuSetBoyada, Me.KesimHazirlikToolStripMenuItem, Me.mnuSetKesimde, Me.ÜtüdeToolStripMenuItem, Me.mnuSetDepoda, Me.mnuSetKilis, Me.FasondaToolStripMenuItem, Me.YakaÖrgüToolStripMenuItem, Me.mnuSetBitti, Me.ToolStripMenuItem2, Me.mnuSetBos})
         Me.DurumunuDeğiştirToolStripMenuItem.Name = "DurumunuDeğiştirToolStripMenuItem"
         Me.DurumunuDeğiştirToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
         Me.DurumunuDeğiştirToolStripMenuItem.Text = "Durumunu Değiştir"
@@ -805,6 +828,12 @@ Partial Class frmSiparisRaporu
         Me.mnuSetOrgude.Name = "mnuSetOrgude"
         Me.mnuSetOrgude.Size = New System.Drawing.Size(148, 22)
         Me.mnuSetOrgude.Text = "Örgüde"
+        '
+        'mnuSetBoyaHazirlik
+        '
+        Me.mnuSetBoyaHazirlik.Name = "mnuSetBoyaHazirlik"
+        Me.mnuSetBoyaHazirlik.Size = New System.Drawing.Size(148, 22)
+        Me.mnuSetBoyaHazirlik.Text = "Boya Hazırlık"
         '
         'mnuSetBoyada
         '
@@ -1060,7 +1089,7 @@ Partial Class frmSiparisRaporu
         Me.CheckedListBoxControl1.Appearance.Options.UseBackColor = True
         Me.CheckedListBoxControl1.CheckOnClick = True
         Me.CheckedListBoxControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CheckedListBoxControl1.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("HAZIRLIK", "Hazırlık"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("URETIMDE", "Üretimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("ORGUDE", "Örgüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYADA", "Boyada"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIM-HAZIRLIK", "Kesim Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIMDE", "Kesimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("UTUDE", "Ütüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("DEPODA", "Depoda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KILIS", "Kilis' te"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("FASONDA", "Fasonda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("YAKA-ORGU", "Yaka Örgü"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BITTI", "Bitti"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("", "{Boş}")})
+        Me.CheckedListBoxControl1.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("HAZIRLIK", "Hazırlık"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("URETIMDE", "Üretimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("ORGUDE", "Örgüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYA-HAZIRLIK", "Boya Hazırlık"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYADA", "Boyada"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIM-HAZIRLIK", "Kesim Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIMDE", "Kesimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("UTUDE", "Ütüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("DEPODA", "Depoda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KILIS", "Kilis' te"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("FASONDA", "Fasonda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("YAKA-ORGU", "Yaka Örgü"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BITTI", "Bitti"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("", "{Boş}")})
         Me.CheckedListBoxControl1.Location = New System.Drawing.Point(2, 20)
         Me.CheckedListBoxControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckedListBoxControl1.MultiColumn = True
@@ -1667,6 +1696,62 @@ Partial Class frmSiparisRaporu
         Me.RepositoryItemLookUpEdit3.NullText = ""
         Me.RepositoryItemLookUpEdit3.ValueMember = "BoyahaneID"
         '
+        'colArma
+        '
+        Me.colArma.Caption = "Arma"
+        Me.colArma.FieldName = "Arma"
+        Me.colArma.Name = "colArma"
+        Me.colArma.Visible = True
+        Me.colArma.VisibleIndex = 55
+        '
+        'colAstar
+        '
+        Me.colAstar.Caption = "Astar"
+        Me.colAstar.FieldName = "Astar"
+        Me.colAstar.Name = "colAstar"
+        Me.colAstar.Visible = True
+        Me.colAstar.VisibleIndex = 56
+        '
+        'colFermuar
+        '
+        Me.colFermuar.Caption = "Fermuar"
+        Me.colFermuar.FieldName = "Femuar"
+        Me.colFermuar.Name = "colFermuar"
+        Me.colFermuar.Visible = True
+        Me.colFermuar.VisibleIndex = 57
+        '
+        'colOzelEtiket
+        '
+        Me.colOzelEtiket.Caption = "Özel Etiket"
+        Me.colOzelEtiket.FieldName = "OzelEtiket"
+        Me.colOzelEtiket.Name = "colOzelEtiket"
+        Me.colOzelEtiket.Visible = True
+        Me.colOzelEtiket.VisibleIndex = 58
+        '
+        'colParcaModel
+        '
+        Me.colParcaModel.Caption = "ParcaModel"
+        Me.colParcaModel.FieldName = "ParcaModel"
+        Me.colParcaModel.Name = "colParcaModel"
+        Me.colParcaModel.Visible = True
+        Me.colParcaModel.VisibleIndex = 59
+        '
+        'colModelFarki
+        '
+        Me.colModelFarki.Caption = "Model Farki"
+        Me.colModelFarki.FieldName = "ModelFarki"
+        Me.colModelFarki.Name = "colModelFarki"
+        Me.colModelFarki.Visible = True
+        Me.colModelFarki.VisibleIndex = 60
+        '
+        'colMansetFarki
+        '
+        Me.colMansetFarki.Caption = "MansetFarki"
+        Me.colMansetFarki.FieldName = "MansetFarki"
+        Me.colMansetFarki.Name = "colMansetFarki"
+        Me.colMansetFarki.Visible = True
+        Me.colMansetFarki.VisibleIndex = 61
+        '
         'MasterTable_SiparisID
         '
         Me.MasterTable_SiparisID.AllowDBNull = False
@@ -2042,6 +2127,51 @@ Partial Class frmSiparisRaporu
         '
         Me.MasterTable_SaticiIsmi.ColumnName = "SaticiIsmi"
         '
+        'MasterTable_ModelFarki
+        '
+        Me.MasterTable_ModelFarki.ColumnName = "ModelFarki"
+        Me.MasterTable_ModelFarki.DataType = GetType(Integer)
+        '
+        'MasterTable_ParcaModel
+        '
+        Me.MasterTable_ParcaModel.ColumnName = "ParcaModel"
+        Me.MasterTable_ParcaModel.DataType = GetType(Integer)
+        '
+        'MasterTable_Astar
+        '
+        Me.MasterTable_Astar.ColumnName = "Astar"
+        Me.MasterTable_Astar.DataType = GetType(Integer)
+        '
+        'MasterTable_Arma
+        '
+        Me.MasterTable_Arma.ColumnName = "Arma"
+        Me.MasterTable_Arma.DataType = GetType(Integer)
+        '
+        'MasterTable_Femuar
+        '
+        Me.MasterTable_Femuar.ColumnName = "Femuar"
+        Me.MasterTable_Femuar.DataType = GetType(Integer)
+        '
+        'MasterTable_OzelEtiket
+        '
+        Me.MasterTable_OzelEtiket.ColumnName = "OzelEtiket"
+        Me.MasterTable_OzelEtiket.DataType = GetType(Integer)
+        '
+        'MasterTable_OmuzRecme
+        '
+        Me.MasterTable_OmuzRecme.ColumnName = "OmuzRecme"
+        Me.MasterTable_OmuzRecme.DataType = GetType(Integer)
+        '
+        'MasterTable_Fason
+        '
+        Me.MasterTable_Fason.ColumnName = "Fason"
+        Me.MasterTable_Fason.DataType = GetType(Integer)
+        '
+        'MasterTable_MansetFarki
+        '
+        Me.MasterTable_MansetFarki.ColumnName = "MansetFarki"
+        Me.MasterTable_MansetFarki.DataType = GetType(Integer)
+        '
         'MasterTable_CreatedBy
         '
         Me.MasterTable_CreatedBy.ColumnName = "CreatedBy"
@@ -2271,6 +2401,21 @@ Partial Class frmSiparisRaporu
     Friend WithEvents tbSiparisAlanlar As NeoDAC.NeoTable
     Friend WithEvents RepositoryItemLookUpEdit4 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
     Friend WithEvents RepositoryItemLookUpEdit5 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+    Friend WithEvents tbUsers_UserID As DataColumn
+    Friend WithEvents tbUsers_UserName As DataColumn
+    Friend WithEvents SqlCommand12 As SqlClient.SqlCommand
+    Friend WithEvents SqlCommand10 As SqlClient.SqlCommand
+    Friend WithEvents SqlCommand9 As SqlClient.SqlCommand
+    Friend WithEvents SqlCommand11 As SqlClient.SqlCommand
+    Friend WithEvents tbBoyahaneler_BoyahaneID As DataColumn
+    Friend WithEvents tbBoyahaneler_Boyahane As DataColumn
+    Friend WithEvents SqlCommand16 As SqlClient.SqlCommand
+    Friend WithEvents SqlCommand14 As SqlClient.SqlCommand
+    Friend WithEvents SqlCommand13 As SqlClient.SqlCommand
+    Friend WithEvents SqlCommand15 As SqlClient.SqlCommand
+    Friend WithEvents tbSiparisAlanlar_SiparisAlanID As DataColumn
+    Friend WithEvents tbSiparisAlanlar_SipAlanIsmi As DataColumn
+    Friend WithEvents mnuSetBoyaHazirlik As ToolStripMenuItem
     Friend WithEvents MasterTable_SiparisID As DataColumn
     Friend WithEvents MasterTable_SipEvrakSeri As DataColumn
     Friend WithEvents MasterTable_SipEvrakSira As DataColumn
@@ -2354,22 +2499,24 @@ Partial Class frmSiparisRaporu
     Friend WithEvents MasterTable_R018_EtekManseti As DataColumn
     Friend WithEvents MasterTable_R018_EtekMansetiCizgiler As DataColumn
     Friend WithEvents MasterTable_SaticiIsmi As DataColumn
+    Friend WithEvents MasterTable_ModelFarki As DataColumn
+    Friend WithEvents MasterTable_ParcaModel As DataColumn
+    Friend WithEvents MasterTable_Astar As DataColumn
+    Friend WithEvents MasterTable_Arma As DataColumn
+    Friend WithEvents MasterTable_Femuar As DataColumn
+    Friend WithEvents MasterTable_OzelEtiket As DataColumn
+    Friend WithEvents MasterTable_OmuzRecme As DataColumn
+    Friend WithEvents MasterTable_Fason As DataColumn
+    Friend WithEvents MasterTable_MansetFarki As DataColumn
     Friend WithEvents MasterTable_CreatedBy As DataColumn
     Friend WithEvents MasterTable_CreatedDate As DataColumn
     Friend WithEvents MasterTable_ModifiedBy As DataColumn
     Friend WithEvents MasterTable_ModifiedDate As DataColumn
-    Friend WithEvents tbUsers_UserID As DataColumn
-    Friend WithEvents tbUsers_UserName As DataColumn
-    Friend WithEvents SqlCommand12 As SqlClient.SqlCommand
-    Friend WithEvents SqlCommand10 As SqlClient.SqlCommand
-    Friend WithEvents SqlCommand9 As SqlClient.SqlCommand
-    Friend WithEvents SqlCommand11 As SqlClient.SqlCommand
-    Friend WithEvents tbBoyahaneler_BoyahaneID As DataColumn
-    Friend WithEvents tbBoyahaneler_Boyahane As DataColumn
-    Friend WithEvents SqlCommand16 As SqlClient.SqlCommand
-    Friend WithEvents SqlCommand14 As SqlClient.SqlCommand
-    Friend WithEvents SqlCommand13 As SqlClient.SqlCommand
-    Friend WithEvents SqlCommand15 As SqlClient.SqlCommand
-    Friend WithEvents tbSiparisAlanlar_SiparisAlanID As DataColumn
-    Friend WithEvents tbSiparisAlanlar_SipAlanIsmi As DataColumn
+    Friend WithEvents colArma As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colAstar As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colFermuar As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colOzelEtiket As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colParcaModel As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colModelFarki As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colMansetFarki As DevExpress.XtraGrid.Columns.GridColumn
 End Class

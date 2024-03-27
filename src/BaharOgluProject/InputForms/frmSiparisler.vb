@@ -213,10 +213,11 @@
 
     Private Sub btnGridSipDetayRemove_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnGridSipDetayRemove.Click
         Try
-            If EditMode = False Then
-                MsgBox("Değiştirme modu pasif!")
-                Exit Sub
-            End If
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu pasif!")
+            '    Exit Sub
+            'End If
+            EditMode = True
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
             If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Satır Sil?") <> MsgBoxResult.Yes Then
                 Exit Sub
@@ -230,10 +231,10 @@
 
     Private Sub cmdAddSipDetay_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdAddSipDetay.Click
         Try
-            If EditMode = False Then
-                MsgBox("Değiştirme modu pasif!")
-                Exit Sub
-            End If
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu pasif!")
+            '    Exit Sub
+            'End If
 
             Dim newdr As DataRow = DetailTable.NewRow
             newdr("Deleted") = 0
@@ -288,10 +289,12 @@
 
     Private Sub btnGridSipDetay_ButtonClick(ByVal sender As Object, ByVal e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles btnGridSipDetay.ButtonClick
         Try
-            If EditMode = False Then
-                MsgBox("Değiştirme modu pasif!")
-                Exit Sub
-            End If
+
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu pasif!")
+            '    Exit Sub
+            'End If
+            EditMode = True
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
             Dim SipDetayID As Long = 0
             SipDetayID = If0Null(DetailLink.CurrentRow("SipDetayID"))
@@ -630,10 +633,10 @@
     Private Sub txtDepo_ButtonClick(ByVal sender As Object, ByVal e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles txtDepo.ButtonClick
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
-            If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
-                Exit Sub
-            End If
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu aktif değil!")
+            '    Exit Sub
+            'End If
             If txtDepo.Properties.ReadOnly Then Exit Sub
 
             Dim f As New frmMikro_Depolar
@@ -660,10 +663,10 @@
     Private Sub txtDepo2_ButtonClick(ByVal sender As Object, ByVal e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles txtDepo2.ButtonClick
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
-            If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
-                Exit Sub
-            End If
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu aktif değil!")
+            '    Exit Sub
+            'End If
             If txtDepo2.Properties.ReadOnly Then Exit Sub
 
             Dim f As New frmMikro_Depolar
@@ -892,10 +895,12 @@
     Private Sub mnuSipDetayBagla_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuSipDetayBagla.Click
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
-            If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
-                Exit Sub
-            End If
+            EditMode = True
+
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu aktif değil!")
+            '    Exit Sub
+            'End If
             If DetailLink.CurrentRow("Bagli") <> 0 Then
                 MsgBox("Zaten bağlı.")
                 Exit Sub
@@ -926,10 +931,11 @@
     Private Sub mnuSipDetayBaglantiIptal_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuSipDetayBaglantiIptal.Click
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
-            If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
-                Exit Sub
-            End If
+            EditMode = True
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu aktif değil!")
+            '    Exit Sub
+            'End If
             If MsgBox("Bağlantıyı iptal etmek istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Bağlantı İptal?") <> MsgBoxResult.Yes Then
                 Exit Sub
             End If
@@ -1014,10 +1020,11 @@
     Private Sub SatirSilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SatirSilToolStripMenuItem.Click
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
-            If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
-                Exit Sub
-            End If
+            EditMode = True
+            'If EditMode = False Then
+            '    MsgBox("Değiştirme modu aktif değil!")
+            '    Exit Sub
+            'End If
             If (MsgBox("Satiri silmek istediginizden emin misiniz?", MsgBoxStyle.YesNo, "Satir sil?") <> MsgBoxResult.Yes) Then Exit Sub
             DetailLink.CurrentRow.Delete()
 
