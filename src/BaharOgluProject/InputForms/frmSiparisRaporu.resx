@@ -231,7 +231,8 @@ Okullar.OkulIsmi + ' / ' + ISNULL(Ilce.IlceIsmi, '') + ' - ' + ISNULL(Il.IlIsmi,
 ,SipDetay.CreatedBy, SipDetay.CreatedDate, SipDetay.ModifiedBy, SipDetay.ModifiedDate
 FROM        SipDetay WITH (NOLOCK) LEFT OUTER JOIN
 			SipDetayParam sdp WITH (NOLOCK) on sdp.SipDetayID= SipDetay.SipDetayID 
-			 JOIN SipDetayParam_055_Secenek s055 on sdp.SipDetayParamID=s055.SipDetayParamID  and sdp.ParamType='055'
+			 INNER JOIN SipDetayParam_055_Secenek s055 WITH (NOLOCK) on sdp.SipDetayParamID=s055.SipDetayParamID  
+			 --and sdp.ParamType='055'
 				
 				INNER JOIN
                       Okullar WITH (NOLOCK) ON SipDetay.OkulID = Okullar.OkulID INNER JOIN
@@ -253,7 +254,9 @@ WHERE Sevk.Deleted=0 AND Sevk.Iptal=0 AND SevkDetay.Deleted=0
 GROUP BY SevkDetay.SipDetayID
 )  svk ON svk.SipDetayID = SipDetay.SipDetayID 
 WHERE     (SipDetay.Deleted = 0) AND (Siparis.Iptal = 0)
-AND Siparis.Deleted = 0</value>
+AND Siparis.Deleted = 0
+
+</value>
   </data>
   <metadata name="SqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>

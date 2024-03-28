@@ -2416,6 +2416,13 @@ Partial Class frmSiparisRaporu
     Friend WithEvents tbSiparisAlanlar_SiparisAlanID As DataColumn
     Friend WithEvents tbSiparisAlanlar_SipAlanIsmi As DataColumn
     Friend WithEvents mnuSetBoyaHazirlik As ToolStripMenuItem
+    Friend WithEvents colArma As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colAstar As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colFermuar As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colOzelEtiket As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colParcaModel As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colModelFarki As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colMansetFarki As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents MasterTable_SiparisID As DataColumn
     Friend WithEvents MasterTable_SipEvrakSeri As DataColumn
     Friend WithEvents MasterTable_SipEvrakSira As DataColumn
@@ -2512,11 +2519,4 @@ Partial Class frmSiparisRaporu
     Friend WithEvents MasterTable_CreatedDate As DataColumn
     Friend WithEvents MasterTable_ModifiedBy As DataColumn
     Friend WithEvents MasterTable_ModifiedDate As DataColumn
-    Friend WithEvents colArma As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents colAstar As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents colFermuar As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents colOzelEtiket As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents colParcaModel As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents colModelFarki As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents colMansetFarki As DevExpress.XtraGrid.Columns.GridColumn
 End Class
