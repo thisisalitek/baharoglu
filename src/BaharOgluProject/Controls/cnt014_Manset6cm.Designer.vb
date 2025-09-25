@@ -284,13 +284,15 @@ Partial Class cnt014_Manset6cm
         '
         'lblCaption
         '
-        Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
+        Me.lblCaption.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lblCaption.Size = New System.Drawing.Size(183, 22)
         Me.lblCaption.Text = "6cm Manşet"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
         Me.XtraTabControl1.Size = New System.Drawing.Size(284, 188)
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage3, Me.XtraTabPage4})
         Me.XtraTabControl1.Controls.SetChildIndex(Me.XtraTabPage4, 0)
@@ -306,31 +308,31 @@ Partial Class cnt014_Manset6cm
         Me.XtraTabPage1.Controls.Add(Me.LookUpEdit1)
         Me.XtraTabPage1.Controls.Add(Me.LabelControl2)
         Me.XtraTabPage1.Controls.Add(Me.LabelControl3)
-        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.XtraTabPage1.Size = New System.Drawing.Size(278, 160)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
-        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.XtraTabPage2.Size = New System.Drawing.Size(278, 160)
         Me.XtraTabPage2.Text = "Manset"
         '
         'panelCaption
         '
-        Me.panelCaption.Margin = New System.Windows.Forms.Padding(5)
+        Me.panelCaption.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.panelCaption.Size = New System.Drawing.Size(284, 26)
         '
         'chkSecmeli
         '
         Me.chkSecmeli.Location = New System.Drawing.Point(224, 2)
-        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         '
         'chkVar
         '
         Me.chkVar.Location = New System.Drawing.Point(185, 2)
-        Me.chkVar.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkVar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         '
         'NeoTable1
         '
@@ -1121,7 +1123,7 @@ Partial Class cnt014_Manset6cm
         '
         Me.chkGarni2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni2", True))
         Me.chkGarni2.Location = New System.Drawing.Point(205, 28)
-        Me.chkGarni2.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkGarni2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkGarni2.Name = "chkGarni2"
         Me.chkGarni2.Properties.Appearance.Options.UseTextOptions = True
         Me.chkGarni2.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
@@ -1138,7 +1140,7 @@ Partial Class cnt014_Manset6cm
         '
         Me.chkGarni1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni1", True))
         Me.chkGarni1.Location = New System.Drawing.Point(205, 6)
-        Me.chkGarni1.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkGarni1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkGarni1.Name = "chkGarni1"
         Me.chkGarni1.Properties.Appearance.Options.UseTextOptions = True
         Me.chkGarni1.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
@@ -1234,9 +1236,9 @@ Partial Class cnt014_Manset6cm
         '
         Me.XtraTabPage3.Controls.Add(Me.GridControl1)
         Me.XtraTabPage3.Controls.Add(Me.PanelControl1)
-        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(2)
+        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(278, 160)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(204, 130)
         Me.XtraTabPage3.Text = "Garni 1"
         '
         'GridControl1
@@ -1247,7 +1249,7 @@ Partial Class cnt014_Manset6cm
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit4, Me.RepositoryItemLookUpEdit3})
-        Me.GridControl1.Size = New System.Drawing.Size(278, 73)
+        Me.GridControl1.Size = New System.Drawing.Size(204, 43)
         Me.GridControl1.TabIndex = 6
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -1418,7 +1420,7 @@ Partial Class cnt014_Manset6cm
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(278, 87)
+        Me.PanelControl1.Size = New System.Drawing.Size(204, 87)
         Me.PanelControl1.TabIndex = 7
         '
         'LabelControl14
@@ -1623,9 +1625,9 @@ Partial Class cnt014_Manset6cm
         '
         Me.XtraTabPage4.Controls.Add(Me.GridControl3)
         Me.XtraTabPage4.Controls.Add(Me.PanelControl3)
-        Me.XtraTabPage4.Margin = New System.Windows.Forms.Padding(2)
+        Me.XtraTabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(278, 160)
+        Me.XtraTabPage4.Size = New System.Drawing.Size(204, 130)
         Me.XtraTabPage4.Text = "Garni2"
         '
         'GridControl3
@@ -1636,7 +1638,7 @@ Partial Class cnt014_Manset6cm
         Me.GridControl3.MainView = Me.GridView3
         Me.GridControl3.Name = "GridControl3"
         Me.GridControl3.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit6, Me.RepositoryItemLookUpEdit5})
-        Me.GridControl3.Size = New System.Drawing.Size(278, 73)
+        Me.GridControl3.Size = New System.Drawing.Size(204, 43)
         Me.GridControl3.TabIndex = 8
         Me.GridControl3.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
         '
@@ -1728,7 +1730,7 @@ Partial Class cnt014_Manset6cm
         Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl3.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl3.Name = "PanelControl3"
-        Me.PanelControl3.Size = New System.Drawing.Size(278, 87)
+        Me.PanelControl3.Size = New System.Drawing.Size(204, 87)
         Me.PanelControl3.TabIndex = 9
         '
         'LabelControl17
@@ -1845,7 +1847,7 @@ Partial Class cnt014_Manset6cm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Caption = "6cm Manşet"
         Me.Code = "014"
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "cnt014_Manset6cm"
         Me.Size = New System.Drawing.Size(292, 222)
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()

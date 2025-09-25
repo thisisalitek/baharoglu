@@ -290,19 +290,6 @@
                     If NeoTable2.Rows.Count > 0 Then
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("RenkID")))
                         sbuf = "MANŞET(6cm) RENK:" & AnaRenk
-                        Aciklamalar.Add(sbuf)
-                        Aciklamalar2.Add(sbuf)
-
-                        sbuf = ""
-                        Dim drLakosCizgi As DataRow = tbCizgiRenkKafaLakos.Rows.Find(If0Null(NeoTable2.Rows(0).Item("CizgiRKafaLakosID")))
-                        If Not drLakosCizgi Is Nothing Then
-                            sbuf = "MANŞET(6cm) ÇİZGi:" & IfNull(drLakosCizgi("Aciklama"), "")
-
-                        End If
-
-                        sbuf &= " / ÇİZGİ RENK:"
-                        'AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("RenkID")))
-                        'sbuf = "MANŞET(6cm) RENK:" & AnaRenk
                         Dim nCizgi As Integer = 0
 
                         For Each dr As DataRow In NeoTable3.Rows

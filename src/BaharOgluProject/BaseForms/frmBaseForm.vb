@@ -1422,7 +1422,7 @@ Public Class frmBaseForm
             If btnCancel.Visibility <> DevExpress.XtraBars.BarItemVisibility.Always Or btnCancel.Enabled = False Then Exit Sub
             If MasterTable.Active = False Then Exit Sub
             If MasterLink.Position < 0 Then Exit Sub
-            'If MsgBox(BaseTText("Yaptığınız değişiklikler geri alınacak, emin misiniz?"), MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, BaseTText("Vazgeç?")) <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(BaseTText("Yaptığınız değişiklikler geri alınacak, emin misiniz?"), MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, BaseTText("Vazgeç?")) <> MsgBoxResult.Yes Then Exit Sub
             If MasterTable.Active Then MasterTable.RejectChanges()
             If DetailTable.Active Then DetailTable.RejectChanges()
             If DetailTable2.Active Then DetailTable2.RejectChanges()
