@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt009_Kumas2
     Inherits ProbarSiparis.BaseControl
 
@@ -80,23 +80,6 @@ Partial Class cnt009_Kumas2
         Me.MasterTable_ParamFloat4_1 = New System.Data.DataColumn()
         Me.MasterTable_ParamFloat5_1 = New System.Data.DataColumn()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SolOnCep = New System.Data.DataColumn()
-        Me.NeoTable2_SagOnCep = New System.Data.DataColumn()
-        Me.NeoTable2_SolArkaCep = New System.Data.DataColumn()
-        Me.NeoTable2_SagArkaCep = New System.Data.DataColumn()
-        Me.NeoTable2_GizliCep = New System.Data.DataColumn()
-        Me.NeoTable2_CepKumasArtis = New System.Data.DataColumn()
-        Me.NeoTable2_OverlokNakis = New System.Data.DataColumn()
-        Me.NeoTable2_FarkliKumas = New System.Data.DataColumn()
-        Me.NeoTable2_Biye = New System.Data.DataColumn()
-        Me.NeoTable2_BiyeDeger = New System.Data.DataColumn()
         Me.SqlCommand12 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand10 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand9 = New System.Data.SqlClient.SqlCommand()
@@ -226,6 +209,23 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit12 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit13 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit14 = New DevExpress.XtraEditors.CheckEdit()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SolOnCep = New System.Data.DataColumn()
+        Me.NeoTable2_SagOnCep = New System.Data.DataColumn()
+        Me.NeoTable2_SolArkaCep = New System.Data.DataColumn()
+        Me.NeoTable2_SagArkaCep = New System.Data.DataColumn()
+        Me.NeoTable2_GizliCep = New System.Data.DataColumn()
+        Me.NeoTable2_CepKumasArtis = New System.Data.DataColumn()
+        Me.NeoTable2_OverlokNakis = New System.Data.DataColumn()
+        Me.NeoTable2_FarkliKumas = New System.Data.DataColumn()
+        Me.NeoTable2_Biye = New System.Data.DataColumn()
+        Me.NeoTable2_BiyeDeger = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -289,7 +289,7 @@ Partial Class cnt009_Kumas2
         '
         'lblCaption
         '
-        Me.lblCaption.Size = New System.Drawing.Size(318, 17)
+        Me.lblCaption.Size = New System.Drawing.Size(322, 22)
         Me.lblCaption.Text = "Kumaş (Diğer)"
         '
         'XtraTabControl1
@@ -301,13 +301,13 @@ Partial Class cnt009_Kumas2
         Me.XtraTabPage1.Controls.Add(Me.panelParcalar)
         Me.XtraTabPage1.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage1.Controls.Add(Me.PanelControl1)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(415, 286)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(417, 286)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl3)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(415, 286)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(417, 286)
         '
         'panelCaption
         '
@@ -315,11 +315,11 @@ Partial Class cnt009_Kumas2
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(361, 4)
+        Me.chkSecmeli.Location = New System.Drawing.Point(363, 2)
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(322, 4)
+        Me.chkVar.Location = New System.Drawing.Point(324, 2)
         '
         'NeoTable1
         '
@@ -402,7 +402,7 @@ Partial Class cnt009_Kumas2
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_009_Kumas2 SET Deleted = nID  , ModifiedBy = @ModifiedBy , M" & _
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_009_Kumas2 SET Deleted = nID  , ModifiedBy = @ModifiedBy , M" &
     "odifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
@@ -627,96 +627,9 @@ Partial Class cnt009_Kumas2
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand11
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SolOnCep
-        '
-        Me.NeoTable2_SolOnCep.ColumnName = "SolOnCep"
-        Me.NeoTable2_SolOnCep.DataType = GetType(Integer)
-        '
-        'NeoTable2_SagOnCep
-        '
-        Me.NeoTable2_SagOnCep.ColumnName = "SagOnCep"
-        Me.NeoTable2_SagOnCep.DataType = GetType(Integer)
-        '
-        'NeoTable2_SolArkaCep
-        '
-        Me.NeoTable2_SolArkaCep.ColumnName = "SolArkaCep"
-        Me.NeoTable2_SolArkaCep.DataType = GetType(Integer)
-        '
-        'NeoTable2_SagArkaCep
-        '
-        Me.NeoTable2_SagArkaCep.ColumnName = "SagArkaCep"
-        Me.NeoTable2_SagArkaCep.DataType = GetType(Integer)
-        '
-        'NeoTable2_GizliCep
-        '
-        Me.NeoTable2_GizliCep.ColumnName = "GizliCep"
-        Me.NeoTable2_GizliCep.DataType = GetType(Integer)
-        '
-        'NeoTable2_CepKumasArtis
-        '
-        Me.NeoTable2_CepKumasArtis.ColumnName = "CepKumasArtis"
-        Me.NeoTable2_CepKumasArtis.DataType = GetType(Double)
-        '
-        'NeoTable2_OverlokNakis
-        '
-        Me.NeoTable2_OverlokNakis.ColumnName = "OverlokNakis"
-        Me.NeoTable2_OverlokNakis.DataType = GetType(Integer)
-        '
-        'NeoTable2_FarkliKumas
-        '
-        Me.NeoTable2_FarkliKumas.ColumnName = "FarkliKumas"
-        Me.NeoTable2_FarkliKumas.DataType = GetType(Integer)
-        '
-        'NeoTable2_Biye
-        '
-        Me.NeoTable2_Biye.ColumnName = "Biye"
-        Me.NeoTable2_Biye.DataType = GetType(Integer)
-        '
-        'NeoTable2_BiyeDeger
-        '
-        Me.NeoTable2_BiyeDeger.ColumnName = "BiyeDeger"
-        Me.NeoTable2_BiyeDeger.DataType = GetType(Double)
-        '
         'SqlCommand12
         '
-        Me.SqlCommand12.CommandText = "UPDATE KategoriParam_009_Kumas2_Detay SET Deleted = nID  , ModifiedBy = @Modified" & _
+        Me.SqlCommand12.CommandText = "UPDATE KategoriParam_009_Kumas2_Detay SET Deleted = nID  , ModifiedBy = @Modified" &
     "By , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand10
@@ -737,7 +650,7 @@ Partial Class cnt009_Kumas2
         '
         'SqlCommand17
         '
-        Me.SqlCommand17.CommandText = "SELECT     OrguTipID, OrguTipKod, OrguTipIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         OrguTipleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY" & _
+        Me.SqlCommand17.CommandText = "SELECT     OrguTipID, OrguTipKod, OrguTipIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         OrguTipleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY" &
     " OrguTipKod"
         '
         'PanelControl1
@@ -751,7 +664,7 @@ Partial Class cnt009_Kumas2
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PanelControl1.Location = New System.Drawing.Point(0, 201)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(415, 85)
+        Me.PanelControl1.Size = New System.Drawing.Size(417, 85)
         Me.PanelControl1.TabIndex = 3
         '
         'LabelControl6
@@ -780,7 +693,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit7.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit7.Properties.ValueChecked = 1
         Me.CheckEdit7.Properties.ValueUnchecked = 0
-        Me.CheckEdit7.Size = New System.Drawing.Size(90, 18)
+        Me.CheckEdit7.Size = New System.Drawing.Size(90, 19)
         Me.CheckEdit7.TabIndex = 3
         '
         'CheckEdit6
@@ -792,7 +705,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit6.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit6.Properties.ValueChecked = 1
         Me.CheckEdit6.Properties.ValueUnchecked = 0
-        Me.CheckEdit6.Size = New System.Drawing.Size(90, 18)
+        Me.CheckEdit6.Size = New System.Drawing.Size(90, 19)
         Me.CheckEdit6.TabIndex = 2
         '
         'GroupControl2
@@ -808,11 +721,11 @@ Partial Class cnt009_Kumas2
         '
         Me.RadioGroup1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "OverlokNakis", True))
         Me.RadioGroup1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.RadioGroup1.Location = New System.Drawing.Point(4, 19)
+        Me.RadioGroup1.Location = New System.Drawing.Point(2, 20)
         Me.RadioGroup1.Name = "RadioGroup1"
         Me.RadioGroup1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Yok"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Var"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Belki")})
-        Me.RadioGroup1.Size = New System.Drawing.Size(76, 54)
+        Me.RadioGroup1.Size = New System.Drawing.Size(80, 56)
         Me.RadioGroup1.TabIndex = 0
         '
         'GroupControl1
@@ -855,7 +768,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit5.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit5.Properties.ValueChecked = 1
         Me.CheckEdit5.Properties.ValueUnchecked = 0
-        Me.CheckEdit5.Size = New System.Drawing.Size(68, 18)
+        Me.CheckEdit5.Size = New System.Drawing.Size(68, 19)
         Me.CheckEdit5.TabIndex = 4
         '
         'CheckEdit3
@@ -867,7 +780,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit3.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit3.Properties.ValueChecked = 1
         Me.CheckEdit3.Properties.ValueUnchecked = 0
-        Me.CheckEdit3.Size = New System.Drawing.Size(70, 18)
+        Me.CheckEdit3.Size = New System.Drawing.Size(70, 19)
         Me.CheckEdit3.TabIndex = 3
         '
         'CheckEdit4
@@ -879,7 +792,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit4.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit4.Properties.ValueChecked = 1
         Me.CheckEdit4.Properties.ValueUnchecked = 0
-        Me.CheckEdit4.Size = New System.Drawing.Size(58, 18)
+        Me.CheckEdit4.Size = New System.Drawing.Size(58, 19)
         Me.CheckEdit4.TabIndex = 2
         '
         'CheckEdit2
@@ -891,7 +804,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit2.Properties.ValueChecked = 1
         Me.CheckEdit2.Properties.ValueUnchecked = 0
-        Me.CheckEdit2.Size = New System.Drawing.Size(58, 18)
+        Me.CheckEdit2.Size = New System.Drawing.Size(58, 19)
         Me.CheckEdit2.TabIndex = 1
         '
         'CheckEdit1
@@ -903,7 +816,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
-        Me.CheckEdit1.Size = New System.Drawing.Size(58, 18)
+        Me.CheckEdit1.Size = New System.Drawing.Size(58, 19)
         Me.CheckEdit1.TabIndex = 0
         '
         'LabelControl1
@@ -988,7 +901,7 @@ Partial Class cnt009_Kumas2
         '
         'SqlCommand21
         '
-        Me.SqlCommand21.CommandText = "SELECT     KumasKatalogID, KatalogKod, KatalogIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         KumasKatalogu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "W" & _
+        Me.SqlCommand21.CommandText = "SELECT     KumasKatalogID, KatalogKod, KatalogIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         KumasKatalogu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "W" &
     "HERE     (Deleted = 0)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY KatalogKod"
         '
         'cboGridRenk
@@ -1117,7 +1030,7 @@ Partial Class cnt009_Kumas2
         '
         'SqlCommand25
         '
-        Me.SqlCommand25.CommandText = "SELECT     KumasID, Tip, KumasKod, KumasIsmi , Fiyat , BedenArtis" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         K" & _
+        Me.SqlCommand25.CommandText = "SELECT     KumasID, Tip, KumasKod, KumasIsmi , Fiyat , BedenArtis" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         K" &
     "umaslar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE     (Deleted = 0)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY KumasKod"
         '
         'GridView2
@@ -1185,7 +1098,7 @@ Partial Class cnt009_Kumas2
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemGridLookUpEdit1, Me.cboGridKumasKatalog, Me.cboGridRenk, Me.cboGridKumas})
-        Me.GridControl2.Size = New System.Drawing.Size(415, 201)
+        Me.GridControl2.Size = New System.Drawing.Size(417, 201)
         Me.GridControl2.TabIndex = 3
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -1281,7 +1194,7 @@ Partial Class cnt009_Kumas2
         '
         'SqlCommand36
         '
-        Me.SqlCommand36.CommandText = "UPDATE SipDetayParam_009_Kumas2 SET Deleted = nID  , ModifiedBy = @ModifiedBy , M" & _
+        Me.SqlCommand36.CommandText = "UPDATE SipDetayParam_009_Kumas2 SET Deleted = nID  , ModifiedBy = @ModifiedBy , M" &
     "odifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand34
@@ -1323,7 +1236,7 @@ Partial Class cnt009_Kumas2
         Me.PanelControl2.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl2.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl2.Name = "PanelControl2"
-        Me.PanelControl2.Size = New System.Drawing.Size(415, 25)
+        Me.PanelControl2.Size = New System.Drawing.Size(417, 25)
         Me.PanelControl2.TabIndex = 6
         '
         'panelParcalar
@@ -1333,7 +1246,7 @@ Partial Class cnt009_Kumas2
         Me.panelParcalar.Dock = System.Windows.Forms.DockStyle.Fill
         Me.panelParcalar.Location = New System.Drawing.Point(0, 25)
         Me.panelParcalar.Name = "panelParcalar"
-        Me.panelParcalar.Size = New System.Drawing.Size(415, 176)
+        Me.panelParcalar.Size = New System.Drawing.Size(417, 176)
         Me.panelParcalar.TabIndex = 7
         Me.panelParcalar.WrapContents = False
         '
@@ -1348,7 +1261,7 @@ Partial Class cnt009_Kumas2
         Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PanelControl3.Location = New System.Drawing.Point(0, 201)
         Me.PanelControl3.Name = "PanelControl3"
-        Me.PanelControl3.Size = New System.Drawing.Size(415, 85)
+        Me.PanelControl3.Size = New System.Drawing.Size(417, 85)
         Me.PanelControl3.TabIndex = 4
         '
         'LabelControl5
@@ -1491,7 +1404,7 @@ Partial Class cnt009_Kumas2
         '
         'SqlCommand40
         '
-        Me.SqlCommand40.CommandText = "UPDATE SipDetayParam_009_Kumas2_Detay SET Deleted = nID  , ModifiedBy = @Modified" & _
+        Me.SqlCommand40.CommandText = "UPDATE SipDetayParam_009_Kumas2_Detay SET Deleted = nID  , ModifiedBy = @Modified" &
     "By , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand38
@@ -1516,7 +1429,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit8.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit8.Properties.ValueChecked = 1
         Me.CheckEdit8.Properties.ValueUnchecked = 0
-        Me.CheckEdit8.Size = New System.Drawing.Size(90, 18)
+        Me.CheckEdit8.Size = New System.Drawing.Size(90, 19)
         Me.CheckEdit8.TabIndex = 3
         '
         'CheckEdit9
@@ -1528,7 +1441,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit9.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit9.Properties.ValueChecked = 1
         Me.CheckEdit9.Properties.ValueUnchecked = 0
-        Me.CheckEdit9.Size = New System.Drawing.Size(90, 18)
+        Me.CheckEdit9.Size = New System.Drawing.Size(90, 19)
         Me.CheckEdit9.TabIndex = 2
         '
         'GroupControl3
@@ -1544,11 +1457,11 @@ Partial Class cnt009_Kumas2
         '
         Me.RadioGroup2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable4, "OverlokNakis", True))
         Me.RadioGroup2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.RadioGroup2.Location = New System.Drawing.Point(4, 19)
+        Me.RadioGroup2.Location = New System.Drawing.Point(2, 20)
         Me.RadioGroup2.Name = "RadioGroup2"
         Me.RadioGroup2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Yok"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Var")})
-        Me.RadioGroup2.Size = New System.Drawing.Size(76, 51)
+        Me.RadioGroup2.Size = New System.Drawing.Size(80, 53)
         Me.RadioGroup2.TabIndex = 0
         '
         'GroupControl4
@@ -1591,7 +1504,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit10.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit10.Properties.ValueChecked = 1
         Me.CheckEdit10.Properties.ValueUnchecked = 0
-        Me.CheckEdit10.Size = New System.Drawing.Size(68, 18)
+        Me.CheckEdit10.Size = New System.Drawing.Size(68, 19)
         Me.CheckEdit10.TabIndex = 4
         '
         'CheckEdit11
@@ -1603,7 +1516,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit11.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit11.Properties.ValueChecked = 1
         Me.CheckEdit11.Properties.ValueUnchecked = 0
-        Me.CheckEdit11.Size = New System.Drawing.Size(70, 18)
+        Me.CheckEdit11.Size = New System.Drawing.Size(70, 19)
         Me.CheckEdit11.TabIndex = 3
         '
         'CheckEdit12
@@ -1615,7 +1528,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit12.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit12.Properties.ValueChecked = 1
         Me.CheckEdit12.Properties.ValueUnchecked = 0
-        Me.CheckEdit12.Size = New System.Drawing.Size(58, 18)
+        Me.CheckEdit12.Size = New System.Drawing.Size(58, 19)
         Me.CheckEdit12.TabIndex = 2
         '
         'CheckEdit13
@@ -1627,7 +1540,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit13.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit13.Properties.ValueChecked = 1
         Me.CheckEdit13.Properties.ValueUnchecked = 0
-        Me.CheckEdit13.Size = New System.Drawing.Size(58, 18)
+        Me.CheckEdit13.Size = New System.Drawing.Size(58, 19)
         Me.CheckEdit13.TabIndex = 1
         '
         'CheckEdit14
@@ -1639,8 +1552,95 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit14.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit14.Properties.ValueChecked = 1
         Me.CheckEdit14.Properties.ValueUnchecked = 0
-        Me.CheckEdit14.Size = New System.Drawing.Size(58, 18)
+        Me.CheckEdit14.Size = New System.Drawing.Size(58, 19)
         Me.CheckEdit14.TabIndex = 0
+        '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SolOnCep
+        '
+        Me.NeoTable2_SolOnCep.ColumnName = "SolOnCep"
+        Me.NeoTable2_SolOnCep.DataType = GetType(Integer)
+        '
+        'NeoTable2_SagOnCep
+        '
+        Me.NeoTable2_SagOnCep.ColumnName = "SagOnCep"
+        Me.NeoTable2_SagOnCep.DataType = GetType(Integer)
+        '
+        'NeoTable2_SolArkaCep
+        '
+        Me.NeoTable2_SolArkaCep.ColumnName = "SolArkaCep"
+        Me.NeoTable2_SolArkaCep.DataType = GetType(Integer)
+        '
+        'NeoTable2_SagArkaCep
+        '
+        Me.NeoTable2_SagArkaCep.ColumnName = "SagArkaCep"
+        Me.NeoTable2_SagArkaCep.DataType = GetType(Integer)
+        '
+        'NeoTable2_GizliCep
+        '
+        Me.NeoTable2_GizliCep.ColumnName = "GizliCep"
+        Me.NeoTable2_GizliCep.DataType = GetType(Integer)
+        '
+        'NeoTable2_CepKumasArtis
+        '
+        Me.NeoTable2_CepKumasArtis.ColumnName = "CepKumasArtis"
+        Me.NeoTable2_CepKumasArtis.DataType = GetType(Double)
+        '
+        'NeoTable2_OverlokNakis
+        '
+        Me.NeoTable2_OverlokNakis.ColumnName = "OverlokNakis"
+        Me.NeoTable2_OverlokNakis.DataType = GetType(Integer)
+        '
+        'NeoTable2_FarkliKumas
+        '
+        Me.NeoTable2_FarkliKumas.ColumnName = "FarkliKumas"
+        Me.NeoTable2_FarkliKumas.DataType = GetType(Integer)
+        '
+        'NeoTable2_Biye
+        '
+        Me.NeoTable2_Biye.ColumnName = "Biye"
+        Me.NeoTable2_Biye.DataType = GetType(Integer)
+        '
+        'NeoTable2_BiyeDeger
+        '
+        Me.NeoTable2_BiyeDeger.ColumnName = "BiyeDeger"
+        Me.NeoTable2_BiyeDeger.DataType = GetType(Double)
         '
         'cnt009_Kumas2
         '
@@ -1888,23 +1888,6 @@ Partial Class cnt009_Kumas2
     Friend WithEvents SqlCommand38 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand37 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand39 As System.Data.SqlClient.SqlCommand
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SolOnCep As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SagOnCep As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SolArkaCep As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SagArkaCep As System.Data.DataColumn
-    Friend WithEvents NeoTable2_GizliCep As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CepKumasArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_OverlokNakis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_FarkliKumas As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Biye As System.Data.DataColumn
-    Friend WithEvents NeoTable2_BiyeDeger As System.Data.DataColumn
     Friend WithEvents tbKumas_KumasID As System.Data.DataColumn
     Friend WithEvents tbKumas_Tip As System.Data.DataColumn
     Friend WithEvents tbKumas_KumasKod As System.Data.DataColumn
@@ -1922,5 +1905,21 @@ Partial Class cnt009_Kumas2
     Friend WithEvents NeoTable1_ParcaIsmi As System.Data.DataColumn
     Friend WithEvents NeoTable1_BedenKod As System.Data.DataColumn
     Friend WithEvents NeoTable1_Miktar As System.Data.DataColumn
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_SolOnCep As DataColumn
+    Friend WithEvents NeoTable2_SagOnCep As DataColumn
+    Friend WithEvents NeoTable2_SolArkaCep As DataColumn
+    Friend WithEvents NeoTable2_SagArkaCep As DataColumn
+    Friend WithEvents NeoTable2_GizliCep As DataColumn
+    Friend WithEvents NeoTable2_CepKumasArtis As DataColumn
+    Friend WithEvents NeoTable2_OverlokNakis As DataColumn
+    Friend WithEvents NeoTable2_FarkliKumas As DataColumn
+    Friend WithEvents NeoTable2_Biye As DataColumn
+    Friend WithEvents NeoTable2_BiyeDeger As DataColumn
 End Class

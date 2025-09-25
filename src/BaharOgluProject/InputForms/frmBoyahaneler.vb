@@ -1,4 +1,4 @@
-﻿Public Class frmBoyahaneler
+Public Class frmBoyahaneler
 
     Private Sub frmBoyahaneler_ButtonDeleteBeforeClick(Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonDeleteBeforeClick
         Try

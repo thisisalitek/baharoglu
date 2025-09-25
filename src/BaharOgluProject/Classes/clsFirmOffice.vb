@@ -1,4 +1,4 @@
-﻿Public Class clsFirmOffice
+Public Class clsFirmOffice
     Private mVar_FirmOfficeID As Guid
     Private mVar_FirmID As Long
     Private mVar_FirmOfficeCode As String

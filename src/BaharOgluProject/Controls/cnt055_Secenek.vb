@@ -1,4 +1,4 @@
-﻿Public Class cnt055_Secenek
+Public Class cnt055_Secenek
     Dim bNoAction As Boolean = False
 
     Private Sub cnt055_Secenek_Initialize_Control(ByVal sender As System.Windows.Forms.Control, ByVal e As System.EventArgs) Handles Me.Initialize_Control

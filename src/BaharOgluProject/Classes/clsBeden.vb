@@ -1,4 +1,4 @@
-﻿Public Class clsBeden
+Public Class clsBeden
     Private mVar_Miktar As Double
     Private mVar_BedenKod As String
 

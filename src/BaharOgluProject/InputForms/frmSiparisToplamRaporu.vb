@@ -1,4 +1,4 @@
-﻿Imports DevExpress.XtraEditors.Controls
+Imports DevExpress.XtraEditors.Controls
 
 Public Class frmSiparisToplamRaporu
 

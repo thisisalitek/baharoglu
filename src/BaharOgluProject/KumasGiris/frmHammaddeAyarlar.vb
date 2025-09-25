@@ -1,4 +1,4 @@
-﻿Public Class frmHammaddeAyarlar 
+Public Class frmHammaddeAyarlar 
     
     Public FormCode As String = "000023"
 

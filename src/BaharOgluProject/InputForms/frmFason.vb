@@ -1,4 +1,4 @@
-﻿Public Class frmFason
+Public Class frmFason
 
     Public Sub Form1Item(ID As Long)
         Try

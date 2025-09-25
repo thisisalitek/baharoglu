@@ -1,4 +1,4 @@
-﻿Public Class cnt010_GomlekParams
+Public Class cnt010_GomlekParams
     Dim bNoAction As Boolean = False
 
     Private Sub cnt010_GomlekParams_Initialize_Control(ByVal sender As System.Windows.Forms.Control, ByVal e As System.EventArgs) Handles Me.Initialize_Control

@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frmKategoriler
     Inherits DevExpress.XtraEditors.XtraForm
 
@@ -72,49 +72,6 @@ Partial Class frmKategoriler
         Me.cmdDevam = New DevExpress.XtraEditors.SimpleButton()
         Me.cmdCancelOzellik = New DevExpress.XtraEditors.SimpleButton()
         Me.tbSipDetay = New NeoDAC.NeoTable(Me.components)
-        Me.tbSipDetay_SipDetayID = New System.Data.DataColumn()
-        Me.tbSipDetay_Deleted = New System.Data.DataColumn()
-        Me.tbSipDetay_CreatedBy = New System.Data.DataColumn()
-        Me.tbSipDetay_CreatedDate = New System.Data.DataColumn()
-        Me.tbSipDetay_ModifiedBy = New System.Data.DataColumn()
-        Me.tbSipDetay_ModifiedDate = New System.Data.DataColumn()
-        Me.tbSipDetay_SiparisID = New System.Data.DataColumn()
-        Me.tbSipDetay_StokKod = New System.Data.DataColumn()
-        Me.tbSipDetay_StokRecNo = New System.Data.DataColumn()
-        Me.tbSipDetay_SiparisAciklama = New System.Data.DataColumn()
-        Me.tbSipDetay_OkulID = New System.Data.DataColumn()
-        Me.tbSipDetay_BolumKod = New System.Data.DataColumn()
-        Me.tbSipDetay_KategoriID = New System.Data.DataColumn()
-        Me.tbSipDetay_Miktar = New System.Data.DataColumn()
-        Me.tbSipDetay_Maliyet = New System.Data.DataColumn()
-        Me.tbSipDetay_Fiyat = New System.Data.DataColumn()
-        Me.tbSipDetay_Tutar = New System.Data.DataColumn()
-        Me.tbSipDetay_Tarih = New System.Data.DataColumn()
-        Me.tbSipDetay_TerminTarihi = New System.Data.DataColumn()
-        Me.tbSipDetay_MusteriSipNo = New System.Data.DataColumn()
-        Me.tbSipDetay_SiparisiAlan = New System.Data.DataColumn()
-        Me.tbSipDetay_Iptal = New System.Data.DataColumn()
-        Me.tbSipDetay_Resim1 = New System.Data.DataColumn()
-        Me.tbSipDetay_Resim2 = New System.Data.DataColumn()
-        Me.tbSipDetay_Resim3 = New System.Data.DataColumn()
-        Me.tbSipDetay_Resim4 = New System.Data.DataColumn()
-        Me.tbSipDetay_Resim5 = New System.Data.DataColumn()
-        Me.tbSipDetay_StokIsmi = New System.Data.DataColumn()
-        Me.tbSipDetay_Bagli = New System.Data.DataColumn()
-        Me.tbSipDetay_BagliSipDetayID = New System.Data.DataColumn()
-        Me.tbSipDetay_OkulFarki = New System.Data.DataColumn()
-        Me.tbSipDetay_Durumu = New System.Data.DataColumn()
-        Me.tbSipDetay_TeslimMiktar = New System.Data.DataColumn()
-        Me.tbSipDetay_AnaRenk = New System.Data.DataColumn()
-        Me.tbSipDetay_Bedenler = New System.Data.DataColumn()
-        Me.tbSipDetay_bSerbestFiyat = New System.Data.DataColumn()
-        Me.tbSipDetay_Hazirlanan = New System.Data.DataColumn()
-        Me.tbSipDetay_FasondaMi = New System.Data.DataColumn()
-        Me.tbSipDetay_FasonFisID = New System.Data.DataColumn()
-        Me.tbSipDetay_Iskonto = New System.Data.DataColumn()
-        Me.tbSipDetay_NakitIskonto = New System.Data.DataColumn()
-        Me.tbSipDetay_IskontoTutar = New System.Data.DataColumn()
-        Me.tbSipDetay_NakitIskontoTutar = New System.Data.DataColumn()
         Me.SqlCommand8 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand6 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand5 = New System.Data.SqlClient.SqlCommand()
@@ -214,33 +171,6 @@ Partial Class frmKategoriler
         Me.XtraTabPage5 = New DevExpress.XtraTab.XtraTabPage()
         Me.grFiyatlar = New DevExpress.XtraGrid.GridControl()
         Me.tbSipDetayFiyatlar = New NeoDAC.NeoTable(Me.components)
-        Me.tbSipDetayFiyatlar_BedenNo = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_Deleted = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_CreatedBy = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_CreatedDate = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_ModifiedBy = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_ModifiedDate = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_SipDetayID = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_BedenKod = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_BazFiyat = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_BrutFiyat = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_Iskonto = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_NakitIskonto = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_NetFiyat = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_Miktar = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_Tutar = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_KategoriFiyatID = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_DetayAciklama = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_RenkKod = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_BdnHarNo = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_TeslimMiktar = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_sip_RECno = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_sip_evrakno_seri = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_sip_evrakno_sira = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_sip_satirno = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_Hazirlanan = New System.Data.DataColumn()
-        Me.tbSipDetayFiyatlar_sip_Guid = New System.Data.DataColumn()
         Me.SqlCommand16 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand14 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand13 = New System.Data.SqlClient.SqlCommand()
@@ -355,13 +285,85 @@ Partial Class frmKategoriler
         Me.panelLeft = New System.Windows.Forms.Panel()
         Me.CntUrunAgaci1 = New ProbarSiparis.cntUrunAgaci()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.mnuOzellikSecimSayfasi = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuBedenlerFiyatlarMasraflar = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuUygulama = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.mnuOzellikSecimSayfasi = New System.Windows.Forms.ToolStripMenuItem()
-        Me.mnuBedenlerFiyatlarMasraflar = New System.Windows.Forms.ToolStripMenuItem()
-        Me.mnuUygulama = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tbSipDetay_SipDetayID = New System.Data.DataColumn()
+        Me.tbSipDetay_Deleted = New System.Data.DataColumn()
+        Me.tbSipDetay_CreatedBy = New System.Data.DataColumn()
+        Me.tbSipDetay_CreatedDate = New System.Data.DataColumn()
+        Me.tbSipDetay_ModifiedBy = New System.Data.DataColumn()
+        Me.tbSipDetay_ModifiedDate = New System.Data.DataColumn()
+        Me.tbSipDetay_SiparisID = New System.Data.DataColumn()
+        Me.tbSipDetay_StokKod = New System.Data.DataColumn()
+        Me.tbSipDetay_StokRecNo = New System.Data.DataColumn()
+        Me.tbSipDetay_SiparisAciklama = New System.Data.DataColumn()
+        Me.tbSipDetay_OkulID = New System.Data.DataColumn()
+        Me.tbSipDetay_BolumKod = New System.Data.DataColumn()
+        Me.tbSipDetay_KategoriID = New System.Data.DataColumn()
+        Me.tbSipDetay_Miktar = New System.Data.DataColumn()
+        Me.tbSipDetay_Maliyet = New System.Data.DataColumn()
+        Me.tbSipDetay_Fiyat = New System.Data.DataColumn()
+        Me.tbSipDetay_Tutar = New System.Data.DataColumn()
+        Me.tbSipDetay_Tarih = New System.Data.DataColumn()
+        Me.tbSipDetay_TerminTarihi = New System.Data.DataColumn()
+        Me.tbSipDetay_MusteriSipNo = New System.Data.DataColumn()
+        Me.tbSipDetay_SiparisiAlan = New System.Data.DataColumn()
+        Me.tbSipDetay_Iptal = New System.Data.DataColumn()
+        Me.tbSipDetay_Resim1 = New System.Data.DataColumn()
+        Me.tbSipDetay_Resim2 = New System.Data.DataColumn()
+        Me.tbSipDetay_Resim3 = New System.Data.DataColumn()
+        Me.tbSipDetay_Resim4 = New System.Data.DataColumn()
+        Me.tbSipDetay_Resim5 = New System.Data.DataColumn()
+        Me.tbSipDetay_StokIsmi = New System.Data.DataColumn()
+        Me.tbSipDetay_Bagli = New System.Data.DataColumn()
+        Me.tbSipDetay_BagliSipDetayID = New System.Data.DataColumn()
+        Me.tbSipDetay_OkulFarki = New System.Data.DataColumn()
+        Me.tbSipDetay_Durumu = New System.Data.DataColumn()
+        Me.tbSipDetay_TeslimMiktar = New System.Data.DataColumn()
+        Me.tbSipDetay_AnaRenk = New System.Data.DataColumn()
+        Me.tbSipDetay_Bedenler = New System.Data.DataColumn()
+        Me.tbSipDetay_bSerbestFiyat = New System.Data.DataColumn()
+        Me.tbSipDetay_Hazirlanan = New System.Data.DataColumn()
+        Me.tbSipDetay_FasondaMi = New System.Data.DataColumn()
+        Me.tbSipDetay_FasonFisID = New System.Data.DataColumn()
+        Me.tbSipDetay_Iskonto = New System.Data.DataColumn()
+        Me.tbSipDetay_NakitIskonto = New System.Data.DataColumn()
+        Me.tbSipDetay_IskontoTutar = New System.Data.DataColumn()
+        Me.tbSipDetay_NakitIskontoTutar = New System.Data.DataColumn()
+        Me.tbSipDetay_sip_Guid = New System.Data.DataColumn()
+        Me.tbSipDetay_BoyahaneID = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_BedenNo = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_Deleted = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_CreatedBy = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_CreatedDate = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_ModifiedBy = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_ModifiedDate = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_SipDetayID = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_BedenKod = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_BazFiyat = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_BrutFiyat = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_Iskonto = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_NakitIskonto = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_NetFiyat = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_Miktar = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_Tutar = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_KategoriFiyatID = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_DetayAciklama = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_RenkKod = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_BdnHarNo = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_TeslimMiktar = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_sip_RECno = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_sip_evrakno_seri = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_sip_evrakno_sira = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_sip_satirno = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_Hazirlanan = New System.Data.DataColumn()
+        Me.tbSipDetayFiyatlar_sip_Guid = New System.Data.DataColumn()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.panelParametreler, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelParametreler.SuspendLayout()
@@ -458,7 +460,6 @@ Partial Class frmKategoriler
         CType(Me.tbSipDetayEkFiyatlar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelLeft.SuspendLayout()
-        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'mnuOzellikSec
@@ -716,8 +717,8 @@ Partial Class frmKategoriler
         '
         'FirmConn
         '
-        Me.FirmConn.ConnectionString = "Server=(local)\SQL2017;Database=ProbarSiparisDB;User ID=sa;Password=;Trusted_Conn" &
-    "ection=True;"
+        Me.FirmConn.ConnectionString = "Server=(local);Database=ProbarSiparisDB2025;User ID=sa;Password=;Trusted_Connecti" &
+    "on=True;"
         Me.FirmConn.Name = "FirmConn"
         Me.FirmConn.UserInfo_AuthCodeFieldName = "AuthCode"
         Me.FirmConn.UserInfo_CanDeleteAuthCode = ""
@@ -830,7 +831,7 @@ Partial Class frmKategoriler
         '
         'tbSipDetay
         '
-        Me.tbSipDetay.Columns.AddRange(New System.Data.DataColumn() {Me.tbSipDetay_SipDetayID, Me.tbSipDetay_Deleted, Me.tbSipDetay_CreatedBy, Me.tbSipDetay_CreatedDate, Me.tbSipDetay_ModifiedBy, Me.tbSipDetay_ModifiedDate, Me.tbSipDetay_SiparisID, Me.tbSipDetay_StokKod, Me.tbSipDetay_StokRecNo, Me.tbSipDetay_SiparisAciklama, Me.tbSipDetay_OkulID, Me.tbSipDetay_BolumKod, Me.tbSipDetay_KategoriID, Me.tbSipDetay_Miktar, Me.tbSipDetay_Maliyet, Me.tbSipDetay_Fiyat, Me.tbSipDetay_Tutar, Me.tbSipDetay_Tarih, Me.tbSipDetay_TerminTarihi, Me.tbSipDetay_MusteriSipNo, Me.tbSipDetay_SiparisiAlan, Me.tbSipDetay_Iptal, Me.tbSipDetay_Resim1, Me.tbSipDetay_Resim2, Me.tbSipDetay_Resim3, Me.tbSipDetay_Resim4, Me.tbSipDetay_Resim5, Me.tbSipDetay_StokIsmi, Me.tbSipDetay_Bagli, Me.tbSipDetay_BagliSipDetayID, Me.tbSipDetay_OkulFarki, Me.tbSipDetay_Durumu, Me.tbSipDetay_TeslimMiktar, Me.tbSipDetay_AnaRenk, Me.tbSipDetay_Bedenler, Me.tbSipDetay_bSerbestFiyat, Me.tbSipDetay_Hazirlanan, Me.tbSipDetay_FasondaMi, Me.tbSipDetay_FasonFisID, Me.tbSipDetay_Iskonto, Me.tbSipDetay_NakitIskonto, Me.tbSipDetay_IskontoTutar, Me.tbSipDetay_NakitIskontoTutar})
+        Me.tbSipDetay.Columns.AddRange(New System.Data.DataColumn() {Me.tbSipDetay_SipDetayID, Me.tbSipDetay_Deleted, Me.tbSipDetay_CreatedBy, Me.tbSipDetay_CreatedDate, Me.tbSipDetay_ModifiedBy, Me.tbSipDetay_ModifiedDate, Me.tbSipDetay_SiparisID, Me.tbSipDetay_StokKod, Me.tbSipDetay_StokRecNo, Me.tbSipDetay_SiparisAciklama, Me.tbSipDetay_OkulID, Me.tbSipDetay_BolumKod, Me.tbSipDetay_KategoriID, Me.tbSipDetay_Miktar, Me.tbSipDetay_Maliyet, Me.tbSipDetay_Fiyat, Me.tbSipDetay_Tutar, Me.tbSipDetay_Tarih, Me.tbSipDetay_TerminTarihi, Me.tbSipDetay_MusteriSipNo, Me.tbSipDetay_SiparisiAlan, Me.tbSipDetay_Iptal, Me.tbSipDetay_Resim1, Me.tbSipDetay_Resim2, Me.tbSipDetay_Resim3, Me.tbSipDetay_Resim4, Me.tbSipDetay_Resim5, Me.tbSipDetay_StokIsmi, Me.tbSipDetay_Bagli, Me.tbSipDetay_BagliSipDetayID, Me.tbSipDetay_OkulFarki, Me.tbSipDetay_Durumu, Me.tbSipDetay_TeslimMiktar, Me.tbSipDetay_AnaRenk, Me.tbSipDetay_Bedenler, Me.tbSipDetay_bSerbestFiyat, Me.tbSipDetay_Hazirlanan, Me.tbSipDetay_FasondaMi, Me.tbSipDetay_FasonFisID, Me.tbSipDetay_Iskonto, Me.tbSipDetay_NakitIskonto, Me.tbSipDetay_IskontoTutar, Me.tbSipDetay_NakitIskontoTutar, Me.tbSipDetay_sip_Guid, Me.tbSipDetay_BoyahaneID})
         Me.tbSipDetay.Connection = Me.FirmConn
         Me.tbSipDetay.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"SipDetayID"}, True)})
         Me.tbSipDetay.CurrentRow = Nothing
@@ -851,214 +852,6 @@ Partial Class frmKategoriler
         Me.tbSipDetay.TableName = "NeoTable1"
         Me.tbSipDetay.Transaction = Nothing
         Me.tbSipDetay.UpdateCommand = Me.SqlCommand7
-        '
-        'tbSipDetay_SipDetayID
-        '
-        Me.tbSipDetay_SipDetayID.AllowDBNull = False
-        Me.tbSipDetay_SipDetayID.AutoIncrement = True
-        Me.tbSipDetay_SipDetayID.ColumnName = "SipDetayID"
-        Me.tbSipDetay_SipDetayID.DataType = GetType(Integer)
-        '
-        'tbSipDetay_Deleted
-        '
-        Me.tbSipDetay_Deleted.ColumnName = "Deleted"
-        Me.tbSipDetay_Deleted.DataType = GetType(Integer)
-        '
-        'tbSipDetay_CreatedBy
-        '
-        Me.tbSipDetay_CreatedBy.ColumnName = "CreatedBy"
-        Me.tbSipDetay_CreatedBy.DataType = GetType(Integer)
-        '
-        'tbSipDetay_CreatedDate
-        '
-        Me.tbSipDetay_CreatedDate.ColumnName = "CreatedDate"
-        Me.tbSipDetay_CreatedDate.DataType = GetType(Date)
-        '
-        'tbSipDetay_ModifiedBy
-        '
-        Me.tbSipDetay_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.tbSipDetay_ModifiedBy.DataType = GetType(Integer)
-        '
-        'tbSipDetay_ModifiedDate
-        '
-        Me.tbSipDetay_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.tbSipDetay_ModifiedDate.DataType = GetType(Date)
-        '
-        'tbSipDetay_SiparisID
-        '
-        Me.tbSipDetay_SiparisID.ColumnName = "SiparisID"
-        Me.tbSipDetay_SiparisID.DataType = GetType(Integer)
-        '
-        'tbSipDetay_StokKod
-        '
-        Me.tbSipDetay_StokKod.ColumnName = "StokKod"
-        '
-        'tbSipDetay_StokRecNo
-        '
-        Me.tbSipDetay_StokRecNo.ColumnName = "StokRecNo"
-        Me.tbSipDetay_StokRecNo.DataType = GetType(Integer)
-        '
-        'tbSipDetay_SiparisAciklama
-        '
-        Me.tbSipDetay_SiparisAciklama.ColumnName = "SiparisAciklama"
-        '
-        'tbSipDetay_OkulID
-        '
-        Me.tbSipDetay_OkulID.ColumnName = "OkulID"
-        Me.tbSipDetay_OkulID.DataType = GetType(Integer)
-        '
-        'tbSipDetay_BolumKod
-        '
-        Me.tbSipDetay_BolumKod.ColumnName = "BolumKod"
-        '
-        'tbSipDetay_KategoriID
-        '
-        Me.tbSipDetay_KategoriID.ColumnName = "KategoriID"
-        Me.tbSipDetay_KategoriID.DataType = GetType(Integer)
-        '
-        'tbSipDetay_Miktar
-        '
-        Me.tbSipDetay_Miktar.ColumnName = "Miktar"
-        Me.tbSipDetay_Miktar.DataType = GetType(Double)
-        '
-        'tbSipDetay_Maliyet
-        '
-        Me.tbSipDetay_Maliyet.ColumnName = "Maliyet"
-        Me.tbSipDetay_Maliyet.DataType = GetType(Double)
-        '
-        'tbSipDetay_Fiyat
-        '
-        Me.tbSipDetay_Fiyat.ColumnName = "Fiyat"
-        Me.tbSipDetay_Fiyat.DataType = GetType(Double)
-        '
-        'tbSipDetay_Tutar
-        '
-        Me.tbSipDetay_Tutar.ColumnName = "Tutar"
-        Me.tbSipDetay_Tutar.DataType = GetType(Double)
-        '
-        'tbSipDetay_Tarih
-        '
-        Me.tbSipDetay_Tarih.ColumnName = "Tarih"
-        Me.tbSipDetay_Tarih.DataType = GetType(Date)
-        '
-        'tbSipDetay_TerminTarihi
-        '
-        Me.tbSipDetay_TerminTarihi.ColumnName = "TerminTarihi"
-        Me.tbSipDetay_TerminTarihi.DataType = GetType(Date)
-        '
-        'tbSipDetay_MusteriSipNo
-        '
-        Me.tbSipDetay_MusteriSipNo.ColumnName = "MusteriSipNo"
-        '
-        'tbSipDetay_SiparisiAlan
-        '
-        Me.tbSipDetay_SiparisiAlan.ColumnName = "SiparisiAlan"
-        '
-        'tbSipDetay_Iptal
-        '
-        Me.tbSipDetay_Iptal.ColumnName = "Iptal"
-        Me.tbSipDetay_Iptal.DataType = GetType(Integer)
-        '
-        'tbSipDetay_Resim1
-        '
-        Me.tbSipDetay_Resim1.ColumnName = "Resim1"
-        Me.tbSipDetay_Resim1.DataType = GetType(Byte())
-        '
-        'tbSipDetay_Resim2
-        '
-        Me.tbSipDetay_Resim2.ColumnName = "Resim2"
-        Me.tbSipDetay_Resim2.DataType = GetType(Byte())
-        '
-        'tbSipDetay_Resim3
-        '
-        Me.tbSipDetay_Resim3.ColumnName = "Resim3"
-        Me.tbSipDetay_Resim3.DataType = GetType(Byte())
-        '
-        'tbSipDetay_Resim4
-        '
-        Me.tbSipDetay_Resim4.ColumnName = "Resim4"
-        Me.tbSipDetay_Resim4.DataType = GetType(Byte())
-        '
-        'tbSipDetay_Resim5
-        '
-        Me.tbSipDetay_Resim5.ColumnName = "Resim5"
-        Me.tbSipDetay_Resim5.DataType = GetType(Byte())
-        '
-        'tbSipDetay_StokIsmi
-        '
-        Me.tbSipDetay_StokIsmi.ColumnName = "StokIsmi"
-        '
-        'tbSipDetay_Bagli
-        '
-        Me.tbSipDetay_Bagli.ColumnName = "Bagli"
-        Me.tbSipDetay_Bagli.DataType = GetType(Integer)
-        '
-        'tbSipDetay_BagliSipDetayID
-        '
-        Me.tbSipDetay_BagliSipDetayID.ColumnName = "BagliSipDetayID"
-        Me.tbSipDetay_BagliSipDetayID.DataType = GetType(Integer)
-        '
-        'tbSipDetay_OkulFarki
-        '
-        Me.tbSipDetay_OkulFarki.ColumnName = "OkulFarki"
-        Me.tbSipDetay_OkulFarki.DataType = GetType(Double)
-        '
-        'tbSipDetay_Durumu
-        '
-        Me.tbSipDetay_Durumu.ColumnName = "Durumu"
-        '
-        'tbSipDetay_TeslimMiktar
-        '
-        Me.tbSipDetay_TeslimMiktar.ColumnName = "TeslimMiktar"
-        Me.tbSipDetay_TeslimMiktar.DataType = GetType(Double)
-        '
-        'tbSipDetay_AnaRenk
-        '
-        Me.tbSipDetay_AnaRenk.ColumnName = "AnaRenk"
-        '
-        'tbSipDetay_Bedenler
-        '
-        Me.tbSipDetay_Bedenler.ColumnName = "Bedenler"
-        '
-        'tbSipDetay_bSerbestFiyat
-        '
-        Me.tbSipDetay_bSerbestFiyat.ColumnName = "bSerbestFiyat"
-        Me.tbSipDetay_bSerbestFiyat.DataType = GetType(Integer)
-        '
-        'tbSipDetay_Hazirlanan
-        '
-        Me.tbSipDetay_Hazirlanan.ColumnName = "Hazirlanan"
-        Me.tbSipDetay_Hazirlanan.DataType = GetType(Double)
-        '
-        'tbSipDetay_FasondaMi
-        '
-        Me.tbSipDetay_FasondaMi.ColumnName = "FasondaMi"
-        Me.tbSipDetay_FasondaMi.DataType = GetType(Integer)
-        '
-        'tbSipDetay_FasonFisID
-        '
-        Me.tbSipDetay_FasonFisID.ColumnName = "FasonFisID"
-        Me.tbSipDetay_FasonFisID.DataType = GetType(Integer)
-        '
-        'tbSipDetay_Iskonto
-        '
-        Me.tbSipDetay_Iskonto.ColumnName = "Iskonto"
-        Me.tbSipDetay_Iskonto.DataType = GetType(Double)
-        '
-        'tbSipDetay_NakitIskonto
-        '
-        Me.tbSipDetay_NakitIskonto.ColumnName = "NakitIskonto"
-        Me.tbSipDetay_NakitIskonto.DataType = GetType(Double)
-        '
-        'tbSipDetay_IskontoTutar
-        '
-        Me.tbSipDetay_IskontoTutar.ColumnName = "IskontoTutar"
-        Me.tbSipDetay_IskontoTutar.DataType = GetType(Double)
-        '
-        'tbSipDetay_NakitIskontoTutar
-        '
-        Me.tbSipDetay_NakitIskontoTutar.ColumnName = "NakitIskontoTutar"
-        Me.tbSipDetay_NakitIskontoTutar.DataType = GetType(Double)
         '
         'SqlCommand8
         '
@@ -1797,139 +1590,6 @@ Partial Class frmKategoriler
         Me.tbSipDetayFiyatlar.TableName = "NeoTable1"
         Me.tbSipDetayFiyatlar.Transaction = Nothing
         Me.tbSipDetayFiyatlar.UpdateCommand = Me.SqlCommand15
-        '
-        'tbSipDetayFiyatlar_BedenNo
-        '
-        Me.tbSipDetayFiyatlar_BedenNo.ColumnName = "BedenNo"
-        Me.tbSipDetayFiyatlar_BedenNo.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_SipDetayFiyatAdetID
-        '
-        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.AllowDBNull = False
-        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.AutoIncrement = True
-        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.ColumnName = "SipDetayFiyatAdetID"
-        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_Deleted
-        '
-        Me.tbSipDetayFiyatlar_Deleted.ColumnName = "Deleted"
-        Me.tbSipDetayFiyatlar_Deleted.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_CreatedBy
-        '
-        Me.tbSipDetayFiyatlar_CreatedBy.ColumnName = "CreatedBy"
-        Me.tbSipDetayFiyatlar_CreatedBy.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_CreatedDate
-        '
-        Me.tbSipDetayFiyatlar_CreatedDate.ColumnName = "CreatedDate"
-        Me.tbSipDetayFiyatlar_CreatedDate.DataType = GetType(Date)
-        '
-        'tbSipDetayFiyatlar_ModifiedBy
-        '
-        Me.tbSipDetayFiyatlar_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.tbSipDetayFiyatlar_ModifiedBy.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_ModifiedDate
-        '
-        Me.tbSipDetayFiyatlar_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.tbSipDetayFiyatlar_ModifiedDate.DataType = GetType(Date)
-        '
-        'tbSipDetayFiyatlar_SipDetayID
-        '
-        Me.tbSipDetayFiyatlar_SipDetayID.ColumnName = "SipDetayID"
-        Me.tbSipDetayFiyatlar_SipDetayID.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_BedenKod
-        '
-        Me.tbSipDetayFiyatlar_BedenKod.ColumnName = "BedenKod"
-        '
-        'tbSipDetayFiyatlar_BazFiyat
-        '
-        Me.tbSipDetayFiyatlar_BazFiyat.ColumnName = "BazFiyat"
-        Me.tbSipDetayFiyatlar_BazFiyat.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_BrutFiyat
-        '
-        Me.tbSipDetayFiyatlar_BrutFiyat.ColumnName = "BrutFiyat"
-        Me.tbSipDetayFiyatlar_BrutFiyat.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_Iskonto
-        '
-        Me.tbSipDetayFiyatlar_Iskonto.ColumnName = "Iskonto"
-        Me.tbSipDetayFiyatlar_Iskonto.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_NakitIskonto
-        '
-        Me.tbSipDetayFiyatlar_NakitIskonto.ColumnName = "NakitIskonto"
-        Me.tbSipDetayFiyatlar_NakitIskonto.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_NetFiyat
-        '
-        Me.tbSipDetayFiyatlar_NetFiyat.ColumnName = "NetFiyat"
-        Me.tbSipDetayFiyatlar_NetFiyat.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_Miktar
-        '
-        Me.tbSipDetayFiyatlar_Miktar.ColumnName = "Miktar"
-        Me.tbSipDetayFiyatlar_Miktar.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_Tutar
-        '
-        Me.tbSipDetayFiyatlar_Tutar.ColumnName = "Tutar"
-        Me.tbSipDetayFiyatlar_Tutar.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_KategoriFiyatID
-        '
-        Me.tbSipDetayFiyatlar_KategoriFiyatID.ColumnName = "KategoriFiyatID"
-        Me.tbSipDetayFiyatlar_KategoriFiyatID.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_DetayAciklama
-        '
-        Me.tbSipDetayFiyatlar_DetayAciklama.ColumnName = "DetayAciklama"
-        '
-        'tbSipDetayFiyatlar_RenkKod
-        '
-        Me.tbSipDetayFiyatlar_RenkKod.ColumnName = "RenkKod"
-        '
-        'tbSipDetayFiyatlar_BdnHarNo
-        '
-        Me.tbSipDetayFiyatlar_BdnHarNo.ColumnName = "BdnHarNo"
-        Me.tbSipDetayFiyatlar_BdnHarNo.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_TeslimMiktar
-        '
-        Me.tbSipDetayFiyatlar_TeslimMiktar.ColumnName = "TeslimMiktar"
-        Me.tbSipDetayFiyatlar_TeslimMiktar.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_sip_RECno
-        '
-        Me.tbSipDetayFiyatlar_sip_RECno.ColumnName = "sip_RECno"
-        Me.tbSipDetayFiyatlar_sip_RECno.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_sip_evrakno_seri
-        '
-        Me.tbSipDetayFiyatlar_sip_evrakno_seri.ColumnName = "sip_evrakno_seri"
-        '
-        'tbSipDetayFiyatlar_sip_evrakno_sira
-        '
-        Me.tbSipDetayFiyatlar_sip_evrakno_sira.ColumnName = "sip_evrakno_sira"
-        Me.tbSipDetayFiyatlar_sip_evrakno_sira.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_sip_satirno
-        '
-        Me.tbSipDetayFiyatlar_sip_satirno.ColumnName = "sip_satirno"
-        Me.tbSipDetayFiyatlar_sip_satirno.DataType = GetType(Integer)
-        '
-        'tbSipDetayFiyatlar_Hazirlanan
-        '
-        Me.tbSipDetayFiyatlar_Hazirlanan.ColumnName = "Hazirlanan"
-        Me.tbSipDetayFiyatlar_Hazirlanan.DataType = GetType(Double)
-        '
-        'tbSipDetayFiyatlar_sip_Guid
-        '
-        Me.tbSipDetayFiyatlar_sip_Guid.ColumnName = "sip_Guid"
-        Me.tbSipDetayFiyatlar_sip_Guid.DataType = GetType(System.Guid)
         '
         'SqlCommand16
         '
@@ -2920,9 +2580,26 @@ Partial Class frmKategoriler
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuOzellikSecimSayfasi, Me.mnuBedenlerFiyatlarMasraflar, Me.mnuUygulama})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(220, 70)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
+        '
+        'mnuOzellikSecimSayfasi
+        '
+        Me.mnuOzellikSecimSayfasi.Name = "mnuOzellikSecimSayfasi"
+        Me.mnuOzellikSecimSayfasi.Size = New System.Drawing.Size(219, 22)
+        Me.mnuOzellikSecimSayfasi.Text = "Özellik Seçim Sayfası"
+        '
+        'mnuBedenlerFiyatlarMasraflar
+        '
+        Me.mnuBedenlerFiyatlarMasraflar.Name = "mnuBedenlerFiyatlarMasraflar"
+        Me.mnuBedenlerFiyatlarMasraflar.Size = New System.Drawing.Size(219, 22)
+        Me.mnuBedenlerFiyatlarMasraflar.Text = "Bedenler, Fiyatlar, Masraflar"
+        '
+        'mnuUygulama
+        '
+        Me.mnuUygulama.Name = "mnuUygulama"
+        Me.mnuUygulama.Size = New System.Drawing.Size(219, 22)
+        Me.mnuUygulama.Text = "Uygulama"
         '
         'ToolStripMenuItem5
         '
@@ -2948,23 +2625,356 @@ Partial Class frmKategoriler
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(182, 22)
         Me.ToolStripMenuItem1.Text = "ToolStripMenuItem1"
         '
-        'mnuOzellikSecimSayfasi
+        'tbSipDetay_SipDetayID
         '
-        Me.mnuOzellikSecimSayfasi.Name = "mnuOzellikSecimSayfasi"
-        Me.mnuOzellikSecimSayfasi.Size = New System.Drawing.Size(219, 22)
-        Me.mnuOzellikSecimSayfasi.Text = "Özellik Seçim Sayfası"
+        Me.tbSipDetay_SipDetayID.AllowDBNull = False
+        Me.tbSipDetay_SipDetayID.AutoIncrement = True
+        Me.tbSipDetay_SipDetayID.ColumnName = "SipDetayID"
+        Me.tbSipDetay_SipDetayID.DataType = GetType(Integer)
         '
-        'mnuBedenlerFiyatlarMasraflar
+        'tbSipDetay_Deleted
         '
-        Me.mnuBedenlerFiyatlarMasraflar.Name = "mnuBedenlerFiyatlarMasraflar"
-        Me.mnuBedenlerFiyatlarMasraflar.Size = New System.Drawing.Size(219, 22)
-        Me.mnuBedenlerFiyatlarMasraflar.Text = "Bedenler, Fiyatlar, Masraflar"
+        Me.tbSipDetay_Deleted.ColumnName = "Deleted"
+        Me.tbSipDetay_Deleted.DataType = GetType(Integer)
         '
-        'mnuUygulama
+        'tbSipDetay_CreatedBy
         '
-        Me.mnuUygulama.Name = "mnuUygulama"
-        Me.mnuUygulama.Size = New System.Drawing.Size(219, 22)
-        Me.mnuUygulama.Text = "Uygulama"
+        Me.tbSipDetay_CreatedBy.ColumnName = "CreatedBy"
+        Me.tbSipDetay_CreatedBy.DataType = GetType(Integer)
+        '
+        'tbSipDetay_CreatedDate
+        '
+        Me.tbSipDetay_CreatedDate.ColumnName = "CreatedDate"
+        Me.tbSipDetay_CreatedDate.DataType = GetType(Date)
+        '
+        'tbSipDetay_ModifiedBy
+        '
+        Me.tbSipDetay_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.tbSipDetay_ModifiedBy.DataType = GetType(Integer)
+        '
+        'tbSipDetay_ModifiedDate
+        '
+        Me.tbSipDetay_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.tbSipDetay_ModifiedDate.DataType = GetType(Date)
+        '
+        'tbSipDetay_SiparisID
+        '
+        Me.tbSipDetay_SiparisID.ColumnName = "SiparisID"
+        Me.tbSipDetay_SiparisID.DataType = GetType(Integer)
+        '
+        'tbSipDetay_StokKod
+        '
+        Me.tbSipDetay_StokKod.ColumnName = "StokKod"
+        '
+        'tbSipDetay_StokRecNo
+        '
+        Me.tbSipDetay_StokRecNo.ColumnName = "StokRecNo"
+        Me.tbSipDetay_StokRecNo.DataType = GetType(Integer)
+        '
+        'tbSipDetay_SiparisAciklama
+        '
+        Me.tbSipDetay_SiparisAciklama.ColumnName = "SiparisAciklama"
+        '
+        'tbSipDetay_OkulID
+        '
+        Me.tbSipDetay_OkulID.ColumnName = "OkulID"
+        Me.tbSipDetay_OkulID.DataType = GetType(Integer)
+        '
+        'tbSipDetay_BolumKod
+        '
+        Me.tbSipDetay_BolumKod.ColumnName = "BolumKod"
+        '
+        'tbSipDetay_KategoriID
+        '
+        Me.tbSipDetay_KategoriID.ColumnName = "KategoriID"
+        Me.tbSipDetay_KategoriID.DataType = GetType(Integer)
+        '
+        'tbSipDetay_Miktar
+        '
+        Me.tbSipDetay_Miktar.ColumnName = "Miktar"
+        Me.tbSipDetay_Miktar.DataType = GetType(Double)
+        '
+        'tbSipDetay_Maliyet
+        '
+        Me.tbSipDetay_Maliyet.ColumnName = "Maliyet"
+        Me.tbSipDetay_Maliyet.DataType = GetType(Double)
+        '
+        'tbSipDetay_Fiyat
+        '
+        Me.tbSipDetay_Fiyat.ColumnName = "Fiyat"
+        Me.tbSipDetay_Fiyat.DataType = GetType(Double)
+        '
+        'tbSipDetay_Tutar
+        '
+        Me.tbSipDetay_Tutar.ColumnName = "Tutar"
+        Me.tbSipDetay_Tutar.DataType = GetType(Double)
+        '
+        'tbSipDetay_Tarih
+        '
+        Me.tbSipDetay_Tarih.ColumnName = "Tarih"
+        Me.tbSipDetay_Tarih.DataType = GetType(Date)
+        '
+        'tbSipDetay_TerminTarihi
+        '
+        Me.tbSipDetay_TerminTarihi.ColumnName = "TerminTarihi"
+        Me.tbSipDetay_TerminTarihi.DataType = GetType(Date)
+        '
+        'tbSipDetay_MusteriSipNo
+        '
+        Me.tbSipDetay_MusteriSipNo.ColumnName = "MusteriSipNo"
+        '
+        'tbSipDetay_SiparisiAlan
+        '
+        Me.tbSipDetay_SiparisiAlan.ColumnName = "SiparisiAlan"
+        '
+        'tbSipDetay_Iptal
+        '
+        Me.tbSipDetay_Iptal.ColumnName = "Iptal"
+        Me.tbSipDetay_Iptal.DataType = GetType(Integer)
+        '
+        'tbSipDetay_Resim1
+        '
+        Me.tbSipDetay_Resim1.ColumnName = "Resim1"
+        Me.tbSipDetay_Resim1.DataType = GetType(Byte())
+        '
+        'tbSipDetay_Resim2
+        '
+        Me.tbSipDetay_Resim2.ColumnName = "Resim2"
+        Me.tbSipDetay_Resim2.DataType = GetType(Byte())
+        '
+        'tbSipDetay_Resim3
+        '
+        Me.tbSipDetay_Resim3.ColumnName = "Resim3"
+        Me.tbSipDetay_Resim3.DataType = GetType(Byte())
+        '
+        'tbSipDetay_Resim4
+        '
+        Me.tbSipDetay_Resim4.ColumnName = "Resim4"
+        Me.tbSipDetay_Resim4.DataType = GetType(Byte())
+        '
+        'tbSipDetay_Resim5
+        '
+        Me.tbSipDetay_Resim5.ColumnName = "Resim5"
+        Me.tbSipDetay_Resim5.DataType = GetType(Byte())
+        '
+        'tbSipDetay_StokIsmi
+        '
+        Me.tbSipDetay_StokIsmi.ColumnName = "StokIsmi"
+        '
+        'tbSipDetay_Bagli
+        '
+        Me.tbSipDetay_Bagli.ColumnName = "Bagli"
+        Me.tbSipDetay_Bagli.DataType = GetType(Integer)
+        '
+        'tbSipDetay_BagliSipDetayID
+        '
+        Me.tbSipDetay_BagliSipDetayID.ColumnName = "BagliSipDetayID"
+        Me.tbSipDetay_BagliSipDetayID.DataType = GetType(Integer)
+        '
+        'tbSipDetay_OkulFarki
+        '
+        Me.tbSipDetay_OkulFarki.ColumnName = "OkulFarki"
+        Me.tbSipDetay_OkulFarki.DataType = GetType(Double)
+        '
+        'tbSipDetay_Durumu
+        '
+        Me.tbSipDetay_Durumu.ColumnName = "Durumu"
+        '
+        'tbSipDetay_TeslimMiktar
+        '
+        Me.tbSipDetay_TeslimMiktar.ColumnName = "TeslimMiktar"
+        Me.tbSipDetay_TeslimMiktar.DataType = GetType(Double)
+        '
+        'tbSipDetay_AnaRenk
+        '
+        Me.tbSipDetay_AnaRenk.ColumnName = "AnaRenk"
+        '
+        'tbSipDetay_Bedenler
+        '
+        Me.tbSipDetay_Bedenler.ColumnName = "Bedenler"
+        '
+        'tbSipDetay_bSerbestFiyat
+        '
+        Me.tbSipDetay_bSerbestFiyat.ColumnName = "bSerbestFiyat"
+        Me.tbSipDetay_bSerbestFiyat.DataType = GetType(Integer)
+        '
+        'tbSipDetay_Hazirlanan
+        '
+        Me.tbSipDetay_Hazirlanan.ColumnName = "Hazirlanan"
+        Me.tbSipDetay_Hazirlanan.DataType = GetType(Double)
+        '
+        'tbSipDetay_FasondaMi
+        '
+        Me.tbSipDetay_FasondaMi.ColumnName = "FasondaMi"
+        Me.tbSipDetay_FasondaMi.DataType = GetType(Integer)
+        '
+        'tbSipDetay_FasonFisID
+        '
+        Me.tbSipDetay_FasonFisID.ColumnName = "FasonFisID"
+        Me.tbSipDetay_FasonFisID.DataType = GetType(Integer)
+        '
+        'tbSipDetay_Iskonto
+        '
+        Me.tbSipDetay_Iskonto.ColumnName = "Iskonto"
+        Me.tbSipDetay_Iskonto.DataType = GetType(Double)
+        '
+        'tbSipDetay_NakitIskonto
+        '
+        Me.tbSipDetay_NakitIskonto.ColumnName = "NakitIskonto"
+        Me.tbSipDetay_NakitIskonto.DataType = GetType(Double)
+        '
+        'tbSipDetay_IskontoTutar
+        '
+        Me.tbSipDetay_IskontoTutar.ColumnName = "IskontoTutar"
+        Me.tbSipDetay_IskontoTutar.DataType = GetType(Double)
+        '
+        'tbSipDetay_NakitIskontoTutar
+        '
+        Me.tbSipDetay_NakitIskontoTutar.ColumnName = "NakitIskontoTutar"
+        Me.tbSipDetay_NakitIskontoTutar.DataType = GetType(Double)
+        '
+        'tbSipDetay_sip_Guid
+        '
+        Me.tbSipDetay_sip_Guid.ColumnName = "sip_Guid"
+        Me.tbSipDetay_sip_Guid.DataType = GetType(System.Guid)
+        '
+        'tbSipDetay_BoyahaneID
+        '
+        Me.tbSipDetay_BoyahaneID.ColumnName = "BoyahaneID"
+        Me.tbSipDetay_BoyahaneID.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_BedenNo
+        '
+        Me.tbSipDetayFiyatlar_BedenNo.ColumnName = "BedenNo"
+        Me.tbSipDetayFiyatlar_BedenNo.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_SipDetayFiyatAdetID
+        '
+        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.AllowDBNull = False
+        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.AutoIncrement = True
+        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.ColumnName = "SipDetayFiyatAdetID"
+        Me.tbSipDetayFiyatlar_SipDetayFiyatAdetID.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_Deleted
+        '
+        Me.tbSipDetayFiyatlar_Deleted.ColumnName = "Deleted"
+        Me.tbSipDetayFiyatlar_Deleted.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_CreatedBy
+        '
+        Me.tbSipDetayFiyatlar_CreatedBy.ColumnName = "CreatedBy"
+        Me.tbSipDetayFiyatlar_CreatedBy.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_CreatedDate
+        '
+        Me.tbSipDetayFiyatlar_CreatedDate.ColumnName = "CreatedDate"
+        Me.tbSipDetayFiyatlar_CreatedDate.DataType = GetType(Date)
+        '
+        'tbSipDetayFiyatlar_ModifiedBy
+        '
+        Me.tbSipDetayFiyatlar_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.tbSipDetayFiyatlar_ModifiedBy.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_ModifiedDate
+        '
+        Me.tbSipDetayFiyatlar_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.tbSipDetayFiyatlar_ModifiedDate.DataType = GetType(Date)
+        '
+        'tbSipDetayFiyatlar_SipDetayID
+        '
+        Me.tbSipDetayFiyatlar_SipDetayID.ColumnName = "SipDetayID"
+        Me.tbSipDetayFiyatlar_SipDetayID.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_BedenKod
+        '
+        Me.tbSipDetayFiyatlar_BedenKod.ColumnName = "BedenKod"
+        '
+        'tbSipDetayFiyatlar_BazFiyat
+        '
+        Me.tbSipDetayFiyatlar_BazFiyat.ColumnName = "BazFiyat"
+        Me.tbSipDetayFiyatlar_BazFiyat.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_BrutFiyat
+        '
+        Me.tbSipDetayFiyatlar_BrutFiyat.ColumnName = "BrutFiyat"
+        Me.tbSipDetayFiyatlar_BrutFiyat.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_Iskonto
+        '
+        Me.tbSipDetayFiyatlar_Iskonto.ColumnName = "Iskonto"
+        Me.tbSipDetayFiyatlar_Iskonto.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_NakitIskonto
+        '
+        Me.tbSipDetayFiyatlar_NakitIskonto.ColumnName = "NakitIskonto"
+        Me.tbSipDetayFiyatlar_NakitIskonto.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_NetFiyat
+        '
+        Me.tbSipDetayFiyatlar_NetFiyat.ColumnName = "NetFiyat"
+        Me.tbSipDetayFiyatlar_NetFiyat.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_Miktar
+        '
+        Me.tbSipDetayFiyatlar_Miktar.ColumnName = "Miktar"
+        Me.tbSipDetayFiyatlar_Miktar.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_Tutar
+        '
+        Me.tbSipDetayFiyatlar_Tutar.ColumnName = "Tutar"
+        Me.tbSipDetayFiyatlar_Tutar.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_KategoriFiyatID
+        '
+        Me.tbSipDetayFiyatlar_KategoriFiyatID.ColumnName = "KategoriFiyatID"
+        Me.tbSipDetayFiyatlar_KategoriFiyatID.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_DetayAciklama
+        '
+        Me.tbSipDetayFiyatlar_DetayAciklama.ColumnName = "DetayAciklama"
+        '
+        'tbSipDetayFiyatlar_RenkKod
+        '
+        Me.tbSipDetayFiyatlar_RenkKod.ColumnName = "RenkKod"
+        '
+        'tbSipDetayFiyatlar_BdnHarNo
+        '
+        Me.tbSipDetayFiyatlar_BdnHarNo.ColumnName = "BdnHarNo"
+        Me.tbSipDetayFiyatlar_BdnHarNo.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_TeslimMiktar
+        '
+        Me.tbSipDetayFiyatlar_TeslimMiktar.ColumnName = "TeslimMiktar"
+        Me.tbSipDetayFiyatlar_TeslimMiktar.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_sip_RECno
+        '
+        Me.tbSipDetayFiyatlar_sip_RECno.ColumnName = "sip_RECno"
+        Me.tbSipDetayFiyatlar_sip_RECno.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_sip_evrakno_seri
+        '
+        Me.tbSipDetayFiyatlar_sip_evrakno_seri.ColumnName = "sip_evrakno_seri"
+        '
+        'tbSipDetayFiyatlar_sip_evrakno_sira
+        '
+        Me.tbSipDetayFiyatlar_sip_evrakno_sira.ColumnName = "sip_evrakno_sira"
+        Me.tbSipDetayFiyatlar_sip_evrakno_sira.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_sip_satirno
+        '
+        Me.tbSipDetayFiyatlar_sip_satirno.ColumnName = "sip_satirno"
+        Me.tbSipDetayFiyatlar_sip_satirno.DataType = GetType(Integer)
+        '
+        'tbSipDetayFiyatlar_Hazirlanan
+        '
+        Me.tbSipDetayFiyatlar_Hazirlanan.ColumnName = "Hazirlanan"
+        Me.tbSipDetayFiyatlar_Hazirlanan.DataType = GetType(Double)
+        '
+        'tbSipDetayFiyatlar_sip_Guid
+        '
+        Me.tbSipDetayFiyatlar_sip_Guid.ColumnName = "sip_Guid"
+        Me.tbSipDetayFiyatlar_sip_Guid.DataType = GetType(System.Guid)
         '
         'frmKategoriler
         '
@@ -3082,7 +3092,6 @@ Partial Class frmKategoriler
         CType(Me.tbSipDetayEkFiyatlar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelLeft.ResumeLayout(False)
-        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -3348,6 +3357,14 @@ Partial Class frmKategoriler
     Friend WithEvents chkKategori_KendiFiyatBeden As CheckBox
     Friend WithEvents chkKategori_KendiMasraf As CheckBox
     Friend WithEvents CntUrunAgaci1 As cntUrunAgaci
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents ToolStripMenuItem5 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem6 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem7 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents mnuOzellikSecimSayfasi As ToolStripMenuItem
+    Friend WithEvents mnuBedenlerFiyatlarMasraflar As ToolStripMenuItem
+    Friend WithEvents mnuUygulama As ToolStripMenuItem
     Friend WithEvents tbSipDetay_SipDetayID As DataColumn
     Friend WithEvents tbSipDetay_Deleted As DataColumn
     Friend WithEvents tbSipDetay_CreatedBy As DataColumn
@@ -3391,10 +3408,8 @@ Partial Class frmKategoriler
     Friend WithEvents tbSipDetay_NakitIskonto As DataColumn
     Friend WithEvents tbSipDetay_IskontoTutar As DataColumn
     Friend WithEvents tbSipDetay_NakitIskontoTutar As DataColumn
-    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
-    Friend WithEvents ToolStripMenuItem5 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem6 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem7 As ToolStripMenuItem
+    Friend WithEvents tbSipDetay_sip_Guid As DataColumn
+    Friend WithEvents tbSipDetay_BoyahaneID As DataColumn
     Friend WithEvents tbSipDetayFiyatlar_BedenNo As DataColumn
     Friend WithEvents tbSipDetayFiyatlar_SipDetayFiyatAdetID As DataColumn
     Friend WithEvents tbSipDetayFiyatlar_Deleted As DataColumn
@@ -3422,8 +3437,4 @@ Partial Class frmKategoriler
     Friend WithEvents tbSipDetayFiyatlar_sip_satirno As DataColumn
     Friend WithEvents tbSipDetayFiyatlar_Hazirlanan As DataColumn
     Friend WithEvents tbSipDetayFiyatlar_sip_Guid As DataColumn
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents mnuOzellikSecimSayfasi As ToolStripMenuItem
-    Friend WithEvents mnuBedenlerFiyatlarMasraflar As ToolStripMenuItem
-    Friend WithEvents mnuUygulama As ToolStripMenuItem
 End Class

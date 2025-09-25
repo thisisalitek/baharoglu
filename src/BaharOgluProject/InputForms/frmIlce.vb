@@ -1,4 +1,4 @@
-﻿Public Class frmIlce
+Public Class frmIlce
 
     Private Sub IlIDLookUpEdit_KeyDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles IlIDLookUpEdit.KeyDown
         Try

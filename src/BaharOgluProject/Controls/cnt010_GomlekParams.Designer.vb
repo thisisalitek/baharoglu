@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt010_GomlekParams
     Inherits ProbarSiparis.BaseControl
 
@@ -67,6 +67,15 @@ Partial Class cnt010_GomlekParams
         Me.SqlCommand33 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand35 = New System.Data.SqlClient.SqlCommand()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
+        Me.SqlCommand32 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlCommand30 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlCommand29 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlCommand31 = New System.Data.SqlClient.SqlCommand()
+        Me.CheckEdit14 = New DevExpress.XtraEditors.CheckEdit()
+        Me.RadioGroup1 = New DevExpress.XtraEditors.RadioGroup()
+        Me.CheckEdit2 = New DevExpress.XtraEditors.CheckEdit()
+        Me.CheckEdit3 = New DevExpress.XtraEditors.CheckEdit()
+        Me.RadioGroup2 = New DevExpress.XtraEditors.RadioGroup()
         Me.NeoTable2_nID = New System.Data.DataColumn()
         Me.NeoTable2_Deleted = New System.Data.DataColumn()
         Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
@@ -79,15 +88,6 @@ Partial Class cnt010_GomlekParams
         Me.NeoTable2_Pensli = New System.Data.DataColumn()
         Me.NeoTable2_Yaka = New System.Data.DataColumn()
         Me.NeoTable2_Cepli = New System.Data.DataColumn()
-        Me.SqlCommand32 = New System.Data.SqlClient.SqlCommand()
-        Me.SqlCommand30 = New System.Data.SqlClient.SqlCommand()
-        Me.SqlCommand29 = New System.Data.SqlClient.SqlCommand()
-        Me.SqlCommand31 = New System.Data.SqlClient.SqlCommand()
-        Me.CheckEdit14 = New DevExpress.XtraEditors.CheckEdit()
-        Me.RadioGroup1 = New DevExpress.XtraEditors.RadioGroup()
-        Me.CheckEdit2 = New DevExpress.XtraEditors.CheckEdit()
-        Me.CheckEdit3 = New DevExpress.XtraEditors.CheckEdit()
-        Me.RadioGroup2 = New DevExpress.XtraEditors.RadioGroup()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -111,48 +111,48 @@ Partial Class cnt010_GomlekParams
         '
         'lblCaption
         '
-        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
-        Me.lblCaption.Margin = New System.Windows.Forms.Padding(5)
-        Me.lblCaption.Size = New System.Drawing.Size(19, 28)
+        Me.lblCaption.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblCaption.Size = New System.Drawing.Size(0, 22)
         Me.lblCaption.Text = "Pens"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(4, 36)
-        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
-        Me.XtraTabControl1.Size = New System.Drawing.Size(152, 150)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(3, 29)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(84, 93)
         '
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.CheckEdit2)
         Me.XtraTabPage1.Controls.Add(Me.RadioGroup1)
         Me.XtraTabPage1.Controls.Add(Me.CheckEdit1)
-        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(5)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(146, 119)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(78, 65)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.CheckEdit3)
         Me.XtraTabPage2.Controls.Add(Me.RadioGroup2)
         Me.XtraTabPage2.Controls.Add(Me.CheckEdit14)
-        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(5)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(146, 119)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(78, 65)
         '
         'panelCaption
         '
-        Me.panelCaption.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
-        Me.panelCaption.Size = New System.Drawing.Size(152, 32)
+        Me.panelCaption.Location = New System.Drawing.Point(3, 3)
+        Me.panelCaption.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.panelCaption.Size = New System.Drawing.Size(84, 26)
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(73, 2)
-        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(5)
+        Me.chkSecmeli.Location = New System.Drawing.Point(24, 2)
+        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkSecmeli.Visible = False
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(21, 2)
-        Me.chkVar.Margin = New System.Windows.Forms.Padding(5)
+        Me.chkVar.Location = New System.Drawing.Point(-15, 2)
+        Me.chkVar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         '
         'NeoTable1
         '
@@ -232,7 +232,7 @@ Partial Class cnt010_GomlekParams
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_010_GomlekParams SET Deleted = nID  , ModifiedBy = @Modified" & _
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_010_GomlekParams SET Deleted = nID  , ModifiedBy = @Modified" &
     "By , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
@@ -258,10 +258,9 @@ Partial Class cnt010_GomlekParams
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(408, 223)
-        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextEdit2.Location = New System.Drawing.Point(306, 181)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(63, 22)
+        Me.TextEdit2.Size = New System.Drawing.Size(47, 20)
         Me.TextEdit2.TabIndex = 5
         '
         'SqlCommand20
@@ -270,7 +269,9 @@ Partial Class cnt010_GomlekParams
         '
         'SqlCommand18
         '
-        Me.SqlCommand18.CommandText = resources.GetString("SqlCommand18.CommandText")
+        Me.SqlCommand18.CommandText = "INSERT INTO SipDetayParam_051_Tip (" & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID , SourceID , KategoriParamID " &
+    ", Tip)" & Global.Microsoft.VisualBasic.ChrW(10) & " VALUES (" & Global.Microsoft.VisualBasic.ChrW(10) & "@SipDetayParamID , @SourceID , @KategoriParamID , @Tip)" & Global.Microsoft.VisualBasic.ChrW(10) & "SELECT " &
+    "@PRIMARYFIELD_nID = SCOPE_IDENTITY() " & Global.Microsoft.VisualBasic.ChrW(10)
         Me.SqlCommand18.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
         '
         'SqlCommand17
@@ -279,7 +280,7 @@ Partial Class cnt010_GomlekParams
         '
         'SqlCommand19
         '
-        Me.SqlCommand19.CommandText = "UPDATE SipDetayParam_051_Tip SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , SourceID " & _
+        Me.SqlCommand19.CommandText = "UPDATE SipDetayParam_051_Tip SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , SourceID " &
     "= @SourceID , KategoriParamID = @KategoriParamID , Tip = @Tip" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
         '
         'SqlCommand13
@@ -301,8 +302,8 @@ Partial Class cnt010_GomlekParams
         '
         'SqlCommand23
         '
-        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" & _
-    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" & _
+        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" &
+    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" &
     "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
         '
         'SqlCommand25
@@ -312,19 +313,18 @@ Partial Class cnt010_GomlekParams
         'CheckEdit1
         '
         Me.CheckEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "Pensli", True))
-        Me.CheckEdit1.Location = New System.Drawing.Point(4, 4)
-        Me.CheckEdit1.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckEdit1.Location = New System.Drawing.Point(3, 3)
         Me.CheckEdit1.Name = "CheckEdit1"
         Me.CheckEdit1.Properties.Caption = "Pensli?"
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
-        Me.CheckEdit1.Size = New System.Drawing.Size(128, 21)
+        Me.CheckEdit1.Size = New System.Drawing.Size(96, 19)
         Me.CheckEdit1.TabIndex = 3
         '
         'SqlCommand36
         '
-        Me.SqlCommand36.CommandText = "UPDATE Fason SET Deleted = FasonID  , ModifiedBy = @ModifiedBy , ModifiedDate = G" & _
+        Me.SqlCommand36.CommandText = "UPDATE Fason SET Deleted = FasonID  , ModifiedBy = @ModifiedBy , ModifiedDate = G" &
     "ETDATE()   WHERE FasonID = @FasonID"
         '
         'SqlCommand34
@@ -338,8 +338,8 @@ Partial Class cnt010_GomlekParams
         '
         'SqlCommand35
         '
-        Me.SqlCommand35.CommandText = "UPDATE Fason SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate =" & _
-    " GETDATE() , FasonAciklama = @FasonAciklama , Fiyat = @Fiyat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " , BedenFark = @Be" & _
+        Me.SqlCommand35.CommandText = "UPDATE Fason SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate =" &
+    " GETDATE() , FasonAciklama = @FasonAciklama , Fiyat = @Fiyat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " , BedenFark = @Be" &
     "denFark" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE FasonID = @FasonID"
         '
         'NeoTable2
@@ -365,6 +365,79 @@ Partial Class cnt010_GomlekParams
         Me.NeoTable2.TableName = "NeoTable2"
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand31
+        '
+        'SqlCommand32
+        '
+        Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_010_GomlekParams SET Deleted = nID  , ModifiedBy = @Modified" &
+    "By , ModifiedDate = GETDATE()   WHERE nID = @nID"
+        '
+        'SqlCommand30
+        '
+        Me.SqlCommand30.CommandText = resources.GetString("SqlCommand30.CommandText")
+        '
+        'SqlCommand29
+        '
+        Me.SqlCommand29.CommandText = "SELECT * FROM SipDetayParam_010_GomlekParams" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 "
+        '
+        'SqlCommand31
+        '
+        Me.SqlCommand31.CommandText = resources.GetString("SqlCommand31.CommandText")
+        '
+        'CheckEdit14
+        '
+        Me.CheckEdit14.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Pensli", True))
+        Me.CheckEdit14.Location = New System.Drawing.Point(3, 3)
+        Me.CheckEdit14.Name = "CheckEdit14"
+        Me.CheckEdit14.Properties.Caption = "Pensli?"
+        Me.CheckEdit14.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
+        Me.CheckEdit14.Properties.ValueChecked = 1
+        Me.CheckEdit14.Properties.ValueUnchecked = 0
+        Me.CheckEdit14.Size = New System.Drawing.Size(94, 19)
+        Me.CheckEdit14.TabIndex = 13
+        '
+        'RadioGroup1
+        '
+        Me.RadioGroup1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "Yaka", True))
+        Me.RadioGroup1.Location = New System.Drawing.Point(3, 23)
+        Me.RadioGroup1.Name = "RadioGroup1"
+        Me.RadioGroup1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Dik Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Bebe Yaka")})
+        Me.RadioGroup1.Size = New System.Drawing.Size(87, 45)
+        Me.RadioGroup1.TabIndex = 4
+        '
+        'CheckEdit2
+        '
+        Me.CheckEdit2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "Cepli", True))
+        Me.CheckEdit2.Location = New System.Drawing.Point(3, 72)
+        Me.CheckEdit2.Name = "CheckEdit2"
+        Me.CheckEdit2.Properties.Caption = "Cepli?"
+        Me.CheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
+        Me.CheckEdit2.Properties.ValueChecked = 1
+        Me.CheckEdit2.Properties.ValueUnchecked = 0
+        Me.CheckEdit2.Size = New System.Drawing.Size(96, 19)
+        Me.CheckEdit2.TabIndex = 5
+        '
+        'CheckEdit3
+        '
+        Me.CheckEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Cepli", True))
+        Me.CheckEdit3.Location = New System.Drawing.Point(3, 72)
+        Me.CheckEdit3.Name = "CheckEdit3"
+        Me.CheckEdit3.Properties.Caption = "Cepli?"
+        Me.CheckEdit3.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
+        Me.CheckEdit3.Properties.ValueChecked = 1
+        Me.CheckEdit3.Properties.ValueUnchecked = 0
+        Me.CheckEdit3.Size = New System.Drawing.Size(96, 19)
+        Me.CheckEdit3.TabIndex = 15
+        '
+        'RadioGroup2
+        '
+        Me.RadioGroup2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Yaka", True))
+        Me.RadioGroup2.Location = New System.Drawing.Point(3, 23)
+        Me.RadioGroup2.Name = "RadioGroup2"
+        Me.RadioGroup2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Dik Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Bebe Yaka")})
+        Me.RadioGroup2.Size = New System.Drawing.Size(87, 45)
+        Me.RadioGroup2.TabIndex = 14
         '
         'NeoTable2_nID
         '
@@ -428,93 +501,15 @@ Partial Class cnt010_GomlekParams
         Me.NeoTable2_Cepli.ColumnName = "Cepli"
         Me.NeoTable2_Cepli.DataType = GetType(Integer)
         '
-        'SqlCommand32
-        '
-        Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_010_GomlekParams SET Deleted = nID  , ModifiedBy = @Modified" & _
-    "By , ModifiedDate = GETDATE()   WHERE nID = @nID"
-        '
-        'SqlCommand30
-        '
-        Me.SqlCommand30.CommandText = resources.GetString("SqlCommand30.CommandText")
-        '
-        'SqlCommand29
-        '
-        Me.SqlCommand29.CommandText = "SELECT * FROM SipDetayParam_010_GomlekParams" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 "
-        '
-        'SqlCommand31
-        '
-        Me.SqlCommand31.CommandText = resources.GetString("SqlCommand31.CommandText")
-        '
-        'CheckEdit14
-        '
-        Me.CheckEdit14.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Pensli", True))
-        Me.CheckEdit14.Location = New System.Drawing.Point(4, 4)
-        Me.CheckEdit14.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckEdit14.Name = "CheckEdit14"
-        Me.CheckEdit14.Properties.Caption = "Pensli?"
-        Me.CheckEdit14.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.CheckEdit14.Properties.ValueChecked = 1
-        Me.CheckEdit14.Properties.ValueUnchecked = 0
-        Me.CheckEdit14.Size = New System.Drawing.Size(125, 21)
-        Me.CheckEdit14.TabIndex = 13
-        '
-        'RadioGroup1
-        '
-        Me.RadioGroup1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "Yaka", True))
-        Me.RadioGroup1.Location = New System.Drawing.Point(4, 28)
-        Me.RadioGroup1.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Dik Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Bebe Yaka")})
-        Me.RadioGroup1.Size = New System.Drawing.Size(116, 55)
-        Me.RadioGroup1.TabIndex = 4
-        '
-        'CheckEdit2
-        '
-        Me.CheckEdit2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "Cepli", True))
-        Me.CheckEdit2.Location = New System.Drawing.Point(4, 89)
-        Me.CheckEdit2.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckEdit2.Name = "CheckEdit2"
-        Me.CheckEdit2.Properties.Caption = "Cepli?"
-        Me.CheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.CheckEdit2.Properties.ValueChecked = 1
-        Me.CheckEdit2.Properties.ValueUnchecked = 0
-        Me.CheckEdit2.Size = New System.Drawing.Size(128, 21)
-        Me.CheckEdit2.TabIndex = 5
-        '
-        'CheckEdit3
-        '
-        Me.CheckEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Cepli", True))
-        Me.CheckEdit3.Location = New System.Drawing.Point(4, 89)
-        Me.CheckEdit3.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckEdit3.Name = "CheckEdit3"
-        Me.CheckEdit3.Properties.Caption = "Cepli?"
-        Me.CheckEdit3.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.CheckEdit3.Properties.ValueChecked = 1
-        Me.CheckEdit3.Properties.ValueUnchecked = 0
-        Me.CheckEdit3.Size = New System.Drawing.Size(128, 21)
-        Me.CheckEdit3.TabIndex = 15
-        '
-        'RadioGroup2
-        '
-        Me.RadioGroup2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Yaka", True))
-        Me.RadioGroup2.Location = New System.Drawing.Point(4, 28)
-        Me.RadioGroup2.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioGroup2.Name = "RadioGroup2"
-        Me.RadioGroup2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
-        Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Dik Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Bebe Yaka")})
-        Me.RadioGroup2.Size = New System.Drawing.Size(116, 55)
-        Me.RadioGroup2.TabIndex = 14
-        '
         'cnt010_GomlekParams
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Caption = "Pens"
         Me.Code = "010"
         Me.Controls.Add(Me.TextEdit2)
-        Me.Margin = New System.Windows.Forms.Padding(5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "cnt010_GomlekParams"
-        Me.Size = New System.Drawing.Size(160, 190)
+        Me.Size = New System.Drawing.Size(120, 154)
         Me.Controls.SetChildIndex(Me.TextEdit2, 0)
         Me.Controls.SetChildIndex(Me.XtraTabControl1, 0)
         Me.Controls.SetChildIndex(Me.panelCaption, 0)
@@ -595,18 +590,17 @@ Partial Class cnt010_GomlekParams
     Friend WithEvents CheckEdit2 As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents RadioGroup1 As DevExpress.XtraEditors.RadioGroup
     Friend WithEvents CheckEdit3 As DevExpress.XtraEditors.CheckEdit
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Pensli As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Yaka As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Cepli As System.Data.DataColumn
     Friend WithEvents RadioGroup2 As DevExpress.XtraEditors.RadioGroup
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_Pensli As DataColumn
+    Friend WithEvents NeoTable2_Yaka As DataColumn
+    Friend WithEvents NeoTable2_Cepli As DataColumn
 End Class

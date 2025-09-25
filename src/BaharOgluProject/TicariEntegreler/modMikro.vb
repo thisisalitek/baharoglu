@@ -1,4 +1,4 @@
-﻿Module modMikro
+Module modMikro
     Public Function GetCariBakiye(ByVal conn As SqlClient.SqlConnection, ByVal CariKod As String) As Double
         Try
             Dim cmd As New SqlClient.SqlCommand

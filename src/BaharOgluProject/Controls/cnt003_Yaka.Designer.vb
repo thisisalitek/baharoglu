@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt003_Yaka
     Inherits ProbarSiparis.BaseControl
 
@@ -23,15 +23,6 @@ Partial Class cnt003_Yaka
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(cnt003_Yaka))
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.NeoTable1 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable1_nID = New System.Data.DataColumn()
-        Me.NeoTable1_Deleted = New System.Data.DataColumn()
-        Me.NeoTable1_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable1_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable1_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable1_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable1_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable1_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable1_RKafa = New System.Data.DataColumn()
         Me.SqlCommand4 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand2 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand1 = New System.Data.SqlClient.SqlCommand()
@@ -71,19 +62,6 @@ Partial Class cnt003_Yaka
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.GridControl2 = New DevExpress.XtraGrid.GridControl()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_RKafa = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiRKafaID = New System.Data.DataColumn()
         Me.SqlCommand20 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand18 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand17 = New System.Data.SqlClient.SqlCommand()
@@ -122,6 +100,53 @@ Partial Class cnt003_Yaka
         Me.SqlCommand22 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand21 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand23 = New System.Data.SqlClient.SqlCommand()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_RKafa = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiRKafaID = New System.Data.DataColumn()
+        Me.NeoTable1_nID = New System.Data.DataColumn()
+        Me.NeoTable1_Deleted = New System.Data.DataColumn()
+        Me.NeoTable1_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable1_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable1_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable1_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable1_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable1_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable1_RKafa = New System.Data.DataColumn()
+        Me.MasterTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.MasterTable2_Deleted = New System.Data.DataColumn()
+        Me.MasterTable2_CreatedBy = New System.Data.DataColumn()
+        Me.MasterTable2_CreatedDate = New System.Data.DataColumn()
+        Me.MasterTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.MasterTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.MasterTable2_SipDetayID = New System.Data.DataColumn()
+        Me.MasterTable2_ParamType = New System.Data.DataColumn()
+        Me.MasterTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.MasterTable2_HammaddeID = New System.Data.DataColumn()
+        Me.MasterTable2_Tur = New System.Data.DataColumn()
+        Me.MasterTable2_TurArtis = New System.Data.DataColumn()
+        Me.MasterTable2_BelTur = New System.Data.DataColumn()
+        Me.MasterTable2_BelTurArtis = New System.Data.DataColumn()
+        Me.MasterTable2_KolTur = New System.Data.DataColumn()
+        Me.MasterTable2_KolTurArtis = New System.Data.DataColumn()
+        Me.MasterTable2_RenkID = New System.Data.DataColumn()
+        Me.MasterTable2_CizgiSayisi = New System.Data.DataColumn()
+        Me.MasterTable2_IntParam1 = New System.Data.DataColumn()
+        Me.MasterTable2_RenkID2 = New System.Data.DataColumn()
+        Me.MasterTable2_CizgiSayisi2 = New System.Data.DataColumn()
+        Me.MasterTable2_bVar = New System.Data.DataColumn()
+        Me.MasterTable2_IntParam2 = New System.Data.DataColumn()
+        Me.MasterTable2_IntParam3 = New System.Data.DataColumn()
+        Me.MasterTable2_CharParam1 = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -158,25 +183,24 @@ Partial Class cnt003_Yaka
         '
         'lblCaption
         '
-        Me.lblCaption.Size = New System.Drawing.Size(221, 17)
+        Me.lblCaption.Size = New System.Drawing.Size(225, 22)
         Me.lblCaption.Text = "Yaka"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
         Me.XtraTabControl1.Size = New System.Drawing.Size(326, 204)
         '
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.GridControl1)
         Me.XtraTabPage1.Controls.Add(Me.PanelControl1)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(318, 176)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(320, 176)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(318, 176)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(320, 176)
         '
         'MasterTable
         '
@@ -187,11 +211,17 @@ Partial Class cnt003_Yaka
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(264, 4)
+        Me.chkSecmeli.Location = New System.Drawing.Point(266, 2)
+        '
+        'MasterTable2
+        '
+        Me.MasterTable2.Columns.AddRange(New System.Data.DataColumn() {Me.MasterTable2_SipDetayParamID, Me.MasterTable2_Deleted, Me.MasterTable2_CreatedBy, Me.MasterTable2_CreatedDate, Me.MasterTable2_ModifiedBy, Me.MasterTable2_ModifiedDate, Me.MasterTable2_SipDetayID, Me.MasterTable2_ParamType, Me.MasterTable2_KategoriParamID, Me.MasterTable2_HammaddeID, Me.MasterTable2_Tur, Me.MasterTable2_TurArtis, Me.MasterTable2_BelTur, Me.MasterTable2_BelTurArtis, Me.MasterTable2_KolTur, Me.MasterTable2_KolTurArtis, Me.MasterTable2_RenkID, Me.MasterTable2_CizgiSayisi, Me.MasterTable2_IntParam1, Me.MasterTable2_RenkID2, Me.MasterTable2_CizgiSayisi2, Me.MasterTable2_bVar, Me.MasterTable2_IntParam2, Me.MasterTable2_IntParam3, Me.MasterTable2_CharParam1})
+        Me.MasterTable2.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"SipDetayParamID"}, True)})
+        Me.MasterTable2.PrimaryKey = New System.Data.DataColumn() {Me.MasterTable2_SipDetayParamID}
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(225, 4)
+        Me.chkVar.Location = New System.Drawing.Point(227, 2)
         '
         'GridControl1
         '
@@ -201,7 +231,7 @@ Partial Class cnt003_Yaka
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemComboBox1})
-        Me.GridControl1.Size = New System.Drawing.Size(318, 144)
+        Me.GridControl1.Size = New System.Drawing.Size(320, 144)
         Me.GridControl1.TabIndex = 3
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -229,56 +259,10 @@ Partial Class cnt003_Yaka
         Me.NeoTable1.Transaction = Nothing
         Me.NeoTable1.UpdateCommand = Me.SqlCommand3
         '
-        'NeoTable1_nID
-        '
-        Me.NeoTable1_nID.AllowDBNull = False
-        Me.NeoTable1_nID.AutoIncrement = True
-        Me.NeoTable1_nID.ColumnName = "nID"
-        Me.NeoTable1_nID.DataType = GetType(Integer)
-        '
-        'NeoTable1_Deleted
-        '
-        Me.NeoTable1_Deleted.ColumnName = "Deleted"
-        Me.NeoTable1_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable1_CreatedBy
-        '
-        Me.NeoTable1_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable1_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable1_CreatedDate
-        '
-        Me.NeoTable1_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable1_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable1_ModifiedBy
-        '
-        Me.NeoTable1_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable1_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable1_ModifiedDate
-        '
-        Me.NeoTable1_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable1_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable1_KategoriParamID
-        '
-        Me.NeoTable1_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable1_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable1_CizgiSayisi
-        '
-        Me.NeoTable1_CizgiSayisi.ColumnName = "CizgiSayisi"
-        Me.NeoTable1_CizgiSayisi.DataType = GetType(Integer)
-        '
-        'NeoTable1_RKafa
-        '
-        Me.NeoTable1_RKafa.ColumnName = "RKafa"
-        '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_003_Yaka SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mod" & _
-            "ifiedDate = GETDATE()   WHERE nID = @nID"
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_003_Yaka SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mod" &
+    "ifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
         '
@@ -406,7 +390,7 @@ Partial Class cnt003_Yaka
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PanelControl1.Location = New System.Drawing.Point(0, 144)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(318, 32)
+        Me.PanelControl1.Size = New System.Drawing.Size(320, 32)
         Me.PanelControl1.TabIndex = 4
         '
         'txtTurArtis
@@ -524,7 +508,7 @@ Partial Class cnt003_Yaka
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit2, Me.RepositoryItemLookUpEdit1})
-        Me.GridControl2.Size = New System.Drawing.Size(318, 120)
+        Me.GridControl2.Size = New System.Drawing.Size(320, 120)
         Me.GridControl2.TabIndex = 2
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -552,76 +536,10 @@ Partial Class cnt003_Yaka
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand19
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_CizgiSayisi
-        '
-        Me.NeoTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
-        Me.NeoTable2_CizgiSayisi.DataType = GetType(Integer)
-        '
-        'NeoTable2_RenkID
-        '
-        Me.NeoTable2_RenkID.ColumnName = "RenkID"
-        Me.NeoTable2_RenkID.DataType = GetType(Integer)
-        '
-        'NeoTable2_RKafa
-        '
-        Me.NeoTable2_RKafa.ColumnName = "RKafa"
-        '
-        'NeoTable2_CizgiRKafaID
-        '
-        Me.NeoTable2_CizgiRKafaID.ColumnName = "CizgiRKafaID"
-        Me.NeoTable2_CizgiRKafaID.DataType = GetType(Integer)
-        '
         'SqlCommand20
         '
-        Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_003_Yaka SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mod" & _
-            "ifiedDate = GETDATE()   WHERE nID = @nID"
+        Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_003_Yaka SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mod" &
+    "ifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand18
         '
@@ -804,7 +722,7 @@ Partial Class cnt003_Yaka
         Me.PanelControl2.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl2.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl2.Name = "PanelControl2"
-        Me.PanelControl2.Size = New System.Drawing.Size(318, 56)
+        Me.PanelControl2.Size = New System.Drawing.Size(320, 56)
         Me.PanelControl2.TabIndex = 5
         '
         'cmdRenkKafa
@@ -879,9 +797,246 @@ Partial Class cnt003_Yaka
         '
         'SqlCommand23
         '
-        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" & _
-            "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" & _
-            "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
+        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" &
+    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" &
+    "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
+        '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_CizgiSayisi
+        '
+        Me.NeoTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
+        Me.NeoTable2_CizgiSayisi.DataType = GetType(Integer)
+        '
+        'NeoTable2_RenkID
+        '
+        Me.NeoTable2_RenkID.ColumnName = "RenkID"
+        Me.NeoTable2_RenkID.DataType = GetType(Integer)
+        '
+        'NeoTable2_RKafa
+        '
+        Me.NeoTable2_RKafa.ColumnName = "RKafa"
+        '
+        'NeoTable2_CizgiRKafaID
+        '
+        Me.NeoTable2_CizgiRKafaID.ColumnName = "CizgiRKafaID"
+        Me.NeoTable2_CizgiRKafaID.DataType = GetType(Integer)
+        '
+        'NeoTable1_nID
+        '
+        Me.NeoTable1_nID.AllowDBNull = False
+        Me.NeoTable1_nID.AutoIncrement = True
+        Me.NeoTable1_nID.ColumnName = "nID"
+        Me.NeoTable1_nID.DataType = GetType(Integer)
+        '
+        'NeoTable1_Deleted
+        '
+        Me.NeoTable1_Deleted.ColumnName = "Deleted"
+        Me.NeoTable1_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable1_CreatedBy
+        '
+        Me.NeoTable1_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable1_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable1_CreatedDate
+        '
+        Me.NeoTable1_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable1_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable1_ModifiedBy
+        '
+        Me.NeoTable1_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable1_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable1_ModifiedDate
+        '
+        Me.NeoTable1_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable1_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable1_KategoriParamID
+        '
+        Me.NeoTable1_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable1_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable1_CizgiSayisi
+        '
+        Me.NeoTable1_CizgiSayisi.ColumnName = "CizgiSayisi"
+        Me.NeoTable1_CizgiSayisi.DataType = GetType(Integer)
+        '
+        'NeoTable1_RKafa
+        '
+        Me.NeoTable1_RKafa.ColumnName = "RKafa"
+        '
+        'MasterTable2_SipDetayParamID
+        '
+        Me.MasterTable2_SipDetayParamID.AllowDBNull = False
+        Me.MasterTable2_SipDetayParamID.AutoIncrement = True
+        Me.MasterTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.MasterTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'MasterTable2_Deleted
+        '
+        Me.MasterTable2_Deleted.ColumnName = "Deleted"
+        Me.MasterTable2_Deleted.DataType = GetType(Integer)
+        '
+        'MasterTable2_CreatedBy
+        '
+        Me.MasterTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.MasterTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'MasterTable2_CreatedDate
+        '
+        Me.MasterTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.MasterTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'MasterTable2_ModifiedBy
+        '
+        Me.MasterTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.MasterTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'MasterTable2_ModifiedDate
+        '
+        Me.MasterTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.MasterTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'MasterTable2_SipDetayID
+        '
+        Me.MasterTable2_SipDetayID.ColumnName = "SipDetayID"
+        Me.MasterTable2_SipDetayID.DataType = GetType(Integer)
+        '
+        'MasterTable2_ParamType
+        '
+        Me.MasterTable2_ParamType.ColumnName = "ParamType"
+        '
+        'MasterTable2_KategoriParamID
+        '
+        Me.MasterTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.MasterTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'MasterTable2_HammaddeID
+        '
+        Me.MasterTable2_HammaddeID.ColumnName = "HammaddeID"
+        Me.MasterTable2_HammaddeID.DataType = GetType(Integer)
+        '
+        'MasterTable2_Tur
+        '
+        Me.MasterTable2_Tur.ColumnName = "Tur"
+        Me.MasterTable2_Tur.DataType = GetType(Double)
+        '
+        'MasterTable2_TurArtis
+        '
+        Me.MasterTable2_TurArtis.ColumnName = "TurArtis"
+        Me.MasterTable2_TurArtis.DataType = GetType(Double)
+        '
+        'MasterTable2_BelTur
+        '
+        Me.MasterTable2_BelTur.ColumnName = "BelTur"
+        Me.MasterTable2_BelTur.DataType = GetType(Double)
+        '
+        'MasterTable2_BelTurArtis
+        '
+        Me.MasterTable2_BelTurArtis.ColumnName = "BelTurArtis"
+        Me.MasterTable2_BelTurArtis.DataType = GetType(Double)
+        '
+        'MasterTable2_KolTur
+        '
+        Me.MasterTable2_KolTur.ColumnName = "KolTur"
+        Me.MasterTable2_KolTur.DataType = GetType(Double)
+        '
+        'MasterTable2_KolTurArtis
+        '
+        Me.MasterTable2_KolTurArtis.ColumnName = "KolTurArtis"
+        Me.MasterTable2_KolTurArtis.DataType = GetType(Double)
+        '
+        'MasterTable2_RenkID
+        '
+        Me.MasterTable2_RenkID.ColumnName = "RenkID"
+        Me.MasterTable2_RenkID.DataType = GetType(Integer)
+        '
+        'MasterTable2_CizgiSayisi
+        '
+        Me.MasterTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
+        Me.MasterTable2_CizgiSayisi.DataType = GetType(Integer)
+        '
+        'MasterTable2_IntParam1
+        '
+        Me.MasterTable2_IntParam1.ColumnName = "IntParam1"
+        Me.MasterTable2_IntParam1.DataType = GetType(Integer)
+        '
+        'MasterTable2_RenkID2
+        '
+        Me.MasterTable2_RenkID2.ColumnName = "RenkID2"
+        Me.MasterTable2_RenkID2.DataType = GetType(Integer)
+        '
+        'MasterTable2_CizgiSayisi2
+        '
+        Me.MasterTable2_CizgiSayisi2.ColumnName = "CizgiSayisi2"
+        Me.MasterTable2_CizgiSayisi2.DataType = GetType(Integer)
+        '
+        'MasterTable2_bVar
+        '
+        Me.MasterTable2_bVar.ColumnName = "bVar"
+        Me.MasterTable2_bVar.DataType = GetType(Integer)
+        '
+        'MasterTable2_IntParam2
+        '
+        Me.MasterTable2_IntParam2.ColumnName = "IntParam2"
+        Me.MasterTable2_IntParam2.DataType = GetType(Integer)
+        '
+        'MasterTable2_IntParam3
+        '
+        Me.MasterTable2_IntParam3.ColumnName = "IntParam3"
+        Me.MasterTable2_IntParam3.DataType = GetType(Integer)
+        '
+        'MasterTable2_CharParam1
+        '
+        Me.MasterTable2_CharParam1.ColumnName = "CharParam1"
         '
         'cnt003_Yaka
         '
@@ -1001,28 +1156,6 @@ Partial Class cnt003_Yaka
     Friend WithEvents RepositoryItemComboBox1 As DevExpress.XtraEditors.Repository.RepositoryItemComboBox
     Friend WithEvents colRenkID As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents RepositoryItemLookUpEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
-    Friend WithEvents NeoTable1_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable1_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable1_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable1_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable1_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable1_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable1_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable1_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable1_RKafa As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RKafa As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiRKafaID As System.Data.DataColumn
     Friend WithEvents tbRenk_RenkID As System.Data.DataColumn
     Friend WithEvents tbRenk_Deleted As System.Data.DataColumn
     Friend WithEvents tbRenk_CreatedBy As System.Data.DataColumn
@@ -1033,5 +1166,51 @@ Partial Class cnt003_Yaka
     Friend WithEvents tbRenk_RenkIsmi As System.Data.DataColumn
     Friend WithEvents tbRenk_IntCode As System.Data.DataColumn
     Friend WithEvents tbRenk_Pasif As System.Data.DataColumn
-
+    Friend WithEvents NeoTable1_nID As DataColumn
+    Friend WithEvents NeoTable1_Deleted As DataColumn
+    Friend WithEvents NeoTable1_CreatedBy As DataColumn
+    Friend WithEvents NeoTable1_CreatedDate As DataColumn
+    Friend WithEvents NeoTable1_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable1_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable1_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable1_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable1_RKafa As DataColumn
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_RKafa As DataColumn
+    Friend WithEvents NeoTable2_CizgiRKafaID As DataColumn
+    Friend WithEvents MasterTable2_SipDetayParamID As DataColumn
+    Friend WithEvents MasterTable2_Deleted As DataColumn
+    Friend WithEvents MasterTable2_CreatedBy As DataColumn
+    Friend WithEvents MasterTable2_CreatedDate As DataColumn
+    Friend WithEvents MasterTable2_ModifiedBy As DataColumn
+    Friend WithEvents MasterTable2_ModifiedDate As DataColumn
+    Friend WithEvents MasterTable2_SipDetayID As DataColumn
+    Friend WithEvents MasterTable2_ParamType As DataColumn
+    Friend WithEvents MasterTable2_KategoriParamID As DataColumn
+    Friend WithEvents MasterTable2_HammaddeID As DataColumn
+    Friend WithEvents MasterTable2_Tur As DataColumn
+    Friend WithEvents MasterTable2_TurArtis As DataColumn
+    Friend WithEvents MasterTable2_BelTur As DataColumn
+    Friend WithEvents MasterTable2_BelTurArtis As DataColumn
+    Friend WithEvents MasterTable2_KolTur As DataColumn
+    Friend WithEvents MasterTable2_KolTurArtis As DataColumn
+    Friend WithEvents MasterTable2_RenkID As DataColumn
+    Friend WithEvents MasterTable2_CizgiSayisi As DataColumn
+    Friend WithEvents MasterTable2_IntParam1 As DataColumn
+    Friend WithEvents MasterTable2_RenkID2 As DataColumn
+    Friend WithEvents MasterTable2_CizgiSayisi2 As DataColumn
+    Friend WithEvents MasterTable2_bVar As DataColumn
+    Friend WithEvents MasterTable2_IntParam2 As DataColumn
+    Friend WithEvents MasterTable2_IntParam3 As DataColumn
+    Friend WithEvents MasterTable2_CharParam1 As DataColumn
 End Class

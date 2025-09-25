@@ -1,4 +1,4 @@
-﻿Public Class PiconnLanguage
+Public Class PiconnLanguage
 
     Dim WritingMode As Boolean = False               'normalde false, komponent toplama modunda True olacak
 

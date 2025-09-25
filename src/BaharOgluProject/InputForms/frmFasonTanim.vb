@@ -1,4 +1,4 @@
-﻿Public Class frmFasonTanim
+Public Class frmFasonTanim
 
     Private Sub frmFasonTanim_ButtonSaveBeforeClick(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonSaveBeforeClick
         Try

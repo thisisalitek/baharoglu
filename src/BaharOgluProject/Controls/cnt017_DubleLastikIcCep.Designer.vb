@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt017_DubleLastikIcCep
     Inherits ProbarSiparis.BaseControl
 
@@ -160,7 +160,7 @@ Partial Class cnt017_DubleLastikIcCep
         '
         'lblCaption
         '
-        Me.lblCaption.Size = New System.Drawing.Size(223, 17)
+        Me.lblCaption.Size = New System.Drawing.Size(227, 22)
         Me.lblCaption.Text = "Duble Lastik İç Cep"
         '
         'XtraTabControl1
@@ -171,18 +171,13 @@ Partial Class cnt017_DubleLastikIcCep
         '
         Me.XtraTabPage1.Controls.Add(Me.GridControl1)
         Me.XtraTabPage1.Controls.Add(Me.PanelControl1)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(320, 154)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(322, 154)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(320, 154)
-        '
-        'SqlConn
-        '
-        Me.SqlConn.ConnectionString = "Server=(local)\SqlExpress;Database=ProbarSiparisDB;User ID=sa;Password=;Trusted_C" & _
-    "onnection=True;"
+        Me.XtraTabPage2.Size = New System.Drawing.Size(322, 154)
         '
         'MasterTable
         '
@@ -193,11 +188,11 @@ Partial Class cnt017_DubleLastikIcCep
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(266, 4)
+        Me.chkSecmeli.Location = New System.Drawing.Point(268, 2)
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(227, 4)
+        Me.chkVar.Location = New System.Drawing.Point(229, 2)
         '
         'GridControl1
         '
@@ -207,7 +202,7 @@ Partial Class cnt017_DubleLastikIcCep
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemComboBox1})
-        Me.GridControl1.Size = New System.Drawing.Size(320, 122)
+        Me.GridControl1.Size = New System.Drawing.Size(322, 122)
         Me.GridControl1.TabIndex = 3
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -283,7 +278,7 @@ Partial Class cnt017_DubleLastikIcCep
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_017_DubleLastikIcCep SET Deleted = nID  , ModifiedBy = @Modi" & _
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_017_DubleLastikIcCep SET Deleted = nID  , ModifiedBy = @Modi" &
     "fiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
@@ -436,7 +431,7 @@ Partial Class cnt017_DubleLastikIcCep
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PanelControl1.Location = New System.Drawing.Point(0, 122)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(320, 32)
+        Me.PanelControl1.Size = New System.Drawing.Size(322, 32)
         Me.PanelControl1.TabIndex = 4
         '
         'txtTurArtis
@@ -554,7 +549,7 @@ Partial Class cnt017_DubleLastikIcCep
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit2, Me.RepositoryItemLookUpEdit1})
-        Me.GridControl2.Size = New System.Drawing.Size(320, 104)
+        Me.GridControl2.Size = New System.Drawing.Size(322, 104)
         Me.GridControl2.TabIndex = 6
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -584,7 +579,7 @@ Partial Class cnt017_DubleLastikIcCep
         '
         'SqlCommand20
         '
-        Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_017_DubleLastikIcCep SET Deleted = nID  , ModifiedBy = @Modi" & _
+        Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_017_DubleLastikIcCep SET Deleted = nID  , ModifiedBy = @Modi" &
     "fiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand18
@@ -594,7 +589,7 @@ Partial Class cnt017_DubleLastikIcCep
         '
         'SqlCommand17
         '
-        Me.SqlCommand17.CommandText = "SELECT     *" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         SipDetayParam_017_DubleLastikIcCep" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & _
+        Me.SqlCommand17.CommandText = "SELECT     *" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         SipDetayParam_017_DubleLastikIcCep" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " &
     ""
         '
         'SqlCommand19
@@ -744,7 +739,7 @@ Partial Class cnt017_DubleLastikIcCep
         Me.PanelControl2.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl2.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl2.Name = "PanelControl2"
-        Me.PanelControl2.Size = New System.Drawing.Size(320, 50)
+        Me.PanelControl2.Size = New System.Drawing.Size(322, 50)
         Me.PanelControl2.TabIndex = 5
         '
         'CheckEdit1
@@ -757,7 +752,7 @@ Partial Class cnt017_DubleLastikIcCep
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
-        Me.CheckEdit1.Size = New System.Drawing.Size(112, 18)
+        Me.CheckEdit1.Size = New System.Drawing.Size(112, 19)
         Me.CheckEdit1.TabIndex = 6
         '
         'cmdRenkKafa
@@ -832,8 +827,8 @@ Partial Class cnt017_DubleLastikIcCep
         '
         'SqlCommand23
         '
-        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" & _
-    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" & _
+        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" &
+    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" &
     "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
         '
         'NeoTable2_nID
@@ -1041,18 +1036,17 @@ Partial Class cnt017_DubleLastikIcCep
     Friend WithEvents NeoTable1_KategoriParamID As System.Data.DataColumn
     Friend WithEvents NeoTable1_CizgiSayisi As System.Data.DataColumn
     Friend WithEvents NeoTable1_RKafa As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RKafa As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiRKafaID As System.Data.DataColumn
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_RKafa As DataColumn
+    Friend WithEvents NeoTable2_CizgiRKafaID As DataColumn
 End Class

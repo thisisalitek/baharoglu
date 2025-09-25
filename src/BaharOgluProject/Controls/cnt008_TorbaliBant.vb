@@ -1,4 +1,4 @@
-﻿Public Class cnt008_TorbaliBant
+Public Class cnt008_TorbaliBant
     Dim bNoAction As Boolean = False
     Dim TorbaliBantCizgiRKafa As String = ""
 

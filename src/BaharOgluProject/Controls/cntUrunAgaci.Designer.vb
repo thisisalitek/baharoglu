@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cntUrunAgaci
     Inherits System.Windows.Forms.UserControl
 
@@ -27,11 +27,7 @@ Partial Class cntUrunAgaci
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(cntUrunAgaci))
         Me.TreeView1 = New System.Windows.Forms.TreeView()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.panelKategoriArama = New System.Windows.Forms.Panel()
-        Me.txtKategoriArama = New DevExpress.XtraEditors.TextEdit()
-        Me.cmdKategoriBul = New DevExpress.XtraEditors.SimpleButton()
-        Me.txtAktifKategori = New DevExpress.XtraEditors.TextEdit()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.YenileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.AltKodEkleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -42,11 +38,15 @@ Partial Class cntUrunAgaci
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.mnuKategoriOzellikKopyala = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuKategoriOzellikYapistir = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.panelKategoriArama = New System.Windows.Forms.Panel()
+        Me.txtKategoriArama = New DevExpress.XtraEditors.TextEdit()
+        Me.cmdKategoriBul = New DevExpress.XtraEditors.SimpleButton()
+        Me.txtAktifKategori = New DevExpress.XtraEditors.TextEdit()
+        Me.ContextMenuStrip1.SuspendLayout()
         Me.panelKategoriArama.SuspendLayout()
         CType(Me.txtKategoriArama.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtAktifKategori.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TreeView1
@@ -62,52 +62,12 @@ Partial Class cntUrunAgaci
         Me.TreeView1.Size = New System.Drawing.Size(446, 450)
         Me.TreeView1.TabIndex = 1
         '
-        'ImageList1
+        'ContextMenuStrip1
         '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "folder.png")
-        Me.ImageList1.Images.SetKeyName(1, "blog_post.png")
-        Me.ImageList1.Images.SetKeyName(2, "folder_add.png")
-        '
-        'panelKategoriArama
-        '
-        Me.panelKategoriArama.Controls.Add(Me.txtKategoriArama)
-        Me.panelKategoriArama.Controls.Add(Me.cmdKategoriBul)
-        Me.panelKategoriArama.Dock = System.Windows.Forms.DockStyle.Top
-        Me.panelKategoriArama.Location = New System.Drawing.Point(0, 0)
-        Me.panelKategoriArama.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.panelKategoriArama.Name = "panelKategoriArama"
-        Me.panelKategoriArama.Size = New System.Drawing.Size(446, 21)
-        Me.panelKategoriArama.TabIndex = 7
-        '
-        'txtKategoriArama
-        '
-        Me.txtKategoriArama.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txtKategoriArama.Location = New System.Drawing.Point(0, 0)
-        Me.txtKategoriArama.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtKategoriArama.Name = "txtKategoriArama"
-        Me.txtKategoriArama.Size = New System.Drawing.Size(404, 20)
-        Me.txtKategoriArama.TabIndex = 0
-        '
-        'cmdKategoriBul
-        '
-        Me.cmdKategoriBul.Dock = System.Windows.Forms.DockStyle.Right
-        Me.cmdKategoriBul.Location = New System.Drawing.Point(404, 0)
-        Me.cmdKategoriBul.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.cmdKategoriBul.Name = "cmdKategoriBul"
-        Me.cmdKategoriBul.Size = New System.Drawing.Size(42, 21)
-        Me.cmdKategoriBul.TabIndex = 1
-        Me.cmdKategoriBul.Text = "Bul"
-        '
-        'txtAktifKategori
-        '
-        Me.txtAktifKategori.Dock = System.Windows.Forms.DockStyle.Top
-        Me.txtAktifKategori.Location = New System.Drawing.Point(0, 21)
-        Me.txtAktifKategori.Name = "txtAktifKategori"
-        Me.txtAktifKategori.Properties.ReadOnly = True
-        Me.txtAktifKategori.Size = New System.Drawing.Size(446, 20)
-        Me.txtAktifKategori.TabIndex = 8
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YenileToolStripMenuItem, Me.ToolStripMenuItem2, Me.AltKodEkleToolStripMenuItem, Me.ToolStripMenuItem4, Me.RootKategoriEkleToolStripMenuItem, Me.mnuDuzelt, Me.SilToolStripMenuItem, Me.ToolStripMenuItem1, Me.mnuKategoriOzellikKopyala, Me.mnuKategoriOzellikYapistir})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(171, 176)
         '
         'YenileToolStripMenuItem
         '
@@ -168,12 +128,52 @@ Partial Class cntUrunAgaci
         Me.mnuKategoriOzellikYapistir.Size = New System.Drawing.Size(170, 22)
         Me.mnuKategoriOzellikYapistir.Text = "Özellikleri Yapıştır"
         '
-        'ContextMenuStrip1
+        'ImageList1
         '
-        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.YenileToolStripMenuItem, Me.ToolStripMenuItem2, Me.AltKodEkleToolStripMenuItem, Me.ToolStripMenuItem4, Me.RootKategoriEkleToolStripMenuItem, Me.mnuDuzelt, Me.SilToolStripMenuItem, Me.ToolStripMenuItem1, Me.mnuKategoriOzellikKopyala, Me.mnuKategoriOzellikYapistir})
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(171, 176)
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "folder.png")
+        Me.ImageList1.Images.SetKeyName(1, "blog_post.png")
+        Me.ImageList1.Images.SetKeyName(2, "folder_add.png")
+        '
+        'panelKategoriArama
+        '
+        Me.panelKategoriArama.Controls.Add(Me.txtKategoriArama)
+        Me.panelKategoriArama.Controls.Add(Me.cmdKategoriBul)
+        Me.panelKategoriArama.Dock = System.Windows.Forms.DockStyle.Top
+        Me.panelKategoriArama.Location = New System.Drawing.Point(0, 0)
+        Me.panelKategoriArama.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.panelKategoriArama.Name = "panelKategoriArama"
+        Me.panelKategoriArama.Size = New System.Drawing.Size(446, 21)
+        Me.panelKategoriArama.TabIndex = 7
+        '
+        'txtKategoriArama
+        '
+        Me.txtKategoriArama.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txtKategoriArama.Location = New System.Drawing.Point(0, 0)
+        Me.txtKategoriArama.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKategoriArama.Name = "txtKategoriArama"
+        Me.txtKategoriArama.Size = New System.Drawing.Size(404, 20)
+        Me.txtKategoriArama.TabIndex = 0
+        '
+        'cmdKategoriBul
+        '
+        Me.cmdKategoriBul.Dock = System.Windows.Forms.DockStyle.Right
+        Me.cmdKategoriBul.Location = New System.Drawing.Point(404, 0)
+        Me.cmdKategoriBul.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.cmdKategoriBul.Name = "cmdKategoriBul"
+        Me.cmdKategoriBul.Size = New System.Drawing.Size(42, 21)
+        Me.cmdKategoriBul.TabIndex = 1
+        Me.cmdKategoriBul.Text = "Bul"
+        '
+        'txtAktifKategori
+        '
+        Me.txtAktifKategori.Dock = System.Windows.Forms.DockStyle.Top
+        Me.txtAktifKategori.Location = New System.Drawing.Point(0, 21)
+        Me.txtAktifKategori.Name = "txtAktifKategori"
+        Me.txtAktifKategori.Properties.ReadOnly = True
+        Me.txtAktifKategori.Size = New System.Drawing.Size(446, 20)
+        Me.txtAktifKategori.TabIndex = 8
         '
         'cntUrunAgaci
         '
@@ -184,10 +184,10 @@ Partial Class cntUrunAgaci
         Me.Controls.Add(Me.panelKategoriArama)
         Me.Name = "cntUrunAgaci"
         Me.Size = New System.Drawing.Size(446, 491)
+        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.panelKategoriArama.ResumeLayout(False)
         CType(Me.txtKategoriArama.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtAktifKategori.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

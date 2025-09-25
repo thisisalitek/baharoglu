@@ -1,4 +1,4 @@
-﻿'Imports PiconnUtility.dynamoEmpire.PiconnUtility
+'Imports PiconnUtility.dynamoEmpire.PiconnUtility
 
 
 Public Module modSQLFunctions

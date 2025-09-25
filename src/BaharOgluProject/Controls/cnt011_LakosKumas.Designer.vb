@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt011_LakosKumas
     Inherits ProbarSiparis.BaseControl
 
@@ -177,7 +177,7 @@ Partial Class cnt011_LakosKumas
         '
         'lblCaption
         '
-        Me.lblCaption.Size = New System.Drawing.Size(382, 17)
+        Me.lblCaption.Size = New System.Drawing.Size(386, 22)
         Me.lblCaption.Text = "Lakos Kumaş"
         '
         'XtraTabControl1
@@ -187,12 +187,12 @@ Partial Class cnt011_LakosKumas
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.GridControl1)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(479, 140)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(481, 140)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(479, 140)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(481, 140)
         '
         'panelCaption
         '
@@ -200,11 +200,11 @@ Partial Class cnt011_LakosKumas
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(425, 4)
+        Me.chkSecmeli.Location = New System.Drawing.Point(427, 2)
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(386, 4)
+        Me.chkVar.Location = New System.Drawing.Point(388, 2)
         '
         'GridControl1
         '
@@ -214,7 +214,7 @@ Partial Class cnt011_LakosKumas
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit1, Me.cboOrguTip1})
-        Me.GridControl1.Size = New System.Drawing.Size(479, 140)
+        Me.GridControl1.Size = New System.Drawing.Size(481, 140)
         Me.GridControl1.TabIndex = 2
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -310,7 +310,7 @@ Partial Class cnt011_LakosKumas
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_011_LakosKumas SET Deleted = nID  , ModifiedBy = @ModifiedBy" & _
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_011_LakosKumas SET Deleted = nID  , ModifiedBy = @ModifiedBy" &
     " , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
@@ -558,7 +558,7 @@ Partial Class cnt011_LakosKumas
         '
         'SqlCommand17
         '
-        Me.SqlCommand17.CommandText = "SELECT     OrguTipID, OrguTipKod, OrguTipIsmi,Fiyat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         OrguTipleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WH" & _
+        Me.SqlCommand17.CommandText = "SELECT     OrguTipID, OrguTipKod, OrguTipIsmi,Fiyat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         OrguTipleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WH" &
     "ERE Deleted = 0 AND bLakos=1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY OrguTipKod"
         '
         'MasterTable_KategoriParamID
@@ -750,7 +750,7 @@ Partial Class cnt011_LakosKumas
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.cboGridRenk})
-        Me.GridControl2.Size = New System.Drawing.Size(479, 140)
+        Me.GridControl2.Size = New System.Drawing.Size(481, 140)
         Me.GridControl2.TabIndex = 3
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -861,7 +861,7 @@ Partial Class cnt011_LakosKumas
         '
         'SqlCommand12
         '
-        Me.SqlCommand12.CommandText = "UPDATE SipDetayParam_011_LakosKumas SET Deleted = nID  , ModifiedBy = @ModifiedBy" & _
+        Me.SqlCommand12.CommandText = "UPDATE SipDetayParam_011_LakosKumas SET Deleted = nID  , ModifiedBy = @ModifiedBy" &
     " , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand10
@@ -970,7 +970,7 @@ Partial Class cnt011_LakosKumas
         '
         'SqlCommand13
         '
-        Me.SqlCommand13.CommandText = "SELECT     RenkID, RenkKod, RenkIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         Renkler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & _
+        Me.SqlCommand13.CommandText = "SELECT     RenkID, RenkKod, RenkIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         Renkler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" &
     "RDER BY RenkKod"
         '
         'cnt011_LakosKumas
@@ -1116,25 +1116,24 @@ Partial Class cnt011_LakosKumas
     Friend WithEvents NeoTable1_GramajArtis As System.Data.DataColumn
     Friend WithEvents colOrguTip As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents cboOrguTip1 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ParcaIsmi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_OrguTip As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KumasGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
     Friend WithEvents tbOrguTip_OrguTipID As System.Data.DataColumn
     Friend WithEvents tbOrguTip_OrguTipKod As System.Data.DataColumn
     Friend WithEvents tbOrguTip_OrguTipIsmi As System.Data.DataColumn
     Friend WithEvents tbOrguTip_Fiyat As System.Data.DataColumn
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_ParcaIsmi As DataColumn
+    Friend WithEvents NeoTable2_OrguTip As DataColumn
+    Friend WithEvents NeoTable2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_KumasGramaj As DataColumn
+    Friend WithEvents NeoTable2_GramajArtis As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
 End Class

@@ -1,4 +1,4 @@
-﻿
+
 Public Module SQLTools
     Public Name As String = "SQLTools"
 

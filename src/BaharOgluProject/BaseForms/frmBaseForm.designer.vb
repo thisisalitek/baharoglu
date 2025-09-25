@@ -1,4 +1,4 @@
-﻿
+
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frmBaseForm
     Inherits DevExpress.XtraEditors.XtraForm

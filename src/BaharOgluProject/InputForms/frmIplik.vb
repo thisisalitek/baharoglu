@@ -1,3 +1,3 @@
-﻿Public Class frmIplik
+Public Class frmIplik
 
 End Class

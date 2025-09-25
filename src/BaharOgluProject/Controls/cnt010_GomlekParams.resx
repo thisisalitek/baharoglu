@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="NeoTable1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>948, 60</value>
+    <value>633, 54</value>
   </metadata>
   <metadata name="SqlConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -176,7 +176,7 @@ Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , Kateg
 WHERE nID = @nID</value>
   </data>
   <metadata name="NeoTable2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1074, 60</value>
+    <value>743, 54</value>
   </metadata>
   <metadata name="SqlCommand32.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -231,37 +231,37 @@ Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , SipDe
 WHERE nID = @nID</value>
   </data>
   <metadata name="MasterTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>127, 17</value>
+    <value>116, 17</value>
   </metadata>
   <metadata name="MasterSqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>263, 17</value>
+    <value>234, 17</value>
   </metadata>
   <metadata name="MasterSqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>463, 17</value>
+    <value>403, 17</value>
   </metadata>
   <metadata name="MasterSqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>663, 17</value>
+    <value>572, 17</value>
   </metadata>
   <metadata name="MasterSqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>863, 17</value>
+    <value>741, 17</value>
   </metadata>
   <metadata name="MasterTable2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1063, 17</value>
+    <value>910, 17</value>
   </metadata>
   <metadata name="Master2SqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 60</value>
+    <value>1034, 17</value>
   </metadata>
   <metadata name="Master2SqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>225, 60</value>
+    <value>17, 54</value>
   </metadata>
   <metadata name="Master2SqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>433, 60</value>
+    <value>192, 54</value>
   </metadata>
   <metadata name="Master2SqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>641, 60</value>
+    <value>367, 54</value>
   </metadata>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>849, 60</value>
+    <value>542, 54</value>
   </metadata>
   <metadata name="SqlCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -353,14 +353,6 @@ WHERE nID = @nID</value>
   <metadata name="SqlCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-  <data name="SqlCommand18.CommandText" xml:space="preserve">
-    <value>INSERT INTO SipDetayParam_051_Tip (
-SipDetayParamID , SourceID , KategoriParamID , Tip)
- VALUES (
-@SipDetayParamID , @SourceID , @KategoriParamID , @Tip)
-SELECT @PRIMARYFIELD_nID = SCOPE_IDENTITY() 
-</value>
-  </data>
   <metadata name="SqlCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>

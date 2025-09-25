@@ -1,4 +1,4 @@
-﻿Public Class frmAlimIrsaliyeleri
+Public Class frmAlimIrsaliyeleri
 
     Private Sub cmdAddNewIrsaliye_Click(sender As System.Object, e As System.EventArgs) Handles cmdAddNewIrsaliye.Click
         Try

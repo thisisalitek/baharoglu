@@ -1,4 +1,4 @@
-﻿Public Class clsAppConn
+Public Class clsAppConn
     Public Connstr As String = "Server=(local);Database=MikroDB_V14_DENEME;User ID=sa;Password=;Trusted_Connection=YES;"
     Public FirmConn As SqlClient.SqlConnection
 

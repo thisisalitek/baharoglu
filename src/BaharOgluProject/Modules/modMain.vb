@@ -1,4 +1,4 @@
-﻿Module modMain
+Module modMain
     Public Const MSG_SearchText = "Aranan kelimeyi buraya yazınız."
     Public AppConn As New cAppConn
 

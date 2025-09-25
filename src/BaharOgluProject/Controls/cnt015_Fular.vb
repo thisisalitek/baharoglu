@@ -1,4 +1,4 @@
-﻿Public Class cnt015_Fular
+Public Class cnt015_Fular
     Dim bNoAction As Boolean = False
 
     Private Sub cnt015_Fular_Initialize_Control(ByVal sender As System.Windows.Forms.Control, ByVal e As System.EventArgs) Handles Me.Initialize_Control

@@ -1,4 +1,4 @@
-﻿Public Class frmDigerKumaslar
+Public Class frmDigerKumaslar
 
     Private Sub frmDigerKumaslar_ButtonSaveBeforeClick(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonSaveBeforeClick
         Try

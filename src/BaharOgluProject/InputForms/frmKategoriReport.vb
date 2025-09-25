@@ -1,3 +1,3 @@
-﻿Public Class frmKategoriReport
+Public Class frmKategoriReport
 
 End Class

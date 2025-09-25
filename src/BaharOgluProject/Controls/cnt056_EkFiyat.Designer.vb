@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt056_EkFiyat
     Inherits ProbarSiparis.BaseControl
 
@@ -71,6 +71,18 @@ Partial Class cnt056_EkFiyat
         Me.RepositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
+        Me.SqlCommand32 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlCommand30 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlCommand29 = New System.Data.SqlClient.SqlCommand()
+        Me.SqlCommand31 = New System.Data.SqlClient.SqlCommand()
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.RepositoryItemLookUpEdit3 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
+        Me.RepositoryItemLookUpEdit4 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
+        Me.tmrMasrafYukle = New System.Windows.Forms.Timer(Me.components)
         Me.NeoTable2_nID = New System.Data.DataColumn()
         Me.NeoTable2_Deleted = New System.Data.DataColumn()
         Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
@@ -84,18 +96,6 @@ Partial Class cnt056_EkFiyat
         Me.NeoTable2_Fiyat = New System.Data.DataColumn()
         Me.NeoTable2_BedenArtis = New System.Data.DataColumn()
         Me.NeoTable2_bStatik = New System.Data.DataColumn()
-        Me.SqlCommand32 = New System.Data.SqlClient.SqlCommand()
-        Me.SqlCommand30 = New System.Data.SqlClient.SqlCommand()
-        Me.SqlCommand29 = New System.Data.SqlClient.SqlCommand()
-        Me.SqlCommand31 = New System.Data.SqlClient.SqlCommand()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.RepositoryItemLookUpEdit3 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.RepositoryItemLookUpEdit4 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
-        Me.tmrMasrafYukle = New System.Windows.Forms.Timer(Me.components)
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -121,7 +121,7 @@ Partial Class cnt056_EkFiyat
         '
         'lblCaption
         '
-        Me.lblCaption.Size = New System.Drawing.Size(168, 17)
+        Me.lblCaption.Size = New System.Drawing.Size(172, 22)
         Me.lblCaption.Text = "Ek Fiyat"
         '
         'XtraTabControl1
@@ -131,12 +131,12 @@ Partial Class cnt056_EkFiyat
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.GridControl2)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(265, 107)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(267, 107)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl1)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(265, 107)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(267, 107)
         '
         'panelCaption
         '
@@ -144,12 +144,12 @@ Partial Class cnt056_EkFiyat
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(211, 4)
+        Me.chkSecmeli.Location = New System.Drawing.Point(213, 2)
         Me.chkSecmeli.Visible = False
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(172, 4)
+        Me.chkVar.Location = New System.Drawing.Point(174, 2)
         '
         'NeoTable1
         '
@@ -228,8 +228,8 @@ Partial Class cnt056_EkFiyat
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_056_EkFiyat SET Deleted = nID  , ModifiedBy = @ModifiedBy , " & _
-            "ModifiedDate = GETDATE()   WHERE nID = @nID"
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_056_EkFiyat SET Deleted = nID  , ModifiedBy = @ModifiedBy , " &
+    "ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
         '
@@ -265,7 +265,9 @@ Partial Class cnt056_EkFiyat
         '
         'SqlCommand18
         '
-        Me.SqlCommand18.CommandText = resources.GetString("SqlCommand18.CommandText")
+        Me.SqlCommand18.CommandText = "INSERT INTO SipDetayParam_051_Tip (" & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID , SourceID , KategoriParamID " &
+    ", Tip)" & Global.Microsoft.VisualBasic.ChrW(10) & " VALUES (" & Global.Microsoft.VisualBasic.ChrW(10) & "@SipDetayParamID , @SourceID , @KategoriParamID , @Tip)" & Global.Microsoft.VisualBasic.ChrW(10) & "SELECT " &
+    "@PRIMARYFIELD_nID = SCOPE_IDENTITY() " & Global.Microsoft.VisualBasic.ChrW(10)
         Me.SqlCommand18.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
         '
         'SqlCommand17
@@ -274,8 +276,8 @@ Partial Class cnt056_EkFiyat
         '
         'SqlCommand19
         '
-        Me.SqlCommand19.CommandText = "UPDATE SipDetayParam_051_Tip SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , SourceID " & _
-            "= @SourceID , KategoriParamID = @KategoriParamID , Tip = @Tip" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
+        Me.SqlCommand19.CommandText = "UPDATE SipDetayParam_051_Tip SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , SourceID " &
+    "= @SourceID , KategoriParamID = @KategoriParamID , Tip = @Tip" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
         '
         'SqlCommand13
         '
@@ -296,9 +298,9 @@ Partial Class cnt056_EkFiyat
         '
         'SqlCommand23
         '
-        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" & _
-            "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" & _
-            "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
+        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" &
+    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" &
+    "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
         '
         'SqlCommand25
         '
@@ -312,7 +314,7 @@ Partial Class cnt056_EkFiyat
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit2, Me.RepositoryItemLookUpEdit1})
-        Me.GridControl2.Size = New System.Drawing.Size(265, 107)
+        Me.GridControl2.Size = New System.Drawing.Size(267, 107)
         Me.GridControl2.TabIndex = 7
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -386,7 +388,7 @@ Partial Class cnt056_EkFiyat
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit3, Me.RepositoryItemLookUpEdit4})
-        Me.GridControl1.Size = New System.Drawing.Size(265, 107)
+        Me.GridControl1.Size = New System.Drawing.Size(267, 107)
         Me.GridControl1.TabIndex = 8
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -414,76 +416,10 @@ Partial Class cnt056_EkFiyat
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand31
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Aciklama
-        '
-        Me.NeoTable2_Aciklama.ColumnName = "Aciklama"
-        '
-        'NeoTable2_Fiyat
-        '
-        Me.NeoTable2_Fiyat.ColumnName = "Fiyat"
-        Me.NeoTable2_Fiyat.DataType = GetType(Double)
-        '
-        'NeoTable2_BedenArtis
-        '
-        Me.NeoTable2_BedenArtis.ColumnName = "BedenArtis"
-        Me.NeoTable2_BedenArtis.DataType = GetType(Double)
-        '
-        'NeoTable2_bStatik
-        '
-        Me.NeoTable2_bStatik.ColumnName = "bStatik"
-        Me.NeoTable2_bStatik.DataType = GetType(Integer)
-        '
         'SqlCommand32
         '
-        Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_056_EkFiyat SET Deleted = nID  , ModifiedBy = @ModifiedBy , " & _
-            "ModifiedDate = GETDATE()   WHERE nID = @nID"
+        Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_056_EkFiyat SET Deleted = nID  , ModifiedBy = @ModifiedBy , " &
+    "ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand30
         '
@@ -561,6 +497,72 @@ Partial Class cnt056_EkFiyat
         '
         'tmrMasrafYukle
         '
+        '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Aciklama
+        '
+        Me.NeoTable2_Aciklama.ColumnName = "Aciklama"
+        '
+        'NeoTable2_Fiyat
+        '
+        Me.NeoTable2_Fiyat.ColumnName = "Fiyat"
+        Me.NeoTable2_Fiyat.DataType = GetType(Double)
+        '
+        'NeoTable2_BedenArtis
+        '
+        Me.NeoTable2_BedenArtis.ColumnName = "BedenArtis"
+        Me.NeoTable2_BedenArtis.DataType = GetType(Double)
+        '
+        'NeoTable2_bStatik
+        '
+        Me.NeoTable2_bStatik.ColumnName = "bStatik"
+        Me.NeoTable2_bStatik.DataType = GetType(Integer)
         '
         'cnt056_EkFiyat
         '
@@ -659,19 +661,18 @@ Partial Class cnt056_EkFiyat
     Friend WithEvents NeoTable1_Aciklama As System.Data.DataColumn
     Friend WithEvents NeoTable1_Fiyat As System.Data.DataColumn
     Friend WithEvents NeoTable1_BedenArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Aciklama As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Fiyat As System.Data.DataColumn
-    Friend WithEvents NeoTable2_BedenArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_bStatik As System.Data.DataColumn
     Friend WithEvents tmrMasrafYukle As System.Windows.Forms.Timer
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_Aciklama As DataColumn
+    Friend WithEvents NeoTable2_Fiyat As DataColumn
+    Friend WithEvents NeoTable2_BedenArtis As DataColumn
+    Friend WithEvents NeoTable2_bStatik As DataColumn
 End Class

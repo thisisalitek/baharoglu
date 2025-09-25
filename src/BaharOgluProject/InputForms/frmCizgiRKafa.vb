@@ -1,4 +1,4 @@
-﻿Public Class frmCizgiRKafa
+Public Class frmCizgiRKafa
     Public TipFilter As String = ""
     Public CizgiSayisiFilter As Integer = 0
 

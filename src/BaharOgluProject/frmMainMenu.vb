@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Skins
+Imports DevExpress.Skins
 Imports DevExpress.Utils.Drawing
 Imports DevExpress.XtraBars.Ribbon
 Imports DevExpress.XtraEditors
@@ -164,17 +164,7 @@ Public Class frmMainMenu
         End Try
     End Sub
 
-    Private Sub BarButtonItem4_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem4.ItemClick
-        Try
-            Dim f As New Form2()
 
-            f.MdiParent = anaform
-            f.Show()
-
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        End Try
-    End Sub
 
     Private Sub BarButtonItem5_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem5.ItemClick
         Try

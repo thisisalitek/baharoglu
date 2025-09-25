@@ -1,4 +1,4 @@
-﻿Public Class frmMikro_CariFinansalInfo 
+Public Class frmMikro_CariFinansalInfo 
     
     Public Sub FormShow(ByVal CariKod As String)
         Try

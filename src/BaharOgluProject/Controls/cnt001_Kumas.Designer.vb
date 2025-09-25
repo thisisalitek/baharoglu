@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt001_Kumas
     Inherits ProbarSiparis.BaseControl
 
@@ -183,7 +183,6 @@ Partial Class cnt001_Kumas
         '
         'lblCaption
         '
-        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
         Me.lblCaption.Size = New System.Drawing.Size(337, 22)
         Me.lblCaption.Text = "Triko Kumaş"
         '
@@ -1165,25 +1164,24 @@ Partial Class cnt001_Kumas
     Friend WithEvents NeoTable1_IpGramaj As System.Data.DataColumn
     Friend WithEvents NeoTable1_KumasGramaj As System.Data.DataColumn
     Friend WithEvents NeoTable1_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ParcaIsmi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KumasGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_OrguTip As System.Data.DataColumn
     Friend WithEvents tbOrguTip_OrguTipID As System.Data.DataColumn
     Friend WithEvents tbOrguTip_OrguTipKod As System.Data.DataColumn
     Friend WithEvents tbOrguTip_OrguTipIsmi As System.Data.DataColumn
     Friend WithEvents tbOrguTip_Fiyat As System.Data.DataColumn
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_ParcaIsmi As DataColumn
+    Friend WithEvents NeoTable2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_KumasGramaj As DataColumn
+    Friend WithEvents NeoTable2_GramajArtis As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_OrguTip As DataColumn
 End Class

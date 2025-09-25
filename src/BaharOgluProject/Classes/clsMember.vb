@@ -1,4 +1,4 @@
-﻿Public Class clsMember
+Public Class clsMember
     Implements IConvertible
 
     Private mVar_ValueMember As Object

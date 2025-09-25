@@ -1,4 +1,4 @@
-﻿Public Class BaseControl
+Public Class BaseControl
 
 
     Public KategoriID As Long

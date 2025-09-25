@@ -125,7 +125,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADI
-        CgAAAk1TRnQBSQFMAgEBAwEAAQgBBQEIAQUBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CgAAAk1TRnQBSQFMAgEBAwEAARABBQEQAQUBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -263,14 +263,16 @@ Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , SiparisID , Stok
  , Fiyat , Tutar , Tarih , TerminTarihi , MusteriSipNo , SiparisiAlan , Iptal
  , Resim1 , Resim2 , Resim3 , Resim4 , Resim5 , StokIsmi , Bagli
  , BagliSipDetayID , OkulFarki , Durumu , TeslimMiktar , AnaRenk , Bedenler , bSerbestFiyat
- , Hazirlanan , FasondaMi , FasonFisID , Iskonto , NakitIskonto , IskontoTutar , NakitIskontoTutar)
+ , Hazirlanan , FasondaMi , FasonFisID , Iskonto , NakitIskonto , IskontoTutar , NakitIskontoTutar
+ , sip_Guid , BoyahaneID)
  VALUES (
 @Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @SiparisID , @StokKod
  , @StokRecNo , @SiparisAciklama , @OkulID , @BolumKod , @KategoriID , @Miktar , @Maliyet
  , @Fiyat , @Tutar , @Tarih , @TerminTarihi , @MusteriSipNo , @SiparisiAlan , @Iptal
  , @Resim1 , @Resim2 , @Resim3 , @Resim4 , @Resim5 , @StokIsmi , @Bagli
  , @BagliSipDetayID , @OkulFarki , @Durumu , @TeslimMiktar , @AnaRenk , @Bedenler , @bSerbestFiyat
- , @Hazirlanan , @FasondaMi , @FasonFisID , @Iskonto , @NakitIskonto , @IskontoTutar , @NakitIskontoTutar)
+ , @Hazirlanan , @FasondaMi , @FasonFisID , @Iskonto , @NakitIskonto , @IskontoTutar , @NakitIskontoTutar
+ , @sip_Guid , @BoyahaneID)
 SELECT @PRIMARYFIELD_SipDetayID = SCOPE_IDENTITY() 
 </value>
   </data>
@@ -300,6 +302,7 @@ Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , Sipar
  , Resim1 = @Resim1 , Resim2 = @Resim2 , Resim3 = @Resim3 , Resim4 = @Resim4 , Resim5 = @Resim5 , StokIsmi = @StokIsmi , Bagli = @Bagli
  , BagliSipDetayID = @BagliSipDetayID , OkulFarki = @OkulFarki , Durumu = @Durumu , TeslimMiktar = @TeslimMiktar , AnaRenk = @AnaRenk , Bedenler = @Bedenler , bSerbestFiyat = @bSerbestFiyat
  , Hazirlanan = @Hazirlanan , FasondaMi = @FasondaMi , FasonFisID = @FasonFisID , Iskonto = @Iskonto , NakitIskonto = @NakitIskonto , IskontoTutar = @IskontoTutar , NakitIskontoTutar = @NakitIskontoTutar
+ , sip_Guid = @sip_Guid , BoyahaneID = @BoyahaneID
 WHERE SipDetayID = @SipDetayID</value>
   </data>
   <metadata name="tbOkul.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -487,11 +490,13 @@ WHERE KategoriEkFiyatID = @KategoriEkFiyatID</value>
     <value>INSERT INTO SipDetayFiyatlar (
 Deleted , CreatedBy , CreatedDate , ModifiedBy , ModifiedDate , SipDetayID , BedenKod
  , BazFiyat , BrutFiyat , Iskonto , NakitIskonto , NetFiyat , Miktar , Tutar
- , KategoriFiyatID , DetayAciklama , RenkKod , BdnHarNo)
+ , KategoriFiyatID , DetayAciklama , RenkKod , BdnHarNo , TeslimMiktar , sip_RECno , sip_evrakno_seri
+ , sip_evrakno_sira , sip_satirno , Hazirlanan , sip_Guid)
  VALUES (
 @Deleted , @CreatedBy , GETDATE() , @ModifiedBy , GETDATE() , @SipDetayID , @BedenKod
  , @BazFiyat , @BrutFiyat , @Iskonto , @NakitIskonto , @NetFiyat , @Miktar , @Tutar
- , @KategoriFiyatID , @DetayAciklama , @RenkKod , @BdnHarNo)
+ , @KategoriFiyatID , @DetayAciklama , @RenkKod , @BdnHarNo , @TeslimMiktar , @sip_RECno , @sip_evrakno_seri
+ , @sip_evrakno_sira , @sip_satirno , @Hazirlanan , @sip_Guid)
 SELECT @PRIMARYFIELD_SipDetayFiyatAdetID = SCOPE_IDENTITY() 
 </value>
   </data>
@@ -506,9 +511,11 @@ SELECT @PRIMARYFIELD_SipDetayFiyatAdetID = SCOPE_IDENTITY()
   </metadata>
   <data name="SqlCommand13.CommandText" xml:space="preserve">
     <value>SELECT * FROM (
-SELECT dbo.fnBedenNoSipDetayID(SipDetayID,BedenKod) as BedenNo, * FROM SipDetayFiyatlar
+SELECT dbo.fnBedenNoSipDetayID(SipDetayID,BedenKod) as BedenNo, * FROM SipDetayFiyatlar 
+
 WHERE Deleted = 0 AND SipDetayID&gt;0 and SipDetayID=@SipDetayID
-) X
+) X 
+
 ORDER BY BedenNo,SipDetayFiyatAdetID</value>
   </data>
   <metadata name="SqlCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -524,7 +531,8 @@ ORDER BY BedenNo,SipDetayFiyatAdetID</value>
     <value>UPDATE SipDetayFiyatlar SET 
 Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , SipDetayID = @SipDetayID , BedenKod = @BedenKod
  , BazFiyat = @BazFiyat , BrutFiyat = @BrutFiyat , Iskonto = @Iskonto , NakitIskonto = @NakitIskonto , NetFiyat = @NetFiyat , Miktar = @Miktar , Tutar = @Tutar
- , KategoriFiyatID = @KategoriFiyatID , DetayAciklama = @DetayAciklama , RenkKod = @RenkKod , BdnHarNo = @BdnHarNo
+ , KategoriFiyatID = @KategoriFiyatID , DetayAciklama = @DetayAciklama , RenkKod = @RenkKod , BdnHarNo = @BdnHarNo , TeslimMiktar = @TeslimMiktar , sip_RECno = @sip_RECno , sip_evrakno_seri = @sip_evrakno_seri
+ , sip_evrakno_sira = @sip_evrakno_sira , sip_satirno = @sip_satirno , Hazirlanan = @Hazirlanan , sip_Guid = @sip_Guid
 WHERE SipDetayFiyatAdetID = @SipDetayFiyatAdetID</value>
   </data>
   <metadata name="tbSipDetayEkFiyatlar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

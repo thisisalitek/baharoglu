@@ -1,4 +1,4 @@
-﻿Public Class frmDovizKurlari
+Public Class frmDovizKurlari
     Private Sub frmDovizKurlari_ButtonNewClick(Sender As Object, e As EventArgs) Handles MyBase.ButtonNewClick
         If MasterLink.CurrentRow Is Nothing Then Exit Sub
         MasterLink.CurrentRow("CurrDate") = Today

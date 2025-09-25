@@ -1,4 +1,4 @@
-﻿Public Class frmOkullar
+Public Class frmOkullar
 
     Private Sub frmOkullar_ButtonSaveBeforeClick(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonSaveBeforeClick
         Try

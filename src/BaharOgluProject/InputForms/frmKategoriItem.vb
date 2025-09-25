@@ -1,4 +1,4 @@
-﻿Public Class frmKategoriItem
+Public Class frmKategoriItem
     
     Dim KategoriID As Long
 

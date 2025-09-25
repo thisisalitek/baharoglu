@@ -1,4 +1,4 @@
-﻿Public Class cnt018_EtekManset
+Public Class cnt018_EtekManset
     Dim bNoAction As Boolean = False
     Dim YakaCizgiRKafa As String = ""
 

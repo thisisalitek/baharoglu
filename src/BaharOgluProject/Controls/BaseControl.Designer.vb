@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class BaseControl
     Inherits System.Windows.Forms.UserControl
 
@@ -134,7 +134,8 @@ Partial Class BaseControl
         '
         'SqlConn
         '
-        Me.SqlConn.ConnectionString = "Server=(local);Database=PBS01;User ID=sa;Password=;Trusted_Connection=True;"
+        Me.SqlConn.ConnectionString = "Server=(local);Database=ProbarSiparisDB2025;User ID=sa;Password=;Trusted_Connecti" &
+    "on=True;"
         Me.SqlConn.Name = "SqlConn"
         Me.SqlConn.UserInfo_AuthCodeFieldName = "AuthCode"
         Me.SqlConn.UserInfo_CanDeleteAuthCode = ""
@@ -552,51 +553,50 @@ Partial Class BaseControl
     Public WithEvents Timer1 As System.Windows.Forms.Timer
     Public WithEvents chkVar As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents MasterTable_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents MasterTable_Deleted As System.Data.DataColumn
-    Friend WithEvents MasterTable_CreatedBy As System.Data.DataColumn
-    Friend WithEvents MasterTable_CreatedDate As System.Data.DataColumn
-    Friend WithEvents MasterTable_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents MasterTable_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents MasterTable_KategoriID As System.Data.DataColumn
-    Friend WithEvents MasterTable_ParamType As System.Data.DataColumn
-    Friend WithEvents MasterTable_Secmeli As System.Data.DataColumn
-    Friend WithEvents MasterTable_HammaddeID As System.Data.DataColumn
-    Friend WithEvents MasterTable_Tur As System.Data.DataColumn
-    Friend WithEvents MasterTable_TurArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable_BelTur As System.Data.DataColumn
-    Friend WithEvents MasterTable_BelTurArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable_KolTur As System.Data.DataColumn
-    Friend WithEvents MasterTable_KolTurArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable_IpGramaj As System.Data.DataColumn
-    Friend WithEvents MasterTable_IpGramajArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable_IntParam1 As System.Data.DataColumn
-    Friend WithEvents MasterTable_IntParam2 As System.Data.DataColumn
-    Friend WithEvents MasterTable_IntParam3 As System.Data.DataColumn
-    Friend WithEvents MasterTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents MasterTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents MasterTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents MasterTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents MasterTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents MasterTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents MasterTable2_SipDetayID As System.Data.DataColumn
-    Friend WithEvents MasterTable2_ParamType As System.Data.DataColumn
-    Friend WithEvents MasterTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents MasterTable2_HammaddeID As System.Data.DataColumn
-    Friend WithEvents MasterTable2_Tur As System.Data.DataColumn
-    Friend WithEvents MasterTable2_TurArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable2_BelTur As System.Data.DataColumn
-    Friend WithEvents MasterTable2_BelTurArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable2_KolTur As System.Data.DataColumn
-    Friend WithEvents MasterTable2_KolTurArtis As System.Data.DataColumn
-    Friend WithEvents MasterTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents MasterTable2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents MasterTable2_IntParam1 As System.Data.DataColumn
-    Friend WithEvents MasterTable2_RenkID2 As System.Data.DataColumn
-    Friend WithEvents MasterTable2_CizgiSayisi2 As System.Data.DataColumn
-    Friend WithEvents MasterTable2_bVar As System.Data.DataColumn
-    Friend WithEvents MasterTable2_IntParam2 As System.Data.DataColumn
-    Friend WithEvents MasterTable2_IntParam3 As System.Data.DataColumn
-    Friend WithEvents MasterTable2_CharParam1 As System.Data.DataColumn
-
+    Friend WithEvents MasterTable_KategoriParamID As DataColumn
+    Friend WithEvents MasterTable_Deleted As DataColumn
+    Friend WithEvents MasterTable_CreatedBy As DataColumn
+    Friend WithEvents MasterTable_CreatedDate As DataColumn
+    Friend WithEvents MasterTable_ModifiedBy As DataColumn
+    Friend WithEvents MasterTable_ModifiedDate As DataColumn
+    Friend WithEvents MasterTable_KategoriID As DataColumn
+    Friend WithEvents MasterTable_ParamType As DataColumn
+    Friend WithEvents MasterTable_Secmeli As DataColumn
+    Friend WithEvents MasterTable_HammaddeID As DataColumn
+    Friend WithEvents MasterTable_Tur As DataColumn
+    Friend WithEvents MasterTable_TurArtis As DataColumn
+    Friend WithEvents MasterTable_BelTur As DataColumn
+    Friend WithEvents MasterTable_BelTurArtis As DataColumn
+    Friend WithEvents MasterTable_KolTur As DataColumn
+    Friend WithEvents MasterTable_KolTurArtis As DataColumn
+    Friend WithEvents MasterTable_IpGramaj As DataColumn
+    Friend WithEvents MasterTable_IpGramajArtis As DataColumn
+    Friend WithEvents MasterTable_IntParam1 As DataColumn
+    Friend WithEvents MasterTable_IntParam2 As DataColumn
+    Friend WithEvents MasterTable_IntParam3 As DataColumn
+    Friend WithEvents MasterTable2_SipDetayParamID As DataColumn
+    Friend WithEvents MasterTable2_Deleted As DataColumn
+    Friend WithEvents MasterTable2_CreatedBy As DataColumn
+    Friend WithEvents MasterTable2_CreatedDate As DataColumn
+    Friend WithEvents MasterTable2_ModifiedBy As DataColumn
+    Friend WithEvents MasterTable2_ModifiedDate As DataColumn
+    Friend WithEvents MasterTable2_SipDetayID As DataColumn
+    Friend WithEvents MasterTable2_ParamType As DataColumn
+    Friend WithEvents MasterTable2_KategoriParamID As DataColumn
+    Friend WithEvents MasterTable2_HammaddeID As DataColumn
+    Friend WithEvents MasterTable2_Tur As DataColumn
+    Friend WithEvents MasterTable2_TurArtis As DataColumn
+    Friend WithEvents MasterTable2_BelTur As DataColumn
+    Friend WithEvents MasterTable2_BelTurArtis As DataColumn
+    Friend WithEvents MasterTable2_KolTur As DataColumn
+    Friend WithEvents MasterTable2_KolTurArtis As DataColumn
+    Friend WithEvents MasterTable2_RenkID As DataColumn
+    Friend WithEvents MasterTable2_CizgiSayisi As DataColumn
+    Friend WithEvents MasterTable2_IntParam1 As DataColumn
+    Friend WithEvents MasterTable2_RenkID2 As DataColumn
+    Friend WithEvents MasterTable2_CizgiSayisi2 As DataColumn
+    Friend WithEvents MasterTable2_bVar As DataColumn
+    Friend WithEvents MasterTable2_IntParam2 As DataColumn
+    Friend WithEvents MasterTable2_IntParam3 As DataColumn
+    Friend WithEvents MasterTable2_CharParam1 As DataColumn
 End Class

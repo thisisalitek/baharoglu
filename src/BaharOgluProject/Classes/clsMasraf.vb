@@ -1,4 +1,4 @@
-﻿Public Class ClsMasraf
+Public Class ClsMasraf
     Public MasrafKod As String
     Public MasrafIsmi As String
     Public bUygula As Boolean

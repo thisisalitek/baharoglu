@@ -1,4 +1,4 @@
-﻿Module modReport
+Module modReport
     Public Class clsReportDesing
         Public ReportData As New IO.MemoryStream
         Public ReportSQL As String = ""

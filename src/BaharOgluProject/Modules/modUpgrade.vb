@@ -1,4 +1,4 @@
-﻿'Imports PiconnUtility.dynamoEmpire.PiconnUtility
+'Imports PiconnUtility.dynamoEmpire.PiconnUtility
 'Imports PiconnDefaultDBSettings.dynamoEmpire
 'Imports PiconnUpgrade.modUpgradeUtil
 

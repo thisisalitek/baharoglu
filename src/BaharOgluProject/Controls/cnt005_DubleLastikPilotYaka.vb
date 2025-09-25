@@ -1,4 +1,4 @@
-﻿Public Class cnt005_DubleLastikPilotYaka
+Public Class cnt005_DubleLastikPilotYaka
     Dim bNoAction As Boolean = False
     Dim DubleLastikPilotYakaCizgiRKafa As String = ""
 

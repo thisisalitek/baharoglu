@@ -1,4 +1,4 @@
-﻿Public Class cnt052_KazakYaka
+Public Class cnt052_KazakYaka
     Dim bNoAction As Boolean = False
 
     Private Sub cnt052_KazakYaka_Initialize_Control(ByVal sender As System.Windows.Forms.Control, ByVal e As System.EventArgs) Handles Me.Initialize_Control

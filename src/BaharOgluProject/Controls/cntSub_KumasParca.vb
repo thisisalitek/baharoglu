@@ -1,4 +1,4 @@
-﻿Public Class cntSub_KumasParca
+Public Class cntSub_KumasParca
     Public Bedendizi() As String = {"B24", "B26", "B28", "B30", "B32", "B34", "B36", "B38", "B40", "B42", "B44", "B46", "B48", "B50", "B52", "B54"}
     Public Property ParcaIsmi As String
         Get

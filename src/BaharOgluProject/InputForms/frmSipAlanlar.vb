@@ -1,4 +1,4 @@
-﻿Public Class frmSipAlanlar
+Public Class frmSipAlanlar
 
     Private Sub frmSipAlanlar_ButtonDeleteBeforeClick(Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonDeleteBeforeClick
         Try

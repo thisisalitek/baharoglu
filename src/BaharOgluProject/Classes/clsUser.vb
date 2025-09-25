@@ -1,4 +1,4 @@
-﻿Public Class clsUser
+Public Class clsUser
     Public UserID As Long
     Public UserName As String
     Public FullName As String

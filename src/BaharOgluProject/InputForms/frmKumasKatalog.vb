@@ -1,4 +1,4 @@
-﻿Public Class frmKumasKatalog
+Public Class frmKumasKatalog
 
     Private Sub frmKumasKatalog_ButtonSaveBeforeClick(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonSaveBeforeClick
         Try

@@ -1,4 +1,4 @@
-﻿Public Class frmMikro_StokKartlari
+Public Class frmMikro_StokKartlari
 
     Public Sub FormSelect_PartiLot(Optional ByVal bDialog As Boolean = True, Optional ByVal Owner As Form = Nothing, Optional ByVal bMultiSelect As Boolean = False)
         Try

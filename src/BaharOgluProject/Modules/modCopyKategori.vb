@@ -1,4 +1,4 @@
-﻿Module modCopyKategori
+Module modCopyKategori
     Public Function CopyKategori(ByVal Conn As SqlClient.SqlConnection, ByVal KaynakID As Long, HedefID As Long, UserID As Long) As Boolean
 
         Dim trans As SqlClient.SqlTransaction

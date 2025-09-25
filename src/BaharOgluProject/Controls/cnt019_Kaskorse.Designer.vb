@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class cnt019_Kaskorse
     Inherits ProbarSiparis.BaseControl
 
@@ -81,19 +81,6 @@ Partial Class cnt019_Kaskorse
         Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_GramajArtis = New System.Data.DataColumn()
         Me.SqlCommand40 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand38 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand37 = New System.Data.SqlClient.SqlCommand()
@@ -117,6 +104,19 @@ Partial Class cnt019_Kaskorse
         Me.SqlCommand34 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand33 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand35 = New System.Data.SqlClient.SqlCommand()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_GramajArtis = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -144,7 +144,6 @@ Partial Class cnt019_Kaskorse
         '
         'lblCaption
         '
-        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
         Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
         Me.lblCaption.Size = New System.Drawing.Size(146, 22)
         Me.lblCaption.Text = "Kaşkorse"
@@ -171,11 +170,6 @@ Partial Class cnt019_Kaskorse
         Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage2.Size = New System.Drawing.Size(241, 68)
         Me.XtraTabPage2.Text = "Kaşkorse"
-        '
-        'SqlConn
-        '
-        Me.SqlConn.ConnectionString = "Server=(local)\sql2012;Database=ProbarSiparisDB3;User ID=sa;Password=;Trusted_Con" &
-    "nection=True;"
         '
         'panelCaption
         '
@@ -559,73 +553,6 @@ Partial Class cnt019_Kaskorse
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand39
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_RenkID
-        '
-        Me.NeoTable2_RenkID.ColumnName = "RenkID"
-        Me.NeoTable2_RenkID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Iplik
-        '
-        Me.NeoTable2_Iplik.ColumnName = "Iplik"
-        Me.NeoTable2_Iplik.DataType = GetType(Integer)
-        '
-        'NeoTable2_IpGramaj
-        '
-        Me.NeoTable2_IpGramaj.ColumnName = "IpGramaj"
-        Me.NeoTable2_IpGramaj.DataType = GetType(Integer)
-        '
-        'NeoTable2_GramajArtis
-        '
-        Me.NeoTable2_GramajArtis.ColumnName = "GramajArtis"
-        Me.NeoTable2_GramajArtis.DataType = GetType(Integer)
-        '
         'SqlCommand40
         '
         Me.SqlCommand40.CommandText = "UPDATE SipDetayParam_019_Kaskorse SET Deleted = nID  , ModifiedBy = @ModifiedBy ," &
@@ -773,6 +700,73 @@ Partial Class cnt019_Kaskorse
         '
         Me.SqlCommand35.CommandText = resources.GetString("SqlCommand35.CommandText")
         '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_RenkID
+        '
+        Me.NeoTable2_RenkID.ColumnName = "RenkID"
+        Me.NeoTable2_RenkID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Iplik
+        '
+        Me.NeoTable2_Iplik.ColumnName = "Iplik"
+        Me.NeoTable2_Iplik.DataType = GetType(Integer)
+        '
+        'NeoTable2_IpGramaj
+        '
+        Me.NeoTable2_IpGramaj.ColumnName = "IpGramaj"
+        Me.NeoTable2_IpGramaj.DataType = GetType(Integer)
+        '
+        'NeoTable2_GramajArtis
+        '
+        Me.NeoTable2_GramajArtis.ColumnName = "GramajArtis"
+        Me.NeoTable2_GramajArtis.DataType = GetType(Integer)
+        '
         'cnt019_Kaskorse
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -893,17 +887,17 @@ Partial Class cnt019_Kaskorse
     Friend WithEvents SqlCommand38 As SqlClient.SqlCommand
     Friend WithEvents SqlCommand37 As SqlClient.SqlCommand
     Friend WithEvents SqlCommand39 As SqlClient.SqlCommand
-    Friend WithEvents NeoTable2_GramajArtis As DataColumn
-    Friend WithEvents NeoTable2_IpGramaj As DataColumn
-    Friend WithEvents NeoTable2_Iplik As DataColumn
-    Friend WithEvents NeoTable2_RenkID As DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
-    Friend WithEvents NeoTable2_SourceID As DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As DataColumn
-    Friend WithEvents NeoTable2_Deleted As DataColumn
     Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_GramajArtis As DataColumn
 End Class

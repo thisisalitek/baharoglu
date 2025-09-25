@@ -1,4 +1,4 @@
-﻿Public Class frmUsers
+Public Class frmUsers
 
     Private Sub frmUsers_Before_FormShow(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.Before_FormShow
         Try

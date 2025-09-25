@@ -561,7 +561,7 @@ Public Class frmReportSelect
         Dim dr As DataRow
         dr = GridView1.GetFocusedDataRow
         If dr Is Nothing Then Exit Sub
-        If MsgBox(AppConn.PiconnLanguage.TText("Rapor tasarýmýný silmek istediðinizden emin misiniz?"), MsgBoxStyle.YesNo, AppConn.PiconnLanguage.TText("Rapor Sil?")) <> MsgBoxResult.Yes Then Exit Sub
+        If MsgBox(AppConn.PiconnLanguage.TText("Rapor tasarÄ±mÄ±nÄ± silmek istediÄŸinizden emin misiniz?"), MsgBoxStyle.YesNo, AppConn.PiconnLanguage.TText("Rapor Sil?")) <> MsgBoxResult.Yes Then Exit Sub
         Dim cmd As New SqlClient.SqlCommand
         Try
             cmd.Connection = AppConn.dbConn : cmd.CommandTimeout = 600 * 6
@@ -643,7 +643,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "Xls"
-        dlgExport.Filter = "Excel Files (*.XLS)|*.XLS|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "Excel Files (*.XLS)|*.XLS|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -656,7 +656,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "HTM"
-        dlgExport.Filter = "HTML Files (*.HTM)|*.HTM|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "HTML Files (*.HTM)|*.HTM|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -669,7 +669,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "CSV"
-        dlgExport.Filter = "CSV Files (*.CSV)|*.CSV|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "CSV Files (*.CSV)|*.CSV|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -684,7 +684,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "TXT"
-        dlgExport.Filter = "Text Files (*.TXT)|*.TXT|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "Text Files (*.TXT)|*.TXT|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -699,7 +699,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "PDF"
-        dlgExport.Filter = "Acrobat Files (*.PDF)|*.PDF|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "Acrobat Files (*.PDF)|*.PDF|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -712,7 +712,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "RTF"
-        dlgExport.Filter = "Rich Text Files (*.RTF)|*.RTF|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "Rich Text Files (*.RTF)|*.RTF|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -725,7 +725,7 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "MHT"
-        dlgExport.Filter = "MHT Files (*.MHT)|*.MHT|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "MHT Files (*.MHT)|*.MHT|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -738,8 +738,8 @@ Public Class frmReportSelect
         xrep = PrepareForExport()
         If xrep Is Nothing Then Exit Sub
         dlgExport.DefaultExt = "jpg"
-        dlgExport.Filter = "JPEG (*.jpg;*.jpeg;*.jpe;*.jfif)|*.jpg;*.jpeg;*.jpe;*.jfif|Bitmap (*.bmp)|*.BMP|GIF (*.gif)|*.gif|TIFF (*.tif;*.tiff)|*.tif;*.tiff|PNG (*.png)|*.png|Tüm dosyalar (*.*)|*.*"
-        'dlgExport.Filter &= "Bitmap (*.bmp)|*.BMP|GIF (*.gif)|*.gif|TIFF (*.tif;*.tiff)|*.tif;*.tiff|PNG (*.png)|*.png|Tüm dosyalar (*.*)|*.*"
+        dlgExport.Filter = "JPEG (*.jpg;*.jpeg;*.jpe;*.jfif)|*.jpg;*.jpeg;*.jpe;*.jfif|Bitmap (*.bmp)|*.BMP|GIF (*.gif)|*.gif|TIFF (*.tif;*.tiff)|*.tif;*.tiff|PNG (*.png)|*.png|TÃ¼m dosyalar (*.*)|*.*"
+        'dlgExport.Filter &= "Bitmap (*.bmp)|*.BMP|GIF (*.gif)|*.gif|TIFF (*.tif;*.tiff)|*.tif;*.tiff|PNG (*.png)|*.png|TÃ¼m dosyalar (*.*)|*.*"
         dlgExport.FileName = FormCode
         With dlgExport
             If .ShowDialog <> Windows.Forms.DialogResult.OK Then Exit Sub
@@ -905,7 +905,7 @@ Public Class frmReportSelect
                 End If
             End If
             If Me.FormCode <> cReportDesing.FormCode Then
-                If MsgBox("Bu tasarým baþka bir form için hazýrlanmýþ. Yinede içeri almak istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "FormCode Farklý") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Bu tasarÄ±m baÅŸka bir form iÃ§in hazÄ±rlanmÄ±ÅŸ. Yinede iÃ§eri almak istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "FormCode FarklÄ±") <> MsgBoxResult.Yes Then Exit Sub
             End If
             Dim cmd As New SqlClient.SqlCommand
             Dim da As SqlClient.SqlDataAdapter
@@ -934,9 +934,9 @@ Basa:
             da.Dispose()
 
             If bFound Then
-                sReportName = InputBox("'" & sReportName & "' rapor isminden baþka bir kayýt var. Yeni bir isim giriniz.", "Yeni rapor ismi", sReportName)
+                sReportName = InputBox("'" & sReportName & "' rapor isminden baÅŸka bir kayÄ±t var. Yeni bir isim giriniz.", "Yeni rapor ismi", sReportName)
                 If sReportName = "" Then
-                    MsgBox("Rapor ismi girmediniz. Rapor içeri alýnamadý!")
+                    MsgBox("Rapor ismi girmediniz. Rapor iÃ§eri alÄ±namadÄ±!")
                     Exit Sub
                 End If
                 GoTo Basa

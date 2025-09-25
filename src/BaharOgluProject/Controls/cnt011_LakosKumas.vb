@@ -1,4 +1,4 @@
-﻿Public Class cnt011_LakosKumas
+Public Class cnt011_LakosKumas
     Dim bNoAction As Boolean = False
 
     Private Sub cnt011_LakosKumas_Initialize_Control(ByVal sender As System.Windows.Forms.Control, ByVal e As System.EventArgs) Handles Me.Initialize_Control

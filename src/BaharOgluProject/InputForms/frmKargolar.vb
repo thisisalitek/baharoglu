@@ -1,4 +1,4 @@
-﻿Public Class frmKargolar
+Public Class frmKargolar
 
     Private Sub frmKargolar_ButtonDeleteBeforeClick(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonDeleteBeforeClick
         Try

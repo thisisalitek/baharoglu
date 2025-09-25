@@ -1,4 +1,4 @@
-﻿Public Class frmOrguTipi
+Public Class frmOrguTipi
     Public Sub FormShow_Normal(Optional ByVal bDialog As Boolean = True)
 
         Try

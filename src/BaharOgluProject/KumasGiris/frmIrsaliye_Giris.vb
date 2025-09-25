@@ -1,4 +1,4 @@
-﻿Public Class frmIrsaliye_Giris 
+Public Class frmIrsaliye_Giris 
     Public FormCode As String = "000004"
     
     Dim bFormNew As Boolean = False

@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt014_Manset6cm
     Inherits ProbarSiparis.BaseControl
 
@@ -103,35 +103,6 @@ Partial Class cnt014_Manset6cm
         Me.SqlCommand15 = New System.Data.SqlClient.SqlCommand()
         Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_bGarni1 = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_bGarni2 = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_GramajArtis = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_GramajArtis = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_GramajArtis = New System.Data.DataColumn()
         Me.SqlCommand20 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand18 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand17 = New System.Data.SqlClient.SqlCommand()
@@ -222,6 +193,35 @@ Partial Class cnt014_Manset6cm
         Me.LookUpEdit7 = New DevExpress.XtraEditors.LookUpEdit()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_bGarni1 = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_bGarni2 = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_GramajArtis = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_GramajArtis = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_GramajArtis = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -284,15 +284,13 @@ Partial Class cnt014_Manset6cm
         '
         'lblCaption
         '
-        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
-        Me.lblCaption.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
         Me.lblCaption.Size = New System.Drawing.Size(183, 22)
         Me.lblCaption.Text = "6cm Manşet"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5)
         Me.XtraTabControl1.Size = New System.Drawing.Size(284, 188)
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage3, Me.XtraTabPage4})
         Me.XtraTabControl1.Controls.SetChildIndex(Me.XtraTabPage4, 0)
@@ -308,31 +306,31 @@ Partial Class cnt014_Manset6cm
         Me.XtraTabPage1.Controls.Add(Me.LookUpEdit1)
         Me.XtraTabPage1.Controls.Add(Me.LabelControl2)
         Me.XtraTabPage1.Controls.Add(Me.LabelControl3)
-        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage1.Size = New System.Drawing.Size(278, 160)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
-        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage2.Size = New System.Drawing.Size(278, 160)
         Me.XtraTabPage2.Text = "Manset"
         '
         'panelCaption
         '
-        Me.panelCaption.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.panelCaption.Margin = New System.Windows.Forms.Padding(5)
         Me.panelCaption.Size = New System.Drawing.Size(284, 26)
         '
         'chkSecmeli
         '
         Me.chkSecmeli.Location = New System.Drawing.Point(224, 2)
-        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(4)
         '
         'chkVar
         '
         Me.chkVar.Location = New System.Drawing.Point(185, 2)
-        Me.chkVar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.chkVar.Margin = New System.Windows.Forms.Padding(4)
         '
         'NeoTable1
         '
@@ -877,153 +875,6 @@ Partial Class cnt014_Manset6cm
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand19
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_RenkID
-        '
-        Me.NeoTable2_RenkID.ColumnName = "RenkID"
-        Me.NeoTable2_RenkID.DataType = GetType(Integer)
-        '
-        'NeoTable2_CizgiRKafaLakosID
-        '
-        Me.NeoTable2_CizgiRKafaLakosID.ColumnName = "CizgiRKafaLakosID"
-        Me.NeoTable2_CizgiRKafaLakosID.DataType = GetType(Integer)
-        '
-        'NeoTable2_CizgiSayisi
-        '
-        Me.NeoTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
-        Me.NeoTable2_CizgiSayisi.DataType = GetType(Integer)
-        '
-        'NeoTable2_bGarni1
-        '
-        Me.NeoTable2_bGarni1.ColumnName = "bGarni1"
-        Me.NeoTable2_bGarni1.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni1_RenkID
-        '
-        Me.NeoTable2_Garni1_RenkID.ColumnName = "Garni1_RenkID"
-        Me.NeoTable2_Garni1_RenkID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni1_CizgiRKafaLakosID
-        '
-        Me.NeoTable2_Garni1_CizgiRKafaLakosID.ColumnName = "Garni1_CizgiRKafaLakosID"
-        Me.NeoTable2_Garni1_CizgiRKafaLakosID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni1_CizgiSayisi
-        '
-        Me.NeoTable2_Garni1_CizgiSayisi.ColumnName = "Garni1_CizgiSayisi"
-        Me.NeoTable2_Garni1_CizgiSayisi.DataType = GetType(Integer)
-        '
-        'NeoTable2_bGarni2
-        '
-        Me.NeoTable2_bGarni2.ColumnName = "bGarni2"
-        Me.NeoTable2_bGarni2.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni2_RenkID
-        '
-        Me.NeoTable2_Garni2_RenkID.ColumnName = "Garni2_RenkID"
-        Me.NeoTable2_Garni2_RenkID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni2_CizgiRKafaLakosID
-        '
-        Me.NeoTable2_Garni2_CizgiRKafaLakosID.ColumnName = "Garni2_CizgiRKafaLakosID"
-        Me.NeoTable2_Garni2_CizgiRKafaLakosID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni2_CizgiSayisi
-        '
-        Me.NeoTable2_Garni2_CizgiSayisi.ColumnName = "Garni2_CizgiSayisi"
-        Me.NeoTable2_Garni2_CizgiSayisi.DataType = GetType(Integer)
-        '
-        'NeoTable2_Iplik
-        '
-        Me.NeoTable2_Iplik.ColumnName = "Iplik"
-        Me.NeoTable2_Iplik.DataType = GetType(Integer)
-        '
-        'NeoTable2_IpGramaj
-        '
-        Me.NeoTable2_IpGramaj.ColumnName = "IpGramaj"
-        Me.NeoTable2_IpGramaj.DataType = GetType(Double)
-        '
-        'NeoTable2_GramajArtis
-        '
-        Me.NeoTable2_GramajArtis.ColumnName = "GramajArtis"
-        Me.NeoTable2_GramajArtis.DataType = GetType(Double)
-        '
-        'NeoTable2_Garni1_Iplik
-        '
-        Me.NeoTable2_Garni1_Iplik.ColumnName = "Garni1_Iplik"
-        Me.NeoTable2_Garni1_Iplik.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni1_IpGramaj
-        '
-        Me.NeoTable2_Garni1_IpGramaj.ColumnName = "Garni1_IpGramaj"
-        Me.NeoTable2_Garni1_IpGramaj.DataType = GetType(Double)
-        '
-        'NeoTable2_Garni1_GramajArtis
-        '
-        Me.NeoTable2_Garni1_GramajArtis.ColumnName = "Garni1_GramajArtis"
-        Me.NeoTable2_Garni1_GramajArtis.DataType = GetType(Double)
-        '
-        'NeoTable2_Garni2_Iplik
-        '
-        Me.NeoTable2_Garni2_Iplik.ColumnName = "Garni2_Iplik"
-        Me.NeoTable2_Garni2_Iplik.DataType = GetType(Integer)
-        '
-        'NeoTable2_Garni2_IpGramaj
-        '
-        Me.NeoTable2_Garni2_IpGramaj.ColumnName = "Garni2_IpGramaj"
-        Me.NeoTable2_Garni2_IpGramaj.DataType = GetType(Double)
-        '
-        'NeoTable2_Garni2_GramajArtis
-        '
-        Me.NeoTable2_Garni2_GramajArtis.ColumnName = "Garni2_GramajArtis"
-        Me.NeoTable2_Garni2_GramajArtis.DataType = GetType(Double)
-        '
         'SqlCommand20
         '
         Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_014_Manset6cm SET Deleted = nID  , ModifiedBy = @ModifiedBy " &
@@ -1123,7 +974,7 @@ Partial Class cnt014_Manset6cm
         '
         Me.chkGarni2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni2", True))
         Me.chkGarni2.Location = New System.Drawing.Point(205, 28)
-        Me.chkGarni2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkGarni2.Margin = New System.Windows.Forms.Padding(2)
         Me.chkGarni2.Name = "chkGarni2"
         Me.chkGarni2.Properties.Appearance.Options.UseTextOptions = True
         Me.chkGarni2.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
@@ -1140,7 +991,7 @@ Partial Class cnt014_Manset6cm
         '
         Me.chkGarni1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni1", True))
         Me.chkGarni1.Location = New System.Drawing.Point(205, 6)
-        Me.chkGarni1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.chkGarni1.Margin = New System.Windows.Forms.Padding(2)
         Me.chkGarni1.Name = "chkGarni1"
         Me.chkGarni1.Properties.Appearance.Options.UseTextOptions = True
         Me.chkGarni1.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
@@ -1236,9 +1087,9 @@ Partial Class cnt014_Manset6cm
         '
         Me.XtraTabPage3.Controls.Add(Me.GridControl1)
         Me.XtraTabPage3.Controls.Add(Me.PanelControl1)
-        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(2)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(204, 130)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(278, 160)
         Me.XtraTabPage3.Text = "Garni 1"
         '
         'GridControl1
@@ -1249,7 +1100,7 @@ Partial Class cnt014_Manset6cm
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit4, Me.RepositoryItemLookUpEdit3})
-        Me.GridControl1.Size = New System.Drawing.Size(204, 43)
+        Me.GridControl1.Size = New System.Drawing.Size(278, 73)
         Me.GridControl1.TabIndex = 6
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -1420,7 +1271,7 @@ Partial Class cnt014_Manset6cm
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(204, 87)
+        Me.PanelControl1.Size = New System.Drawing.Size(278, 87)
         Me.PanelControl1.TabIndex = 7
         '
         'LabelControl14
@@ -1625,9 +1476,9 @@ Partial Class cnt014_Manset6cm
         '
         Me.XtraTabPage4.Controls.Add(Me.GridControl3)
         Me.XtraTabPage4.Controls.Add(Me.PanelControl3)
-        Me.XtraTabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.XtraTabPage4.Margin = New System.Windows.Forms.Padding(2)
         Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(204, 130)
+        Me.XtraTabPage4.Size = New System.Drawing.Size(278, 160)
         Me.XtraTabPage4.Text = "Garni2"
         '
         'GridControl3
@@ -1638,7 +1489,7 @@ Partial Class cnt014_Manset6cm
         Me.GridControl3.MainView = Me.GridView3
         Me.GridControl3.Name = "GridControl3"
         Me.GridControl3.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit6, Me.RepositoryItemLookUpEdit5})
-        Me.GridControl3.Size = New System.Drawing.Size(204, 43)
+        Me.GridControl3.Size = New System.Drawing.Size(278, 73)
         Me.GridControl3.TabIndex = 8
         Me.GridControl3.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
         '
@@ -1730,7 +1581,7 @@ Partial Class cnt014_Manset6cm
         Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl3.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl3.Name = "PanelControl3"
-        Me.PanelControl3.Size = New System.Drawing.Size(204, 87)
+        Me.PanelControl3.Size = New System.Drawing.Size(278, 87)
         Me.PanelControl3.TabIndex = 9
         '
         'LabelControl17
@@ -1842,12 +1693,159 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl10.TabIndex = 2
         Me.LabelControl10.Text = "Çizgi"
         '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_RenkID
+        '
+        Me.NeoTable2_RenkID.ColumnName = "RenkID"
+        Me.NeoTable2_RenkID.DataType = GetType(Integer)
+        '
+        'NeoTable2_CizgiRKafaLakosID
+        '
+        Me.NeoTable2_CizgiRKafaLakosID.ColumnName = "CizgiRKafaLakosID"
+        Me.NeoTable2_CizgiRKafaLakosID.DataType = GetType(Integer)
+        '
+        'NeoTable2_CizgiSayisi
+        '
+        Me.NeoTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
+        Me.NeoTable2_CizgiSayisi.DataType = GetType(Integer)
+        '
+        'NeoTable2_bGarni1
+        '
+        Me.NeoTable2_bGarni1.ColumnName = "bGarni1"
+        Me.NeoTable2_bGarni1.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni1_RenkID
+        '
+        Me.NeoTable2_Garni1_RenkID.ColumnName = "Garni1_RenkID"
+        Me.NeoTable2_Garni1_RenkID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni1_CizgiRKafaLakosID
+        '
+        Me.NeoTable2_Garni1_CizgiRKafaLakosID.ColumnName = "Garni1_CizgiRKafaLakosID"
+        Me.NeoTable2_Garni1_CizgiRKafaLakosID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni1_CizgiSayisi
+        '
+        Me.NeoTable2_Garni1_CizgiSayisi.ColumnName = "Garni1_CizgiSayisi"
+        Me.NeoTable2_Garni1_CizgiSayisi.DataType = GetType(Integer)
+        '
+        'NeoTable2_bGarni2
+        '
+        Me.NeoTable2_bGarni2.ColumnName = "bGarni2"
+        Me.NeoTable2_bGarni2.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni2_RenkID
+        '
+        Me.NeoTable2_Garni2_RenkID.ColumnName = "Garni2_RenkID"
+        Me.NeoTable2_Garni2_RenkID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni2_CizgiRKafaLakosID
+        '
+        Me.NeoTable2_Garni2_CizgiRKafaLakosID.ColumnName = "Garni2_CizgiRKafaLakosID"
+        Me.NeoTable2_Garni2_CizgiRKafaLakosID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni2_CizgiSayisi
+        '
+        Me.NeoTable2_Garni2_CizgiSayisi.ColumnName = "Garni2_CizgiSayisi"
+        Me.NeoTable2_Garni2_CizgiSayisi.DataType = GetType(Integer)
+        '
+        'NeoTable2_Iplik
+        '
+        Me.NeoTable2_Iplik.ColumnName = "Iplik"
+        Me.NeoTable2_Iplik.DataType = GetType(Integer)
+        '
+        'NeoTable2_IpGramaj
+        '
+        Me.NeoTable2_IpGramaj.ColumnName = "IpGramaj"
+        Me.NeoTable2_IpGramaj.DataType = GetType(Double)
+        '
+        'NeoTable2_GramajArtis
+        '
+        Me.NeoTable2_GramajArtis.ColumnName = "GramajArtis"
+        Me.NeoTable2_GramajArtis.DataType = GetType(Double)
+        '
+        'NeoTable2_Garni1_Iplik
+        '
+        Me.NeoTable2_Garni1_Iplik.ColumnName = "Garni1_Iplik"
+        Me.NeoTable2_Garni1_Iplik.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni1_IpGramaj
+        '
+        Me.NeoTable2_Garni1_IpGramaj.ColumnName = "Garni1_IpGramaj"
+        Me.NeoTable2_Garni1_IpGramaj.DataType = GetType(Double)
+        '
+        'NeoTable2_Garni1_GramajArtis
+        '
+        Me.NeoTable2_Garni1_GramajArtis.ColumnName = "Garni1_GramajArtis"
+        Me.NeoTable2_Garni1_GramajArtis.DataType = GetType(Double)
+        '
+        'NeoTable2_Garni2_Iplik
+        '
+        Me.NeoTable2_Garni2_Iplik.ColumnName = "Garni2_Iplik"
+        Me.NeoTable2_Garni2_Iplik.DataType = GetType(Integer)
+        '
+        'NeoTable2_Garni2_IpGramaj
+        '
+        Me.NeoTable2_Garni2_IpGramaj.ColumnName = "Garni2_IpGramaj"
+        Me.NeoTable2_Garni2_IpGramaj.DataType = GetType(Double)
+        '
+        'NeoTable2_Garni2_GramajArtis
+        '
+        Me.NeoTable2_Garni2_GramajArtis.ColumnName = "Garni2_GramajArtis"
+        Me.NeoTable2_Garni2_GramajArtis.DataType = GetType(Double)
+        '
         'cnt014_Manset6cm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Caption = "6cm Manşet"
         Me.Code = "014"
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "cnt014_Manset6cm"
         Me.Size = New System.Drawing.Size(292, 222)
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2070,35 +2068,6 @@ Partial Class cnt014_Manset6cm
     Friend WithEvents tbGarni1Cizgiler_Manset6cmID As System.Data.DataColumn
     Friend WithEvents tbGarni1Cizgiler_CizgiNo As System.Data.DataColumn
     Friend WithEvents tbGarni1Cizgiler_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_bGarni1 As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_bGarni2 As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_GramajArtis As System.Data.DataColumn
     Friend WithEvents tbGarni2Cizgiler_nID As System.Data.DataColumn
     Friend WithEvents tbGarni2Cizgiler_Deleted As System.Data.DataColumn
     Friend WithEvents tbGarni2Cizgiler_CreatedBy As System.Data.DataColumn
@@ -2117,5 +2086,33 @@ Partial Class cnt014_Manset6cm
     Friend WithEvents NeoTable3_Manset6cmID As System.Data.DataColumn
     Friend WithEvents NeoTable3_CizgiNo As System.Data.DataColumn
     Friend WithEvents NeoTable3_RenkID As System.Data.DataColumn
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_bGarni1 As DataColumn
+    Friend WithEvents NeoTable2_Garni1_RenkID As DataColumn
+    Friend WithEvents NeoTable2_Garni1_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_Garni1_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_bGarni2 As DataColumn
+    Friend WithEvents NeoTable2_Garni2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_Garni2_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_Garni2_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_GramajArtis As DataColumn
+    Friend WithEvents NeoTable2_Garni1_Iplik As DataColumn
+    Friend WithEvents NeoTable2_Garni1_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_Garni1_GramajArtis As DataColumn
+    Friend WithEvents NeoTable2_Garni2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_Garni2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_Garni2_GramajArtis As DataColumn
 End Class

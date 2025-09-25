@@ -1,4 +1,4 @@
-﻿Public Class frmPlanlananTahsilatVeOdemeler
+Public Class frmPlanlananTahsilatVeOdemeler
 
     Private Sub chkGoster_Kapalilar_CheckedChanged(sender As Object, e As EventArgs) Handles chkGoster_Kapalilar.CheckedChanged, chkGoster_Iptaller.CheckedChanged
         Try

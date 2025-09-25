@@ -1,4 +1,4 @@
-﻿Public Class cnt004_DubleLastikCep
+Public Class cnt004_DubleLastikCep
     Dim bNoAction As Boolean = False
     Dim DubleLastikCepCizgiRKafa As String = ""
 

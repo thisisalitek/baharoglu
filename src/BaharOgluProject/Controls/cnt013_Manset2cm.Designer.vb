@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt013_Manset2cm
     Inherits ProbarSiparis.BaseControl
 
@@ -104,11 +104,46 @@ Partial Class cnt013_Manset2cm
         Me.SqlCommand15 = New System.Data.SqlClient.SqlCommand()
         Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_bGarni1 = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_bGarni2 = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_CizgiSayisi = New System.Data.DataColumn()
+        Me.NeoTable2_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_GramajArtis = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_Garni1_GramajArtis = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_Garni2_GramajArtis = New System.Data.DataColumn()
         Me.SqlCommand20 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand18 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand17 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand19 = New System.Data.SqlClient.SqlCommand()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.LookUpEdit8 = New DevExpress.XtraEditors.LookUpEdit()
+        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
         Me.chkGarni2 = New DevExpress.XtraEditors.CheckEdit()
         Me.chkGarni1 = New DevExpress.XtraEditors.CheckEdit()
         Me.LookUpEdit3 = New DevExpress.XtraEditors.LookUpEdit()
@@ -143,6 +178,12 @@ Partial Class cnt013_Manset2cm
         Me.RepositoryItemLookUpEdit3 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.RepositoryItemLookUpEdit4 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.LookUpEdit9 = New DevExpress.XtraEditors.LookUpEdit()
+        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
         Me.LookUpEdit4 = New DevExpress.XtraEditors.LookUpEdit()
         Me.LookUpEdit5 = New DevExpress.XtraEditors.LookUpEdit()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
@@ -172,57 +213,16 @@ Partial Class cnt013_Manset2cm
         Me.RepositoryItemLookUpEdit5 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.RepositoryItemLookUpEdit6 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.PanelControl3 = New DevExpress.XtraEditors.PanelControl()
-        Me.LookUpEdit6 = New DevExpress.XtraEditors.LookUpEdit()
-        Me.LookUpEdit7 = New DevExpress.XtraEditors.LookUpEdit()
-        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.LookUpEdit8 = New DevExpress.XtraEditors.LookUpEdit()
-        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_bGarni1 = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_bGarni2 = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_CizgiSayisi = New System.Data.DataColumn()
-        Me.NeoTable2_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_GramajArtis = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_Garni1_GramajArtis = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_Garni2_GramajArtis = New System.Data.DataColumn()
-        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
-        Me.LookUpEdit9 = New DevExpress.XtraEditors.LookUpEdit()
-        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
         Me.LookUpEdit10 = New DevExpress.XtraEditors.LookUpEdit()
         Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
+        Me.LookUpEdit6 = New DevExpress.XtraEditors.LookUpEdit()
+        Me.LookUpEdit7 = New DevExpress.XtraEditors.LookUpEdit()
+        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -249,6 +249,9 @@ Partial Class cnt013_Manset2cm
         CType(Me.NeoTable2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LookUpEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chkGarni2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chkGarni1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LookUpEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -261,6 +264,9 @@ Partial Class cnt013_Manset2cm
         CType(Me.RepositoryItemLookUpEdit4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LookUpEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LookUpEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LookUpEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tbGarni2Cizgiler, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -271,32 +277,23 @@ Partial Class cnt013_Manset2cm
         CType(Me.RepositoryItemLookUpEdit6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl3.SuspendLayout()
-        CType(Me.LookUpEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LookUpEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LookUpEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LookUpEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LookUpEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LookUpEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LookUpEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblCaption
         '
-        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
-        Me.lblCaption.Margin = New System.Windows.Forms.Padding(5)
-        Me.lblCaption.Size = New System.Drawing.Size(243, 28)
+        Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
+        Me.lblCaption.Size = New System.Drawing.Size(179, 22)
         Me.lblCaption.Text = "2cm Manşet"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(4, 36)
-        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
-        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(376, 249)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(280, 201)
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage3, Me.XtraTabPage4})
         Me.XtraTabControl1.Controls.SetChildIndex(Me.XtraTabPage4, 0)
         Me.XtraTabControl1.Controls.SetChildIndex(Me.XtraTabPage3, 0)
@@ -311,31 +308,31 @@ Partial Class cnt013_Manset2cm
         Me.XtraTabPage1.Controls.Add(Me.LookUpEdit1)
         Me.XtraTabPage1.Controls.Add(Me.LabelControl2)
         Me.XtraTabPage1.Controls.Add(Me.LabelControl3)
-        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(5)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(383, 161)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(4)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(274, 173)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
-        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(5)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(370, 218)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(274, 173)
         Me.XtraTabPage2.Text = "Manset"
         '
         'panelCaption
         '
-        Me.panelCaption.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
-        Me.panelCaption.Size = New System.Drawing.Size(376, 32)
+        Me.panelCaption.Margin = New System.Windows.Forms.Padding(5)
+        Me.panelCaption.Size = New System.Drawing.Size(280, 26)
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(297, 2)
-        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(5)
+        Me.chkSecmeli.Location = New System.Drawing.Point(220, 2)
+        Me.chkSecmeli.Margin = New System.Windows.Forms.Padding(4)
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(245, 2)
-        Me.chkVar.Margin = New System.Windows.Forms.Padding(5)
+        Me.chkVar.Location = New System.Drawing.Point(181, 2)
+        Me.chkVar.Margin = New System.Windows.Forms.Padding(4)
         '
         'NeoTable1
         '
@@ -415,7 +412,7 @@ Partial Class cnt013_Manset2cm
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_013_Manset2cm SET Deleted = nID  , ModifiedBy = @ModifiedBy " & _
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_013_Manset2cm SET Deleted = nID  , ModifiedBy = @ModifiedBy " &
     ", ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
@@ -508,44 +505,39 @@ Partial Class cnt013_Manset2cm
         'txtTurArtis
         '
         Me.txtTurArtis.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "GramajArtis", True))
-        Me.txtTurArtis.Location = New System.Drawing.Point(245, 21)
-        Me.txtTurArtis.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTurArtis.Location = New System.Drawing.Point(184, 17)
         Me.txtTurArtis.Name = "txtTurArtis"
-        Me.txtTurArtis.Size = New System.Drawing.Size(63, 22)
+        Me.txtTurArtis.Size = New System.Drawing.Size(47, 20)
         Me.txtTurArtis.TabIndex = 5
         '
         'LabelControl3
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(259, 4)
-        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl3.Location = New System.Drawing.Point(194, 3)
         Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(26, 16)
+        Me.LabelControl3.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl3.TabIndex = 4
         Me.LabelControl3.Text = "Artış"
         '
         'LabelControl2
         '
-        Me.LabelControl2.Location = New System.Drawing.Point(169, 4)
-        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl2.Location = New System.Drawing.Point(127, 3)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(43, 16)
+        Me.LabelControl2.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl2.TabIndex = 3
         Me.LabelControl2.Text = "İp Grm."
         '
         'txtTur
         '
         Me.txtTur.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "IpGramaj", True))
-        Me.txtTur.Location = New System.Drawing.Point(169, 21)
-        Me.txtTur.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTur.Location = New System.Drawing.Point(127, 17)
         Me.txtTur.Name = "txtTur"
-        Me.txtTur.Size = New System.Drawing.Size(63, 22)
+        Me.txtTur.Size = New System.Drawing.Size(47, 20)
         Me.txtTur.TabIndex = 2
         '
         'LookUpEdit1
         '
         Me.LookUpEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "Iplik", True))
-        Me.LookUpEdit1.Location = New System.Drawing.Point(4, 21)
-        Me.LookUpEdit1.Margin = New System.Windows.Forms.Padding(4)
+        Me.LookUpEdit1.Location = New System.Drawing.Point(3, 17)
         Me.LookUpEdit1.Name = "LookUpEdit1"
         Me.LookUpEdit1.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit1.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
@@ -556,7 +548,7 @@ Partial Class cnt013_Manset2cm
         Me.LookUpEdit1.Properties.NullText = ""
         Me.LookUpEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.LookUpEdit1.Properties.ValueMember = "IplikID"
-        Me.LookUpEdit1.Size = New System.Drawing.Size(157, 22)
+        Me.LookUpEdit1.Size = New System.Drawing.Size(118, 20)
         Me.LookUpEdit1.TabIndex = 1
         '
         'tbIplik
@@ -612,23 +604,20 @@ Partial Class cnt013_Manset2cm
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(408, 223)
-        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextEdit2.Location = New System.Drawing.Point(306, 181)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(63, 22)
+        Me.TextEdit2.Size = New System.Drawing.Size(47, 20)
         Me.TextEdit2.TabIndex = 5
         '
         'GridControl2
         '
         Me.GridControl2.DataSource = Me.NeoTable3
         Me.GridControl2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GridControl2.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
-        Me.GridControl2.Location = New System.Drawing.Point(0, 107)
+        Me.GridControl2.Location = New System.Drawing.Point(0, 87)
         Me.GridControl2.MainView = Me.GridView2
-        Me.GridControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit2, Me.RepositoryItemLookUpEdit1})
-        Me.GridControl2.Size = New System.Drawing.Size(370, 111)
+        Me.GridControl2.Size = New System.Drawing.Size(274, 86)
         Me.GridControl2.TabIndex = 2
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -705,7 +694,7 @@ Partial Class cnt013_Manset2cm
         '
         'SqlCommand28
         '
-        Me.SqlCommand28.CommandText = "UPDATE SipDetayParam_013_Manset2cm_Cizgiler SET Deleted = nID  , ModifiedBy = @Mo" & _
+        Me.SqlCommand28.CommandText = "UPDATE SipDetayParam_013_Manset2cm_Cizgiler SET Deleted = nID  , ModifiedBy = @Mo" &
     "difiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand26
@@ -895,732 +884,6 @@ Partial Class cnt013_Manset2cm
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand19
         '
-        'SqlCommand20
-        '
-        Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_013_Manset2cm SET Deleted = nID  , ModifiedBy = @ModifiedBy " & _
-    ", ModifiedDate = GETDATE()   WHERE nID = @nID"
-        '
-        'SqlCommand18
-        '
-        Me.SqlCommand18.CommandText = resources.GetString("SqlCommand18.CommandText")
-        Me.SqlCommand18.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
-        '
-        'SqlCommand17
-        '
-        Me.SqlCommand17.CommandText = "SELECT     *" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         SipDetayParam_013_Manset2cm" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
-        '
-        'SqlCommand19
-        '
-        Me.SqlCommand19.CommandText = resources.GetString("SqlCommand19.CommandText")
-        '
-        'PanelControl2
-        '
-        Me.PanelControl2.Controls.Add(Me.LabelControl11)
-        Me.PanelControl2.Controls.Add(Me.TextEdit1)
-        Me.PanelControl2.Controls.Add(Me.TextEdit3)
-        Me.PanelControl2.Controls.Add(Me.LookUpEdit8)
-        Me.PanelControl2.Controls.Add(Me.LabelControl12)
-        Me.PanelControl2.Controls.Add(Me.LabelControl13)
-        Me.PanelControl2.Controls.Add(Me.chkGarni2)
-        Me.PanelControl2.Controls.Add(Me.chkGarni1)
-        Me.PanelControl2.Controls.Add(Me.LookUpEdit3)
-        Me.PanelControl2.Controls.Add(Me.LookUpEdit2)
-        Me.PanelControl2.Controls.Add(Me.LabelControl7)
-        Me.PanelControl2.Controls.Add(Me.LabelControl6)
-        Me.PanelControl2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelControl2.Location = New System.Drawing.Point(0, 0)
-        Me.PanelControl2.Margin = New System.Windows.Forms.Padding(4)
-        Me.PanelControl2.Name = "PanelControl2"
-        Me.PanelControl2.Size = New System.Drawing.Size(370, 107)
-        Me.PanelControl2.TabIndex = 5
-        '
-        'chkGarni2
-        '
-        Me.chkGarni2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni2", True))
-        Me.chkGarni2.Location = New System.Drawing.Point(273, 35)
-        Me.chkGarni2.Name = "chkGarni2"
-        Me.chkGarni2.Properties.Appearance.Options.UseTextOptions = True
-        Me.chkGarni2.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
-        Me.chkGarni2.Properties.AutoWidth = True
-        Me.chkGarni2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
-        Me.chkGarni2.Properties.Caption = "Garni2"
-        Me.chkGarni2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.chkGarni2.Properties.ValueChecked = 1
-        Me.chkGarni2.Properties.ValueUnchecked = 0
-        Me.chkGarni2.Size = New System.Drawing.Size(62, 23)
-        Me.chkGarni2.TabIndex = 6
-        '
-        'chkGarni1
-        '
-        Me.chkGarni1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni1", True))
-        Me.chkGarni1.Location = New System.Drawing.Point(273, 7)
-        Me.chkGarni1.Name = "chkGarni1"
-        Me.chkGarni1.Properties.Appearance.Options.UseTextOptions = True
-        Me.chkGarni1.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
-        Me.chkGarni1.Properties.AutoWidth = True
-        Me.chkGarni1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
-        Me.chkGarni1.Properties.Caption = "Garni1"
-        Me.chkGarni1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
-        Me.chkGarni1.Properties.ValueChecked = 1
-        Me.chkGarni1.Properties.ValueUnchecked = 0
-        Me.chkGarni1.Size = New System.Drawing.Size(62, 23)
-        Me.chkGarni1.TabIndex = 5
-        '
-        'LookUpEdit3
-        '
-        Me.LookUpEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "CizgiRKafaLakosID", True))
-        Me.LookUpEdit3.EnterMoveNextControl = True
-        Me.LookUpEdit3.Location = New System.Drawing.Point(49, 32)
-        Me.LookUpEdit3.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit3.Name = "LookUpEdit3"
-        Me.LookUpEdit3.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit3.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit3.Properties.DataSource = Me.tbCizgiRenkKafaLakos
-        Me.LookUpEdit3.Properties.DisplayMember = "Aciklama"
-        Me.LookUpEdit3.Properties.NullText = ""
-        Me.LookUpEdit3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit3.Properties.ValueMember = "CizgiRKafaLakosID"
-        Me.LookUpEdit3.Size = New System.Drawing.Size(221, 22)
-        Me.LookUpEdit3.TabIndex = 4
-        '
-        'LookUpEdit2
-        '
-        Me.LookUpEdit2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "RenkID", True))
-        Me.LookUpEdit2.EnterMoveNextControl = True
-        Me.LookUpEdit2.Location = New System.Drawing.Point(49, 4)
-        Me.LookUpEdit2.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit2.Name = "LookUpEdit2"
-        Me.LookUpEdit2.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit2.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit2.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit2.Properties.DataSource = Me.tbRenk
-        Me.LookUpEdit2.Properties.DisplayMember = "RenkKod"
-        Me.LookUpEdit2.Properties.NullText = ""
-        Me.LookUpEdit2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit2.Properties.ValueMember = "RenkID"
-        Me.LookUpEdit2.Size = New System.Drawing.Size(223, 22)
-        Me.LookUpEdit2.TabIndex = 0
-        '
-        'LabelControl7
-        '
-        Me.LabelControl7.Location = New System.Drawing.Point(11, 4)
-        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(29, 16)
-        Me.LabelControl7.TabIndex = 3
-        Me.LabelControl7.Text = "Renk"
-        '
-        'LabelControl6
-        '
-        Me.LabelControl6.Location = New System.Drawing.Point(13, 36)
-        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(27, 16)
-        Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi"
-        '
-        'SqlCommand24
-        '
-        Me.SqlCommand24.CommandText = "DELETE FROM SipDetayParam_002_Lastik_Kol WHERE nID = @nID"
-        '
-        'SqlCommand22
-        '
-        Me.SqlCommand22.CommandText = resources.GetString("SqlCommand22.CommandText")
-        Me.SqlCommand22.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
-        '
-        'SqlCommand21
-        '
-        Me.SqlCommand21.CommandText = "SELECT     *" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         SipDetayParam_002_Lastik_Kol" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE 1=1 "
-        '
-        'SqlCommand23
-        '
-        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" & _
-    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" & _
-    "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
-        '
-        'LabelControl4
-        '
-        Me.LabelControl4.Location = New System.Drawing.Point(4, 4)
-        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(20, 16)
-        Me.LabelControl4.TabIndex = 7
-        Me.LabelControl4.Text = "Tur"
-        '
-        'XtraTabPage3
-        '
-        Me.XtraTabPage3.Controls.Add(Me.GridControl1)
-        Me.XtraTabPage3.Controls.Add(Me.PanelControl1)
-        Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(370, 218)
-        Me.XtraTabPage3.Text = "Garni 1"
-        '
-        'GridControl1
-        '
-        Me.GridControl1.DataSource = Me.tbGarni1Cizgiler
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
-        Me.GridControl1.Location = New System.Drawing.Point(0, 107)
-        Me.GridControl1.MainView = Me.GridView1
-        Me.GridControl1.Margin = New System.Windows.Forms.Padding(4)
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit4, Me.RepositoryItemLookUpEdit3})
-        Me.GridControl1.Size = New System.Drawing.Size(370, 111)
-        Me.GridControl1.TabIndex = 6
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
-        '
-        'tbGarni1Cizgiler
-        '
-        Me.tbGarni1Cizgiler.Columns.AddRange(New System.Data.DataColumn() {Me.tbGarni1Cizgiler_nID, Me.tbGarni1Cizgiler_Deleted, Me.tbGarni1Cizgiler_CreatedBy, Me.tbGarni1Cizgiler_CreatedDate, Me.tbGarni1Cizgiler_ModifiedBy, Me.tbGarni1Cizgiler_ModifiedDate, Me.tbGarni1Cizgiler_Manset2cmID, Me.tbGarni1Cizgiler_CizgiNo, Me.tbGarni1Cizgiler_RenkID})
-        Me.tbGarni1Cizgiler.Connection = Me.SqlConn
-        Me.tbGarni1Cizgiler.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"nID"}, True)})
-        Me.tbGarni1Cizgiler.CurrentRow = Nothing
-        Me.tbGarni1Cizgiler.DataSourceLink = Nothing
-        Me.tbGarni1Cizgiler.DeleteCommand = Me.SqlCommand32
-        Me.tbGarni1Cizgiler.Filter = ""
-        Me.tbGarni1Cizgiler.InsertCommand = Me.SqlCommand30
-        Me.tbGarni1Cizgiler.LiveSave = False
-        Me.tbGarni1Cizgiler.MaxRecords = CType(0, Long)
-        Me.tbGarni1Cizgiler.Name = "tbGarni1Cizgiler"
-        Me.tbGarni1Cizgiler.ParentRelation_ChildColumns = Nothing
-        Me.tbGarni1Cizgiler.ParentRelation_ParentColumns = Nothing
-        Me.tbGarni1Cizgiler.ParentRelation_Table = Nothing
-        Me.tbGarni1Cizgiler.Position = CType(-1, Long)
-        Me.tbGarni1Cizgiler.PrimaryKey = New System.Data.DataColumn() {Me.tbGarni1Cizgiler_nID}
-        Me.tbGarni1Cizgiler.Quoted = False
-        Me.tbGarni1Cizgiler.SelectCommand = Me.SqlCommand29
-        Me.tbGarni1Cizgiler.TableName = "NeoTable4"
-        Me.tbGarni1Cizgiler.Transaction = Nothing
-        Me.tbGarni1Cizgiler.UpdateCommand = Me.SqlCommand31
-        '
-        'tbGarni1Cizgiler_nID
-        '
-        Me.tbGarni1Cizgiler_nID.AllowDBNull = False
-        Me.tbGarni1Cizgiler_nID.AutoIncrement = True
-        Me.tbGarni1Cizgiler_nID.ColumnName = "nID"
-        Me.tbGarni1Cizgiler_nID.DataType = GetType(Integer)
-        '
-        'tbGarni1Cizgiler_Deleted
-        '
-        Me.tbGarni1Cizgiler_Deleted.ColumnName = "Deleted"
-        Me.tbGarni1Cizgiler_Deleted.DataType = GetType(Integer)
-        '
-        'tbGarni1Cizgiler_CreatedBy
-        '
-        Me.tbGarni1Cizgiler_CreatedBy.ColumnName = "CreatedBy"
-        Me.tbGarni1Cizgiler_CreatedBy.DataType = GetType(Integer)
-        '
-        'tbGarni1Cizgiler_CreatedDate
-        '
-        Me.tbGarni1Cizgiler_CreatedDate.ColumnName = "CreatedDate"
-        Me.tbGarni1Cizgiler_CreatedDate.DataType = GetType(Date)
-        '
-        'tbGarni1Cizgiler_ModifiedBy
-        '
-        Me.tbGarni1Cizgiler_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.tbGarni1Cizgiler_ModifiedBy.DataType = GetType(Integer)
-        '
-        'tbGarni1Cizgiler_ModifiedDate
-        '
-        Me.tbGarni1Cizgiler_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.tbGarni1Cizgiler_ModifiedDate.DataType = GetType(Date)
-        '
-        'tbGarni1Cizgiler_Manset2cmID
-        '
-        Me.tbGarni1Cizgiler_Manset2cmID.ColumnName = "Manset2cmID"
-        Me.tbGarni1Cizgiler_Manset2cmID.DataType = GetType(Integer)
-        '
-        'tbGarni1Cizgiler_CizgiNo
-        '
-        Me.tbGarni1Cizgiler_CizgiNo.ColumnName = "CizgiNo"
-        Me.tbGarni1Cizgiler_CizgiNo.DataType = GetType(Integer)
-        '
-        'tbGarni1Cizgiler_RenkID
-        '
-        Me.tbGarni1Cizgiler_RenkID.ColumnName = "RenkID"
-        Me.tbGarni1Cizgiler_RenkID.DataType = GetType(Integer)
-        '
-        'SqlCommand32
-        '
-        Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_013_Manset2cm_Garni1Cizgiler SET Deleted = nID  , ModifiedBy" & _
-    " = @ModifiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
-        '
-        'SqlCommand30
-        '
-        Me.SqlCommand30.CommandText = resources.GetString("SqlCommand30.CommandText")
-        Me.SqlCommand30.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
-        '
-        'SqlCommand29
-        '
-        Me.SqlCommand29.CommandText = "SELECT * FROM SipDetayParam_013_Manset2cm_Garni1Cizgiler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'SqlCommand31
-        '
-        Me.SqlCommand31.CommandText = resources.GetString("SqlCommand31.CommandText")
-        '
-        'GridView1
-        '
-        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn5, Me.GridColumn8, Me.GridColumn9})
-        Me.GridView1.GridControl = Me.GridControl1
-        Me.GridView1.Name = "GridView1"
-        Me.GridView1.OptionsCustomization.AllowSort = False
-        Me.GridView1.OptionsNavigation.EnterMoveNextColumn = True
-        Me.GridView1.OptionsView.ColumnAutoWidth = False
-        Me.GridView1.OptionsView.ShowGroupPanel = False
-        '
-        'GridColumn5
-        '
-        Me.GridColumn5.FieldName = "nID"
-        Me.GridColumn5.Name = "GridColumn5"
-        '
-        'GridColumn8
-        '
-        Me.GridColumn8.Caption = "#"
-        Me.GridColumn8.FieldName = "CizgiNo"
-        Me.GridColumn8.Name = "GridColumn8"
-        Me.GridColumn8.OptionsColumn.AllowEdit = False
-        Me.GridColumn8.Visible = True
-        Me.GridColumn8.VisibleIndex = 0
-        Me.GridColumn8.Width = 32
-        '
-        'GridColumn9
-        '
-        Me.GridColumn9.Caption = "Renk"
-        Me.GridColumn9.ColumnEdit = Me.RepositoryItemLookUpEdit3
-        Me.GridColumn9.FieldName = "RenkID"
-        Me.GridColumn9.Name = "GridColumn9"
-        Me.GridColumn9.Visible = True
-        Me.GridColumn9.VisibleIndex = 1
-        Me.GridColumn9.Width = 131
-        '
-        'RepositoryItemLookUpEdit3
-        '
-        Me.RepositoryItemLookUpEdit3.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.RepositoryItemLookUpEdit3.AutoHeight = False
-        Me.RepositoryItemLookUpEdit3.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.RepositoryItemLookUpEdit3.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit3.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.RepositoryItemLookUpEdit3.DataSource = Me.tbRenk
-        Me.RepositoryItemLookUpEdit3.DisplayMember = "RenkKod"
-        Me.RepositoryItemLookUpEdit3.Name = "RepositoryItemLookUpEdit3"
-        Me.RepositoryItemLookUpEdit3.NullText = ""
-        Me.RepositoryItemLookUpEdit3.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.RepositoryItemLookUpEdit3.ValueMember = "RenkID"
-        '
-        'RepositoryItemLookUpEdit4
-        '
-        Me.RepositoryItemLookUpEdit4.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.RepositoryItemLookUpEdit4.AutoHeight = False
-        Me.RepositoryItemLookUpEdit4.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.RepositoryItemLookUpEdit4.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit4.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Aciklama", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RKafa", "RKafa", 39, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "Cizgi Sayisi", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far)})
-        Me.RepositoryItemLookUpEdit4.DataSource = Me.tbCizgiRenkKafaLakos
-        Me.RepositoryItemLookUpEdit4.DisplayMember = "RKafa"
-        Me.RepositoryItemLookUpEdit4.Name = "RepositoryItemLookUpEdit4"
-        Me.RepositoryItemLookUpEdit4.NullText = ""
-        Me.RepositoryItemLookUpEdit4.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.RepositoryItemLookUpEdit4.ValueMember = "RKafa"
-        '
-        'PanelControl1
-        '
-        Me.PanelControl1.Controls.Add(Me.LabelControl14)
-        Me.PanelControl1.Controls.Add(Me.TextEdit4)
-        Me.PanelControl1.Controls.Add(Me.TextEdit5)
-        Me.PanelControl1.Controls.Add(Me.LookUpEdit9)
-        Me.PanelControl1.Controls.Add(Me.LabelControl15)
-        Me.PanelControl1.Controls.Add(Me.LabelControl16)
-        Me.PanelControl1.Controls.Add(Me.LookUpEdit4)
-        Me.PanelControl1.Controls.Add(Me.LookUpEdit5)
-        Me.PanelControl1.Controls.Add(Me.LabelControl5)
-        Me.PanelControl1.Controls.Add(Me.LabelControl8)
-        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
-        Me.PanelControl1.Margin = New System.Windows.Forms.Padding(4)
-        Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(370, 107)
-        Me.PanelControl1.TabIndex = 7
-        '
-        'LookUpEdit4
-        '
-        Me.LookUpEdit4.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_CizgiRKafaLakosID", True))
-        Me.LookUpEdit4.EnterMoveNextControl = True
-        Me.LookUpEdit4.Location = New System.Drawing.Point(49, 32)
-        Me.LookUpEdit4.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit4.Name = "LookUpEdit4"
-        Me.LookUpEdit4.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit4.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit4.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit4.Properties.DataSource = Me.tbCizgiRenkKafaLakos
-        Me.LookUpEdit4.Properties.DisplayMember = "Aciklama"
-        Me.LookUpEdit4.Properties.NullText = ""
-        Me.LookUpEdit4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit4.Properties.ValueMember = "CizgiRKafaLakosID"
-        Me.LookUpEdit4.Size = New System.Drawing.Size(221, 22)
-        Me.LookUpEdit4.TabIndex = 4
-        '
-        'LookUpEdit5
-        '
-        Me.LookUpEdit5.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_RenkID", True))
-        Me.LookUpEdit5.EnterMoveNextControl = True
-        Me.LookUpEdit5.Location = New System.Drawing.Point(49, 4)
-        Me.LookUpEdit5.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit5.Name = "LookUpEdit5"
-        Me.LookUpEdit5.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit5.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit5.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit5.Properties.DataSource = Me.tbRenk
-        Me.LookUpEdit5.Properties.DisplayMember = "RenkKod"
-        Me.LookUpEdit5.Properties.NullText = ""
-        Me.LookUpEdit5.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit5.Properties.ValueMember = "RenkID"
-        Me.LookUpEdit5.Size = New System.Drawing.Size(223, 22)
-        Me.LookUpEdit5.TabIndex = 0
-        '
-        'LabelControl5
-        '
-        Me.LabelControl5.Location = New System.Drawing.Point(11, 4)
-        Me.LabelControl5.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(29, 16)
-        Me.LabelControl5.TabIndex = 3
-        Me.LabelControl5.Text = "Renk"
-        '
-        'LabelControl8
-        '
-        Me.LabelControl8.Location = New System.Drawing.Point(13, 36)
-        Me.LabelControl8.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(27, 16)
-        Me.LabelControl8.TabIndex = 2
-        Me.LabelControl8.Text = "Çizgi"
-        '
-        'tbGarni2Cizgiler
-        '
-        Me.tbGarni2Cizgiler.Columns.AddRange(New System.Data.DataColumn() {Me.tbGarni2Cizgiler_nID, Me.tbGarni2Cizgiler_Deleted, Me.tbGarni2Cizgiler_CreatedBy, Me.tbGarni2Cizgiler_CreatedDate, Me.tbGarni2Cizgiler_ModifiedBy, Me.tbGarni2Cizgiler_ModifiedDate, Me.tbGarni2Cizgiler_Manset2cmID, Me.tbGarni2Cizgiler_CizgiNo, Me.tbGarni2Cizgiler_RenkID})
-        Me.tbGarni2Cizgiler.Connection = Me.SqlConn
-        Me.tbGarni2Cizgiler.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"nID"}, True)})
-        Me.tbGarni2Cizgiler.CurrentRow = Nothing
-        Me.tbGarni2Cizgiler.DataSourceLink = Nothing
-        Me.tbGarni2Cizgiler.DeleteCommand = Me.SqlCommand36
-        Me.tbGarni2Cizgiler.Filter = ""
-        Me.tbGarni2Cizgiler.InsertCommand = Me.SqlCommand34
-        Me.tbGarni2Cizgiler.LiveSave = False
-        Me.tbGarni2Cizgiler.MaxRecords = CType(0, Long)
-        Me.tbGarni2Cizgiler.Name = "tbGarni2Cizgiler"
-        Me.tbGarni2Cizgiler.ParentRelation_ChildColumns = Nothing
-        Me.tbGarni2Cizgiler.ParentRelation_ParentColumns = Nothing
-        Me.tbGarni2Cizgiler.ParentRelation_Table = Nothing
-        Me.tbGarni2Cizgiler.Position = CType(-1, Long)
-        Me.tbGarni2Cizgiler.PrimaryKey = New System.Data.DataColumn() {Me.tbGarni2Cizgiler_nID}
-        Me.tbGarni2Cizgiler.Quoted = False
-        Me.tbGarni2Cizgiler.SelectCommand = Me.SqlCommand33
-        Me.tbGarni2Cizgiler.TableName = "NeoTable4"
-        Me.tbGarni2Cizgiler.Transaction = Nothing
-        Me.tbGarni2Cizgiler.UpdateCommand = Me.SqlCommand35
-        '
-        'tbGarni2Cizgiler_nID
-        '
-        Me.tbGarni2Cizgiler_nID.AllowDBNull = False
-        Me.tbGarni2Cizgiler_nID.AutoIncrement = True
-        Me.tbGarni2Cizgiler_nID.ColumnName = "nID"
-        Me.tbGarni2Cizgiler_nID.DataType = GetType(Integer)
-        '
-        'tbGarni2Cizgiler_Deleted
-        '
-        Me.tbGarni2Cizgiler_Deleted.ColumnName = "Deleted"
-        Me.tbGarni2Cizgiler_Deleted.DataType = GetType(Integer)
-        '
-        'tbGarni2Cizgiler_CreatedBy
-        '
-        Me.tbGarni2Cizgiler_CreatedBy.ColumnName = "CreatedBy"
-        Me.tbGarni2Cizgiler_CreatedBy.DataType = GetType(Integer)
-        '
-        'tbGarni2Cizgiler_CreatedDate
-        '
-        Me.tbGarni2Cizgiler_CreatedDate.ColumnName = "CreatedDate"
-        Me.tbGarni2Cizgiler_CreatedDate.DataType = GetType(Date)
-        '
-        'tbGarni2Cizgiler_ModifiedBy
-        '
-        Me.tbGarni2Cizgiler_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.tbGarni2Cizgiler_ModifiedBy.DataType = GetType(Integer)
-        '
-        'tbGarni2Cizgiler_ModifiedDate
-        '
-        Me.tbGarni2Cizgiler_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.tbGarni2Cizgiler_ModifiedDate.DataType = GetType(Date)
-        '
-        'tbGarni2Cizgiler_Manset2cmID
-        '
-        Me.tbGarni2Cizgiler_Manset2cmID.ColumnName = "Manset2cmID"
-        Me.tbGarni2Cizgiler_Manset2cmID.DataType = GetType(Integer)
-        '
-        'tbGarni2Cizgiler_CizgiNo
-        '
-        Me.tbGarni2Cizgiler_CizgiNo.ColumnName = "CizgiNo"
-        Me.tbGarni2Cizgiler_CizgiNo.DataType = GetType(Integer)
-        '
-        'tbGarni2Cizgiler_RenkID
-        '
-        Me.tbGarni2Cizgiler_RenkID.ColumnName = "RenkID"
-        Me.tbGarni2Cizgiler_RenkID.DataType = GetType(Integer)
-        '
-        'SqlCommand36
-        '
-        Me.SqlCommand36.CommandText = "UPDATE SipDetayParam_013_Manset2cm_Garni2Cizgiler SET Deleted = nID  , ModifiedBy" & _
-    " = @ModifiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
-        '
-        'SqlCommand34
-        '
-        Me.SqlCommand34.CommandText = resources.GetString("SqlCommand34.CommandText")
-        Me.SqlCommand34.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
-        '
-        'SqlCommand33
-        '
-        Me.SqlCommand33.CommandText = "SELECT * FROM SipDetayParam_013_Manset2cm_Garni2Cizgiler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'SqlCommand35
-        '
-        Me.SqlCommand35.CommandText = resources.GetString("SqlCommand35.CommandText")
-        '
-        'XtraTabPage4
-        '
-        Me.XtraTabPage4.Controls.Add(Me.GridControl3)
-        Me.XtraTabPage4.Controls.Add(Me.PanelControl3)
-        Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(370, 218)
-        Me.XtraTabPage4.Text = "Garni2"
-        '
-        'GridControl3
-        '
-        Me.GridControl3.DataSource = Me.tbGarni2Cizgiler
-        Me.GridControl3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GridControl3.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
-        Me.GridControl3.Location = New System.Drawing.Point(0, 107)
-        Me.GridControl3.MainView = Me.GridView3
-        Me.GridControl3.Margin = New System.Windows.Forms.Padding(4)
-        Me.GridControl3.Name = "GridControl3"
-        Me.GridControl3.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit6, Me.RepositoryItemLookUpEdit5})
-        Me.GridControl3.Size = New System.Drawing.Size(370, 111)
-        Me.GridControl3.TabIndex = 8
-        Me.GridControl3.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
-        '
-        'GridView3
-        '
-        Me.GridView3.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn10, Me.GridColumn11, Me.GridColumn12, Me.GridColumn13, Me.GridColumn14})
-        Me.GridView3.GridControl = Me.GridControl3
-        Me.GridView3.Name = "GridView3"
-        Me.GridView3.OptionsCustomization.AllowSort = False
-        Me.GridView3.OptionsNavigation.EnterMoveNextColumn = True
-        Me.GridView3.OptionsView.ColumnAutoWidth = False
-        Me.GridView3.OptionsView.ShowGroupPanel = False
-        '
-        'GridColumn10
-        '
-        Me.GridColumn10.FieldName = "nID"
-        Me.GridColumn10.Name = "GridColumn10"
-        '
-        'GridColumn11
-        '
-        Me.GridColumn11.FieldName = "KategoriParamID"
-        Me.GridColumn11.Name = "GridColumn11"
-        '
-        'GridColumn12
-        '
-        Me.GridColumn12.FieldName = "KategoriID"
-        Me.GridColumn12.Name = "GridColumn12"
-        '
-        'GridColumn13
-        '
-        Me.GridColumn13.Caption = "#"
-        Me.GridColumn13.FieldName = "CizgiNo"
-        Me.GridColumn13.Name = "GridColumn13"
-        Me.GridColumn13.OptionsColumn.AllowEdit = False
-        Me.GridColumn13.Visible = True
-        Me.GridColumn13.VisibleIndex = 0
-        Me.GridColumn13.Width = 32
-        '
-        'GridColumn14
-        '
-        Me.GridColumn14.Caption = "Renk"
-        Me.GridColumn14.ColumnEdit = Me.RepositoryItemLookUpEdit5
-        Me.GridColumn14.FieldName = "RenkID"
-        Me.GridColumn14.Name = "GridColumn14"
-        Me.GridColumn14.Visible = True
-        Me.GridColumn14.VisibleIndex = 1
-        Me.GridColumn14.Width = 131
-        '
-        'RepositoryItemLookUpEdit5
-        '
-        Me.RepositoryItemLookUpEdit5.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.RepositoryItemLookUpEdit5.AutoHeight = False
-        Me.RepositoryItemLookUpEdit5.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.RepositoryItemLookUpEdit5.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit5.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.RepositoryItemLookUpEdit5.DataSource = Me.tbRenk
-        Me.RepositoryItemLookUpEdit5.DisplayMember = "RenkKod"
-        Me.RepositoryItemLookUpEdit5.Name = "RepositoryItemLookUpEdit5"
-        Me.RepositoryItemLookUpEdit5.NullText = ""
-        Me.RepositoryItemLookUpEdit5.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.RepositoryItemLookUpEdit5.ValueMember = "RenkID"
-        '
-        'RepositoryItemLookUpEdit6
-        '
-        Me.RepositoryItemLookUpEdit6.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.RepositoryItemLookUpEdit6.AutoHeight = False
-        Me.RepositoryItemLookUpEdit6.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.RepositoryItemLookUpEdit6.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.RepositoryItemLookUpEdit6.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Aciklama", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RKafa", "RKafa", 39, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "Cizgi Sayisi", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far)})
-        Me.RepositoryItemLookUpEdit6.DataSource = Me.tbCizgiRenkKafaLakos
-        Me.RepositoryItemLookUpEdit6.DisplayMember = "RKafa"
-        Me.RepositoryItemLookUpEdit6.Name = "RepositoryItemLookUpEdit6"
-        Me.RepositoryItemLookUpEdit6.NullText = ""
-        Me.RepositoryItemLookUpEdit6.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.RepositoryItemLookUpEdit6.ValueMember = "RKafa"
-        '
-        'PanelControl3
-        '
-        Me.PanelControl3.Controls.Add(Me.LabelControl17)
-        Me.PanelControl3.Controls.Add(Me.TextEdit6)
-        Me.PanelControl3.Controls.Add(Me.TextEdit7)
-        Me.PanelControl3.Controls.Add(Me.LookUpEdit10)
-        Me.PanelControl3.Controls.Add(Me.LabelControl18)
-        Me.PanelControl3.Controls.Add(Me.LabelControl19)
-        Me.PanelControl3.Controls.Add(Me.LookUpEdit6)
-        Me.PanelControl3.Controls.Add(Me.LookUpEdit7)
-        Me.PanelControl3.Controls.Add(Me.LabelControl9)
-        Me.PanelControl3.Controls.Add(Me.LabelControl10)
-        Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelControl3.Location = New System.Drawing.Point(0, 0)
-        Me.PanelControl3.Margin = New System.Windows.Forms.Padding(4)
-        Me.PanelControl3.Name = "PanelControl3"
-        Me.PanelControl3.Size = New System.Drawing.Size(370, 107)
-        Me.PanelControl3.TabIndex = 9
-        '
-        'LookUpEdit6
-        '
-        Me.LookUpEdit6.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_CizgiRKafaLakosID", True))
-        Me.LookUpEdit6.EnterMoveNextControl = True
-        Me.LookUpEdit6.Location = New System.Drawing.Point(49, 32)
-        Me.LookUpEdit6.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit6.Name = "LookUpEdit6"
-        Me.LookUpEdit6.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit6.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit6.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit6.Properties.DataSource = Me.tbCizgiRenkKafaLakos
-        Me.LookUpEdit6.Properties.DisplayMember = "Aciklama"
-        Me.LookUpEdit6.Properties.NullText = ""
-        Me.LookUpEdit6.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit6.Properties.ValueMember = "CizgiRKafaLakosID"
-        Me.LookUpEdit6.Size = New System.Drawing.Size(221, 22)
-        Me.LookUpEdit6.TabIndex = 4
-        '
-        'LookUpEdit7
-        '
-        Me.LookUpEdit7.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_RenkID", True))
-        Me.LookUpEdit7.EnterMoveNextControl = True
-        Me.LookUpEdit7.Location = New System.Drawing.Point(49, 4)
-        Me.LookUpEdit7.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit7.Name = "LookUpEdit7"
-        Me.LookUpEdit7.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit7.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit7.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit7.Properties.DataSource = Me.tbRenk
-        Me.LookUpEdit7.Properties.DisplayMember = "RenkKod"
-        Me.LookUpEdit7.Properties.NullText = ""
-        Me.LookUpEdit7.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit7.Properties.ValueMember = "RenkID"
-        Me.LookUpEdit7.Size = New System.Drawing.Size(223, 22)
-        Me.LookUpEdit7.TabIndex = 0
-        '
-        'LabelControl9
-        '
-        Me.LabelControl9.Location = New System.Drawing.Point(11, 4)
-        Me.LabelControl9.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(29, 16)
-        Me.LabelControl9.TabIndex = 3
-        Me.LabelControl9.Text = "Renk"
-        '
-        'LabelControl10
-        '
-        Me.LabelControl10.Location = New System.Drawing.Point(13, 36)
-        Me.LabelControl10.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl10.Name = "LabelControl10"
-        Me.LabelControl10.Size = New System.Drawing.Size(27, 16)
-        Me.LabelControl10.TabIndex = 2
-        Me.LabelControl10.Text = "Çizgi"
-        '
-        'LabelControl11
-        '
-        Me.LabelControl11.Location = New System.Drawing.Point(49, 58)
-        Me.LabelControl11.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl11.Name = "LabelControl11"
-        Me.LabelControl11.Size = New System.Drawing.Size(20, 16)
-        Me.LabelControl11.TabIndex = 13
-        Me.LabelControl11.Text = "Tur"
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "IpGramaj", True))
-        Me.TextEdit1.Location = New System.Drawing.Point(214, 75)
-        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(63, 22)
-        Me.TextEdit1.TabIndex = 9
-        '
-        'TextEdit3
-        '
-        Me.TextEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "GramajArtis", True))
-        Me.TextEdit3.Location = New System.Drawing.Point(290, 75)
-        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(63, 22)
-        Me.TextEdit3.TabIndex = 12
-        '
-        'LookUpEdit8
-        '
-        Me.LookUpEdit8.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Iplik", True))
-        Me.LookUpEdit8.Location = New System.Drawing.Point(49, 75)
-        Me.LookUpEdit8.Margin = New System.Windows.Forms.Padding(4)
-        Me.LookUpEdit8.Name = "LookUpEdit8"
-        Me.LookUpEdit8.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LookUpEdit8.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
-        Me.LookUpEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit8.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("IplikKod", "Iplik Kod", 50, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("IplikIsmi", "Iplik Ismi", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("IplikID", "Iplik ID", 56, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
-        Me.LookUpEdit8.Properties.DataSource = Me.tbIplik
-        Me.LookUpEdit8.Properties.DisplayMember = "IplikKod"
-        Me.LookUpEdit8.Properties.NullText = ""
-        Me.LookUpEdit8.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.LookUpEdit8.Properties.ValueMember = "IplikID"
-        Me.LookUpEdit8.Size = New System.Drawing.Size(157, 22)
-        Me.LookUpEdit8.TabIndex = 8
-        '
-        'LabelControl12
-        '
-        Me.LabelControl12.Location = New System.Drawing.Point(214, 58)
-        Me.LabelControl12.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl12.Name = "LabelControl12"
-        Me.LabelControl12.Size = New System.Drawing.Size(43, 16)
-        Me.LabelControl12.TabIndex = 10
-        Me.LabelControl12.Text = "İp Grm."
-        '
-        'LabelControl13
-        '
-        Me.LabelControl13.Location = New System.Drawing.Point(304, 58)
-        Me.LabelControl13.Margin = New System.Windows.Forms.Padding(4)
-        Me.LabelControl13.Name = "LabelControl13"
-        Me.LabelControl13.Size = New System.Drawing.Size(26, 16)
-        Me.LabelControl13.TabIndex = 11
-        Me.LabelControl13.Text = "Artış"
-        '
         'NeoTable2_nID
         '
         Me.NeoTable2_nID.AllowDBNull = False
@@ -1768,38 +1031,433 @@ Partial Class cnt013_Manset2cm
         Me.NeoTable2_Garni2_GramajArtis.ColumnName = "Garni2_GramajArtis"
         Me.NeoTable2_Garni2_GramajArtis.DataType = GetType(Double)
         '
+        'SqlCommand20
+        '
+        Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_013_Manset2cm SET Deleted = nID  , ModifiedBy = @ModifiedBy " &
+    ", ModifiedDate = GETDATE()   WHERE nID = @nID"
+        '
+        'SqlCommand18
+        '
+        Me.SqlCommand18.CommandText = resources.GetString("SqlCommand18.CommandText")
+        Me.SqlCommand18.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
+        '
+        'SqlCommand17
+        '
+        Me.SqlCommand17.CommandText = "SELECT     *" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         SipDetayParam_013_Manset2cm" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
+        '
+        'SqlCommand19
+        '
+        Me.SqlCommand19.CommandText = resources.GetString("SqlCommand19.CommandText")
+        '
+        'PanelControl2
+        '
+        Me.PanelControl2.Controls.Add(Me.LabelControl11)
+        Me.PanelControl2.Controls.Add(Me.TextEdit1)
+        Me.PanelControl2.Controls.Add(Me.TextEdit3)
+        Me.PanelControl2.Controls.Add(Me.LookUpEdit8)
+        Me.PanelControl2.Controls.Add(Me.LabelControl12)
+        Me.PanelControl2.Controls.Add(Me.LabelControl13)
+        Me.PanelControl2.Controls.Add(Me.chkGarni2)
+        Me.PanelControl2.Controls.Add(Me.chkGarni1)
+        Me.PanelControl2.Controls.Add(Me.LookUpEdit3)
+        Me.PanelControl2.Controls.Add(Me.LookUpEdit2)
+        Me.PanelControl2.Controls.Add(Me.LabelControl7)
+        Me.PanelControl2.Controls.Add(Me.LabelControl6)
+        Me.PanelControl2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl2.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl2.Name = "PanelControl2"
+        Me.PanelControl2.Size = New System.Drawing.Size(274, 87)
+        Me.PanelControl2.TabIndex = 5
+        '
+        'LabelControl11
+        '
+        Me.LabelControl11.Location = New System.Drawing.Point(37, 47)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(16, 13)
+        Me.LabelControl11.TabIndex = 13
+        Me.LabelControl11.Text = "Tur"
+        '
+        'TextEdit1
+        '
+        Me.TextEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "IpGramaj", True))
+        Me.TextEdit1.Location = New System.Drawing.Point(160, 61)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Size = New System.Drawing.Size(47, 20)
+        Me.TextEdit1.TabIndex = 9
+        '
+        'TextEdit3
+        '
+        Me.TextEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "GramajArtis", True))
+        Me.TextEdit3.Location = New System.Drawing.Point(218, 61)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Size = New System.Drawing.Size(47, 20)
+        Me.TextEdit3.TabIndex = 12
+        '
+        'LookUpEdit8
+        '
+        Me.LookUpEdit8.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Iplik", True))
+        Me.LookUpEdit8.Location = New System.Drawing.Point(37, 61)
+        Me.LookUpEdit8.Name = "LookUpEdit8"
+        Me.LookUpEdit8.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit8.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit8.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("IplikKod", "Iplik Kod", 50, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("IplikIsmi", "Iplik Ismi", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("IplikID", "Iplik ID", 56, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit8.Properties.DataSource = Me.tbIplik
+        Me.LookUpEdit8.Properties.DisplayMember = "IplikKod"
+        Me.LookUpEdit8.Properties.NullText = ""
+        Me.LookUpEdit8.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit8.Properties.ValueMember = "IplikID"
+        Me.LookUpEdit8.Size = New System.Drawing.Size(118, 20)
+        Me.LookUpEdit8.TabIndex = 8
+        '
+        'LabelControl12
+        '
+        Me.LabelControl12.Location = New System.Drawing.Point(160, 47)
+        Me.LabelControl12.Name = "LabelControl12"
+        Me.LabelControl12.Size = New System.Drawing.Size(36, 13)
+        Me.LabelControl12.TabIndex = 10
+        Me.LabelControl12.Text = "İp Grm."
+        '
+        'LabelControl13
+        '
+        Me.LabelControl13.Location = New System.Drawing.Point(228, 47)
+        Me.LabelControl13.Name = "LabelControl13"
+        Me.LabelControl13.Size = New System.Drawing.Size(22, 13)
+        Me.LabelControl13.TabIndex = 11
+        Me.LabelControl13.Text = "Artış"
+        '
+        'chkGarni2
+        '
+        Me.chkGarni2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni2", True))
+        Me.chkGarni2.Location = New System.Drawing.Point(205, 28)
+        Me.chkGarni2.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkGarni2.Name = "chkGarni2"
+        Me.chkGarni2.Properties.Appearance.Options.UseTextOptions = True
+        Me.chkGarni2.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.chkGarni2.Properties.AutoWidth = True
+        Me.chkGarni2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
+        Me.chkGarni2.Properties.Caption = "Garni2"
+        Me.chkGarni2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
+        Me.chkGarni2.Properties.ValueChecked = 1
+        Me.chkGarni2.Properties.ValueUnchecked = 0
+        Me.chkGarni2.Size = New System.Drawing.Size(55, 21)
+        Me.chkGarni2.TabIndex = 6
+        '
+        'chkGarni1
+        '
+        Me.chkGarni1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "bGarni1", True))
+        Me.chkGarni1.Location = New System.Drawing.Point(205, 6)
+        Me.chkGarni1.Margin = New System.Windows.Forms.Padding(2)
+        Me.chkGarni1.Name = "chkGarni1"
+        Me.chkGarni1.Properties.Appearance.Options.UseTextOptions = True
+        Me.chkGarni1.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
+        Me.chkGarni1.Properties.AutoWidth = True
+        Me.chkGarni1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
+        Me.chkGarni1.Properties.Caption = "Garni1"
+        Me.chkGarni1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
+        Me.chkGarni1.Properties.ValueChecked = 1
+        Me.chkGarni1.Properties.ValueUnchecked = 0
+        Me.chkGarni1.Size = New System.Drawing.Size(55, 21)
+        Me.chkGarni1.TabIndex = 5
+        '
+        'LookUpEdit3
+        '
+        Me.LookUpEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "CizgiRKafaLakosID", True))
+        Me.LookUpEdit3.EnterMoveNextControl = True
+        Me.LookUpEdit3.Location = New System.Drawing.Point(37, 26)
+        Me.LookUpEdit3.Name = "LookUpEdit3"
+        Me.LookUpEdit3.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit3.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit3.Properties.DataSource = Me.tbCizgiRenkKafaLakos
+        Me.LookUpEdit3.Properties.DisplayMember = "Aciklama"
+        Me.LookUpEdit3.Properties.NullText = ""
+        Me.LookUpEdit3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit3.Properties.ValueMember = "CizgiRKafaLakosID"
+        Me.LookUpEdit3.Size = New System.Drawing.Size(166, 20)
+        Me.LookUpEdit3.TabIndex = 4
+        '
+        'LookUpEdit2
+        '
+        Me.LookUpEdit2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "RenkID", True))
+        Me.LookUpEdit2.EnterMoveNextControl = True
+        Me.LookUpEdit2.Location = New System.Drawing.Point(37, 3)
+        Me.LookUpEdit2.Name = "LookUpEdit2"
+        Me.LookUpEdit2.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit2.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit2.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit2.Properties.DataSource = Me.tbRenk
+        Me.LookUpEdit2.Properties.DisplayMember = "RenkKod"
+        Me.LookUpEdit2.Properties.NullText = ""
+        Me.LookUpEdit2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit2.Properties.ValueMember = "RenkID"
+        Me.LookUpEdit2.Size = New System.Drawing.Size(167, 20)
+        Me.LookUpEdit2.TabIndex = 0
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Location = New System.Drawing.Point(8, 3)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(24, 13)
+        Me.LabelControl7.TabIndex = 3
+        Me.LabelControl7.Text = "Renk"
+        '
+        'LabelControl6
+        '
+        Me.LabelControl6.Location = New System.Drawing.Point(10, 29)
+        Me.LabelControl6.Name = "LabelControl6"
+        Me.LabelControl6.Size = New System.Drawing.Size(22, 13)
+        Me.LabelControl6.TabIndex = 2
+        Me.LabelControl6.Text = "Çizgi"
+        '
+        'SqlCommand24
+        '
+        Me.SqlCommand24.CommandText = "DELETE FROM SipDetayParam_002_Lastik_Kol WHERE nID = @nID"
+        '
+        'SqlCommand22
+        '
+        Me.SqlCommand22.CommandText = resources.GetString("SqlCommand22.CommandText")
+        Me.SqlCommand22.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
+        '
+        'SqlCommand21
+        '
+        Me.SqlCommand21.CommandText = "SELECT     *" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         SipDetayParam_002_Lastik_Kol" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE 1=1 "
+        '
+        'SqlCommand23
+        '
+        Me.SqlCommand23.CommandText = "UPDATE SipDetayParam_002_Lastik_Kol SET " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID = @SipDetayParamID , So" &
+    "urceID = @SourceID , KategoriParamID = @KategoriParamID , CizgiSayisi = @CizgiSa" &
+    "yisi , RKafa = @RKafa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE nID = @nID"
+        '
+        'LabelControl4
+        '
+        Me.LabelControl4.Location = New System.Drawing.Point(3, 3)
+        Me.LabelControl4.Name = "LabelControl4"
+        Me.LabelControl4.Size = New System.Drawing.Size(16, 13)
+        Me.LabelControl4.TabIndex = 7
+        Me.LabelControl4.Text = "Tur"
+        '
+        'XtraTabPage3
+        '
+        Me.XtraTabPage3.Controls.Add(Me.GridControl1)
+        Me.XtraTabPage3.Controls.Add(Me.PanelControl1)
+        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(2)
+        Me.XtraTabPage3.Name = "XtraTabPage3"
+        Me.XtraTabPage3.Size = New System.Drawing.Size(274, 173)
+        Me.XtraTabPage3.Text = "Garni 1"
+        '
+        'GridControl1
+        '
+        Me.GridControl1.DataSource = Me.tbGarni1Cizgiler
+        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GridControl1.Location = New System.Drawing.Point(0, 87)
+        Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Name = "GridControl1"
+        Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit4, Me.RepositoryItemLookUpEdit3})
+        Me.GridControl1.Size = New System.Drawing.Size(274, 86)
+        Me.GridControl1.TabIndex = 6
+        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        '
+        'tbGarni1Cizgiler
+        '
+        Me.tbGarni1Cizgiler.Columns.AddRange(New System.Data.DataColumn() {Me.tbGarni1Cizgiler_nID, Me.tbGarni1Cizgiler_Deleted, Me.tbGarni1Cizgiler_CreatedBy, Me.tbGarni1Cizgiler_CreatedDate, Me.tbGarni1Cizgiler_ModifiedBy, Me.tbGarni1Cizgiler_ModifiedDate, Me.tbGarni1Cizgiler_Manset2cmID, Me.tbGarni1Cizgiler_CizgiNo, Me.tbGarni1Cizgiler_RenkID})
+        Me.tbGarni1Cizgiler.Connection = Me.SqlConn
+        Me.tbGarni1Cizgiler.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"nID"}, True)})
+        Me.tbGarni1Cizgiler.CurrentRow = Nothing
+        Me.tbGarni1Cizgiler.DataSourceLink = Nothing
+        Me.tbGarni1Cizgiler.DeleteCommand = Me.SqlCommand32
+        Me.tbGarni1Cizgiler.Filter = ""
+        Me.tbGarni1Cizgiler.InsertCommand = Me.SqlCommand30
+        Me.tbGarni1Cizgiler.LiveSave = False
+        Me.tbGarni1Cizgiler.MaxRecords = CType(0, Long)
+        Me.tbGarni1Cizgiler.Name = "tbGarni1Cizgiler"
+        Me.tbGarni1Cizgiler.ParentRelation_ChildColumns = Nothing
+        Me.tbGarni1Cizgiler.ParentRelation_ParentColumns = Nothing
+        Me.tbGarni1Cizgiler.ParentRelation_Table = Nothing
+        Me.tbGarni1Cizgiler.Position = CType(-1, Long)
+        Me.tbGarni1Cizgiler.PrimaryKey = New System.Data.DataColumn() {Me.tbGarni1Cizgiler_nID}
+        Me.tbGarni1Cizgiler.Quoted = False
+        Me.tbGarni1Cizgiler.SelectCommand = Me.SqlCommand29
+        Me.tbGarni1Cizgiler.TableName = "NeoTable4"
+        Me.tbGarni1Cizgiler.Transaction = Nothing
+        Me.tbGarni1Cizgiler.UpdateCommand = Me.SqlCommand31
+        '
+        'tbGarni1Cizgiler_nID
+        '
+        Me.tbGarni1Cizgiler_nID.AllowDBNull = False
+        Me.tbGarni1Cizgiler_nID.AutoIncrement = True
+        Me.tbGarni1Cizgiler_nID.ColumnName = "nID"
+        Me.tbGarni1Cizgiler_nID.DataType = GetType(Integer)
+        '
+        'tbGarni1Cizgiler_Deleted
+        '
+        Me.tbGarni1Cizgiler_Deleted.ColumnName = "Deleted"
+        Me.tbGarni1Cizgiler_Deleted.DataType = GetType(Integer)
+        '
+        'tbGarni1Cizgiler_CreatedBy
+        '
+        Me.tbGarni1Cizgiler_CreatedBy.ColumnName = "CreatedBy"
+        Me.tbGarni1Cizgiler_CreatedBy.DataType = GetType(Integer)
+        '
+        'tbGarni1Cizgiler_CreatedDate
+        '
+        Me.tbGarni1Cizgiler_CreatedDate.ColumnName = "CreatedDate"
+        Me.tbGarni1Cizgiler_CreatedDate.DataType = GetType(Date)
+        '
+        'tbGarni1Cizgiler_ModifiedBy
+        '
+        Me.tbGarni1Cizgiler_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.tbGarni1Cizgiler_ModifiedBy.DataType = GetType(Integer)
+        '
+        'tbGarni1Cizgiler_ModifiedDate
+        '
+        Me.tbGarni1Cizgiler_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.tbGarni1Cizgiler_ModifiedDate.DataType = GetType(Date)
+        '
+        'tbGarni1Cizgiler_Manset2cmID
+        '
+        Me.tbGarni1Cizgiler_Manset2cmID.ColumnName = "Manset2cmID"
+        Me.tbGarni1Cizgiler_Manset2cmID.DataType = GetType(Integer)
+        '
+        'tbGarni1Cizgiler_CizgiNo
+        '
+        Me.tbGarni1Cizgiler_CizgiNo.ColumnName = "CizgiNo"
+        Me.tbGarni1Cizgiler_CizgiNo.DataType = GetType(Integer)
+        '
+        'tbGarni1Cizgiler_RenkID
+        '
+        Me.tbGarni1Cizgiler_RenkID.ColumnName = "RenkID"
+        Me.tbGarni1Cizgiler_RenkID.DataType = GetType(Integer)
+        '
+        'SqlCommand32
+        '
+        Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_013_Manset2cm_Garni1Cizgiler SET Deleted = nID  , ModifiedBy" &
+    " = @ModifiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
+        '
+        'SqlCommand30
+        '
+        Me.SqlCommand30.CommandText = resources.GetString("SqlCommand30.CommandText")
+        Me.SqlCommand30.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
+        '
+        'SqlCommand29
+        '
+        Me.SqlCommand29.CommandText = "SELECT * FROM SipDetayParam_013_Manset2cm_Garni1Cizgiler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'SqlCommand31
+        '
+        Me.SqlCommand31.CommandText = resources.GetString("SqlCommand31.CommandText")
+        '
+        'GridView1
+        '
+        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn5, Me.GridColumn8, Me.GridColumn9})
+        Me.GridView1.GridControl = Me.GridControl1
+        Me.GridView1.Name = "GridView1"
+        Me.GridView1.OptionsCustomization.AllowSort = False
+        Me.GridView1.OptionsNavigation.EnterMoveNextColumn = True
+        Me.GridView1.OptionsView.ColumnAutoWidth = False
+        Me.GridView1.OptionsView.ShowGroupPanel = False
+        '
+        'GridColumn5
+        '
+        Me.GridColumn5.FieldName = "nID"
+        Me.GridColumn5.Name = "GridColumn5"
+        '
+        'GridColumn8
+        '
+        Me.GridColumn8.Caption = "#"
+        Me.GridColumn8.FieldName = "CizgiNo"
+        Me.GridColumn8.Name = "GridColumn8"
+        Me.GridColumn8.OptionsColumn.AllowEdit = False
+        Me.GridColumn8.Visible = True
+        Me.GridColumn8.VisibleIndex = 0
+        Me.GridColumn8.Width = 32
+        '
+        'GridColumn9
+        '
+        Me.GridColumn9.Caption = "Renk"
+        Me.GridColumn9.ColumnEdit = Me.RepositoryItemLookUpEdit3
+        Me.GridColumn9.FieldName = "RenkID"
+        Me.GridColumn9.Name = "GridColumn9"
+        Me.GridColumn9.Visible = True
+        Me.GridColumn9.VisibleIndex = 1
+        Me.GridColumn9.Width = 131
+        '
+        'RepositoryItemLookUpEdit3
+        '
+        Me.RepositoryItemLookUpEdit3.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.RepositoryItemLookUpEdit3.AutoHeight = False
+        Me.RepositoryItemLookUpEdit3.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.RepositoryItemLookUpEdit3.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.RepositoryItemLookUpEdit3.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.RepositoryItemLookUpEdit3.DataSource = Me.tbRenk
+        Me.RepositoryItemLookUpEdit3.DisplayMember = "RenkKod"
+        Me.RepositoryItemLookUpEdit3.Name = "RepositoryItemLookUpEdit3"
+        Me.RepositoryItemLookUpEdit3.NullText = ""
+        Me.RepositoryItemLookUpEdit3.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.RepositoryItemLookUpEdit3.ValueMember = "RenkID"
+        '
+        'RepositoryItemLookUpEdit4
+        '
+        Me.RepositoryItemLookUpEdit4.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.RepositoryItemLookUpEdit4.AutoHeight = False
+        Me.RepositoryItemLookUpEdit4.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.RepositoryItemLookUpEdit4.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.RepositoryItemLookUpEdit4.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Aciklama", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RKafa", "RKafa", 39, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "Cizgi Sayisi", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far)})
+        Me.RepositoryItemLookUpEdit4.DataSource = Me.tbCizgiRenkKafaLakos
+        Me.RepositoryItemLookUpEdit4.DisplayMember = "RKafa"
+        Me.RepositoryItemLookUpEdit4.Name = "RepositoryItemLookUpEdit4"
+        Me.RepositoryItemLookUpEdit4.NullText = ""
+        Me.RepositoryItemLookUpEdit4.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.RepositoryItemLookUpEdit4.ValueMember = "RKafa"
+        '
+        'PanelControl1
+        '
+        Me.PanelControl1.Controls.Add(Me.LabelControl14)
+        Me.PanelControl1.Controls.Add(Me.TextEdit4)
+        Me.PanelControl1.Controls.Add(Me.TextEdit5)
+        Me.PanelControl1.Controls.Add(Me.LookUpEdit9)
+        Me.PanelControl1.Controls.Add(Me.LabelControl15)
+        Me.PanelControl1.Controls.Add(Me.LabelControl16)
+        Me.PanelControl1.Controls.Add(Me.LookUpEdit4)
+        Me.PanelControl1.Controls.Add(Me.LookUpEdit5)
+        Me.PanelControl1.Controls.Add(Me.LabelControl5)
+        Me.PanelControl1.Controls.Add(Me.LabelControl8)
+        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(274, 87)
+        Me.PanelControl1.TabIndex = 7
+        '
         'LabelControl14
         '
-        Me.LabelControl14.Location = New System.Drawing.Point(49, 58)
-        Me.LabelControl14.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl14.Location = New System.Drawing.Point(37, 47)
         Me.LabelControl14.Name = "LabelControl14"
-        Me.LabelControl14.Size = New System.Drawing.Size(20, 16)
+        Me.LabelControl14.Size = New System.Drawing.Size(16, 13)
         Me.LabelControl14.TabIndex = 19
         Me.LabelControl14.Text = "Tur"
         '
         'TextEdit4
         '
         Me.TextEdit4.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_IpGramaj", True))
-        Me.TextEdit4.Location = New System.Drawing.Point(214, 75)
-        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextEdit4.Location = New System.Drawing.Point(160, 61)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(63, 22)
+        Me.TextEdit4.Size = New System.Drawing.Size(47, 20)
         Me.TextEdit4.TabIndex = 15
         '
         'TextEdit5
         '
         Me.TextEdit5.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_GramajArtis", True))
-        Me.TextEdit5.Location = New System.Drawing.Point(290, 75)
-        Me.TextEdit5.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextEdit5.Location = New System.Drawing.Point(218, 61)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(63, 22)
+        Me.TextEdit5.Size = New System.Drawing.Size(47, 20)
         Me.TextEdit5.TabIndex = 18
         '
         'LookUpEdit9
         '
         Me.LookUpEdit9.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_Iplik", True))
-        Me.LookUpEdit9.Location = New System.Drawing.Point(49, 75)
-        Me.LookUpEdit9.Margin = New System.Windows.Forms.Padding(4)
+        Me.LookUpEdit9.Location = New System.Drawing.Point(37, 61)
         Me.LookUpEdit9.Name = "LookUpEdit9"
         Me.LookUpEdit9.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit9.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
@@ -1810,59 +1468,306 @@ Partial Class cnt013_Manset2cm
         Me.LookUpEdit9.Properties.NullText = ""
         Me.LookUpEdit9.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.LookUpEdit9.Properties.ValueMember = "IplikID"
-        Me.LookUpEdit9.Size = New System.Drawing.Size(157, 22)
+        Me.LookUpEdit9.Size = New System.Drawing.Size(118, 20)
         Me.LookUpEdit9.TabIndex = 14
         '
         'LabelControl15
         '
-        Me.LabelControl15.Location = New System.Drawing.Point(214, 58)
-        Me.LabelControl15.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl15.Location = New System.Drawing.Point(160, 47)
         Me.LabelControl15.Name = "LabelControl15"
-        Me.LabelControl15.Size = New System.Drawing.Size(43, 16)
+        Me.LabelControl15.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl15.TabIndex = 16
         Me.LabelControl15.Text = "İp Grm."
         '
         'LabelControl16
         '
-        Me.LabelControl16.Location = New System.Drawing.Point(304, 58)
-        Me.LabelControl16.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl16.Location = New System.Drawing.Point(228, 47)
         Me.LabelControl16.Name = "LabelControl16"
-        Me.LabelControl16.Size = New System.Drawing.Size(26, 16)
+        Me.LabelControl16.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl16.TabIndex = 17
         Me.LabelControl16.Text = "Artış"
         '
+        'LookUpEdit4
+        '
+        Me.LookUpEdit4.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_CizgiRKafaLakosID", True))
+        Me.LookUpEdit4.EnterMoveNextControl = True
+        Me.LookUpEdit4.Location = New System.Drawing.Point(37, 26)
+        Me.LookUpEdit4.Name = "LookUpEdit4"
+        Me.LookUpEdit4.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit4.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit4.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit4.Properties.DataSource = Me.tbCizgiRenkKafaLakos
+        Me.LookUpEdit4.Properties.DisplayMember = "Aciklama"
+        Me.LookUpEdit4.Properties.NullText = ""
+        Me.LookUpEdit4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit4.Properties.ValueMember = "CizgiRKafaLakosID"
+        Me.LookUpEdit4.Size = New System.Drawing.Size(166, 20)
+        Me.LookUpEdit4.TabIndex = 4
+        '
+        'LookUpEdit5
+        '
+        Me.LookUpEdit5.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni1_RenkID", True))
+        Me.LookUpEdit5.EnterMoveNextControl = True
+        Me.LookUpEdit5.Location = New System.Drawing.Point(37, 3)
+        Me.LookUpEdit5.Name = "LookUpEdit5"
+        Me.LookUpEdit5.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit5.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit5.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit5.Properties.DataSource = Me.tbRenk
+        Me.LookUpEdit5.Properties.DisplayMember = "RenkKod"
+        Me.LookUpEdit5.Properties.NullText = ""
+        Me.LookUpEdit5.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit5.Properties.ValueMember = "RenkID"
+        Me.LookUpEdit5.Size = New System.Drawing.Size(167, 20)
+        Me.LookUpEdit5.TabIndex = 0
+        '
+        'LabelControl5
+        '
+        Me.LabelControl5.Location = New System.Drawing.Point(8, 3)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(24, 13)
+        Me.LabelControl5.TabIndex = 3
+        Me.LabelControl5.Text = "Renk"
+        '
+        'LabelControl8
+        '
+        Me.LabelControl8.Location = New System.Drawing.Point(10, 29)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(22, 13)
+        Me.LabelControl8.TabIndex = 2
+        Me.LabelControl8.Text = "Çizgi"
+        '
+        'tbGarni2Cizgiler
+        '
+        Me.tbGarni2Cizgiler.Columns.AddRange(New System.Data.DataColumn() {Me.tbGarni2Cizgiler_nID, Me.tbGarni2Cizgiler_Deleted, Me.tbGarni2Cizgiler_CreatedBy, Me.tbGarni2Cizgiler_CreatedDate, Me.tbGarni2Cizgiler_ModifiedBy, Me.tbGarni2Cizgiler_ModifiedDate, Me.tbGarni2Cizgiler_Manset2cmID, Me.tbGarni2Cizgiler_CizgiNo, Me.tbGarni2Cizgiler_RenkID})
+        Me.tbGarni2Cizgiler.Connection = Me.SqlConn
+        Me.tbGarni2Cizgiler.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"nID"}, True)})
+        Me.tbGarni2Cizgiler.CurrentRow = Nothing
+        Me.tbGarni2Cizgiler.DataSourceLink = Nothing
+        Me.tbGarni2Cizgiler.DeleteCommand = Me.SqlCommand36
+        Me.tbGarni2Cizgiler.Filter = ""
+        Me.tbGarni2Cizgiler.InsertCommand = Me.SqlCommand34
+        Me.tbGarni2Cizgiler.LiveSave = False
+        Me.tbGarni2Cizgiler.MaxRecords = CType(0, Long)
+        Me.tbGarni2Cizgiler.Name = "tbGarni2Cizgiler"
+        Me.tbGarni2Cizgiler.ParentRelation_ChildColumns = Nothing
+        Me.tbGarni2Cizgiler.ParentRelation_ParentColumns = Nothing
+        Me.tbGarni2Cizgiler.ParentRelation_Table = Nothing
+        Me.tbGarni2Cizgiler.Position = CType(-1, Long)
+        Me.tbGarni2Cizgiler.PrimaryKey = New System.Data.DataColumn() {Me.tbGarni2Cizgiler_nID}
+        Me.tbGarni2Cizgiler.Quoted = False
+        Me.tbGarni2Cizgiler.SelectCommand = Me.SqlCommand33
+        Me.tbGarni2Cizgiler.TableName = "NeoTable4"
+        Me.tbGarni2Cizgiler.Transaction = Nothing
+        Me.tbGarni2Cizgiler.UpdateCommand = Me.SqlCommand35
+        '
+        'tbGarni2Cizgiler_nID
+        '
+        Me.tbGarni2Cizgiler_nID.AllowDBNull = False
+        Me.tbGarni2Cizgiler_nID.AutoIncrement = True
+        Me.tbGarni2Cizgiler_nID.ColumnName = "nID"
+        Me.tbGarni2Cizgiler_nID.DataType = GetType(Integer)
+        '
+        'tbGarni2Cizgiler_Deleted
+        '
+        Me.tbGarni2Cizgiler_Deleted.ColumnName = "Deleted"
+        Me.tbGarni2Cizgiler_Deleted.DataType = GetType(Integer)
+        '
+        'tbGarni2Cizgiler_CreatedBy
+        '
+        Me.tbGarni2Cizgiler_CreatedBy.ColumnName = "CreatedBy"
+        Me.tbGarni2Cizgiler_CreatedBy.DataType = GetType(Integer)
+        '
+        'tbGarni2Cizgiler_CreatedDate
+        '
+        Me.tbGarni2Cizgiler_CreatedDate.ColumnName = "CreatedDate"
+        Me.tbGarni2Cizgiler_CreatedDate.DataType = GetType(Date)
+        '
+        'tbGarni2Cizgiler_ModifiedBy
+        '
+        Me.tbGarni2Cizgiler_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.tbGarni2Cizgiler_ModifiedBy.DataType = GetType(Integer)
+        '
+        'tbGarni2Cizgiler_ModifiedDate
+        '
+        Me.tbGarni2Cizgiler_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.tbGarni2Cizgiler_ModifiedDate.DataType = GetType(Date)
+        '
+        'tbGarni2Cizgiler_Manset2cmID
+        '
+        Me.tbGarni2Cizgiler_Manset2cmID.ColumnName = "Manset2cmID"
+        Me.tbGarni2Cizgiler_Manset2cmID.DataType = GetType(Integer)
+        '
+        'tbGarni2Cizgiler_CizgiNo
+        '
+        Me.tbGarni2Cizgiler_CizgiNo.ColumnName = "CizgiNo"
+        Me.tbGarni2Cizgiler_CizgiNo.DataType = GetType(Integer)
+        '
+        'tbGarni2Cizgiler_RenkID
+        '
+        Me.tbGarni2Cizgiler_RenkID.ColumnName = "RenkID"
+        Me.tbGarni2Cizgiler_RenkID.DataType = GetType(Integer)
+        '
+        'SqlCommand36
+        '
+        Me.SqlCommand36.CommandText = "UPDATE SipDetayParam_013_Manset2cm_Garni2Cizgiler SET Deleted = nID  , ModifiedBy" &
+    " = @ModifiedBy , ModifiedDate = GETDATE()   WHERE nID = @nID"
+        '
+        'SqlCommand34
+        '
+        Me.SqlCommand34.CommandText = resources.GetString("SqlCommand34.CommandText")
+        Me.SqlCommand34.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
+        '
+        'SqlCommand33
+        '
+        Me.SqlCommand33.CommandText = "SELECT * FROM SipDetayParam_013_Manset2cm_Garni2Cizgiler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'SqlCommand35
+        '
+        Me.SqlCommand35.CommandText = resources.GetString("SqlCommand35.CommandText")
+        '
+        'XtraTabPage4
+        '
+        Me.XtraTabPage4.Controls.Add(Me.GridControl3)
+        Me.XtraTabPage4.Controls.Add(Me.PanelControl3)
+        Me.XtraTabPage4.Margin = New System.Windows.Forms.Padding(2)
+        Me.XtraTabPage4.Name = "XtraTabPage4"
+        Me.XtraTabPage4.Size = New System.Drawing.Size(274, 173)
+        Me.XtraTabPage4.Text = "Garni2"
+        '
+        'GridControl3
+        '
+        Me.GridControl3.DataSource = Me.tbGarni2Cizgiler
+        Me.GridControl3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GridControl3.Location = New System.Drawing.Point(0, 87)
+        Me.GridControl3.MainView = Me.GridView3
+        Me.GridControl3.Name = "GridControl3"
+        Me.GridControl3.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit6, Me.RepositoryItemLookUpEdit5})
+        Me.GridControl3.Size = New System.Drawing.Size(274, 86)
+        Me.GridControl3.TabIndex = 8
+        Me.GridControl3.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
+        '
+        'GridView3
+        '
+        Me.GridView3.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn10, Me.GridColumn11, Me.GridColumn12, Me.GridColumn13, Me.GridColumn14})
+        Me.GridView3.GridControl = Me.GridControl3
+        Me.GridView3.Name = "GridView3"
+        Me.GridView3.OptionsCustomization.AllowSort = False
+        Me.GridView3.OptionsNavigation.EnterMoveNextColumn = True
+        Me.GridView3.OptionsView.ColumnAutoWidth = False
+        Me.GridView3.OptionsView.ShowGroupPanel = False
+        '
+        'GridColumn10
+        '
+        Me.GridColumn10.FieldName = "nID"
+        Me.GridColumn10.Name = "GridColumn10"
+        '
+        'GridColumn11
+        '
+        Me.GridColumn11.FieldName = "KategoriParamID"
+        Me.GridColumn11.Name = "GridColumn11"
+        '
+        'GridColumn12
+        '
+        Me.GridColumn12.FieldName = "KategoriID"
+        Me.GridColumn12.Name = "GridColumn12"
+        '
+        'GridColumn13
+        '
+        Me.GridColumn13.Caption = "#"
+        Me.GridColumn13.FieldName = "CizgiNo"
+        Me.GridColumn13.Name = "GridColumn13"
+        Me.GridColumn13.OptionsColumn.AllowEdit = False
+        Me.GridColumn13.Visible = True
+        Me.GridColumn13.VisibleIndex = 0
+        Me.GridColumn13.Width = 32
+        '
+        'GridColumn14
+        '
+        Me.GridColumn14.Caption = "Renk"
+        Me.GridColumn14.ColumnEdit = Me.RepositoryItemLookUpEdit5
+        Me.GridColumn14.FieldName = "RenkID"
+        Me.GridColumn14.Name = "GridColumn14"
+        Me.GridColumn14.Visible = True
+        Me.GridColumn14.VisibleIndex = 1
+        Me.GridColumn14.Width = 131
+        '
+        'RepositoryItemLookUpEdit5
+        '
+        Me.RepositoryItemLookUpEdit5.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.RepositoryItemLookUpEdit5.AutoHeight = False
+        Me.RepositoryItemLookUpEdit5.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.RepositoryItemLookUpEdit5.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.RepositoryItemLookUpEdit5.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.RepositoryItemLookUpEdit5.DataSource = Me.tbRenk
+        Me.RepositoryItemLookUpEdit5.DisplayMember = "RenkKod"
+        Me.RepositoryItemLookUpEdit5.Name = "RepositoryItemLookUpEdit5"
+        Me.RepositoryItemLookUpEdit5.NullText = ""
+        Me.RepositoryItemLookUpEdit5.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.RepositoryItemLookUpEdit5.ValueMember = "RenkID"
+        '
+        'RepositoryItemLookUpEdit6
+        '
+        Me.RepositoryItemLookUpEdit6.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.RepositoryItemLookUpEdit6.AutoHeight = False
+        Me.RepositoryItemLookUpEdit6.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.RepositoryItemLookUpEdit6.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.RepositoryItemLookUpEdit6.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Aciklama", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RKafa", "RKafa", 39, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "Cizgi Sayisi", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far)})
+        Me.RepositoryItemLookUpEdit6.DataSource = Me.tbCizgiRenkKafaLakos
+        Me.RepositoryItemLookUpEdit6.DisplayMember = "RKafa"
+        Me.RepositoryItemLookUpEdit6.Name = "RepositoryItemLookUpEdit6"
+        Me.RepositoryItemLookUpEdit6.NullText = ""
+        Me.RepositoryItemLookUpEdit6.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.RepositoryItemLookUpEdit6.ValueMember = "RKafa"
+        '
+        'PanelControl3
+        '
+        Me.PanelControl3.Controls.Add(Me.LabelControl17)
+        Me.PanelControl3.Controls.Add(Me.TextEdit6)
+        Me.PanelControl3.Controls.Add(Me.TextEdit7)
+        Me.PanelControl3.Controls.Add(Me.LookUpEdit10)
+        Me.PanelControl3.Controls.Add(Me.LabelControl18)
+        Me.PanelControl3.Controls.Add(Me.LabelControl19)
+        Me.PanelControl3.Controls.Add(Me.LookUpEdit6)
+        Me.PanelControl3.Controls.Add(Me.LookUpEdit7)
+        Me.PanelControl3.Controls.Add(Me.LabelControl9)
+        Me.PanelControl3.Controls.Add(Me.LabelControl10)
+        Me.PanelControl3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PanelControl3.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl3.Name = "PanelControl3"
+        Me.PanelControl3.Size = New System.Drawing.Size(274, 87)
+        Me.PanelControl3.TabIndex = 9
+        '
         'LabelControl17
         '
-        Me.LabelControl17.Location = New System.Drawing.Point(49, 58)
-        Me.LabelControl17.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl17.Location = New System.Drawing.Point(37, 47)
         Me.LabelControl17.Name = "LabelControl17"
-        Me.LabelControl17.Size = New System.Drawing.Size(20, 16)
+        Me.LabelControl17.Size = New System.Drawing.Size(16, 13)
         Me.LabelControl17.TabIndex = 25
         Me.LabelControl17.Text = "Tur"
         '
         'TextEdit6
         '
         Me.TextEdit6.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_IpGramaj", True))
-        Me.TextEdit6.Location = New System.Drawing.Point(214, 75)
-        Me.TextEdit6.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextEdit6.Location = New System.Drawing.Point(160, 61)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Size = New System.Drawing.Size(63, 22)
+        Me.TextEdit6.Size = New System.Drawing.Size(47, 20)
         Me.TextEdit6.TabIndex = 21
         '
         'TextEdit7
         '
         Me.TextEdit7.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_GramajArtis", True))
-        Me.TextEdit7.Location = New System.Drawing.Point(290, 75)
-        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextEdit7.Location = New System.Drawing.Point(218, 61)
         Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Size = New System.Drawing.Size(63, 22)
+        Me.TextEdit7.Size = New System.Drawing.Size(47, 20)
         Me.TextEdit7.TabIndex = 24
         '
         'LookUpEdit10
         '
         Me.LookUpEdit10.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_Iplik", True))
-        Me.LookUpEdit10.Location = New System.Drawing.Point(49, 75)
-        Me.LookUpEdit10.Margin = New System.Windows.Forms.Padding(4)
+        Me.LookUpEdit10.Location = New System.Drawing.Point(37, 61)
         Me.LookUpEdit10.Name = "LookUpEdit10"
         Me.LookUpEdit10.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit10.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
@@ -1873,36 +1778,86 @@ Partial Class cnt013_Manset2cm
         Me.LookUpEdit10.Properties.NullText = ""
         Me.LookUpEdit10.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.LookUpEdit10.Properties.ValueMember = "IplikID"
-        Me.LookUpEdit10.Size = New System.Drawing.Size(157, 22)
+        Me.LookUpEdit10.Size = New System.Drawing.Size(118, 20)
         Me.LookUpEdit10.TabIndex = 20
         '
         'LabelControl18
         '
-        Me.LabelControl18.Location = New System.Drawing.Point(214, 58)
-        Me.LabelControl18.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl18.Location = New System.Drawing.Point(160, 47)
         Me.LabelControl18.Name = "LabelControl18"
-        Me.LabelControl18.Size = New System.Drawing.Size(43, 16)
+        Me.LabelControl18.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl18.TabIndex = 22
         Me.LabelControl18.Text = "İp Grm."
         '
         'LabelControl19
         '
-        Me.LabelControl19.Location = New System.Drawing.Point(304, 58)
-        Me.LabelControl19.Margin = New System.Windows.Forms.Padding(4)
+        Me.LabelControl19.Location = New System.Drawing.Point(228, 47)
         Me.LabelControl19.Name = "LabelControl19"
-        Me.LabelControl19.Size = New System.Drawing.Size(26, 16)
+        Me.LabelControl19.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl19.TabIndex = 23
         Me.LabelControl19.Text = "Artış"
         '
+        'LookUpEdit6
+        '
+        Me.LookUpEdit6.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_CizgiRKafaLakosID", True))
+        Me.LookUpEdit6.EnterMoveNextControl = True
+        Me.LookUpEdit6.Location = New System.Drawing.Point(37, 26)
+        Me.LookUpEdit6.Name = "LookUpEdit6"
+        Me.LookUpEdit6.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit6.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit6.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit6.Properties.DataSource = Me.tbCizgiRenkKafaLakos
+        Me.LookUpEdit6.Properties.DisplayMember = "Aciklama"
+        Me.LookUpEdit6.Properties.NullText = ""
+        Me.LookUpEdit6.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit6.Properties.ValueMember = "CizgiRKafaLakosID"
+        Me.LookUpEdit6.Size = New System.Drawing.Size(166, 20)
+        Me.LookUpEdit6.TabIndex = 4
+        '
+        'LookUpEdit7
+        '
+        Me.LookUpEdit7.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "Garni2_RenkID", True))
+        Me.LookUpEdit7.EnterMoveNextControl = True
+        Me.LookUpEdit7.Location = New System.Drawing.Point(37, 3)
+        Me.LookUpEdit7.Name = "LookUpEdit7"
+        Me.LookUpEdit7.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LookUpEdit7.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
+        Me.LookUpEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.LookUpEdit7.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkKod", "Renk Kod", 55, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkIsmi", "Renk Ismi", 56, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("RenkID", "Renk ID", 61, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit7.Properties.DataSource = Me.tbRenk
+        Me.LookUpEdit7.Properties.DisplayMember = "RenkKod"
+        Me.LookUpEdit7.Properties.NullText = ""
+        Me.LookUpEdit7.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.LookUpEdit7.Properties.ValueMember = "RenkID"
+        Me.LookUpEdit7.Size = New System.Drawing.Size(167, 20)
+        Me.LookUpEdit7.TabIndex = 0
+        '
+        'LabelControl9
+        '
+        Me.LabelControl9.Location = New System.Drawing.Point(8, 3)
+        Me.LabelControl9.Name = "LabelControl9"
+        Me.LabelControl9.Size = New System.Drawing.Size(24, 13)
+        Me.LabelControl9.TabIndex = 3
+        Me.LabelControl9.Text = "Renk"
+        '
+        'LabelControl10
+        '
+        Me.LabelControl10.Location = New System.Drawing.Point(10, 29)
+        Me.LabelControl10.Name = "LabelControl10"
+        Me.LabelControl10.Size = New System.Drawing.Size(22, 13)
+        Me.LabelControl10.TabIndex = 2
+        Me.LabelControl10.Text = "Çizgi"
+        '
         'cnt013_Manset2cm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Caption = "2cm Manşet"
         Me.Code = "013"
         Me.Controls.Add(Me.TextEdit2)
-        Me.Margin = New System.Windows.Forms.Padding(5)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "cnt013_Manset2cm"
-        Me.Size = New System.Drawing.Size(384, 289)
+        Me.Size = New System.Drawing.Size(288, 235)
         Me.Controls.SetChildIndex(Me.TextEdit2, 0)
         Me.Controls.SetChildIndex(Me.XtraTabControl1, 0)
         Me.Controls.SetChildIndex(Me.panelCaption, 0)
@@ -1934,6 +1889,9 @@ Partial Class cnt013_Manset2cm
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl2.ResumeLayout(False)
         Me.PanelControl2.PerformLayout()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LookUpEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chkGarni2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chkGarni1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LookUpEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1947,6 +1905,9 @@ Partial Class cnt013_Manset2cm
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LookUpEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LookUpEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LookUpEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tbGarni2Cizgiler, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1958,17 +1919,11 @@ Partial Class cnt013_Manset2cm
         CType(Me.PanelControl3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl3.ResumeLayout(False)
         Me.PanelControl3.PerformLayout()
-        CType(Me.LookUpEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LookUpEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LookUpEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LookUpEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LookUpEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LookUpEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LookUpEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2061,15 +2016,6 @@ Partial Class cnt013_Manset2cm
     Friend WithEvents NeoTable1_Iplik As System.Data.DataColumn
     Friend WithEvents NeoTable1_IpGramaj As System.Data.DataColumn
     Friend WithEvents NeoTable1_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable3_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable3_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable3_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable3_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable3_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable3_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable3_Manset2cmID As System.Data.DataColumn
-    Friend WithEvents NeoTable3_CizgiNo As System.Data.DataColumn
-    Friend WithEvents NeoTable3_RenkID As System.Data.DataColumn
     Friend WithEvents XtraTabPage3 As DevExpress.XtraTab.XtraTabPage
     Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
@@ -2086,29 +2032,11 @@ Partial Class cnt013_Manset2cm
     Friend WithEvents chkGarni1 As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents chkGarni2 As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents tbGarni1Cizgiler As NeoDAC.NeoTable
-    Friend WithEvents tbGarni1Cizgiler_nID As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_Deleted As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_CreatedBy As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_CreatedDate As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_Manset2cmID As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_CizgiNo As System.Data.DataColumn
-    Friend WithEvents tbGarni1Cizgiler_RenkID As System.Data.DataColumn
     Friend WithEvents SqlCommand32 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand30 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand29 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand31 As System.Data.SqlClient.SqlCommand
     Friend WithEvents tbGarni2Cizgiler As NeoDAC.NeoTable
-    Friend WithEvents tbGarni2Cizgiler_nID As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_Deleted As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_CreatedBy As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_CreatedDate As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_Manset2cmID As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_CizgiNo As System.Data.DataColumn
-    Friend WithEvents tbGarni2Cizgiler_RenkID As System.Data.DataColumn
     Friend WithEvents SqlCommand36 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand34 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand33 As System.Data.SqlClient.SqlCommand
@@ -2134,35 +2062,6 @@ Partial Class cnt013_Manset2cm
     Friend WithEvents LookUpEdit8 As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_bGarni1 As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_bGarni2 As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_CizgiSayisi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni1_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Garni2_GramajArtis As System.Data.DataColumn
     Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
@@ -2175,5 +2074,60 @@ Partial Class cnt013_Manset2cm
     Friend WithEvents LookUpEdit10 As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_bGarni1 As DataColumn
+    Friend WithEvents NeoTable2_Garni1_RenkID As DataColumn
+    Friend WithEvents NeoTable2_Garni1_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_Garni1_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_bGarni2 As DataColumn
+    Friend WithEvents NeoTable2_Garni2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_Garni2_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_Garni2_CizgiSayisi As DataColumn
+    Friend WithEvents NeoTable2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_GramajArtis As DataColumn
+    Friend WithEvents NeoTable2_Garni1_Iplik As DataColumn
+    Friend WithEvents NeoTable2_Garni1_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_Garni1_GramajArtis As DataColumn
+    Friend WithEvents NeoTable2_Garni2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_Garni2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_Garni2_GramajArtis As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_nID As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_Deleted As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_CreatedBy As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_CreatedDate As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_ModifiedBy As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_ModifiedDate As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_Manset2cmID As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_CizgiNo As DataColumn
+    Friend WithEvents tbGarni1Cizgiler_RenkID As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_nID As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_Deleted As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_CreatedBy As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_CreatedDate As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_ModifiedBy As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_ModifiedDate As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_Manset2cmID As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_CizgiNo As DataColumn
+    Friend WithEvents tbGarni2Cizgiler_RenkID As DataColumn
+    Friend WithEvents NeoTable3_nID As DataColumn
+    Friend WithEvents NeoTable3_Deleted As DataColumn
+    Friend WithEvents NeoTable3_CreatedBy As DataColumn
+    Friend WithEvents NeoTable3_CreatedDate As DataColumn
+    Friend WithEvents NeoTable3_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable3_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable3_Manset2cmID As DataColumn
+    Friend WithEvents NeoTable3_CizgiNo As DataColumn
+    Friend WithEvents NeoTable3_RenkID As DataColumn
 End Class

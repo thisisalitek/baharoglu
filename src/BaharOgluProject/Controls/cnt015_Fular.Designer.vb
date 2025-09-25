@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt015_Fular
     Inherits ProbarSiparis.BaseControl
 
@@ -111,19 +111,6 @@ Partial Class cnt015_Fular
         Me.MasterTable_ParamFloat5_1 = New System.Data.DataColumn()
         Me.GridControl2 = New DevExpress.XtraGrid.GridControl()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_ParcaIsmi = New System.Data.DataColumn()
-        Me.NeoTable2_Iplik = New System.Data.DataColumn()
-        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
-        Me.NeoTable2_RenkID = New System.Data.DataColumn()
         Me.SqlCommand12 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand10 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand9 = New System.Data.SqlClient.SqlCommand()
@@ -143,6 +130,19 @@ Partial Class cnt015_Fular
         Me.SqlCommand13 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand15 = New System.Data.SqlClient.SqlCommand()
         Me.RadioGroup1 = New DevExpress.XtraEditors.RadioGroup()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_ParcaIsmi = New System.Data.DataColumn()
+        Me.NeoTable2_Iplik = New System.Data.DataColumn()
+        Me.NeoTable2_IpGramaj = New System.Data.DataColumn()
+        Me.NeoTable2_RenkID = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -170,24 +170,23 @@ Partial Class cnt015_Fular
         '
         'lblCaption
         '
-        Me.lblCaption.Size = New System.Drawing.Size(159, 17)
+        Me.lblCaption.Size = New System.Drawing.Size(163, 22)
         Me.lblCaption.Text = "Fular"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
         Me.XtraTabControl1.Size = New System.Drawing.Size(264, 124)
         '
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.GridControl1)
-        Me.XtraTabPage1.Size = New System.Drawing.Size(256, 96)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(258, 96)
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.GridControl2)
         Me.XtraTabPage2.Controls.Add(Me.RadioGroup1)
-        Me.XtraTabPage2.Size = New System.Drawing.Size(256, 96)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(258, 96)
         '
         'panelCaption
         '
@@ -195,11 +194,11 @@ Partial Class cnt015_Fular
         '
         'chkSecmeli
         '
-        Me.chkSecmeli.Location = New System.Drawing.Point(202, 4)
+        Me.chkSecmeli.Location = New System.Drawing.Point(204, 2)
         '
         'chkVar
         '
-        Me.chkVar.Location = New System.Drawing.Point(163, 4)
+        Me.chkVar.Location = New System.Drawing.Point(165, 2)
         '
         'GridControl1
         '
@@ -209,7 +208,7 @@ Partial Class cnt015_Fular
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit1, Me.cboOrguTip1})
-        Me.GridControl1.Size = New System.Drawing.Size(256, 96)
+        Me.GridControl1.Size = New System.Drawing.Size(258, 96)
         Me.GridControl1.TabIndex = 2
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -290,8 +289,8 @@ Partial Class cnt015_Fular
         '
         'SqlCommand4
         '
-        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_015_Fular SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mo" & _
-            "difiedDate = GETDATE()   WHERE nID = @nID"
+        Me.SqlCommand4.CommandText = "UPDATE KategoriParam_015_Fular SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mo" &
+    "difiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand2
         '
@@ -511,8 +510,8 @@ Partial Class cnt015_Fular
         '
         'SqlCommand17
         '
-        Me.SqlCommand17.CommandText = "SELECT     OrguTipID, OrguTipKod, OrguTipIsmi,Fiyat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         OrguTipleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WH" & _
-            "ERE Deleted = 0 AND bLakos=1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY OrguTipKod"
+        Me.SqlCommand17.CommandText = "SELECT     OrguTipID, OrguTipKod, OrguTipIsmi,Fiyat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         OrguTipleri" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WH" &
+    "ERE Deleted = 0 AND bLakos=1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY OrguTipKod"
         '
         'MasterTable_KategoriParamID
         '
@@ -703,7 +702,7 @@ Partial Class cnt015_Fular
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.cboGridRenk})
-        Me.GridControl2.Size = New System.Drawing.Size(256, 68)
+        Me.GridControl2.Size = New System.Drawing.Size(258, 68)
         Me.GridControl2.TabIndex = 3
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -731,76 +730,10 @@ Partial Class cnt015_Fular
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand11
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_ParcaIsmi
-        '
-        Me.NeoTable2_ParcaIsmi.ColumnName = "ParcaIsmi"
-        '
-        'NeoTable2_Iplik
-        '
-        Me.NeoTable2_Iplik.ColumnName = "Iplik"
-        Me.NeoTable2_Iplik.DataType = GetType(Integer)
-        '
-        'NeoTable2_IpGramaj
-        '
-        Me.NeoTable2_IpGramaj.ColumnName = "IpGramaj"
-        Me.NeoTable2_IpGramaj.DataType = GetType(Double)
-        '
-        'NeoTable2_RenkID
-        '
-        Me.NeoTable2_RenkID.ColumnName = "RenkID"
-        Me.NeoTable2_RenkID.DataType = GetType(Integer)
-        '
         'SqlCommand12
         '
-        Me.SqlCommand12.CommandText = "UPDATE SipDetayParam_015_Fular SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mo" & _
-            "difiedDate = GETDATE()   WHERE nID = @nID"
+        Me.SqlCommand12.CommandText = "UPDATE SipDetayParam_015_Fular SET Deleted = nID  , ModifiedBy = @ModifiedBy , Mo" &
+    "difiedDate = GETDATE()   WHERE nID = @nID"
         '
         'SqlCommand10
         '
@@ -908,8 +841,8 @@ Partial Class cnt015_Fular
         '
         'SqlCommand13
         '
-        Me.SqlCommand13.CommandText = "SELECT     RenkID, RenkKod, RenkIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         Renkler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & _
-            "RDER BY RenkKod"
+        Me.SqlCommand13.CommandText = "SELECT     RenkID, RenkKod, RenkIsmi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM         Renkler" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE Deleted = 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" &
+    "RDER BY RenkKod"
         '
         'RadioGroup1
         '
@@ -918,8 +851,74 @@ Partial Class cnt015_Fular
         Me.RadioGroup1.Location = New System.Drawing.Point(0, 68)
         Me.RadioGroup1.Name = "RadioGroup1"
         Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Yuvarlak"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Oval"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Kalkan"), New DevExpress.XtraEditors.Controls.RadioGroupItem(99, "Diğer")})
-        Me.RadioGroup1.Size = New System.Drawing.Size(256, 28)
+        Me.RadioGroup1.Size = New System.Drawing.Size(258, 28)
         Me.RadioGroup1.TabIndex = 4
+        '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_ParcaIsmi
+        '
+        Me.NeoTable2_ParcaIsmi.ColumnName = "ParcaIsmi"
+        '
+        'NeoTable2_Iplik
+        '
+        Me.NeoTable2_Iplik.ColumnName = "Iplik"
+        Me.NeoTable2_Iplik.DataType = GetType(Integer)
+        '
+        'NeoTable2_IpGramaj
+        '
+        Me.NeoTable2_IpGramaj.ColumnName = "IpGramaj"
+        Me.NeoTable2_IpGramaj.DataType = GetType(Double)
+        '
+        'NeoTable2_RenkID
+        '
+        Me.NeoTable2_RenkID.ColumnName = "RenkID"
+        Me.NeoTable2_RenkID.DataType = GetType(Integer)
         '
         'cnt015_Fular
         '
@@ -1063,19 +1062,18 @@ Partial Class cnt015_Fular
     Friend WithEvents NeoTable1_ParcaIsmi As System.Data.DataColumn
     Friend WithEvents NeoTable1_Iplik As System.Data.DataColumn
     Friend WithEvents NeoTable1_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ParcaIsmi As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable2_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
     Friend WithEvents RadioGroup1 As DevExpress.XtraEditors.RadioGroup
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_ParcaIsmi As DataColumn
+    Friend WithEvents NeoTable2_Iplik As DataColumn
+    Friend WithEvents NeoTable2_IpGramaj As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
 End Class

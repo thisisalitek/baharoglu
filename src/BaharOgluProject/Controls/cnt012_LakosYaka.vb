@@ -1,4 +1,4 @@
-﻿Public Class cnt012_LakosYaka
+Public Class cnt012_LakosYaka
     Dim bNoAction As Boolean = False
     Dim YakaCizgiRKafa As String = ""
 

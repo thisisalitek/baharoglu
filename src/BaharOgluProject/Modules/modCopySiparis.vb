@@ -1,4 +1,4 @@
-﻿Module modCopySiparis
+Module modCopySiparis
     Public Function CopySiparis(ByVal SiparisID As Long, UserID As Long) As Long
         Dim trans As SqlClient.SqlTransaction
         Try

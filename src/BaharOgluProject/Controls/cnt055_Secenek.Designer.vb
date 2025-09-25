@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt055_Secenek
     Inherits ProbarSiparis.BaseControl
 
@@ -93,26 +93,6 @@ Partial Class cnt055_Secenek
         Me.CheckEdit12 = New DevExpress.XtraEditors.CheckEdit()
         Me.chkArma = New DevExpress.XtraEditors.CheckEdit()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_ModelFarki = New System.Data.DataColumn()
-        Me.NeoTable2_ParcaModel = New System.Data.DataColumn()
-        Me.NeoTable2_Astar = New System.Data.DataColumn()
-        Me.NeoTable2_Femuar = New System.Data.DataColumn()
-        Me.NeoTable2_OmuzRecme = New System.Data.DataColumn()
-        Me.NeoTable2_Arma = New System.Data.DataColumn()
-        Me.NeoTable2_OzelEtiket = New System.Data.DataColumn()
-        Me.NeoTable2_Fason = New System.Data.DataColumn()
-        Me.NeoTable2_FasonID = New System.Data.DataColumn()
-        Me.NeoTable2_MansetFarki = New System.Data.DataColumn()
-        Me.NeoTable2_UzunKolFarki = New System.Data.DataColumn()
         Me.SqlCommand32 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand30 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand29 = New System.Data.SqlClient.SqlCommand()
@@ -133,6 +113,26 @@ Partial Class cnt055_Secenek
         Me.CheckEdit7 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit8 = New DevExpress.XtraEditors.CheckEdit()
         Me.CheckEdit9 = New DevExpress.XtraEditors.CheckEdit()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_ModelFarki = New System.Data.DataColumn()
+        Me.NeoTable2_ParcaModel = New System.Data.DataColumn()
+        Me.NeoTable2_Astar = New System.Data.DataColumn()
+        Me.NeoTable2_Femuar = New System.Data.DataColumn()
+        Me.NeoTable2_OmuzRecme = New System.Data.DataColumn()
+        Me.NeoTable2_Arma = New System.Data.DataColumn()
+        Me.NeoTable2_OzelEtiket = New System.Data.DataColumn()
+        Me.NeoTable2_Fason = New System.Data.DataColumn()
+        Me.NeoTable2_FasonID = New System.Data.DataColumn()
+        Me.NeoTable2_MansetFarki = New System.Data.DataColumn()
+        Me.NeoTable2_UzunKolFarki = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -176,13 +176,11 @@ Partial Class cnt055_Secenek
         '
         'lblCaption
         '
-        Me.lblCaption.Location = New System.Drawing.Point(2, 2)
         Me.lblCaption.Size = New System.Drawing.Size(71, 22)
         Me.lblCaption.Text = "Seçenekler"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
         Me.XtraTabControl1.Size = New System.Drawing.Size(172, 225)
         '
         'XtraTabPage1
@@ -386,7 +384,9 @@ Partial Class cnt055_Secenek
         '
         'SqlCommand18
         '
-        Me.SqlCommand18.CommandText = resources.GetString("SqlCommand18.CommandText")
+        Me.SqlCommand18.CommandText = "INSERT INTO SipDetayParam_051_Tip (" & Global.Microsoft.VisualBasic.ChrW(10) & "SipDetayParamID , SourceID , KategoriParamID " &
+    ", Tip)" & Global.Microsoft.VisualBasic.ChrW(10) & " VALUES (" & Global.Microsoft.VisualBasic.ChrW(10) & "@SipDetayParamID , @SourceID , @KategoriParamID , @Tip)" & Global.Microsoft.VisualBasic.ChrW(10) & "SELECT " &
+    "@PRIMARYFIELD_nID = SCOPE_IDENTITY() " & Global.Microsoft.VisualBasic.ChrW(10)
         Me.SqlCommand18.Parameters.AddRange(New System.Data.SqlClient.SqlParameter() {New System.Data.SqlClient.SqlParameter("@PRIMARYFIELD_nID", System.Data.SqlDbType.NText, 4, System.Data.ParameterDirection.InputOutput, True, CType(0, Byte), CType(0, Byte), "", System.Data.DataRowVersion.Current, 0)})
         '
         'SqlCommand17
@@ -652,108 +652,6 @@ Partial Class cnt055_Secenek
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand31
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModelFarki
-        '
-        Me.NeoTable2_ModelFarki.ColumnName = "ModelFarki"
-        Me.NeoTable2_ModelFarki.DataType = GetType(Integer)
-        '
-        'NeoTable2_ParcaModel
-        '
-        Me.NeoTable2_ParcaModel.ColumnName = "ParcaModel"
-        Me.NeoTable2_ParcaModel.DataType = GetType(Integer)
-        '
-        'NeoTable2_Astar
-        '
-        Me.NeoTable2_Astar.ColumnName = "Astar"
-        Me.NeoTable2_Astar.DataType = GetType(Integer)
-        '
-        'NeoTable2_Femuar
-        '
-        Me.NeoTable2_Femuar.ColumnName = "Femuar"
-        Me.NeoTable2_Femuar.DataType = GetType(Integer)
-        '
-        'NeoTable2_OmuzRecme
-        '
-        Me.NeoTable2_OmuzRecme.ColumnName = "OmuzRecme"
-        Me.NeoTable2_OmuzRecme.DataType = GetType(Integer)
-        '
-        'NeoTable2_Arma
-        '
-        Me.NeoTable2_Arma.ColumnName = "Arma"
-        Me.NeoTable2_Arma.DataType = GetType(Integer)
-        '
-        'NeoTable2_OzelEtiket
-        '
-        Me.NeoTable2_OzelEtiket.ColumnName = "OzelEtiket"
-        Me.NeoTable2_OzelEtiket.DataType = GetType(Integer)
-        '
-        'NeoTable2_Fason
-        '
-        Me.NeoTable2_Fason.ColumnName = "Fason"
-        Me.NeoTable2_Fason.DataType = GetType(Integer)
-        '
-        'NeoTable2_FasonID
-        '
-        Me.NeoTable2_FasonID.ColumnName = "FasonID"
-        Me.NeoTable2_FasonID.DataType = GetType(Integer)
-        '
-        'NeoTable2_MansetFarki
-        '
-        Me.NeoTable2_MansetFarki.ColumnName = "MansetFarki"
-        Me.NeoTable2_MansetFarki.DataType = GetType(Integer)
-        '
-        'NeoTable2_UzunKolFarki
-        '
-        Me.NeoTable2_UzunKolFarki.ColumnName = "UzunKolFarki"
-        Me.NeoTable2_UzunKolFarki.DataType = GetType(Integer)
-        '
         'SqlCommand32
         '
         Me.SqlCommand32.CommandText = "UPDATE SipDetayParam_055_Secenek SET Deleted = nID  , ModifiedBy = @ModifiedBy , " &
@@ -967,6 +865,108 @@ Partial Class cnt055_Secenek
         Me.CheckEdit9.Size = New System.Drawing.Size(96, 19)
         Me.CheckEdit9.TabIndex = 24
         '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModelFarki
+        '
+        Me.NeoTable2_ModelFarki.ColumnName = "ModelFarki"
+        Me.NeoTable2_ModelFarki.DataType = GetType(Integer)
+        '
+        'NeoTable2_ParcaModel
+        '
+        Me.NeoTable2_ParcaModel.ColumnName = "ParcaModel"
+        Me.NeoTable2_ParcaModel.DataType = GetType(Integer)
+        '
+        'NeoTable2_Astar
+        '
+        Me.NeoTable2_Astar.ColumnName = "Astar"
+        Me.NeoTable2_Astar.DataType = GetType(Integer)
+        '
+        'NeoTable2_Femuar
+        '
+        Me.NeoTable2_Femuar.ColumnName = "Femuar"
+        Me.NeoTable2_Femuar.DataType = GetType(Integer)
+        '
+        'NeoTable2_OmuzRecme
+        '
+        Me.NeoTable2_OmuzRecme.ColumnName = "OmuzRecme"
+        Me.NeoTable2_OmuzRecme.DataType = GetType(Integer)
+        '
+        'NeoTable2_Arma
+        '
+        Me.NeoTable2_Arma.ColumnName = "Arma"
+        Me.NeoTable2_Arma.DataType = GetType(Integer)
+        '
+        'NeoTable2_OzelEtiket
+        '
+        Me.NeoTable2_OzelEtiket.ColumnName = "OzelEtiket"
+        Me.NeoTable2_OzelEtiket.DataType = GetType(Integer)
+        '
+        'NeoTable2_Fason
+        '
+        Me.NeoTable2_Fason.ColumnName = "Fason"
+        Me.NeoTable2_Fason.DataType = GetType(Integer)
+        '
+        'NeoTable2_FasonID
+        '
+        Me.NeoTable2_FasonID.ColumnName = "FasonID"
+        Me.NeoTable2_FasonID.DataType = GetType(Integer)
+        '
+        'NeoTable2_MansetFarki
+        '
+        Me.NeoTable2_MansetFarki.ColumnName = "MansetFarki"
+        Me.NeoTable2_MansetFarki.DataType = GetType(Integer)
+        '
+        'NeoTable2_UzunKolFarki
+        '
+        Me.NeoTable2_UzunKolFarki.ColumnName = "UzunKolFarki"
+        Me.NeoTable2_UzunKolFarki.DataType = GetType(Integer)
+        '
         'cnt055_Secenek
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1112,26 +1112,25 @@ Partial Class cnt055_Secenek
     Friend WithEvents NeoTable1_UzunKolFarki As System.Data.DataColumn
     Friend WithEvents CheckEdit6 As DevExpress.XtraEditors.CheckEdit
     Friend WithEvents CheckEdit8 As DevExpress.XtraEditors.CheckEdit
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModelFarki As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ParcaModel As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Astar As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Femuar As System.Data.DataColumn
-    Friend WithEvents NeoTable2_OmuzRecme As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Arma As System.Data.DataColumn
-    Friend WithEvents NeoTable2_OzelEtiket As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Fason As System.Data.DataColumn
-    Friend WithEvents NeoTable2_FasonID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_MansetFarki As System.Data.DataColumn
-    Friend WithEvents NeoTable2_UzunKolFarki As System.Data.DataColumn
     Friend WithEvents CheckEdit9 As DevExpress.XtraEditors.CheckEdit
-
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_ModelFarki As DataColumn
+    Friend WithEvents NeoTable2_ParcaModel As DataColumn
+    Friend WithEvents NeoTable2_Astar As DataColumn
+    Friend WithEvents NeoTable2_Femuar As DataColumn
+    Friend WithEvents NeoTable2_OmuzRecme As DataColumn
+    Friend WithEvents NeoTable2_Arma As DataColumn
+    Friend WithEvents NeoTable2_OzelEtiket As DataColumn
+    Friend WithEvents NeoTable2_Fason As DataColumn
+    Friend WithEvents NeoTable2_FasonID As DataColumn
+    Friend WithEvents NeoTable2_MansetFarki As DataColumn
+    Friend WithEvents NeoTable2_UzunKolFarki As DataColumn
 End Class

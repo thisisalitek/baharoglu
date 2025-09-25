@@ -1,4 +1,4 @@
-﻿Public Class frmCizgiRKafaLakos
+Public Class frmCizgiRKafaLakos
 
     Private Sub frmCizgiRKafaLakos_ButtonSaveBeforeClick(ByVal Sender As Object, ByRef e As ItemFormSaveEventArgs) Handles Me.ButtonSaveBeforeClick
         Try

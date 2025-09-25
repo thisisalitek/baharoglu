@@ -1,4 +1,4 @@
-﻿
+
 Public Class clsFirm
     Private mVar_FirmID As Long
     Private mVar_FirmCode As String

@@ -1,4 +1,4 @@
-﻿Public Class frmSiparisRaporu
+Public Class frmSiparisRaporu
 
     Dim OrginalCommandText As String = ""
 

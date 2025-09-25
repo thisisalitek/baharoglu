@@ -1,4 +1,4 @@
-﻿Public Class frmDBOptions 
+Public Class frmDBOptions 
     Public Sub FormShow()
         Me.ShowDialog()
     End Sub

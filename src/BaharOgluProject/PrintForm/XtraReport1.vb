@@ -1,4 +1,4 @@
-﻿Imports DevExpress.XtraPrinting
+Imports DevExpress.XtraPrinting
 
 Public Class XtraReport1
 

@@ -1,4 +1,4 @@
-﻿Public Class cnt009_Kumas2
+Public Class cnt009_Kumas2
     Dim ParcaSayisi As Integer = 0
     Dim bNoAction As Boolean = False
 

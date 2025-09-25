@@ -1,4 +1,4 @@
-﻿Public Class frmSiparisler
+Public Class frmSiparisler
 
     Dim SiparisType As Long = 0
     Dim tcmb As New TCMB_Doviz

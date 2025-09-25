@@ -1,4 +1,4 @@
-﻿Public Class frmSevkler
+Public Class frmSevkler
     Dim SevkTipi As Integer = 0
     Dim dtSevkSipDetay As New DataTable
 

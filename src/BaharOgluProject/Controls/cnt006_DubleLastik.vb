@@ -1,4 +1,4 @@
-﻿Public Class cnt006_DubleLastik
+Public Class cnt006_DubleLastik
     Dim bNoAction As Boolean = False
     Dim BelCizgiRKafa As String = ""
     Dim KolCizgiRKafa As String = ""

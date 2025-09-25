@@ -1,4 +1,4 @@
-﻿Public Class cnt021_CepKapagi
+Public Class cnt021_CepKapagi
     Dim bNoAction As Boolean = False
     Dim YakaCizgiRKafa As String = ""
 

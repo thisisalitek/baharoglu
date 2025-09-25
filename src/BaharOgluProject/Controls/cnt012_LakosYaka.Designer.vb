@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class cnt012_LakosYaka
     Inherits ProbarSiparis.BaseControl
 
@@ -106,18 +106,6 @@ Partial Class cnt012_LakosYaka
         Me.colRenkID = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.RepositoryItemLookUpEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.NeoTable2 = New NeoDAC.NeoTable(Me.components)
-        Me.NeoTable2_nID = New System.Data.DataColumn()
-        Me.NeoTable2_Deleted = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
-        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
-        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
-        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
-        Me.NeoTable2_SourceID = New System.Data.DataColumn()
-        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
-        Me.NeoTable2_RenkID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiRKafaLakosID = New System.Data.DataColumn()
-        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
         Me.SqlCommand20 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand18 = New System.Data.SqlClient.SqlCommand()
         Me.SqlCommand17 = New System.Data.SqlClient.SqlCommand()
@@ -160,6 +148,18 @@ Partial Class cnt012_LakosYaka
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
         Me.RadioGroup1 = New DevExpress.XtraEditors.RadioGroup()
+        Me.NeoTable2_nID = New System.Data.DataColumn()
+        Me.NeoTable2_Deleted = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedBy = New System.Data.DataColumn()
+        Me.NeoTable2_CreatedDate = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedBy = New System.Data.DataColumn()
+        Me.NeoTable2_ModifiedDate = New System.Data.DataColumn()
+        Me.NeoTable2_SipDetayParamID = New System.Data.DataColumn()
+        Me.NeoTable2_SourceID = New System.Data.DataColumn()
+        Me.NeoTable2_KategoriParamID = New System.Data.DataColumn()
+        Me.NeoTable2_RenkID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiRKafaLakosID = New System.Data.DataColumn()
+        Me.NeoTable2_CizgiSayisi = New System.Data.DataColumn()
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
@@ -211,7 +211,6 @@ Partial Class cnt012_LakosYaka
         'XtraTabControl1
         '
         Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(5)
-        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
         Me.XtraTabControl1.Size = New System.Drawing.Size(284, 253)
         '
         'XtraTabPage1
@@ -227,11 +226,6 @@ Partial Class cnt012_LakosYaka
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage2.Size = New System.Drawing.Size(278, 225)
-        '
-        'SqlConn
-        '
-        Me.SqlConn.ConnectionString = "Server=(local)\SQLExpress;Database=ProbarSiparisDB;User ID=sa;Password=;Trusted_C" &
-    "onnection=True;"
         '
         'panelCaption
         '
@@ -807,68 +801,6 @@ Partial Class cnt012_LakosYaka
         Me.NeoTable2.Transaction = Nothing
         Me.NeoTable2.UpdateCommand = Me.SqlCommand19
         '
-        'NeoTable2_nID
-        '
-        Me.NeoTable2_nID.AllowDBNull = False
-        Me.NeoTable2_nID.AutoIncrement = True
-        Me.NeoTable2_nID.ColumnName = "nID"
-        Me.NeoTable2_nID.DataType = GetType(Integer)
-        '
-        'NeoTable2_Deleted
-        '
-        Me.NeoTable2_Deleted.ColumnName = "Deleted"
-        Me.NeoTable2_Deleted.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedBy
-        '
-        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
-        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_CreatedDate
-        '
-        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
-        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_ModifiedBy
-        '
-        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
-        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
-        '
-        'NeoTable2_ModifiedDate
-        '
-        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
-        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
-        '
-        'NeoTable2_SipDetayParamID
-        '
-        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
-        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_SourceID
-        '
-        Me.NeoTable2_SourceID.ColumnName = "SourceID"
-        Me.NeoTable2_SourceID.DataType = GetType(Integer)
-        '
-        'NeoTable2_KategoriParamID
-        '
-        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
-        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
-        '
-        'NeoTable2_RenkID
-        '
-        Me.NeoTable2_RenkID.ColumnName = "RenkID"
-        Me.NeoTable2_RenkID.DataType = GetType(Integer)
-        '
-        'NeoTable2_CizgiRKafaLakosID
-        '
-        Me.NeoTable2_CizgiRKafaLakosID.ColumnName = "CizgiRKafaLakosID"
-        Me.NeoTable2_CizgiRKafaLakosID.DataType = GetType(Integer)
-        '
-        'NeoTable2_CizgiSayisi
-        '
-        Me.NeoTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
-        Me.NeoTable2_CizgiSayisi.DataType = GetType(Integer)
-        '
         'SqlCommand20
         '
         Me.SqlCommand20.CommandText = "UPDATE SipDetayParam_012_LakosYaka SET Deleted = nID  , ModifiedBy = @ModifiedBy " &
@@ -1197,6 +1129,68 @@ Partial Class cnt012_LakosYaka
         Me.RadioGroup1.Size = New System.Drawing.Size(278, 46)
         Me.RadioGroup1.TabIndex = 7
         '
+        'NeoTable2_nID
+        '
+        Me.NeoTable2_nID.AllowDBNull = False
+        Me.NeoTable2_nID.AutoIncrement = True
+        Me.NeoTable2_nID.ColumnName = "nID"
+        Me.NeoTable2_nID.DataType = GetType(Integer)
+        '
+        'NeoTable2_Deleted
+        '
+        Me.NeoTable2_Deleted.ColumnName = "Deleted"
+        Me.NeoTable2_Deleted.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedBy
+        '
+        Me.NeoTable2_CreatedBy.ColumnName = "CreatedBy"
+        Me.NeoTable2_CreatedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_CreatedDate
+        '
+        Me.NeoTable2_CreatedDate.ColumnName = "CreatedDate"
+        Me.NeoTable2_CreatedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_ModifiedBy
+        '
+        Me.NeoTable2_ModifiedBy.ColumnName = "ModifiedBy"
+        Me.NeoTable2_ModifiedBy.DataType = GetType(Integer)
+        '
+        'NeoTable2_ModifiedDate
+        '
+        Me.NeoTable2_ModifiedDate.ColumnName = "ModifiedDate"
+        Me.NeoTable2_ModifiedDate.DataType = GetType(Date)
+        '
+        'NeoTable2_SipDetayParamID
+        '
+        Me.NeoTable2_SipDetayParamID.ColumnName = "SipDetayParamID"
+        Me.NeoTable2_SipDetayParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_SourceID
+        '
+        Me.NeoTable2_SourceID.ColumnName = "SourceID"
+        Me.NeoTable2_SourceID.DataType = GetType(Integer)
+        '
+        'NeoTable2_KategoriParamID
+        '
+        Me.NeoTable2_KategoriParamID.ColumnName = "KategoriParamID"
+        Me.NeoTable2_KategoriParamID.DataType = GetType(Integer)
+        '
+        'NeoTable2_RenkID
+        '
+        Me.NeoTable2_RenkID.ColumnName = "RenkID"
+        Me.NeoTable2_RenkID.DataType = GetType(Integer)
+        '
+        'NeoTable2_CizgiRKafaLakosID
+        '
+        Me.NeoTable2_CizgiRKafaLakosID.ColumnName = "CizgiRKafaLakosID"
+        Me.NeoTable2_CizgiRKafaLakosID.DataType = GetType(Integer)
+        '
+        'NeoTable2_CizgiSayisi
+        '
+        Me.NeoTable2_CizgiSayisi.ColumnName = "CizgiSayisi"
+        Me.NeoTable2_CizgiSayisi.DataType = GetType(Integer)
+        '
         'cnt012_LakosYaka
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1317,18 +1311,6 @@ Partial Class cnt012_LakosYaka
     Friend WithEvents tbRenk_IntCode As System.Data.DataColumn
     Friend WithEvents tbRenk_Pasif As System.Data.DataColumn
     Friend WithEvents RadioGroup1 As DevExpress.XtraEditors.RadioGroup
-    Friend WithEvents NeoTable1_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable1_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable1_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable1_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable1_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable1_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable1_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable1_YakaTip As System.Data.DataColumn
-    Friend WithEvents NeoTable1_Iplik As System.Data.DataColumn
-    Friend WithEvents NeoTable1_IpGramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable1_GramajArtis As System.Data.DataColumn
-    Friend WithEvents NeoTable1_SimitKumasYuzde As System.Data.DataColumn
     Friend WithEvents XtraTabControl2 As DevExpress.XtraTab.XtraTabControl
     Friend WithEvents XtraTabPage3 As DevExpress.XtraTab.XtraTabPage
     Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
@@ -1337,15 +1319,6 @@ Partial Class cnt012_LakosYaka
     Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LookUpEdit3 As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents NeoTable3 As NeoDAC.NeoTable
-    Friend WithEvents NeoTable3_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable3_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable3_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable3_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable3_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable3_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable3_LakosYakaID As System.Data.DataColumn
-    Friend WithEvents NeoTable3_CizgiNo As System.Data.DataColumn
-    Friend WithEvents NeoTable3_RenkID As System.Data.DataColumn
     Friend WithEvents SqlCommand28 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand26 As System.Data.SqlClient.SqlCommand
     Friend WithEvents SqlCommand25 As System.Data.SqlClient.SqlCommand
@@ -1359,18 +1332,6 @@ Partial Class cnt012_LakosYaka
     Friend WithEvents tbCizgiRenkKafaLakos_Aciklama As System.Data.DataColumn
     Friend WithEvents tbCizgiRenkKafaLakos_CizgiSayisi As System.Data.DataColumn
     Friend WithEvents tbCizgiRenkKafaLakos_Gramaj As System.Data.DataColumn
-    Friend WithEvents NeoTable2_nID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_Deleted As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CreatedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedBy As System.Data.DataColumn
-    Friend WithEvents NeoTable2_ModifiedDate As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SipDetayParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_SourceID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_KategoriParamID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_RenkID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiRKafaLakosID As System.Data.DataColumn
-    Friend WithEvents NeoTable2_CizgiSayisi As System.Data.DataColumn
     Friend WithEvents RadioGroup2 As DevExpress.XtraEditors.RadioGroup
     Friend WithEvents tbYakaEnleri As NeoDAC.NeoTable
     Friend WithEvents tbYakaEnleri_nID As System.Data.DataColumn
@@ -1395,4 +1356,37 @@ Partial Class cnt012_LakosYaka
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents RepositoryItemLookUpEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
     Friend WithEvents RepositoryItemLookUpEdit2 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
+    Friend WithEvents NeoTable1_nID As DataColumn
+    Friend WithEvents NeoTable1_Deleted As DataColumn
+    Friend WithEvents NeoTable1_CreatedBy As DataColumn
+    Friend WithEvents NeoTable1_CreatedDate As DataColumn
+    Friend WithEvents NeoTable1_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable1_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable1_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable1_YakaTip As DataColumn
+    Friend WithEvents NeoTable1_Iplik As DataColumn
+    Friend WithEvents NeoTable1_IpGramaj As DataColumn
+    Friend WithEvents NeoTable1_GramajArtis As DataColumn
+    Friend WithEvents NeoTable1_SimitKumasYuzde As DataColumn
+    Friend WithEvents NeoTable3_nID As DataColumn
+    Friend WithEvents NeoTable3_Deleted As DataColumn
+    Friend WithEvents NeoTable3_CreatedBy As DataColumn
+    Friend WithEvents NeoTable3_CreatedDate As DataColumn
+    Friend WithEvents NeoTable3_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable3_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable3_LakosYakaID As DataColumn
+    Friend WithEvents NeoTable3_CizgiNo As DataColumn
+    Friend WithEvents NeoTable3_RenkID As DataColumn
+    Friend WithEvents NeoTable2_nID As DataColumn
+    Friend WithEvents NeoTable2_Deleted As DataColumn
+    Friend WithEvents NeoTable2_CreatedBy As DataColumn
+    Friend WithEvents NeoTable2_CreatedDate As DataColumn
+    Friend WithEvents NeoTable2_ModifiedBy As DataColumn
+    Friend WithEvents NeoTable2_ModifiedDate As DataColumn
+    Friend WithEvents NeoTable2_SipDetayParamID As DataColumn
+    Friend WithEvents NeoTable2_SourceID As DataColumn
+    Friend WithEvents NeoTable2_KategoriParamID As DataColumn
+    Friend WithEvents NeoTable2_RenkID As DataColumn
+    Friend WithEvents NeoTable2_CizgiRKafaLakosID As DataColumn
+    Friend WithEvents NeoTable2_CizgiSayisi As DataColumn
 End Class

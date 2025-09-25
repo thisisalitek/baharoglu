@@ -1,4 +1,4 @@
-﻿
+
 Public Class frmKategoriler
     Public FormCode As String = "000004"
 
@@ -1964,46 +1964,38 @@ Public Class frmKategoriler
             cmd.Connection = AppConn.dbTicari
             cmd.Parameters.Clear()
             cmd.Parameters.Add(New SqlClient.SqlParameter("@sto_kod", IfNull(tbSipDetay.Rows(0).Item("StokKod"), "")))
-            cmd.CommandText = "SELECT  sto_beden_kodu , sto_renk_kodu,sto_bedenli_takip,sto_renkDetayli FROM STOKLAR WHERE sto_kod=@sto_kod "
+
+
+            cmd.CommandText = "SELECT * FROM STOK_RENK_TANIMLARI WHERE 1=1 "
             da = New SqlClient.SqlDataAdapter(cmd)
-            dt = New DataTable
-            da.Fill(dt)
-            If dt.Rows.Count > 0 Then
-                If Trim(IfNull(dt.Rows(0).Item("sto_renk_kodu"), "")) <> "" And If0Null(dt.Rows(0).Item("sto_renkDetayli")) <> 0 Then
-                    cmd.CommandText = "SELECT * FROM STOK_RENK_TANIMLARI WHERE rnk_kodu='" & IfNull(dt.Rows(0).Item("sto_renk_kodu"), "") & "' "
-                    da = New SqlClient.SqlDataAdapter(cmd)
-                    dtRenk = New DataTable
-                    da.Fill(dtRenk)
-                    If dtRenk.Rows.Count > 0 Then
-                        For i = 1 To 60
-                            Dim Renk As String = Mid(IfNull(dtRenk.Rows(0).Item("rnk_kirilim_" & i), ""), 1, 50)
-                            If Trim(Renk) = "" Then
-                                Exit For
-                            Else
-                                cboRenkler.Items.Add(Renk)
-                            End If
-
-                        Next
+            dtRenk = New DataTable
+            da.Fill(dtRenk)
+            If dtRenk.Rows.Count > 0 Then
+                For i = 1 To 60
+                    Dim Renk As String = Mid(IfNull(dtRenk.Rows(0).Item("rnk_kirilim_" & i), ""), 1, 50)
+                    If Trim(Renk) = "" Then
+                        Exit For
+                    Else
+                        cboRenkler.Items.Add(Renk)
                     End If
-                End If
 
-                If Trim(IfNull(dt.Rows(0).Item("sto_beden_kodu"), "")) <> "" And If0Null(dt.Rows(0).Item("sto_bedenli_takip")) <> 0 Then
-                    cmd.CommandText = "SELECT * FROM STOK_BEDEN_TANIMLARI WHERE bdn_kodu='" & IfNull(dt.Rows(0).Item("sto_beden_kodu"), "") & "' "
-                    da = New SqlClient.SqlDataAdapter(cmd)
-                    dtBeden = New DataTable
-                    da.Fill(dtBeden)
-                    If dtBeden.Rows.Count > 0 Then
-                        For i = 1 To 40
-                            Dim BedenKod As String = IfNull(dtBeden.Rows(0).Item("bdn_kirilim_" & i), "")
-                            If Trim(BedenKod) = "" Then
-                                Exit For
-                            Else
-                                MikroBedenArray.Add(BedenKod)
-                            End If
+                Next
+            End If
 
-                        Next
+            cmd.CommandText = "SELECT * FROM STOK_BEDEN_TANIMLARI WHERE 1=1 "
+            da = New SqlClient.SqlDataAdapter(cmd)
+            dtBeden = New DataTable
+            da.Fill(dtBeden)
+            If dtBeden.Rows.Count > 0 Then
+                For i = 1 To 40
+                    Dim BedenKod As String = IfNull(dtBeden.Rows(0).Item("bdn_kirilim_" & i), "")
+                    If Trim(BedenKod) = "" Then
+                        Exit For
+                    Else
+                        MikroBedenArray.Add(BedenKod)
                     End If
-                End If
+
+                Next
             End If
         Catch ex As Exception
             MsgBox(ex.Message)

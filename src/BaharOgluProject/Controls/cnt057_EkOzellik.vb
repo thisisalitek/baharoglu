@@ -1,4 +1,4 @@
-﻿Public Class cnt057_EkOzellik
+Public Class cnt057_EkOzellik
     Dim bNoAction As Boolean = False
 
     Private Sub cnt056_EkFiyat_Initialize_Control(ByVal sender As System.Windows.Forms.Control, ByVal e As System.EventArgs) Handles Me.Initialize_Control

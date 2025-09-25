@@ -1,4 +1,4 @@
-﻿Public Class cnt014_Manset6cm
+Public Class cnt014_Manset6cm
     Dim bNoAction As Boolean = False
     Dim YakaCizgiRKafa As String = ""
 
