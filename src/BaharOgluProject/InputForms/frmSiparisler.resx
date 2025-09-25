@@ -121,10 +121,10 @@
     <value>17, 17</value>
   </metadata>
   <metadata name="ContextMenuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>736, 173</value>
+    <value>736, 134</value>
   </metadata>
   <metadata name="DetailLink.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+    <value>933, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnGridSipDetayRemove.Buttons" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -201,10 +201,10 @@
 </value>
   </data>
   <metadata name="tbOkul.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>376, 212</value>
+    <value>17, 173</value>
   </metadata>
   <metadata name="FirmConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>135, 95</value>
+    <value>718, 56</value>
   </metadata>
   <metadata name="SqlCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -251,7 +251,7 @@ WHERE     (Okullar.Deleted = 0)</value>
     <value>False</value>
   </metadata>
   <metadata name="tbKategori.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>267, 212</value>
+    <value>1143, 134</value>
   </metadata>
   <metadata name="SqlCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -290,7 +290,7 @@ WHERE     (Okullar.Deleted = 0)</value>
     <value>False</value>
   </metadata>
   <metadata name="tbBoyahaneler.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>501, 173</value>
+    <value>501, 134</value>
   </metadata>
   <metadata name="SqlCommand24.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -329,10 +329,10 @@ WHERE     (Okullar.Deleted = 0)</value>
     <value>False</value>
   </metadata>
   <metadata name="MasterLink.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>122, 56</value>
+    <value>1038, 17</value>
   </metadata>
   <metadata name="NeoTable1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>464, 212</value>
+    <value>105, 173</value>
   </metadata>
   <metadata name="SqlCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -371,7 +371,7 @@ WHERE     (Okullar.Deleted = 0)</value>
     <value>False</value>
   </metadata>
   <metadata name="tbSaticilar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>631, 173</value>
+    <value>631, 134</value>
   </metadata>
   <metadata name="SqlCommand28.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -410,28 +410,28 @@ WHERE     (Okullar.Deleted = 0)</value>
     <value>False</value>
   </metadata>
   <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 212</value>
+    <value>893, 134</value>
   </metadata>
   <metadata name="tmrBekle.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>343, 95</value>
+    <value>926, 56</value>
   </metadata>
   <metadata name="dlgExport.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>239, 95</value>
+    <value>822, 56</value>
   </metadata>
   <metadata name="MasterConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 95</value>
+    <value>600, 56</value>
   </metadata>
   <metadata name="dlgDocumentFileOpen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>755, 56</value>
+    <value>426, 56</value>
   </metadata>
   <metadata name="DocumentLargeImages.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>577, 56</value>
+    <value>248, 56</value>
   </metadata>
   <metadata name="DocumentSmallImages.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>443, 95</value>
+    <value>1026, 56</value>
   </metadata>
   <metadata name="MasterTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>458, 56</value>
+    <value>129, 56</value>
   </metadata>
   <metadata name="SqlCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -498,7 +498,7 @@ Deleted = @Deleted , ModifiedBy = @ModifiedBy , ModifiedDate = GETDATE() , Tarih
 WHERE SiparisID = @SiparisID</value>
   </data>
   <metadata name="DetailTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>233, 56</value>
+    <value>1149, 17</value>
   </metadata>
   <metadata name="SqlCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -577,52 +577,52 @@ WHERE SipDetayID = @SipDetayID</value>
     <value>448, 17</value>
   </metadata>
   <metadata name="DetailTable2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>732, 95</value>
+    <value>17, 95</value>
   </metadata>
   <metadata name="DetailLink2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>620, 95</value>
+    <value>1203, 56</value>
   </metadata>
   <metadata name="DetailTable3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>851, 95</value>
+    <value>136, 95</value>
   </metadata>
   <metadata name="DetailLink3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>270, 173</value>
+    <value>270, 134</value>
   </metadata>
   <metadata name="tmrShowError.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 173</value>
+    <value>17, 134</value>
   </metadata>
   <metadata name="DetailTable4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>382, 173</value>
+    <value>382, 134</value>
   </metadata>
   <metadata name="DetailLink4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>727, 134</value>
+    <value>965, 95</value>
   </metadata>
   <metadata name="DetailTable5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>608, 134</value>
+    <value>846, 95</value>
   </metadata>
   <metadata name="DetailLink5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>839, 134</value>
+    <value>1077, 95</value>
   </metadata>
   <metadata name="AuthCodes_SqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>411, 134</value>
+    <value>649, 95</value>
   </metadata>
   <metadata name="AuthCodes_SqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>214, 134</value>
+    <value>452, 95</value>
   </metadata>
   <metadata name="AuthCodes_SqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 134</value>
+    <value>255, 95</value>
   </metadata>
   <metadata name="AuthCodes_SqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>251, 17</value>
   </metadata>
   <metadata name="AuthCodes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>346, 56</value>
+    <value>17, 56</value>
   </metadata>
   <metadata name="TicariConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>142, 17</value>
   </metadata>
   <metadata name="tbUsers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>174, 212</value>
+    <value>1050, 134</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>187</value>

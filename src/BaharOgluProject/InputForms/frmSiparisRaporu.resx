@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>121, 56</value>
+    <value>1025, 17</value>
   </metadata>
   <metadata name="MasterTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>580, 17</value>
@@ -225,9 +225,16 @@ Okullar.OkulIsmi + ' / ' + ISNULL(Ilce.IlceIsmi, '') + ' - ' + ISNULL(Il.IlIsmi,
       ,SipDetayRenkler.R018_EtekManseti
       ,SipDetayRenkler.R018_EtekMansetiCizgiler
 , Saticilar.SaticiIsmi
+, s055.ModelFarki,s055.ParcaModel,s055.Astar, s055.Arma, s055.Femuar
+,s055.OzelEtiket, s055.OmuzRecme, s055.Fason, s055.MansetFarki
 
 ,SipDetay.CreatedBy, SipDetay.CreatedDate, SipDetay.ModifiedBy, SipDetay.ModifiedDate
-FROM         SipDetay WITH (NOLOCK) INNER JOIN
+FROM        SipDetay WITH (NOLOCK) LEFT OUTER JOIN
+			SipDetayParam sdp WITH (NOLOCK) on sdp.SipDetayID= SipDetay.SipDetayID 
+			 INNER JOIN SipDetayParam_055_Secenek s055 WITH (NOLOCK) on sdp.SipDetayParamID=s055.SipDetayParamID  
+			 --and sdp.ParamType='055'
+				
+				INNER JOIN
                       Okullar WITH (NOLOCK) ON SipDetay.OkulID = Okullar.OkulID INNER JOIN
                       Siparis WITH (NOLOCK) ON SipDetay.SiparisID = Siparis.SiparisID INNER JOIN
                       Kategoriler WITH (NOLOCK) ON SipDetay.KategoriID = Kategoriler.KategoriID LEFT OUTER JOIN
@@ -247,7 +254,9 @@ WHERE Sevk.Deleted=0 AND Sevk.Iptal=0 AND SevkDetay.Deleted=0
 GROUP BY SevkDetay.SipDetayID
 )  svk ON svk.SipDetayID = SipDetay.SipDetayID 
 WHERE     (SipDetay.Deleted = 0) AND (Siparis.Iptal = 0)
-AND Siparis.Deleted = 0</value>
+AND Siparis.Deleted = 0
+
+</value>
   </data>
   <metadata name="SqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -259,7 +268,7 @@ AND Siparis.Deleted = 0</value>
     <value>False</value>
   </metadata>
   <metadata name="tbUsers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>278, 56</value>
+    <value>1182, 17</value>
   </metadata>
   <metadata name="SqlCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -298,7 +307,7 @@ AND Siparis.Deleted = 0</value>
     <value>False</value>
   </metadata>
   <metadata name="tbBoyahaneler.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>371, 56</value>
+    <value>17, 56</value>
   </metadata>
   <metadata name="SqlCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -337,7 +346,7 @@ AND Siparis.Deleted = 0</value>
     <value>False</value>
   </metadata>
   <metadata name="tbSiparisAlanlar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>501, 56</value>
+    <value>147, 56</value>
   </metadata>
   <metadata name="SqlCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -806,7 +815,7 @@ AND Siparis.Deleted = 0</value>
 </value>
   </data>
   <metadata name="dlgExport.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+    <value>921, 17</value>
   </metadata>
   <metadata name="MasterConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>803, 17</value>
