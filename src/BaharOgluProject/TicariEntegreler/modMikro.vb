@@ -6,7 +6,7 @@
             Dim dt As DataTable
             Dim Bakiye As Double = 0
             cmd.Connection = conn
-            cmd.CommandText = "SELECT ISNULL(A,0) as A,ISNULL(B,0) as B,ISNULL(C,0) as C,ISNULL(D,0) as D,ISNULL(E,0) as E,ISNULL(F,0) as F FROM dbo.fn_CariHesapDurum('0',0,'" & CariKod & "',0,NULL,NULL,'','',0) "
+            cmd.CommandText = "SELECT ISNULL(A,0) as A,ISNULL(B,0) as B,ISNULL(C,0) as C,ISNULL(D,0) as D,ISNULL(E,0) as E,ISNULL(F,0) as F FROM dbo.fn_CariHesapDurum('0',0,'" & CariKod & "',0,NULL,NULL,'','',0, '', '', '') "
             da = New SqlClient.SqlDataAdapter(cmd)
             dt = New DataTable
             da.Fill(dt)
