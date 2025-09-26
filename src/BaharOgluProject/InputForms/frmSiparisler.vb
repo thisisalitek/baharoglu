@@ -78,11 +78,11 @@ Public Class frmSiparisler
             Dim Seri As String = ""
             Dim Sira As Long = 0
             cmd.Connection = AppConn.dbConn
-            cmd.CommandText = "Select TOP 1 S.SipEvrakSeri,L.Sira  FROM Siparis S INNER JOIN  " & _
-                "(Select SipEvrakSeri,MAX(SipEvrakSira) As Sira FROM Siparis WHERE Deleted = 0 " & _
-                "GROUP BY SipEvrakSeri) L On S.SipEvrakSeri = L.SipEvrakSeri " & _
-                "WHERE S.Deleted = 0  " & _
-                "ORDER BY S.SiparisID DESC " & _
+            cmd.CommandText = "Select TOP 1 S.SipEvrakSeri,L.Sira  FROM Siparis S INNER JOIN  " &
+                "(Select SipEvrakSeri,MAX(SipEvrakSira) As Sira FROM Siparis WHERE Deleted = 0 " &
+                "GROUP BY SipEvrakSeri) L On S.SipEvrakSeri = L.SipEvrakSeri " &
+                "WHERE S.Deleted = 0  " &
+                "ORDER BY S.SiparisID DESC " &
                 ""
             da = New SqlClient.SqlDataAdapter(cmd)
             dt = New DataTable
@@ -351,7 +351,7 @@ Public Class frmSiparisler
             If txtCariKodu.Properties.ReadOnly Then Exit Sub
             Dim f As New frmMikro_Cariler
             With f
-                
+
                 .FormSelect()
                 If .DialogResult = Windows.Forms.DialogResult.OK Then
                     MasterLink.CurrentRow("CariKod") = IfNull(.ReturnDataRow("cari_kod"), "")
@@ -576,7 +576,7 @@ Public Class frmSiparisler
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
             Dim f As New frmMikro_StokKartlari
             With f
-                
+
                 .FormSelect()
                 If .DialogResult = Windows.Forms.DialogResult.OK Then
                     DetailLink.CurrentRow("StokKod") = IfNull(.ReturnDataRow("sto_kod"), "")
@@ -638,7 +638,7 @@ Public Class frmSiparisler
 
             Dim f As New frmMikro_Depolar
             With f
-                
+
                 .FormSelect()
                 If .DialogResult = Windows.Forms.DialogResult.OK Then
                     MasterLink.CurrentRow("Depo") = IfNull(.ReturnDataRow("dep_no"), "")
@@ -668,7 +668,7 @@ Public Class frmSiparisler
 
             Dim f As New frmMikro_Depolar
             With f
-                
+
                 .FormSelect()
                 If .DialogResult = Windows.Forms.DialogResult.OK Then
                     MasterLink.CurrentRow("Depo2") = IfNull(.ReturnDataRow("dep_no"), "")
@@ -757,60 +757,37 @@ Public Class frmSiparisler
                     Dim cmdMikro As New SqlClient.SqlCommand
                     Dim cmd As New SqlClient.SqlCommand
                     Dim da As SqlClient.SqlDataAdapter
-                    Dim dt As DataTable
 
                     Dim dtSipDetayFiyatlar As DataTable
 
                     cmd.Connection = AppConn.dbConn
                     cmdMikro.Connection = AppConn.dbTicari
                     cmdMikro.Parameters.Clear()
-                    cmdMikro.Parameters.Add(New SqlClient.SqlParameter("@sto_kod", IfNull(drSipDetay("StokKod"), "")))
-                    cmdMikro.CommandText = "SELECT  sto_beden_kodu , sto_renk_kodu,sto_bedenli_takip,sto_renkDetayli FROM STOKLAR WHERE sto_kod=@sto_kod "
-                    da = New SqlClient.SqlDataAdapter(cmdMikro)
-                    dt = New DataTable
-                    da.Fill(dt)
-                    If dt.Rows.Count > 0 Then
-                        If (Trim(IfNull(dt.Rows(0).Item("sto_renk_kodu"), "")) <> "" And If0Null(dt.Rows(0).Item("sto_renkDetayli")) <> 0) Or (Trim(IfNull(dt.Rows(0).Item("sto_beden_kodu"), "")) <> "" And If0Null(dt.Rows(0).Item("sto_bedenli_takip")) <> 0) Then
 
-                            cmd.CommandText = "SELECT * FROM SipDetayFiyatlar WHERE Deleted = 0 AND Miktar>0 AND SipDetayID=" & If0Null(drSipDetay("SipDetayID"))
-                            da = New SqlClient.SqlDataAdapter(cmd)
-                            dtSipDetayFiyatlar = New DataTable
-                            da.Fill(dtSipDetayFiyatlar)
-                            For Each dr As DataRow In dtSipDetayFiyatlar.Rows
-                                Dim BedenNo As Integer = 1
-                                Dim RenkNo As Integer = 1
-                                Dim BdnHarNo As Integer = 0
 
-                                If If0Null(dt.Rows(0).Item("sto_bedenli_takip")) <> 0 Then
-                                    BedenNo = GetBedenKirilim(IfNull(dt.Rows(0).Item("sto_beden_kodu"), ""), IfNull(dr("BedenKod"), ""))
-                                    If BedenNo <= 0 Then
-                                        MsgBox("Stok :" & IfNull(drSipDetay("StokKod"), "") & "/" & IfNull(drSipDetay("StokIsmi"), "") & " Beden Tanımı:" & IfNull(dt.Rows(0).Item("sto_beden_kodu"), "") & "   Beden Kodu:" & IfNull(dr("BedenKod"), "") & "   Miktar:" & If0Null(dr("Miktar")) & vbNewLine & _
-                                               "Mikroda beden kodu karşılığı bulunamadı! Lütfen kontrol ediniz.")
-                                        Return False
-                                    End If
-                                End If
+                    cmd.CommandText = "SELECT * FROM SipDetayFiyatlar WHERE Deleted = 0 AND Miktar>0 AND SipDetayID=" & If0Null(drSipDetay("SipDetayID"))
+                    da = New SqlClient.SqlDataAdapter(cmd)
+                    dtSipDetayFiyatlar = New DataTable
+                    da.Fill(dtSipDetayFiyatlar)
+                    For Each dr As DataRow In dtSipDetayFiyatlar.Rows
+                        Dim BedenNo As Integer = 1
+                        Dim RenkNo As Integer = 1
+                        Dim BdnHarNo As Integer = 0
 
-                                If If0Null(dt.Rows(0).Item("sto_renkDetayli")) <> 0 Then
-                                    RenkNo = GetRenkKirilim(IfNull(dt.Rows(0).Item("sto_renk_kodu"), ""), IfNull(dr("RenkKod"), ""))
-                                    If RenkNo <= 0 Then
-                                        MsgBox("Stok :" & IfNull(drSipDetay("StokKod"), "") & "/" & IfNull(drSipDetay("StokIsmi"), "") & "     Beden Kodu:" & IfNull(dr("BedenKod"), "") & "   RenkKod:" & IfNull(dr("RenkKod"), "") & "    Miktar:" & If0Null(dr("Miktar")) & vbNewLine & _
-                                               "Mikroda renk kodu karşılığı bulunamadı! Lütfen kontrol ediniz.")
-                                        Return False
-                                    End If
-                                End If
+                        BedenNo = GetBedenKirilim("", IfNull(dr("BedenKod"), ""))
+
+                        RenkNo = GetRenkKirilim("", IfNull(dr("RenkKod"), ""))
+
+
+                        BdnHarNo = (RenkNo - 1) * 40 + BedenNo
+                        cmd.CommandText = "UPDATE SipDetayFiyatlar SET BdnHarNo=" & BdnHarNo & " WHERE SipDetayFiyatAdetID = " & If0Null(dr("SipDetayFiyatAdetID"))
+                        cmd.ExecuteNonQuery()
+                    Next
+
+                    da.Dispose()
 
 
 
-                                BdnHarNo = (RenkNo - 1) * 40 + BedenNo
-                                cmd.CommandText = "UPDATE SipDetayFiyatlar SET BdnHarNo=" & BdnHarNo & " WHERE SipDetayFiyatAdetID = " & If0Null(dr("SipDetayFiyatAdetID"))
-                                cmd.ExecuteNonQuery()
-                            Next
-                            dt.Dispose()
-                            da.Dispose()
-
-                        End If
-
-                    End If
 
                 End If
             Next
@@ -833,7 +810,7 @@ Public Class frmSiparisler
             cmd.Connection = AppConn.dbTicari
             cmd.Parameters.Clear()
             cmd.Parameters.Add(New SqlClient.SqlParameter("@rnk_kodu", RenkKod))
-            cmd.CommandText = "SELECT * FROM STOK_RENK_TANIMLARI WHERE rnk_kodu=@rnk_kodu "
+            cmd.CommandText = "SELECT * FROM STOK_RENK_TANIMLARI WHERE 1=1 "
             da = New SqlClient.SqlDataAdapter(cmd)
             dt = New DataTable
             da.Fill(dt)
@@ -866,7 +843,7 @@ Public Class frmSiparisler
             cmd.Connection = AppConn.dbTicari
             cmd.Parameters.Clear()
             cmd.Parameters.Add(New SqlClient.SqlParameter("@bdn_kodu", BedenKod))
-            cmd.CommandText = "SELECT * FROM STOK_BEDEN_TANIMLARI WHERE bdn_kodu=@bdn_kodu "
+            cmd.CommandText = "SELECT * FROM STOK_BEDEN_TANIMLARI WHERE 1=1 "
             da = New SqlClient.SqlDataAdapter(cmd)
             dt = New DataTable
             da.Fill(dt)
@@ -1001,7 +978,7 @@ Public Class frmSiparisler
             If e.KeyCode = Keys.F10 Then
                 Dim f As New frmSaticilar
                 With f
-                    
+
                     .FormShow()
                 End With
                 OpenTable(tbSaticilar)
