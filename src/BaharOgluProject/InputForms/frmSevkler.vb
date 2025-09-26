@@ -35,7 +35,7 @@ Public Class frmSevkler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If CariKodButtonEdit.Properties.ReadOnly Then Exit Sub
@@ -65,7 +65,7 @@ Public Class frmSevkler
 
             If SevkTipi = 0 Then
                 If IfNull(MasterLink.CurrentRow("CariKod"), "") = "" Then
-                    MsgBox("Lütfen cari kod seçiniz!")
+                    MsgBox("Lutfen cari kod seÃ§iniz!")
                     Exit Sub
                 End If
             End If
@@ -132,7 +132,7 @@ Public Class frmSevkler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If txtDepo.Properties.ReadOnly Then Exit Sub
@@ -162,7 +162,7 @@ Public Class frmSevkler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If txtDepo2.Properties.ReadOnly Then Exit Sub
@@ -549,7 +549,7 @@ Public Class frmSevkler
             Select Case ComboBoxEdit1.Text
                 Case "Hava" : LabelControl8.Text = "Airway bill"
                 Case "Deniz" : LabelControl8.Text = "Seaway bill"
-                Case "Kara" : LabelControl8.Text = "Tır plaka"
+                Case "Kara" : LabelControl8.Text = "Tir plaka"
                 Case Else
 
             End Select
@@ -977,7 +977,7 @@ Basa:
 
                     cmd.ExecuteNonQuery()
                 Catch ex As Exception
-                    MsgBox("Mikro Entegrasyon hatası:" & ex.Message)
+                    MsgBox("Mikro Entegrasyon hatasi:" & ex.Message)
                     Exit Sub
                 End Try
                 EditMode = True
@@ -985,7 +985,7 @@ Basa:
                 MasterLink.CurrentRow("Onaylayan") = AppConn.ActiveUser.UserID
                 MasterLink.CurrentRow("OnayTarihi") = Now
             Else
-                If MsgBox("Onayı kaldırmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Onayi kaldirmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
                 MasterLink.CurrentRow("Onayli") = 0
                 MasterLink.CurrentRow("Onaylayan") = 0
                 MasterLink.CurrentRow("OnayTarihi") = DateSerial(1900, 1, 1)
@@ -1017,7 +1017,7 @@ Basa:
                 MasterLink.CurrentRow("IptalNedeni") = Mid(Replace(sbuf, "'", " "), 1, 50)
 
             Else
-                If MsgBox("İptali kaldırmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Ä°ptali kaldirmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
                 MasterLink.CurrentRow("Iptal") = 0
             End If
             MasterLink.CurrentRow.EndEdit()

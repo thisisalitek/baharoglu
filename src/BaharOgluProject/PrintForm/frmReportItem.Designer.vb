@@ -265,7 +265,7 @@ Partial Class frmReportItem
         Me.LabelControl3.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.LabelControl3.Size = New System.Drawing.Size(515, 17)
         Me.LabelControl3.TabIndex = 0
-        Me.LabelControl3.Text = "Yazdırıldıktan sonra çalışacak sorgu"
+        Me.LabelControl3.Text = "Yazdirildiktan sonra Ã§alisacak sorgu"
         '
         'txtPrintedSQL
         '
@@ -289,7 +289,7 @@ Partial Class frmReportItem
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmReportItem"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
-        Me.Text = "Rapor Tanımı"
+        Me.Text = "Rapor Tanimi"
         CType(Me.txtReportName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.panelTop, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelTop.ResumeLayout(False)

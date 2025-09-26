@@ -290,7 +290,7 @@ Partial Class cnt009_Kumas2
         'lblCaption
         '
         Me.lblCaption.Size = New System.Drawing.Size(322, 22)
-        Me.lblCaption.Text = "Kumaş (Diğer)"
+        Me.lblCaption.Text = "Kumas (Diger)"
         '
         'XtraTabControl1
         '
@@ -701,7 +701,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit6.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "FarkliKumas", True))
         Me.CheckEdit6.Location = New System.Drawing.Point(326, 16)
         Me.CheckEdit6.Name = "CheckEdit6"
-        Me.CheckEdit6.Properties.Caption = "Farklı kumaş"
+        Me.CheckEdit6.Properties.Caption = "Farkli kumas"
         Me.CheckEdit6.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit6.Properties.ValueChecked = 1
         Me.CheckEdit6.Properties.ValueUnchecked = 0
@@ -715,7 +715,7 @@ Partial Class cnt009_Kumas2
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(84, 78)
         Me.GroupControl2.TabIndex = 1
-        Me.GroupControl2.Text = "Overlok Nakış"
+        Me.GroupControl2.Text = "Overlok Nakis"
         '
         'RadioGroup1
         '
@@ -749,7 +749,7 @@ Partial Class cnt009_Kumas2
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(92, 13)
         Me.LabelControl3.TabIndex = 7
-        Me.LabelControl3.Text = "Cep Kumaş Artış %"
+        Me.LabelControl3.Text = "Cep Kumas Artis %"
         '
         'TextEdit1
         '
@@ -776,7 +776,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit3.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "SagArkaCep", True))
         Me.CheckEdit3.Location = New System.Drawing.Point(95, 35)
         Me.CheckEdit3.Name = "CheckEdit3"
-        Me.CheckEdit3.Properties.Caption = "Sağ Arka"
+        Me.CheckEdit3.Properties.Caption = "Sag Arka"
         Me.CheckEdit3.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit3.Properties.ValueChecked = 1
         Me.CheckEdit3.Properties.ValueUnchecked = 0
@@ -800,7 +800,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "SagOnCep", True))
         Me.CheckEdit2.Location = New System.Drawing.Point(95, 18)
         Me.CheckEdit2.Name = "CheckEdit2"
-        Me.CheckEdit2.Properties.Caption = "Sağ Ön"
+        Me.CheckEdit2.Properties.Caption = "Sag On"
         Me.CheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit2.Properties.ValueChecked = 1
         Me.CheckEdit2.Properties.ValueUnchecked = 0
@@ -812,7 +812,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "SolOnCep", True))
         Me.CheckEdit1.Location = New System.Drawing.Point(9, 18)
         Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "Sol Ön"
+        Me.CheckEdit1.Properties.Caption = "Sol On"
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
@@ -825,7 +825,7 @@ Partial Class cnt009_Kumas2
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(104, 13)
         Me.LabelControl1.TabIndex = 5
-        Me.LabelControl1.Text = "Cep Kumaş Artış (%):"
+        Me.LabelControl1.Text = "Cep Kumas Artis (%):"
         '
         'RepositoryItemGridLookUpEdit1
         '
@@ -1073,7 +1073,7 @@ Partial Class cnt009_Kumas2
         '
         'colKumas
         '
-        Me.colKumas.Caption = "Kumaş"
+        Me.colKumas.Caption = "Kumas"
         Me.colKumas.ColumnEdit = Me.cboGridKumas
         Me.colKumas.FieldName = "KumasID"
         Me.colKumas.Name = "colKumas"
@@ -1215,7 +1215,7 @@ Partial Class cnt009_Kumas2
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(57, 13)
         Me.LabelControl2.TabIndex = 4
-        Me.LabelControl2.Text = "Parça Sayısı"
+        Me.LabelControl2.Text = "ParÃ§a Sayisi"
         '
         'txtParcaSayisi
         '
@@ -1437,7 +1437,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit9.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable4, "FarkliKumas", True))
         Me.CheckEdit9.Location = New System.Drawing.Point(323, 16)
         Me.CheckEdit9.Name = "CheckEdit9"
-        Me.CheckEdit9.Properties.Caption = "Farklı kumaş"
+        Me.CheckEdit9.Properties.Caption = "Farkli kumas"
         Me.CheckEdit9.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit9.Properties.ValueChecked = 1
         Me.CheckEdit9.Properties.ValueUnchecked = 0
@@ -1451,7 +1451,7 @@ Partial Class cnt009_Kumas2
         Me.GroupControl3.Name = "GroupControl3"
         Me.GroupControl3.Size = New System.Drawing.Size(84, 75)
         Me.GroupControl3.TabIndex = 1
-        Me.GroupControl3.Text = "Overlok Nakış"
+        Me.GroupControl3.Text = "Overlok Nakis"
         '
         'RadioGroup2
         '
@@ -1485,7 +1485,7 @@ Partial Class cnt009_Kumas2
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(92, 13)
         Me.LabelControl4.TabIndex = 7
-        Me.LabelControl4.Text = "Cep Kumaş Artış %"
+        Me.LabelControl4.Text = "Cep Kumas Artis %"
         '
         'TextEdit4
         '
@@ -1512,7 +1512,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit11.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable4, "SagArkaCep", True))
         Me.CheckEdit11.Location = New System.Drawing.Point(95, 35)
         Me.CheckEdit11.Name = "CheckEdit11"
-        Me.CheckEdit11.Properties.Caption = "Sağ Arka"
+        Me.CheckEdit11.Properties.Caption = "Sag Arka"
         Me.CheckEdit11.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit11.Properties.ValueChecked = 1
         Me.CheckEdit11.Properties.ValueUnchecked = 0
@@ -1536,7 +1536,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit13.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable4, "SagOnCep", True))
         Me.CheckEdit13.Location = New System.Drawing.Point(95, 18)
         Me.CheckEdit13.Name = "CheckEdit13"
-        Me.CheckEdit13.Properties.Caption = "Sağ Ön"
+        Me.CheckEdit13.Properties.Caption = "Sag On"
         Me.CheckEdit13.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit13.Properties.ValueChecked = 1
         Me.CheckEdit13.Properties.ValueUnchecked = 0
@@ -1548,7 +1548,7 @@ Partial Class cnt009_Kumas2
         Me.CheckEdit14.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable4, "SolOnCep", True))
         Me.CheckEdit14.Location = New System.Drawing.Point(9, 18)
         Me.CheckEdit14.Name = "CheckEdit14"
-        Me.CheckEdit14.Properties.Caption = "Sol Ön"
+        Me.CheckEdit14.Properties.Caption = "Sol On"
         Me.CheckEdit14.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit14.Properties.ValueChecked = 1
         Me.CheckEdit14.Properties.ValueUnchecked = 0
@@ -1645,7 +1645,7 @@ Partial Class cnt009_Kumas2
         'cnt009_Kumas2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Kumaş (Diğer)"
+        Me.Caption = "Kumas (Diger)"
         Me.Code = "009"
         Me.Name = "cnt009_Kumas2"
         Me.Size = New System.Drawing.Size(431, 348)

@@ -133,14 +133,14 @@ Partial Class frmMainMenu
         '
         'BarCheckItem1
         '
-        Me.BarCheckItem1.Caption = "Küçük Simge"
+        Me.BarCheckItem1.Caption = "KuÃ§uk Simge"
         Me.BarCheckItem1.Glyph = Global.ProbarSiparis.My.Resources.Resources.wallet_16
         Me.BarCheckItem1.Id = 10
         Me.BarCheckItem1.Name = "BarCheckItem1"
         '
         'BarCheckItem2
         '
-        Me.BarCheckItem2.Caption = "Büyük Simge"
+        Me.BarCheckItem2.Caption = "Buyuk Simge"
         Me.BarCheckItem2.Glyph = Global.ProbarSiparis.My.Resources.Resources.wallet_32
         Me.BarCheckItem2.Id = 12
         Me.BarCheckItem2.Name = "BarCheckItem2"
@@ -195,7 +195,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem1
         '
-        Me.BarButtonItem1.Caption = "Giriş Ekranına Gön"
+        Me.BarButtonItem1.Caption = "Giris Ekranina GÃ¶n"
         Me.BarButtonItem1.Enabled = False
         Me.BarButtonItem1.Glyph = Global.ProbarSiparis.My.Resources.Resources.flag_16
         Me.BarButtonItem1.Id = 20
@@ -226,7 +226,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem2
         '
-        Me.BarButtonItem2.Caption = "Sipariş Raporu"
+        Me.BarButtonItem2.Caption = "Siparis Raporu"
         Me.BarButtonItem2.Glyph = Global.ProbarSiparis.My.Resources.Resources.Actions_clipboard_icon_16
         Me.BarButtonItem2.Id = 27
         Me.BarButtonItem2.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.Actions_clipboard_icon_32
@@ -234,7 +234,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem3
         '
-        Me.BarButtonItem3.Caption = "Ürün Ağaçları"
+        Me.BarButtonItem3.Caption = "Urun AgaÃ§lari"
         Me.BarButtonItem3.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_16
         Me.BarButtonItem3.Id = 28
         Me.BarButtonItem3.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
@@ -248,7 +248,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem5
         '
-        Me.BarButtonItem5.Caption = "Müşteri Siparişleri"
+        Me.BarButtonItem5.Caption = "Musteri Siparisleri"
         Me.BarButtonItem5.Glyph = Global.ProbarSiparis.My.Resources.Resources.note_edit
         Me.BarButtonItem5.Id = 30
         Me.BarButtonItem5.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.note_edit
@@ -264,7 +264,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem7
         '
-        Me.BarButtonItem7.Caption = "Sevk İşlemleri (Irsaliye)"
+        Me.BarButtonItem7.Caption = "Sevk Ä°slemleri (Irsaliye)"
         Me.BarButtonItem7.Glyph = Global.ProbarSiparis.My.Resources.Resources.Truck_Yellow
         Me.BarButtonItem7.Id = 32
         Me.BarButtonItem7.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.Truck_Yellow
@@ -307,7 +307,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem12
         '
-        Me.BarButtonItem12.Caption = "Kategori Dökümü"
+        Me.BarButtonItem12.Caption = "Kategori DÃ¶kumu"
         Me.BarButtonItem12.Glyph = Global.ProbarSiparis.My.Resources.Resources.clipboard_iconII_32
         Me.BarButtonItem12.Id = 37
         Me.BarButtonItem12.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.clipboard_iconII_32
@@ -316,7 +316,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem13
         '
-        Me.BarButtonItem13.Caption = "Karşılaştırmalı Ürün Satış Raporu"
+        Me.BarButtonItem13.Caption = "Karsilastirmali Urun Satis Raporu"
         Me.BarButtonItem13.Glyph = Global.ProbarSiparis.My.Resources.Resources.clipboard_iconII_32
         Me.BarButtonItem13.Id = 38
         Me.BarButtonItem13.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.clipboard_iconII_32
@@ -325,7 +325,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem14
         '
-        Me.BarButtonItem14.Caption = "Karşılaştırmalı Cari Satış Raporu"
+        Me.BarButtonItem14.Caption = "Karsilastirmali Cari Satis Raporu"
         Me.BarButtonItem14.Glyph = Global.ProbarSiparis.My.Resources.Resources.clipboard_iconII_32
         Me.BarButtonItem14.Id = 39
         Me.BarButtonItem14.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.clipboard_iconII_32
@@ -343,7 +343,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem16
         '
-        Me.BarButtonItem16.Caption = "İplik Tanımları"
+        Me.BarButtonItem16.Caption = "Ä°plik Tanimlari"
         Me.BarButtonItem16.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem16.Id = 41
         Me.BarButtonItem16.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
@@ -352,7 +352,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem17
         '
-        Me.BarButtonItem17.Caption = "Örgü Tipleri"
+        Me.BarButtonItem17.Caption = "Orgu Tipleri"
         Me.BarButtonItem17.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem17.Id = 42
         Me.BarButtonItem17.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
@@ -370,7 +370,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem19
         '
-        Me.BarButtonItem19.Caption = "Çizgi Renk Kafa"
+        Me.BarButtonItem19.Caption = "Ã‡izgi Renk Kafa"
         Me.BarButtonItem19.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem19.Id = 44
         Me.BarButtonItem19.Name = "BarButtonItem19"
@@ -378,7 +378,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem20
         '
-        Me.BarButtonItem20.Caption = "Çizgi Renk Kafa (Lakos)"
+        Me.BarButtonItem20.Caption = "Ã‡izgi Renk Kafa (Lakos)"
         Me.BarButtonItem20.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem20.Id = 45
         Me.BarButtonItem20.Name = "BarButtonItem20"
@@ -386,7 +386,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem21
         '
-        Me.BarButtonItem21.Caption = "Fason Tanımları"
+        Me.BarButtonItem21.Caption = "Fason Tanimlari"
         Me.BarButtonItem21.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem21.Id = 46
         Me.BarButtonItem21.Name = "BarButtonItem21"
@@ -394,7 +394,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem22
         '
-        Me.BarButtonItem22.Caption = "Kumaş Katalog"
+        Me.BarButtonItem22.Caption = "Kumas Katalog"
         Me.BarButtonItem22.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem22.Id = 47
         Me.BarButtonItem22.Name = "BarButtonItem22"
@@ -402,7 +402,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem23
         '
-        Me.BarButtonItem23.Caption = "Diğer Kumaşlar"
+        Me.BarButtonItem23.Caption = "Diger Kumaslar"
         Me.BarButtonItem23.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem23.Id = 48
         Me.BarButtonItem23.Name = "BarButtonItem23"
@@ -410,7 +410,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem24
         '
-        Me.BarButtonItem24.Caption = "Lakos Örgü Tipleri"
+        Me.BarButtonItem24.Caption = "Lakos Orgu Tipleri"
         Me.BarButtonItem24.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem24.Id = 49
         Me.BarButtonItem24.Name = "BarButtonItem24"
@@ -418,7 +418,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem25
         '
-        Me.BarButtonItem25.Caption = "Kargo ve Sevk Tanımları"
+        Me.BarButtonItem25.Caption = "Kargo ve Sevk Tanimlari"
         Me.BarButtonItem25.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem25.Id = 50
         Me.BarButtonItem25.Name = "BarButtonItem25"
@@ -426,7 +426,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem26
         '
-        Me.BarButtonItem26.Caption = "Satıcılar"
+        Me.BarButtonItem26.Caption = "Saticilar"
         Me.BarButtonItem26.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem26.Id = 51
         Me.BarButtonItem26.Name = "BarButtonItem26"
@@ -434,7 +434,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem27
         '
-        Me.BarButtonItem27.Caption = "Alım/Devir Irsaliyeleri"
+        Me.BarButtonItem27.Caption = "Alim/Devir Irsaliyeleri"
         Me.BarButtonItem27.Glyph = Global.ProbarSiparis.My.Resources.Resources.note_edit
         Me.BarButtonItem27.Id = 52
         Me.BarButtonItem27.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.note_edit
@@ -442,7 +442,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem28
         '
-        Me.BarButtonItem28.Caption = "Depo Ayalarları"
+        Me.BarButtonItem28.Caption = "Depo Ayalarlari"
         Me.BarButtonItem28.Glyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
         Me.BarButtonItem28.Id = 53
         Me.BarButtonItem28.LargeGlyph = Global.ProbarSiparis.My.Resources.Resources.gear_32
@@ -450,7 +450,7 @@ Partial Class frmMainMenu
         '
         'BarButtonItem29
         '
-        Me.BarButtonItem29.Caption = "Kullanıcılar"
+        Me.BarButtonItem29.Caption = "Kullanicilar"
         Me.BarButtonItem29.Glyph = Global.ProbarSiparis.My.Resources.Resources.user1
         Me.BarButtonItem29.Id = 54
         Me.BarButtonItem29.Name = "BarButtonItem29"
@@ -458,7 +458,7 @@ Partial Class frmMainMenu
         '
         'barItem_DovizKurlari
         '
-        Me.barItem_DovizKurlari.Caption = "Döviz Kurları"
+        Me.barItem_DovizKurlari.Caption = "DÃ¶viz Kurlari"
         Me.barItem_DovizKurlari.CategoryGuid = New System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537")
         Me.barItem_DovizKurlari.Glyph = Global.ProbarSiparis.My.Resources.Resources.currency_exchange_icon_128x128
         Me.barItem_DovizKurlari.Id = 55
@@ -521,13 +521,13 @@ Partial Class frmMainMenu
         '
         Me.RibbonPage2.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup8, Me.RibbonPageGroup5, Me.RibbonPageGroup2})
         Me.RibbonPage2.Name = "RibbonPage2"
-        Me.RibbonPage2.Text = "Tanımlamalar/Ayarlar"
+        Me.RibbonPage2.Text = "Tanimlamalar/Ayarlar"
         '
         'RibbonPageGroup8
         '
         Me.RibbonPageGroup8.ItemLinks.Add(Me.barItem_DovizKurlari)
         Me.RibbonPageGroup8.Name = "RibbonPageGroup8"
-        Me.RibbonPageGroup8.Text = "Diğer Tanımlar"
+        Me.RibbonPageGroup8.Text = "Diger Tanimlar"
         '
         'RibbonPageGroup5
         '
@@ -565,7 +565,7 @@ Partial Class frmMainMenu
         Me.RibbonPageGroup7.ItemLinks.Add(Me.BarButtonItem27)
         Me.RibbonPageGroup7.ItemLinks.Add(Me.BarButtonItem28)
         Me.RibbonPageGroup7.Name = "RibbonPageGroup7"
-        Me.RibbonPageGroup7.Text = "Kumaş/iplik depo işlemler"
+        Me.RibbonPageGroup7.Text = "Kumas/iplik depo islemler"
         '
         'RibbonStatusBar
         '

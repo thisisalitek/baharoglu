@@ -146,7 +146,7 @@ Partial Class cnt019_Kaskorse
         '
         Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
         Me.lblCaption.Size = New System.Drawing.Size(146, 22)
-        Me.lblCaption.Text = "Kaşkorse"
+        Me.lblCaption.Text = "Kaskorse"
         '
         'XtraTabControl1
         '
@@ -169,7 +169,7 @@ Partial Class cnt019_Kaskorse
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.XtraTabPage2.Size = New System.Drawing.Size(241, 68)
-        Me.XtraTabPage2.Text = "Kaşkorse"
+        Me.XtraTabPage2.Text = "Kaskorse"
         '
         'panelCaption
         '
@@ -298,7 +298,7 @@ Partial Class cnt019_Kaskorse
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = "Artış"
+        Me.LabelControl3.Text = "Artis"
         '
         'LabelControl2
         '
@@ -306,7 +306,7 @@ Partial Class cnt019_Kaskorse
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl2.TabIndex = 3
-        Me.LabelControl2.Text = "İp Grm."
+        Me.LabelControl2.Text = "Ä°p Grm."
         '
         'txtTur
         '
@@ -601,7 +601,7 @@ Partial Class cnt019_Kaskorse
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl12.TabIndex = 10
-        Me.LabelControl12.Text = "İp Grm."
+        Me.LabelControl12.Text = "Ä°p Grm."
         '
         'LabelControl13
         '
@@ -609,7 +609,7 @@ Partial Class cnt019_Kaskorse
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl13.TabIndex = 11
-        Me.LabelControl13.Text = "Artış"
+        Me.LabelControl13.Text = "Artis"
         '
         'LookUpEdit2
         '
@@ -770,7 +770,7 @@ Partial Class cnt019_Kaskorse
         'cnt019_Kaskorse
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Kaşkorse"
+        Me.Caption = "Kaskorse"
         Me.Code = "019"
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "cnt019_Kaskorse"

@@ -525,7 +525,7 @@ Partial Class cnt012_LakosYaka
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = "Artış"
+        Me.LabelControl3.Text = "Artis"
         '
         'LabelControl2
         '
@@ -533,7 +533,7 @@ Partial Class cnt012_LakosYaka
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl2.TabIndex = 3
-        Me.LabelControl2.Text = "İp Grm."
+        Me.LabelControl2.Text = "Ä°p Grm."
         '
         'txtTur
         '
@@ -839,7 +839,7 @@ Partial Class cnt012_LakosYaka
         Me.RadioGroup2.Location = New System.Drawing.Point(2, 2)
         Me.RadioGroup2.Margin = New System.Windows.Forms.Padding(1)
         Me.RadioGroup2.Name = "RadioGroup2"
-        Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Gömlek"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Simit"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Pilot"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Sıfır"), New DevExpress.XtraEditors.Controls.RadioGroupItem(4, "Polo"), New DevExpress.XtraEditors.Controls.RadioGroupItem(5, "AyaklıGömlek")})
+        Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "GÃ¶mlek"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Simit"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Pilot"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Sifir"), New DevExpress.XtraEditors.Controls.RadioGroupItem(4, "Polo"), New DevExpress.XtraEditors.Controls.RadioGroupItem(5, "AyakliGÃ¶mlek")})
         Me.RadioGroup2.Size = New System.Drawing.Size(274, 44)
         Me.RadioGroup2.TabIndex = 9
         '
@@ -852,7 +852,7 @@ Partial Class cnt012_LakosYaka
         Me.LookUpEdit3.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit3.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
         Me.LookUpEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Ã‡izgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
         Me.LookUpEdit3.Properties.DataSource = Me.tbCizgiRenkKafaLakos
         Me.LookUpEdit3.Properties.DisplayMember = "Aciklama"
         Me.LookUpEdit3.Properties.NullText = ""
@@ -893,7 +893,7 @@ Partial Class cnt012_LakosYaka
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi"
+        Me.LabelControl6.Text = "Ã‡izgi"
         '
         'SqlCommand24
         '
@@ -1117,7 +1117,7 @@ Partial Class cnt012_LakosYaka
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(63, 13)
         Me.LabelControl5.TabIndex = 6
-        Me.LabelControl5.Text = "Kumaşın % si"
+        Me.LabelControl5.Text = "Kumasin % si"
         '
         'RadioGroup1
         '
@@ -1125,7 +1125,7 @@ Partial Class cnt012_LakosYaka
         Me.RadioGroup1.Dock = System.Windows.Forms.DockStyle.Top
         Me.RadioGroup1.Location = New System.Drawing.Point(0, 0)
         Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Gömlek"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Simit"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Pilot"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Sıfır"), New DevExpress.XtraEditors.Controls.RadioGroupItem(4, "Polo"), New DevExpress.XtraEditors.Controls.RadioGroupItem(5, "AyaklıGömlek")})
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "GÃ¶mlek"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Simit"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Pilot"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Sifir"), New DevExpress.XtraEditors.Controls.RadioGroupItem(4, "Polo"), New DevExpress.XtraEditors.Controls.RadioGroupItem(5, "AyakliGÃ¶mlek")})
         Me.RadioGroup1.Size = New System.Drawing.Size(278, 46)
         Me.RadioGroup1.TabIndex = 7
         '

@@ -30,19 +30,19 @@ Partial Class Form1
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.mnuSiparisiAc = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.DurumunuDeðiþtirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ÜretimHazýrlýkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DurumunuDeÄŸiÅŸtirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ÃœretimHazÄ±rlÄ±kToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetUretimde = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetOrgude = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetBoyaHazirlik = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetBoyada = New System.Windows.Forms.ToolStripMenuItem()
         Me.KesimHazirlikToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetKesimde = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ÜtüdeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ÃœtÃ¼deToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetDepoda = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetKilis = New System.Windows.Forms.ToolStripMenuItem()
         Me.FasondaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YakaÖrgüToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YakaÃ–rgÃ¼ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetBitti = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.mnuSetBos = New System.Windows.Forms.ToolStripMenuItem()
@@ -91,7 +91,7 @@ Partial Class Form1
         Me.CheckedListBoxControl1.Appearance.Options.UseBackColor = True
         Me.CheckedListBoxControl1.CheckOnClick = True
         Me.CheckedListBoxControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CheckedListBoxControl1.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("HAZIRLIK", "Hazýrlýk"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("URETIMDE", "Üretimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("ORGUDE", "Örgüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYA-HAZIRLIK", "Boya Hazýrlýk"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYADA", "Boyada"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIM-HAZIRLIK", "Kesim Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIMDE", "Kesimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("UTUDE", "Ütüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("DEPODA", "Depoda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KILIS", "Kilis' te"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("FASONDA", "Fasonda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("YAKA-ORGU", "Yaka Örgü"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BITTI", "Bitti"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("", "{Boþ}")})
+        Me.CheckedListBoxControl1.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("HAZIRLIK", "HazÄ±rlÄ±k"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("URETIMDE", "Ãœretimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("ORGUDE", "Ã–rgÃ¼de"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYA-HAZIRLIK", "Boya HazÄ±rlÄ±k"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYADA", "Boyada"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIM-HAZIRLIK", "Kesim Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIMDE", "Kesimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("UTUDE", "ÃœtÃ¼de"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("DEPODA", "Depoda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KILIS", "Kilis' te"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("FASONDA", "Fasonda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("YAKA-ORGU", "Yaka Ã–rgÃ¼"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BITTI", "Bitti"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("", "{BoÅŸ}")})
         Me.CheckedListBoxControl1.Location = New System.Drawing.Point(0, 0)
         Me.CheckedListBoxControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckedListBoxControl1.MultiColumn = True
@@ -103,7 +103,7 @@ Partial Class Form1
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSiparisiAc, Me.ToolStripMenuItem1, Me.DurumunuDeðiþtirToolStripMenuItem, Me.ToolStripMenuItem4, Me.FasonFisiniAcToolStripMenuItem, Me.ToolStripMenuItem3, Me.mnuSiparisYaz, Me.ToolStripMenuItem5, Me.KayitBilgisiToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSiparisiAc, Me.ToolStripMenuItem1, Me.DurumunuDeÄŸiÅŸtirToolStripMenuItem, Me.ToolStripMenuItem4, Me.FasonFisiniAcToolStripMenuItem, Me.ToolStripMenuItem3, Me.mnuSiparisYaz, Me.ToolStripMenuItem5, Me.KayitBilgisiToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(180, 158)
         '
@@ -111,43 +111,43 @@ Partial Class Form1
         '
         Me.mnuSiparisiAc.Name = "mnuSiparisiAc"
         Me.mnuSiparisiAc.Size = New System.Drawing.Size(184, 26)
-        Me.mnuSiparisiAc.Text = "Sipariþ Fiþini Aç"
+        Me.mnuSiparisiAc.Text = "SipariÅŸ FiÅŸini AÃ§"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(181, 6)
         '
-        'DurumunuDeðiþtirToolStripMenuItem
+        'DurumunuDeÄŸiÅŸtirToolStripMenuItem
         '
-        Me.DurumunuDeðiþtirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ÜretimHazýrlýkToolStripMenuItem, Me.mnuSetUretimde, Me.mnuSetOrgude, Me.mnuSetBoyaHazirlik, Me.mnuSetBoyada, Me.KesimHazirlikToolStripMenuItem, Me.mnuSetKesimde, Me.ÜtüdeToolStripMenuItem, Me.mnuSetDepoda, Me.mnuSetKilis, Me.FasondaToolStripMenuItem, Me.YakaÖrgüToolStripMenuItem, Me.mnuSetBitti, Me.ToolStripMenuItem2, Me.mnuSetBos, Me.BoyaHazirlikToolStripMenuItem})
-        Me.DurumunuDeðiþtirToolStripMenuItem.Name = "DurumunuDeðiþtirToolStripMenuItem"
-        Me.DurumunuDeðiþtirToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
-        Me.DurumunuDeðiþtirToolStripMenuItem.Text = "Durumunu Deðiþtir"
+        Me.DurumunuDeÄŸiÅŸtirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ÃœretimHazÄ±rlÄ±kToolStripMenuItem, Me.mnuSetUretimde, Me.mnuSetOrgude, Me.mnuSetBoyaHazirlik, Me.mnuSetBoyada, Me.KesimHazirlikToolStripMenuItem, Me.mnuSetKesimde, Me.ÃœtÃ¼deToolStripMenuItem, Me.mnuSetDepoda, Me.mnuSetKilis, Me.FasondaToolStripMenuItem, Me.YakaÃ–rgÃ¼ToolStripMenuItem, Me.mnuSetBitti, Me.ToolStripMenuItem2, Me.mnuSetBos, Me.BoyaHazirlikToolStripMenuItem})
+        Me.DurumunuDeÄŸiÅŸtirToolStripMenuItem.Name = "DurumunuDeÄŸiÅŸtirToolStripMenuItem"
+        Me.DurumunuDeÄŸiÅŸtirToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
+        Me.DurumunuDeÄŸiÅŸtirToolStripMenuItem.Text = "Durumunu DeÄŸiÅŸtir"
         '
-        'ÜretimHazýrlýkToolStripMenuItem
+        'ÃœretimHazÄ±rlÄ±kToolStripMenuItem
         '
-        Me.ÜretimHazýrlýkToolStripMenuItem.Name = "ÜretimHazýrlýkToolStripMenuItem"
-        Me.ÜretimHazýrlýkToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ÜretimHazýrlýkToolStripMenuItem.Text = "Hazýrlýk"
+        Me.ÃœretimHazÄ±rlÄ±kToolStripMenuItem.Name = "ÃœretimHazÄ±rlÄ±kToolStripMenuItem"
+        Me.ÃœretimHazÄ±rlÄ±kToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ÃœretimHazÄ±rlÄ±kToolStripMenuItem.Text = "HazÄ±rlÄ±k"
         '
         'mnuSetUretimde
         '
         Me.mnuSetUretimde.Name = "mnuSetUretimde"
         Me.mnuSetUretimde.Size = New System.Drawing.Size(180, 22)
-        Me.mnuSetUretimde.Text = "Üretimde"
+        Me.mnuSetUretimde.Text = "Ãœretimde"
         '
         'mnuSetOrgude
         '
         Me.mnuSetOrgude.Name = "mnuSetOrgude"
         Me.mnuSetOrgude.Size = New System.Drawing.Size(180, 22)
-        Me.mnuSetOrgude.Text = "Örgüde"
+        Me.mnuSetOrgude.Text = "Ã–rgÃ¼de"
         '
         'mnuSetBoyaHazirlik
         '
         Me.mnuSetBoyaHazirlik.Name = "mnuSetBoyaHazirlik"
         Me.mnuSetBoyaHazirlik.Size = New System.Drawing.Size(180, 22)
-        Me.mnuSetBoyaHazirlik.Text = "Boya Hazýrlýk"
+        Me.mnuSetBoyaHazirlik.Text = "Boya HazÄ±rlÄ±k"
         '
         'mnuSetBoyada
         '
@@ -167,11 +167,11 @@ Partial Class Form1
         Me.mnuSetKesimde.Size = New System.Drawing.Size(180, 22)
         Me.mnuSetKesimde.Text = "Kesimde"
         '
-        'ÜtüdeToolStripMenuItem
+        'ÃœtÃ¼deToolStripMenuItem
         '
-        Me.ÜtüdeToolStripMenuItem.Name = "ÜtüdeToolStripMenuItem"
-        Me.ÜtüdeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ÜtüdeToolStripMenuItem.Text = "Ütüde"
+        Me.ÃœtÃ¼deToolStripMenuItem.Name = "ÃœtÃ¼deToolStripMenuItem"
+        Me.ÃœtÃ¼deToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ÃœtÃ¼deToolStripMenuItem.Text = "ÃœtÃ¼de"
         '
         'mnuSetDepoda
         '
@@ -191,11 +191,11 @@ Partial Class Form1
         Me.FasondaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.FasondaToolStripMenuItem.Text = "Fasonda"
         '
-        'YakaÖrgüToolStripMenuItem
+        'YakaÃ–rgÃ¼ToolStripMenuItem
         '
-        Me.YakaÖrgüToolStripMenuItem.Name = "YakaÖrgüToolStripMenuItem"
-        Me.YakaÖrgüToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.YakaÖrgüToolStripMenuItem.Text = "Yaka Örgü"
+        Me.YakaÃ–rgÃ¼ToolStripMenuItem.Name = "YakaÃ–rgÃ¼ToolStripMenuItem"
+        Me.YakaÃ–rgÃ¼ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.YakaÃ–rgÃ¼ToolStripMenuItem.Text = "Yaka Ã–rgÃ¼"
         '
         'mnuSetBitti
         '
@@ -212,7 +212,7 @@ Partial Class Form1
         '
         Me.mnuSetBos.Name = "mnuSetBos"
         Me.mnuSetBos.Size = New System.Drawing.Size(180, 22)
-        Me.mnuSetBos.Text = "Boþ"
+        Me.mnuSetBos.Text = "BoÅŸ"
         '
         'ToolStripMenuItem4
         '
@@ -235,7 +235,7 @@ Partial Class Form1
         Me.mnuSiparisYaz.Image = Global.ProbarSiparis.My.Resources.Resources.print_16
         Me.mnuSiparisYaz.Name = "mnuSiparisYaz"
         Me.mnuSiparisYaz.Size = New System.Drawing.Size(184, 26)
-        Me.mnuSiparisYaz.Text = "Yazdýr"
+        Me.mnuSiparisYaz.Text = "YazdÄ±r"
         '
         'ToolStripMenuItem5
         '
@@ -278,19 +278,19 @@ Partial Class Form1
     Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
     Friend WithEvents mnuSiparisiAc As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As ToolStripSeparator
-    Friend WithEvents DurumunuDeðiþtirToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ÜretimHazýrlýkToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DurumunuDeÄŸiÅŸtirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ÃœretimHazÄ±rlÄ±kToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents mnuSetUretimde As ToolStripMenuItem
     Friend WithEvents mnuSetOrgude As ToolStripMenuItem
     Friend WithEvents mnuSetBoyaHazirlik As ToolStripMenuItem
     Friend WithEvents mnuSetBoyada As ToolStripMenuItem
     Friend WithEvents KesimHazirlikToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents mnuSetKesimde As ToolStripMenuItem
-    Friend WithEvents ÜtüdeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ÃœtÃ¼deToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents mnuSetDepoda As ToolStripMenuItem
     Friend WithEvents mnuSetKilis As ToolStripMenuItem
     Friend WithEvents FasondaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents YakaÖrgüToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents YakaÃ–rgÃ¼ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents mnuSetBitti As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripSeparator
     Friend WithEvents mnuSetBos As ToolStripMenuItem

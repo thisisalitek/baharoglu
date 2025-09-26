@@ -60,8 +60,8 @@ Public Class cnt017_DubleLastikIcCep
     Private Sub MasraflariUygula()
         Try
             MasrafListesi = New ArrayList
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
-            MasrafListesi.Add(New clsMasraf("011", "Cep Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
+            MasrafListesi.Add(New clsMasraf("011", "Cep Farki", False, 0))
             If MasrafListesi.Count > 0 Then
                 If MasterTable2.Rows.Count > 0 Then
                     CType(MasrafListesi.Item(0), clsMasraf).bUygula = False
@@ -110,7 +110,7 @@ Public Class cnt017_DubleLastikIcCep
 
             If MasterTable2.Rows.Count > 0 Then
                 If If0Null(MasterTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[DUBLE LASTIK İÇ CEP] Duble lastik cep rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[DUBLE LASTIK Ä°Ã‡ CEP] Duble lastik cep rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
             End If
@@ -118,11 +118,11 @@ Public Class cnt017_DubleLastikIcCep
                 Dim dr As DataRow = NeoTable2.Rows(i)
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[DUBLE LASTIK İÇ CEP] #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                        smsg &= "[DUBLE LASTIK Ä°Ã‡ CEP] #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If Trim(IfNull(dr("RKafa"), "")) = "" Then
-                        smsg &= "[DUBLE LASTIK İÇ CEP] #" & i + 1 & " satırda çizgi sayısı hatalı!" & vbNewLine
+                        smsg &= "[DUBLE LASTIK Ä°Ã‡ CEP] #" & i + 1 & " satirda Ã§izgi sayisi hatali!" & vbNewLine
                         bCancel = True
                     End If
                 End If
@@ -183,24 +183,24 @@ Public Class cnt017_DubleLastikIcCep
                     If (If0Null(MasterTable.Rows(0).Item("Secmeli")) = 1 And If0Null(MasterTable2.Rows(0).Item("bVar")) = 1) Or If0Null(MasterTable.Rows(0).Item("Secmeli")) = 0 Then
 
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID")))
-                        sbuf = "DUBLE LASTIK İÇ CEP RENK:" & AnaRenk
+                        sbuf = "DUBLE LASTIK Ä°Ã‡ CEP RENK:" & AnaRenk
 
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) <= 0 Then
-                            sbuf &= "   ÇİZGİ :YOK "
+                            sbuf &= "   Ã‡Ä°ZGÄ° :YOK "
                         Else
-                            sbuf &= "   ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi"))
+                            sbuf &= "   Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi"))
                         End If
                         Aciklamalar.Add(sbuf)
 
                         '------------
                         Dim sSipBuf As String = ""
-                        sSipBuf = "DUBLE LASTIK İÇ CEP RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID")))
+                        sSipBuf = "DUBLE LASTIK Ä°Ã‡ CEP RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID")))
                         Aciklamalar2.Add(sSipBuf)
 
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) <= 0 Then
-                            sSipBuf = "DUBLE LASTIK İÇ CEP ÇİZGİ :YOK "
+                            sSipBuf = "DUBLE LASTIK Ä°Ã‡ CEP Ã‡Ä°ZGÄ° :YOK "
                         Else
-                            sSipBuf = "DUBLE LASTIK İÇ CEP ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) & "   RENKLER:"
+                            sSipBuf = "DUBLE LASTIK Ä°Ã‡ CEP Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) & "   RENKLER:"
 
                         End If
 
@@ -211,8 +211,8 @@ Public Class cnt017_DubleLastikIcCep
                         For Each dr As DataRow In NeoTable2.Rows
                             If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                                 CizgiNo += 1
-                                sbuf = CizgiNo & ". Çizgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
-                                sbuf &= "     " & CizgiNo & ". Çizgi -> " & IfNull(dr("RKafa"), "")
+                                sbuf = CizgiNo & ". Ã‡izgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
+                                sbuf &= "     " & CizgiNo & ". Ã‡izgi -> " & IfNull(dr("RKafa"), "")
                                 Aciklamalar.Add(sbuf)
                                 sSipBuf &= GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID"))) & " , "
                             End If
@@ -254,19 +254,19 @@ Public Class cnt017_DubleLastikIcCep
 
 
                         End If
-                        Aciklamalar.Add("DUBLE LASTIK İÇ CEP TUR :" & If0Null(MasterTable.Rows(0).Item("Tur")) & "    T.Tur:" & TTur)
+                        Aciklamalar.Add("DUBLE LASTIK Ä°Ã‡ CEP TUR :" & If0Null(MasterTable.Rows(0).Item("Tur")) & "    T.Tur:" & TTur)
 
                         Aciklamalar2.Add(sSipBuf)
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) > 0 Then
                             If Trim(DubleLastikCepCizgiRKafa) <> "" Then
-                                sSipBuf = "DUBLE LASTIK İÇ CEP ÇİZGİ TÜR :" & DubleLastikCepCizgiRKafa
+                                sSipBuf = "DUBLE LASTIK Ä°Ã‡ CEP Ã‡Ä°ZGÄ° TUR :" & DubleLastikCepCizgiRKafa
                                 Aciklamalar2.Add(sSipBuf)
                             End If
                         End If
 
                         'Aciklamalar.Add("------------------------------")
-                        UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "017", "DUBLE LASTIK İÇ CEP", Aciklamalar, AnaRenk)
-                        SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "017", "DUBLE LASTIK İÇ CEP", Aciklamalar2, AnaRenk)
+                        UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "017", "DUBLE LASTIK Ä°Ã‡ CEP", Aciklamalar, AnaRenk)
+                        SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "017", "DUBLE LASTIK Ä°Ã‡ CEP", Aciklamalar2, AnaRenk)
                     End If
 
                 End If

@@ -120,7 +120,7 @@ Public Class frmIrsaliye_Giris
                         DetailTable.DefaultView.AllowNew = False
                         DetailTable.DefaultView.AllowEdit = False
                         DetailTable.DefaultView.AllowDelete = False
-                        MsgBox("Irsaliye Mikro sistemine gönderilmiş. Değiştiremezsiniz!")
+                        MsgBox("Irsaliye Mikro sistemine gÃ¶nderilmis. Degistiremezsiniz!")
 
                     Else
                         'MasterTable.LiveSave = False
@@ -160,11 +160,11 @@ Public Class frmIrsaliye_Giris
 
             Select Case IrsaliyeType
                 Case 0
-                    Me.Text = "Alım irsaliyesi"
+                    Me.Text = "Alim irsaliyesi"
                 Case 1
                     Me.Text = "Devir"
                 Case 2
-                    Me.Text = "Üretimden İade Giriş"
+                    Me.Text = "Uretimden Ä°ade Giris"
 
                 Case Else
                     Me.Text = ""
@@ -280,7 +280,7 @@ Public Class frmIrsaliye_Giris
 
             If IrsaliyeType = 0 Then
                 If Trim(IfNull(MasterLink.CurrentRow("CariKod"), "")) = "" Then
-                    MsgBox("Lütfen cari seçiniz!")
+                    MsgBox("Lutfen cari seÃ§iniz!")
                     Return False
                 End If
                 cmd.CommandText = "SELECT COUNT(*) FROM CARI_HESAPLAR WHERE cari_kod='" & Replace(IfNull(MasterLink.CurrentRow("CariKod"), ""), "'", " ") & "' "
@@ -290,11 +290,11 @@ Public Class frmIrsaliye_Giris
                 End If
             End If
             If Trim(IfNull(MasterLink.CurrentRow("Depo"), "")) = "" Then
-                MsgBox("Lütfen depo seçiniz!")
+                MsgBox("Lutfen depo seÃ§iniz!")
                 Return False
             End If
             If IsNumeric(Trim(IfNull(MasterLink.CurrentRow("Depo"), ""))) = False Then
-                MsgBox("Lütfen depo no sayısal değil!")
+                MsgBox("Lutfen depo no sayisal degil!")
                 Return False
             End If
 
@@ -307,7 +307,7 @@ Public Class frmIrsaliye_Giris
             If IrsaliyeType = 2 Then
                 cmd.CommandText = "SELECT COUNT(*) FROM ISEMIRLERI WHERE is_Kod='" & Replace(IfNull(MasterLink.CurrentRow("IsEmriNo"), ""), "'", " ") & "' "
                 If cmd.ExecuteScalar <= 0 Then
-                    MsgBox("İş emri mikroda bulunmuyor!")
+                    MsgBox("Ä°s emri mikroda bulunmuyor!")
                     Return False
                 End If
             End If
@@ -319,7 +319,7 @@ Public Class frmIrsaliye_Giris
     End Function
     Private Sub cmdCancel_Click(sender As System.Object, e As System.EventArgs) Handles cmdCancel.Click
         Try
-            If MsgBox("Çıkmak istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Çıkış?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Ã‡ikmak istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Ã‡ikis?") <> MsgBoxResult.Yes Then Exit Sub
 
             Me.DialogResult = Windows.Forms.DialogResult.Cancel
             Me.Close()
@@ -401,7 +401,7 @@ Public Class frmIrsaliye_Giris
 
                 If DetailLink.CurrentRow Is Nothing Then Exit Sub
                 bGridNoFocus = True
-                If MsgBox("Satırı silmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satiri silmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                 DetailLink.CurrentRow.Delete()
                 bGridNoFocus = False
             End If
@@ -488,7 +488,7 @@ Public Class frmIrsaliye_Giris
                 .PrintScript = MasterTable.SelectCommand.CommandText
                 If Invisible Then
                     If Trim(cboYazici.Text) = "" Then
-                        MsgBox("Lütfen yazıcı seçiniz!")
+                        MsgBox("Lutfen yazici seÃ§iniz!")
                         Exit Sub
                     End If
                     .FormPrintInvisible(cboYazici.Text)

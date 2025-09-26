@@ -166,12 +166,12 @@ Public Class cnt009_Kumas2
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("012", "Farklı Kumaş", False, 0))
-            MasrafListesi.Add(New clsMasraf("011", "Cep Farkı(Sol On)", False, 0))
-            MasrafListesi.Add(New clsMasraf("011", "Cep Farkı(Sag On)", False, 0))
-            MasrafListesi.Add(New clsMasraf("011", "Cep Farkı(Sol Arka)", False, 0))
-            MasrafListesi.Add(New clsMasraf("011", "Cep Farkı(Sag Arka)", False, 0))
-            MasrafListesi.Add(New clsMasraf("011", "Cep Farkı(Gizli Cep)", False, 0))
+            MasrafListesi.Add(New clsMasraf("012", "Farkli Kumas", False, 0))
+            MasrafListesi.Add(New clsMasraf("011", "Cep Farki(Sol On)", False, 0))
+            MasrafListesi.Add(New clsMasraf("011", "Cep Farki(Sag On)", False, 0))
+            MasrafListesi.Add(New clsMasraf("011", "Cep Farki(Sol Arka)", False, 0))
+            MasrafListesi.Add(New clsMasraf("011", "Cep Farki(Sag Arka)", False, 0))
+            MasrafListesi.Add(New clsMasraf("011", "Cep Farki(Gizli Cep)", False, 0))
 
 
             If NeoTable4.Rows.Count > 0 Then
@@ -221,7 +221,7 @@ Public Class cnt009_Kumas2
                                     End If
                                 Next
                                 If bFound = False Then
-                                    MasrafListesi.Add(New clsMasraf("S02", IfNull(drKumas("KumasIsmi"), "") & " KUMAŞ FARKI", True, If0Null(drKumas("Fiyat"))))
+                                    MasrafListesi.Add(New clsMasraf("S02", IfNull(drKumas("KumasIsmi"), "") & " KUMAÅ FARKI", True, If0Null(drKumas("Fiyat"))))
                                 End If
 
                             End If
@@ -349,19 +349,19 @@ Public Class cnt009_Kumas2
             For Each dr As DataRow In NeoTable3.Rows
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("KumasKatalogID")) <= 0 Then
-                        smsg &= "[KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' katalog seçilmemiş!" & vbNewLine
+                        smsg &= "[KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' katalog seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If Mid(KategoriKod, 1, 3) = "M.7" Then
                     Else
                         If If0Null(dr("KumasID")) <= 0 Then
-                            smsg &= "[KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' kumaş seçilmemiş!" & vbNewLine
+                            smsg &= "[KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' kumas seÃ§ilmemis!" & vbNewLine
                             bCancel = True
                         End If
                     End If
 
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seçilmemiş!" & vbNewLine
+                        smsg &= "[KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                 End If
@@ -466,7 +466,7 @@ Public Class cnt009_Kumas2
                             If Mid(KategoriKod, 1, 3) = "M.7" Then
 
                             Else
-                                sbuf &= "   KUMAŞ:" & GetKumasKodIsim(SqlConn.SqlConnection, If0Null(dr("KumasID")))
+                                sbuf &= "   KUMAÅ:" & GetKumasKodIsim(SqlConn.SqlConnection, If0Null(dr("KumasID")))
                             End If
                             sbuf &= "   RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
                             If bIlk Then
@@ -479,7 +479,7 @@ Public Class cnt009_Kumas2
                             sbuf = IfNull(dr("ParcaIsmi"), "") & " "
                             If Mid(KategoriKod, 1, 3) = "M.7" Then
                             Else
-                                sbuf &= "   KUMAŞ:" & GetKumasKodIsim(SqlConn.SqlConnection, If0Null(dr("KumasID"))) & "    KATALOG:" & GetKumasKatalogKodIsim(SqlConn.SqlConnection, If0Null(dr("KumasKatalogID")))
+                                sbuf &= "   KUMAÅ:" & GetKumasKodIsim(SqlConn.SqlConnection, If0Null(dr("KumasID"))) & "    KATALOG:" & GetKumasKatalogKodIsim(SqlConn.SqlConnection, If0Null(dr("KumasKatalogID")))
                             End If
 
                             sbuf &= "   RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
@@ -493,19 +493,19 @@ Public Class cnt009_Kumas2
                             Else
                                 sbuf = "CEP: "
                                 If If0Null(.Item("SolOnCep")) = 1 Then
-                                    sbuf &= "[SOL ÖN] "
+                                    sbuf &= "[SOL ON] "
                                 End If
                                 If If0Null(.Item("SagOnCep")) = 1 Then
-                                    sbuf &= "[SAĞ ÖN] "
+                                    sbuf &= "[SAÄ ON] "
                                 End If
                                 If If0Null(.Item("SolArkaCep")) = 1 Then
                                     sbuf &= "[SOL ARKA] "
                                 End If
                                 If If0Null(.Item("SagArkaCep")) = 1 Then
-                                    sbuf &= "[SAĞ ARKA] "
+                                    sbuf &= "[SAÄ ARKA] "
                                 End If
                                 If If0Null(.Item("GizliCep")) = 1 Then
-                                    sbuf &= "[GİZLİ CEP] "
+                                    sbuf &= "[GÄ°ZLÄ° CEP] "
                                 End If
                                 Aciklamalar.Add(sbuf)
                                 AciklamalarBilgi.Add(sbuf)
@@ -513,27 +513,27 @@ Public Class cnt009_Kumas2
 
 
                             If If0Null(.Item("OverlokNakis")) = 0 Then
-                                'sbuf = "OVERLOK-NAKIŞ: YOK"
+                                'sbuf = "OVERLOK-NAKIÅ: YOK"
                             Else
-                                sbuf = "OVERLOK-NAKIŞ: VAR"
+                                sbuf = "OVERLOK-NAKIÅ: VAR"
                                 Aciklamalar.Add(sbuf)
                                 AciklamalarBilgi.Add(sbuf)
                             End If
 
 
                             If If0Null(.Item("FarkliKumas")) = 0 Then
-                                'sbuf = "FARKLI KUMAŞ: YOK"
+                                'sbuf = "FARKLI KUMAÅ: YOK"
                             Else
-                                sbuf = "FARKLI KUMAŞ: VAR"
+                                sbuf = "FARKLI KUMAÅ: VAR"
                                 Aciklamalar.Add(sbuf)
                                 AciklamalarBilgi.Add(sbuf)
                             End If
 
 
                             If If0Null(.Item("Biye")) = 0 Then
-                                'sbuf = "BİYE: YOK"
+                                'sbuf = "BÄ°YE: YOK"
                             Else
-                                sbuf = "BİYE: VAR"
+                                sbuf = "BÄ°YE: VAR"
                                 If If0Null(.Item("BiyeDeger")) > 0 Then
                                     sbuf &= "    " & If0Null(.Item("BiyeDeger")) & "cm"
                                 End If

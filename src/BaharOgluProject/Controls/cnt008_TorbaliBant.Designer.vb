@@ -159,7 +159,7 @@ Partial Class cnt008_TorbaliBant
         'lblCaption
         '
         Me.lblCaption.Size = New System.Drawing.Size(195, 22)
-        Me.lblCaption.Text = "Torbalı Bant"
+        Me.lblCaption.Text = "Torbali Bant"
         '
         'XtraTabControl1
         '
@@ -446,7 +446,7 @@ Partial Class cnt008_TorbaliBant
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = ">> Artış"
+        Me.LabelControl3.Text = ">> Artis"
         '
         'LabelControl2
         '
@@ -776,7 +776,7 @@ Partial Class cnt008_TorbaliBant
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(52, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi Sayısı"
+        Me.LabelControl6.Text = "Ã‡izgi Sayisi"
         '
         'SpinEdit1
         '
@@ -881,7 +881,7 @@ Partial Class cnt008_TorbaliBant
         'cnt008_TorbaliBant
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Torbalı Bant"
+        Me.Caption = "Torbali Bant"
         Me.Code = "008"
         Me.Controls.Add(Me.TextEdit2)
         Me.Name = "cnt008_TorbaliBant"

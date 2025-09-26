@@ -117,7 +117,7 @@ Public Class frmSiparisRaporu
         Try
             If e.KeyCode = Keys.R And e.Control And e.Alt Then
                 If GridView1.RowCount <= 0 Then Exit Sub
-                If MsgBox("Listedeki siparişler onarılacaktır. Onaylıyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Onar?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Listedeki siparisler onarilacaktir. Onayliyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Onar?") <> MsgBoxResult.Yes Then Exit Sub
                 RepairSipDetay()
             End If
         Catch ex As Exception
@@ -195,10 +195,10 @@ Public Class frmSiparisRaporu
             End If
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "") ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "URETIMDE" Then
-                MsgBox("Bu sipariş zaten üretimde!")
+                MsgBox("Bu siparis zaten uretimde!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'URETIMDE' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'URETIMDE' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='URETIMDE' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -265,12 +265,12 @@ Public Class frmSiparisRaporu
             End If
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "BITTI" Then
-                MsgBox("Bu sipariş zaten bitmiş!")
+                MsgBox("Bu siparis zaten bitmis!")
                 Exit Sub
             End If
             If bFasonda = False Then
 
-                If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'BITTI' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'BITTI' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
 
             End If
 
@@ -319,7 +319,7 @@ Public Class frmSiparisRaporu
 
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu '' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu '' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -361,10 +361,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")   ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "ORGUDE" Then
-                MsgBox("Bu sipariş zaten örgüde!")
+                MsgBox("Bu siparis zaten Ã¶rgude!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'ORGUDE' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'ORGUDE' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='ORGUDE' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -465,10 +465,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "KESIMDE" Then
-                MsgBox("Bu sipariş zaten kesimde!")
+                MsgBox("Bu siparis zaten kesimde!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'KESIMDE' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'KESIMDE' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='KESIMDE' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -510,7 +510,7 @@ Public Class frmSiparisRaporu
             Dim BoyahaneID As Integer = 0
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu <> "BOYADA" Then
-                If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'BOYADA' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'BOYADA' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             End If
             Dim f As New frmBoyahaneler
             f.FormSelect()
@@ -565,10 +565,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "DEPODA" Then
-                MsgBox("Bu sipariş zaten depoda!")
+                MsgBox("Bu siparis zaten depoda!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'DEPODA' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'DEPODA' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='DEPODA' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -848,10 +848,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "KILIS" Then
-                MsgBox("Bu sipariş zaten kilis te!")
+                MsgBox("Bu siparis zaten kilis te!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'KILIS' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'KILIS' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='KILIS' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -896,11 +896,11 @@ Public Class frmSiparisRaporu
             If dt.Rows.Count > 0 Then
                 Dim sText As String = ""
                 sText = "ID" & vbTab & vbTab & ": " & dt.Rows(0)("SipDetayID").ToString & vbNewLine
-                sText &= "Oluşturan" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, If0Null(dt.Rows(0)("CreatedBy"))) & vbNewLine
-                sText &= "Oluşturma Tarihi" & vbTab & ": " & IfNull(dt.Rows(0)("CreatedDate"), DateSerial(1900, 1, 1)) & vbNewLine
-                sText &= "Değiştiren" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, If0Null(dt.Rows(0)("ModifiedBy"))) & vbNewLine
-                sText &= "Değiştirme Tarihi" & vbTab & ": " & IfNull(dt.Rows(0)("ModifiedDate"), DateSerial(1900, 1, 1)) & vbNewLine
-                MsgBox(sText, MsgBoxStyle.OkOnly Or MsgBoxStyle.Information, "Kayıt Bilgisi")
+                sText &= "Olusturan" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, If0Null(dt.Rows(0)("CreatedBy"))) & vbNewLine
+                sText &= "Olusturma Tarihi" & vbTab & ": " & IfNull(dt.Rows(0)("CreatedDate"), DateSerial(1900, 1, 1)) & vbNewLine
+                sText &= "Degistiren" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, If0Null(dt.Rows(0)("ModifiedBy"))) & vbNewLine
+                sText &= "Degistirme Tarihi" & vbTab & ": " & IfNull(dt.Rows(0)("ModifiedDate"), DateSerial(1900, 1, 1)) & vbNewLine
+                MsgBox(sText, MsgBoxStyle.OkOnly Or MsgBoxStyle.Information, "Kayit Bilgisi")
 
             End If
 
@@ -932,10 +932,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "FASONDA" Then
-                MsgBox("Bu sipariş zaten fasonda te!")
+                MsgBox("Bu siparis zaten fasonda te!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'FASONDA' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'FASONDA' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='FASONDA' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -954,7 +954,7 @@ Public Class frmSiparisRaporu
         End Try
     End Sub
 
-    Private Sub ÜretimHazırlıkToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÜretimHazırlıkToolStripMenuItem.Click
+    Private Sub UretimHazirlikToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UretimHazirlikToolStripMenuItem.Click
         Try
             If GridView1.FocusedRowHandle < 0 Then Exit Sub
             Dim sSipDetayID As String = "-99999"
@@ -968,10 +968,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "HAZIRLIK" Then
-                MsgBox("Bu sipariş zaten Hazırlık ta!")
+                MsgBox("Bu siparis zaten Hazirlik ta!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'HAZIRLIK' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'HAZIRLIK' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='HAZIRLIK' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -990,7 +990,7 @@ Public Class frmSiparisRaporu
         End Try
     End Sub
 
-    Private Sub ÜtüdeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÜtüdeToolStripMenuItem.Click
+    Private Sub UtudeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UtudeToolStripMenuItem.Click
         Try
             If GridView1.FocusedRowHandle < 0 Then Exit Sub
             Dim sSipDetayID As String = "-99999"
@@ -1013,10 +1013,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "UTUDE" Then
-                MsgBox("Bu sipariş zaten ütüde!")
+                MsgBox("Bu siparis zaten utude!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'UTUDE' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'UTUDE' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='UTUDE' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -1035,7 +1035,7 @@ Public Class frmSiparisRaporu
         End Try
     End Sub
 
-    Private Sub YakaÖrgüToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles YakaÖrgüToolStripMenuItem.Click
+    Private Sub YakaOrguToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles YakaOrguToolStripMenuItem.Click
         Try
             If GridView1.FocusedRowHandle < 0 Then Exit Sub
             Dim sSipDetayID As String = "-99999"
@@ -1057,10 +1057,10 @@ Public Class frmSiparisRaporu
             End If
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "YAKA-ORGU" Then
-                MsgBox("Bu sipariş zaten Yaka-Örgü de!")
+                MsgBox("Bu siparis zaten Yaka-Orgu de!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'YAKA ÖRGÜ' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'YAKA ORGU' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='YAKA-ORGU' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "
@@ -1102,10 +1102,10 @@ Public Class frmSiparisRaporu
 
             Dim Durumu As String = IfNull(GridView1.GetDataRow(GridView1.FocusedRowHandle)("Durumu"), "")  ' IfNull(MasterLink.CurrentRow("Durumu"), "")
             If Durumu = "KESIM-HAZIRLIK" Then
-                MsgBox("Bu sipariş zaten Kesim-Hazırlıkta!")
+                MsgBox("Bu siparis zaten Kesim-Hazirlikta!")
                 Exit Sub
             End If
-            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparişin durumunu 'KESIM HAZIRLIK' olarak değiştirmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Değiştir?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(GridView1.GetSelectedRows.Length.ToString() & " adet siparisin durumunu 'KESIM HAZIRLIK' olarak degistirmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Durumu Degistir?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE SipDetay SET Durumu='KESIM-HAZIRLIK' , ModifiedBy=" & AppConn.ActiveUser.UserID & ",ModifiedDate=GETDATE() WHERE Deleted = 0 AND SipDetayID IN (" & sSipDetayID & ") "

@@ -236,13 +236,13 @@ Public Class frmUrunToplamRaporu
                                 If eskiAdet = 0 And yeniAdet > 0 Then
                                     dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Yeni"
                                 ElseIf eskiAdet > 0 And yeniAdet = 0 Then
-                                    dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Gelmemiş"
+                                    dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Gelmemis"
                                 ElseIf eskiAdet = 0 And yeniAdet = 0 Then
                                     dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "-"
                                 ElseIf eskiAdet > 0 And yeniAdet > 0 And eskiAdet > yeniAdet Then
-                                    dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Azalmış"
+                                    dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Azalmis"
                                 ElseIf eskiAdet > 0 And yeniAdet > 0 And eskiAdet < yeniAdet Then
-                                    dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Artmış"
+                                    dtUrun.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Artmis"
                                 End If
 
                             End If

@@ -153,7 +153,7 @@ Public Class cnt012_LakosYaka
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             If MasrafListesi.Count > 0 Then
                 If NeoTable2.Rows.Count > 0 Then
@@ -180,11 +180,11 @@ Public Class cnt012_LakosYaka
 
             If NeoTable2.Rows.Count > 0 Then
                 If If0Null(NeoTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[L/S YAKA] Yaka rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[L/S YAKA] Yaka rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
                 If If0Null(NeoTable2.Rows(0).Item("CizgiRKafaLakosID")) <= 0 Then
-                    smsg &= "[L/S YAKA] Çizgi seçilmemiş!" & vbNewLine
+                    smsg &= "[L/S YAKA] Ã‡izgi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
             End If
@@ -192,7 +192,7 @@ Public Class cnt012_LakosYaka
                 Dim dr As DataRow = NeoTable3.Rows(i)
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[L/S YAKA] #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                        smsg &= "[L/S YAKA] #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -271,14 +271,14 @@ Public Class cnt012_LakosYaka
                     Dim AnaRenk As String = ""
 
                     If MasterTable2.Rows.Count > 0 Then
-                        sbuf = "L/S YAKA ŞEKLİ : "
+                        sbuf = "L/S YAKA ÅEKLÄ° : "
                         Select Case If0Null(MasterTable2.Rows(0).Item("IntParam1"))
-                            Case 0 : sbuf &= "GÖMLEK YAKA"
-                            Case 1 : sbuf &= "SİMİT YAKA"
-                            Case 2 : sbuf &= "PİLOT YAKA"
+                            Case 0 : sbuf &= "GOMLEK YAKA"
+                            Case 1 : sbuf &= "SÄ°MÄ°T YAKA"
+                            Case 2 : sbuf &= "PÄ°LOT YAKA"
                             Case 3 : sbuf &= "SIFIR YAKA"
                             Case 4 : sbuf &= "POLO YAKA"
-                            Case 5 : sbuf &= "AYAKLI GÖMLEK"
+                            Case 5 : sbuf &= "AYAKLI GOMLEK"
                         End Select
                         Aciklamalar.Add(sbuf)
                         Aciklamalar2.Add(sbuf)
@@ -294,11 +294,11 @@ Public Class cnt012_LakosYaka
                         sbuf = ""
                         Dim drLakosCizgi As DataRow = tbCizgiRenkKafaLakos.Rows.Find(If0Null(NeoTable2.Rows(0).Item("CizgiRKafaLakosID")))
                         If Not drLakosCizgi Is Nothing Then
-                            sbuf = "L/S YAKA ÇİZGİ:" & IfNull(drLakosCizgi("Aciklama"), "")
+                            sbuf = "L/S YAKA Ã‡Ä°ZGÄ°:" & IfNull(drLakosCizgi("Aciklama"), "")
 
                         End If
 
-                        sbuf &= " / ÇİZGİ RENK:"
+                        sbuf &= " / Ã‡Ä°ZGÄ° RENK:"
 
                         Dim nCizgi As Integer = 0
 
@@ -308,7 +308,7 @@ Public Class cnt012_LakosYaka
 
                                 Dim drRenk As DataRow = tbRenk.Rows.Find(If0Null(dr("RenkID")))
                                 If Not drRenk Is Nothing Then
-                                    sbuf &= "   " & nCizgi & ". Çizgi:" & IfNull(drRenk("RenkKod"), "")
+                                    sbuf &= "   " & nCizgi & ". Ã‡izgi:" & IfNull(drRenk("RenkKod"), "")
 
                                 End If
 
@@ -382,7 +382,7 @@ Public Class cnt012_LakosYaka
                                     If Trim(CType(Bedenler(i), clsBeden).BedenKod) = Trim(IfNull(dr("BedenKod"), "")) Then
                                         If bIlk = True Then
                                             bIlk = False
-                                            sbuf = "L/S YAKA ENLERİ : "
+                                            sbuf = "L/S YAKA ENLERÄ° : "
                                         Else
                                             sbuf = "                  "
                                         End If

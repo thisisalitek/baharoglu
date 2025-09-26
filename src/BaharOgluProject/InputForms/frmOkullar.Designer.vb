@@ -379,7 +379,7 @@ Partial Class frmOkullar
         '
         'colIlceID
         '
-        Me.colIlceID.Caption = "İlçe/Semt/Belde"
+        Me.colIlceID.Caption = "Ä°lÃ§e/Semt/Belde"
         Me.colIlceID.ColumnEdit = Me.RepositoryItemGridLookUpEdit1
         Me.colIlceID.FieldName = "IlceID"
         Me.colIlceID.Name = "colIlceID"
@@ -490,7 +490,7 @@ Partial Class frmOkullar
         '
         'colIlID
         '
-        Me.colIlID.Caption = "İl/Şehir"
+        Me.colIlID.Caption = "Ä°l/Åehir"
         Me.colIlID.ColumnEdit = Me.RepositoryItemLookUpEdit1
         Me.colIlID.FieldName = "IlID"
         Me.colIlID.Name = "colIlID"
@@ -800,11 +800,11 @@ Partial Class frmOkullar
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.GridLookUpEdit1
-        Me.LayoutControlItem1.CustomizationFormText = "İlçe/Semt"
+        Me.LayoutControlItem1.CustomizationFormText = "Ä°lÃ§e/Semt"
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 96)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
         Me.LayoutControlItem1.Size = New System.Drawing.Size(356, 24)
-        Me.LayoutControlItem1.Text = "İl / İlçe"
+        Me.LayoutControlItem1.Text = "Ä°l / Ä°lÃ§e"
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(88, 13)
         '
         'EmptySpaceItem2

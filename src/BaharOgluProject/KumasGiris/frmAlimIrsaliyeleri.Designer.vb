@@ -381,7 +381,7 @@ Partial Class frmAlimIrsaliyeleri
         '
         'colIrsaliyeType
         '
-        Me.colIrsaliyeType.Caption = "Türü"
+        Me.colIrsaliyeType.Caption = "Turu"
         Me.colIrsaliyeType.ColumnEdit = Me.cboGridIrsaliyeType
         Me.colIrsaliyeType.FieldName = "IrsaliyeType"
         Me.colIrsaliyeType.Name = "colIrsaliyeType"
@@ -537,7 +537,7 @@ Partial Class frmAlimIrsaliyeleri
         '
         'colTransferred
         '
-        Me.colTransferred.Caption = "Aktarıldı?"
+        Me.colTransferred.Caption = "Aktarildi?"
         Me.colTransferred.ColumnEdit = Me.RepositoryItemCheckEdit1
         Me.colTransferred.FieldName = "Transferred"
         Me.colTransferred.Name = "colTransferred"
@@ -570,7 +570,7 @@ Partial Class frmAlimIrsaliyeleri
         Me.cmdAddNewIrsaliye.Name = "cmdAddNewIrsaliye"
         Me.cmdAddNewIrsaliye.Size = New System.Drawing.Size(181, 48)
         Me.cmdAddNewIrsaliye.TabIndex = 0
-        Me.cmdAddNewIrsaliye.Text = "(+) Yeni Alım Irsaliyesi"
+        Me.cmdAddNewIrsaliye.Text = "(+) Yeni Alim Irsaliyesi"
         '
         'ContextMenuStrip1
         '
@@ -589,7 +589,7 @@ Partial Class frmAlimIrsaliyeleri
         Me.mnuIrsaliyeDuzelt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.mnuIrsaliyeDuzelt.Name = "mnuIrsaliyeDuzelt"
         Me.mnuIrsaliyeDuzelt.Size = New System.Drawing.Size(287, 24)
-        Me.mnuIrsaliyeDuzelt.Text = "Düzelt"
+        Me.mnuIrsaliyeDuzelt.Text = "Duzelt"
         '
         'mnuIrsaliyeSil
         '
@@ -617,7 +617,7 @@ Partial Class frmAlimIrsaliyeleri
         '
         Me.mnuMikroyaGonder.Name = "mnuMikroyaGonder"
         Me.mnuMikroyaGonder.Size = New System.Drawing.Size(287, 24)
-        Me.mnuMikroyaGonder.Text = "Mikroya Transfer (Seçili olanlar)"
+        Me.mnuMikroyaGonder.Text = "Mikroya Transfer (SeÃ§ili olanlar)"
         '
         'cmdYeniDevirIrsaliyesi
         '
@@ -635,7 +635,7 @@ Partial Class frmAlimIrsaliyeleri
         Me.cmdYeniUretimIade.Name = "cmdYeniUretimIade"
         Me.cmdYeniUretimIade.Size = New System.Drawing.Size(150, 48)
         Me.cmdYeniUretimIade.TabIndex = 2
-        Me.cmdYeniUretimIade.Text = "Üretimden İade Geliş"
+        Me.cmdYeniUretimIade.Text = "Uretimden Ä°ade Gelis"
         '
         'frmAlimIrsaliyeleri
         '
@@ -644,7 +644,7 @@ Partial Class frmAlimIrsaliyeleri
         Me.FormCode = "000022"
         Me.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.Name = "frmAlimIrsaliyeleri"
-        Me.Text = "İrsaliyeler"
+        Me.Text = "Ä°rsaliyeler"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

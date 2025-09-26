@@ -155,7 +155,7 @@ Partial Class cnt054_GarniDikis
         'lblCaption
         '
         Me.lblCaption.Size = New System.Drawing.Size(58, 22)
-        Me.lblCaption.Text = "Garni Dikiş"
+        Me.lblCaption.Text = "Garni Dikis"
         '
         'XtraTabControl1
         '
@@ -493,7 +493,7 @@ Partial Class cnt054_GarniDikis
         Me.RadioGroup1.EditValue = 0
         Me.RadioGroup1.Location = New System.Drawing.Point(3, 3)
         Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Yok"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Reçmeli"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Overloklu"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Karyokalı")})
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Yok"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "ReÃ§meli"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Overloklu"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Karyokali")})
         Me.RadioGroup1.Size = New System.Drawing.Size(141, 90)
         Me.RadioGroup1.TabIndex = 0
         '
@@ -503,7 +503,7 @@ Partial Class cnt054_GarniDikis
         Me.RadioGroup2.Enabled = False
         Me.RadioGroup2.Location = New System.Drawing.Point(5, 5)
         Me.RadioGroup2.Name = "RadioGroup2"
-        Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Yok"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Reçmeli"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Overloklu"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Karyokalı")})
+        Me.RadioGroup2.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Yok"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "ReÃ§meli"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Overloklu"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Karyokali")})
         Me.RadioGroup2.Size = New System.Drawing.Size(141, 90)
         Me.RadioGroup2.TabIndex = 1
         '
@@ -783,7 +783,7 @@ Partial Class cnt054_GarniDikis
         'cnt054_GarniDikis
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Garni Dikiş"
+        Me.Caption = "Garni Dikis"
         Me.Code = "054"
         Me.Controls.Add(Me.TextEdit2)
         Me.Name = "cnt054_GarniDikis"

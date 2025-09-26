@@ -741,7 +741,7 @@ Partial Class frmSevkler
         Me.XtraTabPage3.Controls.Add(Me.panelSipDetay)
         Me.XtraTabPage3.Name = "XtraTabPage3"
         Me.XtraTabPage3.Size = New System.Drawing.Size(1220, 188)
-        Me.XtraTabPage3.Text = "Sipariş"
+        Me.XtraTabPage3.Text = "Siparis"
         '
         'Panel3
         '
@@ -1569,7 +1569,7 @@ Partial Class frmSevkler
         Me.chkIptal.Location = New System.Drawing.Point(10, 37)
         Me.chkIptal.MenuManager = Me.BarManager1
         Me.chkIptal.Name = "chkIptal"
-        Me.chkIptal.Properties.Caption = "İptal?"
+        Me.chkIptal.Properties.Caption = "Ä°ptal?"
         Me.chkIptal.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkIptal.Properties.ReadOnly = True
         Me.chkIptal.Properties.ValueChecked = 1
@@ -1585,7 +1585,7 @@ Partial Class frmSevkler
         Me.cmdIptal.Name = "cmdIptal"
         Me.cmdIptal.Size = New System.Drawing.Size(112, 25)
         Me.cmdIptal.TabIndex = 3
-        Me.cmdIptal.Text = "(X) İptal"
+        Me.cmdIptal.Text = "(X) Ä°ptal"
         '
         'chkOnayli
         '
@@ -1593,7 +1593,7 @@ Partial Class frmSevkler
         Me.chkOnayli.Location = New System.Drawing.Point(10, 11)
         Me.chkOnayli.MenuManager = Me.BarManager1
         Me.chkOnayli.Name = "chkOnayli"
-        Me.chkOnayli.Properties.Caption = "Onaylı?"
+        Me.chkOnayli.Properties.Caption = "Onayli?"
         Me.chkOnayli.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkOnayli.Properties.ReadOnly = True
         Me.chkOnayli.Properties.ValueChecked = 1
@@ -1638,7 +1638,7 @@ Partial Class frmSevkler
         Me.CheckEdit2.Name = "CheckEdit2"
         Me.CheckEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Bold)
         Me.CheckEdit2.Properties.Appearance.Options.UseFont = True
-        Me.CheckEdit2.Properties.Caption = "Yurt dışı mı?"
+        Me.CheckEdit2.Properties.Caption = "Yurt disi mi?"
         Me.CheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit2.Properties.ValueChecked = 1
         Me.CheckEdit2.Properties.ValueUnchecked = 0
@@ -1851,7 +1851,7 @@ Partial Class frmSevkler
         Me.cmdSiparisEkle.Name = "cmdSiparisEkle"
         Me.cmdSiparisEkle.Size = New System.Drawing.Size(161, 34)
         Me.cmdSiparisEkle.TabIndex = 0
-        Me.cmdSiparisEkle.Text = "(+) Sipariş Ekle (F3)"
+        Me.cmdSiparisEkle.Text = "(+) Siparis Ekle (F3)"
         '
         'DateEdit1
         '

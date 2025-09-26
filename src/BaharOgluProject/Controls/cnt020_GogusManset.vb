@@ -100,7 +100,7 @@ Public Class cnt020_GogusManset
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             If MasrafListesi.Count > 0 Then
                 If NeoTable2.Rows.Count > 0 Then
@@ -127,11 +127,11 @@ Public Class cnt020_GogusManset
 
             If NeoTable2.Rows.Count > 0 Then
                 If If0Null(NeoTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[GÖĞÜS MANŞET] Rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[GOÄUS MANÅET] Rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
                 If If0Null(NeoTable2.Rows(0).Item("CizgiRKafaLakosID")) <= 0 Then
-                    smsg &= "[GÖĞÜS MANŞET] Çizgi seçilmemiş!" & vbNewLine
+                    smsg &= "[GOÄUS MANÅET] Ã‡izgi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
 
@@ -142,7 +142,7 @@ Public Class cnt020_GogusManset
                 Dim dr As DataRow = NeoTable3.Rows(i)
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[GÖĞÜS MANŞET] #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                        smsg &= "[GOÄUS MANÅET] #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -218,7 +218,7 @@ Public Class cnt020_GogusManset
 
                     If NeoTable2.Rows.Count > 0 Then
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("RenkID")))
-                        sbuf = "GÖĞÜS MANŞET RENK:" & AnaRenk
+                        sbuf = "GOÄUS MANÅET RENK:" & AnaRenk
                         Dim nCizgi As Integer = 0
 
                         For Each dr As DataRow In NeoTable3.Rows
@@ -227,7 +227,7 @@ Public Class cnt020_GogusManset
 
                                 Dim drRenk As DataRow = tbRenk.Rows.Find(If0Null(dr("RenkID")))
                                 If Not drRenk Is Nothing Then
-                                    sbuf &= "    " & nCizgi & ". Çizgi:" & IfNull(drRenk("RenkKod"), "")
+                                    sbuf &= "    " & nCizgi & ". Ã‡izgi:" & IfNull(drRenk("RenkKod"), "")
 
                                 End If
 
@@ -284,11 +284,11 @@ Public Class cnt020_GogusManset
 
                     sGramajArtis = ""
                     If GramajArtis > 0 Then
-                        sGramajArtis = "  grArtış:" & GramajArtis
+                        sGramajArtis = "  grArtis:" & GramajArtis
                     End If
-                    Aciklamalar.Add("GÖĞÜS MANŞET Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
+                    Aciklamalar.Add("GOÄUS MANÅET Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
 
-                    Aciklamalar.Add("GÖĞÜS MANŞET Adedi :" & ToplamAdet & " Tarak ")
+                    Aciklamalar.Add("GOÄUS MANÅET Adedi :" & ToplamAdet & " Tarak ")
                     '---------------------
 
 
@@ -302,8 +302,8 @@ Public Class cnt020_GogusManset
                         AnaRenkTam &= " / Garni2:" & AnaRenk2
                     End If
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "020", "GÖĞÜS MANŞET", Aciklamalar, AnaRenkTam)
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "020", "GÖĞÜS MANŞET", Aciklamalar2, AnaRenkTam)
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "020", "GOÄUS MANÅET", Aciklamalar, AnaRenkTam)
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "020", "GOÄUS MANÅET", Aciklamalar2, AnaRenkTam)
                 End If
             End If
             '-----------------------------

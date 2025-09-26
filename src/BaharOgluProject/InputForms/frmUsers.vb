@@ -15,7 +15,7 @@ Public Class frmUsers
         Try
             If UCaseEng(Trim(IfNull(MasterLink.CurrentRow("UserName"), ""))) = "ADMIN" Then
                 e.Cancel = True
-                MsgBox("Bu kullanıcıyı silemezsiniz!")
+                MsgBox("Bu kullaniciyi silemezsiniz!")
                 Exit Sub
             End If
         Catch ex As Exception
@@ -32,7 +32,7 @@ Public Class frmUsers
         Try
             If Trim(IfNull(MasterLink.CurrentRow("UserName"), "")) = "" Then
                 e.Cancel = True
-                MsgBox("Lütfen bir kullanıcı adı giriniz!")
+                MsgBox("Lutfen bir kullanici adi giriniz!")
                 Exit Sub
             End If
         Catch ex As Exception

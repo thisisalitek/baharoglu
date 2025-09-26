@@ -184,7 +184,7 @@ Partial Class cnt001_Kumas
         'lblCaption
         '
         Me.lblCaption.Size = New System.Drawing.Size(337, 22)
-        Me.lblCaption.Text = "Triko Kumaş"
+        Me.lblCaption.Text = "Triko Kumas"
         '
         'XtraTabControl1
         '
@@ -945,7 +945,7 @@ Partial Class cnt001_Kumas
         '
         'colOrguTip
         '
-        Me.colOrguTip.Caption = "Örgü Tipi"
+        Me.colOrguTip.Caption = "Orgu Tipi"
         Me.colOrguTip.ColumnEdit = Me.cboOrguTip
         Me.colOrguTip.FieldName = "OrguTip"
         Me.colOrguTip.Name = "colOrguTip"
@@ -1018,7 +1018,7 @@ Partial Class cnt001_Kumas
         'cnt001_Kumas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Triko Kumaş"
+        Me.Caption = "Triko Kumas"
         Me.Code = "001"
         Me.Name = "cnt001_Kumas"
         Me.Size = New System.Drawing.Size(446, 190)

@@ -116,7 +116,7 @@ Partial Class cnt057_EkOzellik
         '
         Me.lblCaption.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lblCaption.Size = New System.Drawing.Size(132, 22)
-        Me.lblCaption.Text = "Ek Özellikler"
+        Me.lblCaption.Text = "Ek Ozellikler"
         '
         'XtraTabControl1
         '
@@ -526,7 +526,7 @@ Partial Class cnt057_EkOzellik
         'cnt057_EkOzellik
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Ek Özellikler"
+        Me.Caption = "Ek Ozellikler"
         Me.Code = "057"
         Me.Controls.Add(Me.TextEdit2)
         Me.Name = "cnt057_EkOzellik"

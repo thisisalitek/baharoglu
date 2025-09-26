@@ -57,7 +57,7 @@ Partial Class frmKategoriItem
         Me.cmdCancel.Name = "cmdCancel"
         Me.cmdCancel.Size = New System.Drawing.Size(87, 34)
         Me.cmdCancel.TabIndex = 6
-        Me.cmdCancel.Text = "Vazgeç"
+        Me.cmdCancel.Text = "VazgeÃ§"
         '
         'txtUstKod
         '
@@ -91,7 +91,7 @@ Partial Class frmKategoriItem
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(59, 13)
         Me.LabelControl1.TabIndex = 5
-        Me.LabelControl1.Text = "Üst Kategori"
+        Me.LabelControl1.Text = "Ust Kategori"
         '
         'LabelControl2
         '
@@ -131,7 +131,7 @@ Partial Class frmKategoriItem
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(81, 13)
         Me.LabelControl5.TabIndex = 11
-        Me.LabelControl5.Text = "Stok Kod Formatı"
+        Me.LabelControl5.Text = "Stok Kod Formati"
         '
         'txtStokKodFormati
         '

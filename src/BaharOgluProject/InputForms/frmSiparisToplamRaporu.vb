@@ -136,13 +136,13 @@ Public Class frmSiparisToplamRaporu
                                 If eskiAdet = 0 And yeniAdet > 0 Then
                                     dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Yeni"
                                 ElseIf eskiAdet > 0 And yeniAdet = 0 Then
-                                    dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Gelmemiş"
+                                    dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Gelmemis"
                                 ElseIf eskiAdet = 0 And yeniAdet = 0 Then
                                     dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "-"
                                 ElseIf eskiAdet > 0 And yeniAdet > 0 And eskiAdet > yeniAdet Then
-                                    dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Azalmış"
+                                    dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Azalmis"
                                 ElseIf eskiAdet > 0 And yeniAdet > 0 And eskiAdet < yeniAdet Then
-                                    dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Artmış"
+                                    dtCari.Rows(i).Item("Durum." & item.Ay.ToString("00")) = "Artmis"
                                 End If
 
                             End If

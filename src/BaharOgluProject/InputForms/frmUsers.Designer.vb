@@ -265,7 +265,7 @@ Partial Class frmUsers
         '
         'colUserName
         '
-        Me.colUserName.Caption = "Kullanıcı Adı"
+        Me.colUserName.Caption = "Kullanici Adi"
         Me.colUserName.FieldName = "UserName"
         Me.colUserName.Name = "colUserName"
         Me.colUserName.Visible = True
@@ -274,7 +274,7 @@ Partial Class frmUsers
         '
         'colPassword
         '
-        Me.colPassword.Caption = "Şifre"
+        Me.colPassword.Caption = "Åifre"
         Me.colPassword.FieldName = "Password"
         Me.colPassword.Name = "colPassword"
         '
@@ -289,7 +289,7 @@ Partial Class frmUsers
         '
         'colbAdmin
         '
-        Me.colbAdmin.Caption = "Yönetici?"
+        Me.colbAdmin.Caption = "YÃ¶netici?"
         Me.colbAdmin.ColumnEdit = Me.RepositoryItemCheckEdit1
         Me.colbAdmin.FieldName = "bAdmin"
         Me.colbAdmin.Name = "colbAdmin"
@@ -330,7 +330,7 @@ Partial Class frmUsers
         Me.CheckEdit1.Location = New System.Drawing.Point(5, 95)
         Me.CheckEdit1.MenuManager = Me.BarManager1
         Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "Yönetici?"
+        Me.CheckEdit1.Properties.Caption = "YÃ¶netici?"
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
@@ -445,22 +445,22 @@ Partial Class frmUsers
         'ItemForUserName
         '
         Me.ItemForUserName.Control = Me.UserNameTextEdit
-        Me.ItemForUserName.CustomizationFormText = "Kullanıcı Adı"
+        Me.ItemForUserName.CustomizationFormText = "Kullanici Adi"
         Me.ItemForUserName.Location = New System.Drawing.Point(0, 0)
         Me.ItemForUserName.Name = "ItemForUserName"
         Me.ItemForUserName.Size = New System.Drawing.Size(299, 30)
-        Me.ItemForUserName.Text = "Kullanıcı Adı"
+        Me.ItemForUserName.Text = "Kullanici Adi"
         Me.ItemForUserName.TextSize = New System.Drawing.Size(55, 13)
         Me.ItemForUserName.TextToControlDistance = 5
         '
         'ItemForPassword
         '
         Me.ItemForPassword.Control = Me.PasswordTextEdit
-        Me.ItemForPassword.CustomizationFormText = "Şifre"
+        Me.ItemForPassword.CustomizationFormText = "Åifre"
         Me.ItemForPassword.Location = New System.Drawing.Point(0, 30)
         Me.ItemForPassword.Name = "ItemForPassword"
         Me.ItemForPassword.Size = New System.Drawing.Size(299, 30)
-        Me.ItemForPassword.Text = "Şifre"
+        Me.ItemForPassword.Text = "Åifre"
         Me.ItemForPassword.TextSize = New System.Drawing.Size(55, 13)
         Me.ItemForPassword.TextToControlDistance = 5
         '
@@ -551,7 +551,7 @@ Partial Class frmUsers
         Me.ClientSize = New System.Drawing.Size(893, 491)
         Me.FormCode = "000012"
         Me.Name = "frmUsers"
-        Me.Text = "Kullanıcılar"
+        Me.Text = "Kullanicilar"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

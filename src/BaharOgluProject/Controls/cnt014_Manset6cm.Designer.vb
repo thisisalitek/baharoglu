@@ -286,7 +286,7 @@ Partial Class cnt014_Manset6cm
         '
         Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
         Me.lblCaption.Size = New System.Drawing.Size(183, 22)
-        Me.lblCaption.Text = "6cm Manşet"
+        Me.lblCaption.Text = "6cm Manset"
         '
         'XtraTabControl1
         '
@@ -514,7 +514,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = "Artış"
+        Me.LabelControl3.Text = "Artis"
         '
         'LabelControl2
         '
@@ -522,7 +522,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl2.TabIndex = 3
-        Me.LabelControl2.Text = "İp Grm."
+        Me.LabelControl2.Text = "Ä°p Grm."
         '
         'txtTur
         '
@@ -960,7 +960,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl12.TabIndex = 10
-        Me.LabelControl12.Text = "İp Grm."
+        Me.LabelControl12.Text = "Ä°p Grm."
         '
         'LabelControl13
         '
@@ -968,7 +968,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl13.TabIndex = 11
-        Me.LabelControl13.Text = "Artış"
+        Me.LabelControl13.Text = "Artis"
         '
         'chkGarni2
         '
@@ -1013,7 +1013,7 @@ Partial Class cnt014_Manset6cm
         Me.LookUpEdit3.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit3.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
         Me.LookUpEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Ã‡izgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
         Me.LookUpEdit3.Properties.DataSource = Me.tbCizgiRenkKafaLakos
         Me.LookUpEdit3.Properties.DisplayMember = "Aciklama"
         Me.LookUpEdit3.Properties.NullText = ""
@@ -1054,7 +1054,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi"
+        Me.LabelControl6.Text = "Ã‡izgi"
         '
         'SqlCommand24
         '
@@ -1321,7 +1321,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl15.TabIndex = 16
-        Me.LabelControl15.Text = "İp Grm."
+        Me.LabelControl15.Text = "Ä°p Grm."
         '
         'LabelControl16
         '
@@ -1329,7 +1329,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl16.TabIndex = 17
-        Me.LabelControl16.Text = "Artış"
+        Me.LabelControl16.Text = "Artis"
         '
         'LookUpEdit4
         '
@@ -1340,7 +1340,7 @@ Partial Class cnt014_Manset6cm
         Me.LookUpEdit4.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit4.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
         Me.LookUpEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit4.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit4.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Ã‡izgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
         Me.LookUpEdit4.Properties.DataSource = Me.tbCizgiRenkKafaLakos
         Me.LookUpEdit4.Properties.DisplayMember = "Aciklama"
         Me.LookUpEdit4.Properties.NullText = ""
@@ -1381,7 +1381,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl8.Name = "LabelControl8"
         Me.LabelControl8.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl8.TabIndex = 2
-        Me.LabelControl8.Text = "Çizgi"
+        Me.LabelControl8.Text = "Ã‡izgi"
         '
         'tbGarni2Cizgiler
         '
@@ -1631,7 +1631,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl18.TabIndex = 22
-        Me.LabelControl18.Text = "İp Grm."
+        Me.LabelControl18.Text = "Ä°p Grm."
         '
         'LabelControl19
         '
@@ -1639,7 +1639,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl19.TabIndex = 23
-        Me.LabelControl19.Text = "Artış"
+        Me.LabelControl19.Text = "Artis"
         '
         'LookUpEdit6
         '
@@ -1650,7 +1650,7 @@ Partial Class cnt014_Manset6cm
         Me.LookUpEdit6.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit6.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
         Me.LookUpEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit6.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit6.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Ã‡izgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
         Me.LookUpEdit6.Properties.DataSource = Me.tbCizgiRenkKafaLakos
         Me.LookUpEdit6.Properties.DisplayMember = "Aciklama"
         Me.LookUpEdit6.Properties.NullText = ""
@@ -1691,7 +1691,7 @@ Partial Class cnt014_Manset6cm
         Me.LabelControl10.Name = "LabelControl10"
         Me.LabelControl10.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl10.TabIndex = 2
-        Me.LabelControl10.Text = "Çizgi"
+        Me.LabelControl10.Text = "Ã‡izgi"
         '
         'NeoTable2_nID
         '
@@ -1843,7 +1843,7 @@ Partial Class cnt014_Manset6cm
         'cnt014_Manset6cm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "6cm Manşet"
+        Me.Caption = "6cm Manset"
         Me.Code = "014"
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "cnt014_Manset6cm"

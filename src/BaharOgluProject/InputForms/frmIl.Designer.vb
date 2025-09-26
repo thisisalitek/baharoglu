@@ -473,7 +473,7 @@ Partial Class frmIl
         Me.ClientSize = New System.Drawing.Size(484, 362)
         Me.FormCode = "000006"
         Me.Name = "frmIl"
-        Me.Text = "İller/Şehirler"
+        Me.Text = "Ä°ller/Åehirler"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

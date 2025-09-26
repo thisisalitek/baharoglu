@@ -4,7 +4,7 @@ Public Class frmOkullar
         Try
             If If0Null(MasterLink.CurrentRow("IlceID")) = 0 Then
                 e.Cancel = True
-                MsgBox("Lütfen il/ilçe seçiniz!")
+                MsgBox("Lutfen il/ilÃ§e seÃ§iniz!")
                 Exit Sub
             End If
             

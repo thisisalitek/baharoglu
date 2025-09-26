@@ -78,7 +78,7 @@ Public Class cnt015_Fular
             For Each dr As DataRow In NeoTable2.Rows
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[FULAR] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seçilmemiş!" & vbNewLine
+                        smsg &= "[FULAR] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                    
@@ -86,7 +86,7 @@ Public Class cnt015_Fular
             Next
             If MasterTable2.Rows.Count > 0 Then
                 If If0Null(MasterTable2.Rows(0).Item("IntParam1")) <= 0 Then
-                    smsg &= "[FULAR] şekil seçilmemiş!" & vbNewLine
+                    smsg &= "[FULAR] sekil seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
             End If
@@ -189,7 +189,7 @@ Public Class cnt015_Fular
 
                             End If
                             '-------------------
-                            sbuf &= vbTab & " İP KG:" & Math.Round(TIpGramaj / 1000, 2)
+                            sbuf &= vbTab & " Ä°P KG:" & Math.Round(TIpGramaj / 1000, 2)
                             Aciklamalar.Add(sbuf)
 
                             sbuf = IfNull(dr("ParcaIsmi"), "")
@@ -206,7 +206,7 @@ Public Class cnt015_Fular
                             Case 1 : sbuf = "FULAR METAL : YUVARLAK"
                             Case 2 : sbuf = "FULAR METAL : OVAL"
                             Case 3 : sbuf = "FULAR METAL : KALKAN"
-                            Case 99 : sbuf = "FULAR METAL : DİĞER"
+                            Case 99 : sbuf = "FULAR METAL : DÄ°ÄER"
 
                         End Select
                         If Trim(sbuf) <> "" Then
@@ -242,7 +242,7 @@ Public Class cnt015_Fular
         Try
             If e.KeyCode = Keys.Delete And (e.Control Or e.Shift) Then
                 If GridView1.FocusedRowHandle < 0 Then Exit Sub
-                If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satir silmek istediginizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                 Dim RowIndex As Integer = 0
                 RowIndex = GridView1.GetDataSourceRowIndex(GridView1.FocusedRowHandle)
                 NeoTable1.Rows(RowIndex).Delete()

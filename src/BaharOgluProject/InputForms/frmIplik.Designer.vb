@@ -594,7 +594,7 @@ Partial Class frmIplik
         Me.ClientSize = New System.Drawing.Size(560, 446)
         Me.FormCode = "000003"
         Me.Name = "frmIplik"
-        Me.Text = "İplikler"
+        Me.Text = "Ä°plikler"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

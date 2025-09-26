@@ -116,23 +116,23 @@ Public Class cnt010_GomlekParams
                         If NeoTable2.Rows.Count > 0 Then
                             With NeoTable2.Rows(0)
                                 If If0Null(.Item("Pensli")) <> 0 Then
-                                    Aciklamalar.Add("PENSLİ")
-                                    Aciklamalar2.Add("PENSLİ")
+                                    Aciklamalar.Add("PENSLÄ°")
+                                    Aciklamalar2.Add("PENSLÄ°")
                                 End If
                                 If If0Null(.Item("Yaka")) = 0 Then
-                                    Aciklamalar.Add("DİK YAKA")
-                                    Aciklamalar2.Add("DİK YAKA")
+                                    Aciklamalar.Add("DÄ°K YAKA")
+                                    Aciklamalar2.Add("DÄ°K YAKA")
                                 Else
                                     Aciklamalar.Add("BEBE YAKA")
                                     Aciklamalar2.Add("BEBE YAKA")
                                 End If
 
                                 If If0Null(.Item("Cepli")) <> 0 Then
-                                    Aciklamalar.Add("CEPLİ")
-                                    Aciklamalar2.Add("CEPLİ")
+                                    Aciklamalar.Add("CEPLÄ°")
+                                    Aciklamalar2.Add("CEPLÄ°")
                                 Else
-                                    Aciklamalar.Add("CEPSİZ")
-                                    Aciklamalar2.Add("CEPSİZ")
+                                    Aciklamalar.Add("CEPSÄ°Z")
+                                    Aciklamalar2.Add("CEPSÄ°Z")
                                 End If
                             End With
                         End If
@@ -140,8 +140,8 @@ Public Class cnt010_GomlekParams
                     End If
                     'Aciklamalar.Add("------------------------------")
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "010", "GÖMLEK PARAMETRELERİ", Aciklamalar, "")
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "010", "GÖMLEK PARAMETRELERİ", Aciklamalar2, "")
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "010", "GOMLEK PARAMETRELERÄ°", Aciklamalar, "")
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "010", "GOMLEK PARAMETRELERÄ°", Aciklamalar2, "")
                 End If
             End If
             '-----------------------------

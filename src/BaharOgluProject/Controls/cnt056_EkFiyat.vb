@@ -173,7 +173,7 @@ Public Class cnt056_EkFiyat
             If e.KeyCode = Keys.Delete And (e.Control Or e.Shift) Then
                 Dim RowIndex As Integer = GridView2.GetDataSourceRowIndex(GridView2.FocusedRowHandle)
                 If RowIndex < 0 Then Exit Sub
-                If MsgBox("Satırı silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satır sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satiri silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satir sil?") <> MsgBoxResult.Yes Then Exit Sub
                 NeoTable1.Rows(RowIndex).Delete()
 
             End If
@@ -219,7 +219,7 @@ Public Class cnt056_EkFiyat
                 If If0Null(dr("bStatik")) = 1 Then
                     GridView1.OptionsBehavior.Editable = False
                 Else
-                    If MsgBox("Satırı silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                    If MsgBox("Satiri silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                     dr.Delete()
                     MasraflariYukle()
                 End If

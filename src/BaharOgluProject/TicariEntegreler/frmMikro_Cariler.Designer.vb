@@ -223,7 +223,7 @@ Partial Class frmMikro_Cariler
         '
         'colcari_unvan1
         '
-        Me.colcari_unvan1.Caption = "Cari Ünvan"
+        Me.colcari_unvan1.Caption = "Cari Unvan"
         Me.colcari_unvan1.FieldName = "CariUnvan"
         Me.colcari_unvan1.Name = "colcari_unvan1"
         Me.colcari_unvan1.Visible = True

@@ -279,7 +279,7 @@ Partial Class frmUrunToplamRaporu
         Me.RadioGroup1.Location = New System.Drawing.Point(457, 67)
         Me.RadioGroup1.MenuManager = Me.BarManager1
         Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(Nothing, "Teslime Göre"), New DevExpress.XtraEditors.Controls.RadioGroupItem(Nothing, "Siparişe Göre")})
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(Nothing, "Teslime GÃ¶re"), New DevExpress.XtraEditors.Controls.RadioGroupItem(Nothing, "Siparise GÃ¶re")})
         Me.RadioGroup1.Size = New System.Drawing.Size(128, 52)
         Me.RadioGroup1.TabIndex = 19
         '
@@ -312,7 +312,7 @@ Partial Class frmUrunToplamRaporu
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(23, 13)
         Me.LabelControl2.TabIndex = 19
-        Me.LabelControl2.Text = "2. Yıl"
+        Me.LabelControl2.Text = "2. Yil"
         '
         'LabelControl1
         '
@@ -320,7 +320,7 @@ Partial Class frmUrunToplamRaporu
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(23, 13)
         Me.LabelControl1.TabIndex = 18
-        Me.LabelControl1.Text = "1. Yıl"
+        Me.LabelControl1.Text = "1. Yil"
         '
         'SpinEdit2
         '
@@ -377,7 +377,7 @@ Partial Class frmUrunToplamRaporu
         Me.FillOnFormOpening = False
         Me.FormCode = "000032"
         Me.Name = "frmUrunToplamRaporu"
-        Me.Text = "Ürün Satış Raporu"
+        Me.Text = "Urun Satis Raporu"
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()

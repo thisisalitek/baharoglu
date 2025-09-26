@@ -96,7 +96,7 @@ Public Class cnt019_Kaskorse
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            'MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            'MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             'If MasrafListesi.Count > 0 Then
             '    If NeoTable2.Rows.Count > 0 Then
@@ -123,7 +123,7 @@ Public Class cnt019_Kaskorse
 
             If NeoTable2.Rows.Count > 0 Then
                 If If0Null(NeoTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[KAŞKORSE] rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[KAÅKORSE] rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
 
@@ -190,7 +190,7 @@ Public Class cnt019_Kaskorse
 
                     If NeoTable2.Rows.Count > 0 Then
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("RenkID")))
-                        sbuf = "KAŞKORSE RENK:" & AnaRenk
+                        sbuf = "KAÅKORSE RENK:" & AnaRenk
 
 
                         Aciklamalar.Add(sbuf)
@@ -243,18 +243,18 @@ Public Class cnt019_Kaskorse
 
                     sGramajArtis = ""
                     If GramajArtis > 0 Then
-                        sGramajArtis = "  grArtış:" & GramajArtis
+                        sGramajArtis = "  grArtis:" & GramajArtis
                     End If
-                    Aciklamalar.Add("KAŞKORSE Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
+                    Aciklamalar.Add("KAÅKORSE Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
 
-                    Aciklamalar.Add("KAŞKORSE Adedi :" & ToplamAdet & " Tarak")
+                    Aciklamalar.Add("KAÅKORSE Adedi :" & ToplamAdet & " Tarak")
                     '---------------------
 
 
 
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "019", "KAŞKORSE", Aciklamalar, AnaRenk)
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "019", "KAŞKORSE", Aciklamalar2, AnaRenk)
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "019", "KAÅKORSE", Aciklamalar, AnaRenk)
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "019", "KAÅKORSE", Aciklamalar2, AnaRenk)
                 End If
             End If
             '-----------------------------

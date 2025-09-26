@@ -77,16 +77,16 @@ Public Class frmKategoriItem
     Private Sub cmdSave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdSave.Click
         Try
             If Trim(txtKategoriKod.Text) = "" Then
-                MsgBox("Kategori kod boş olamaz!")
+                MsgBox("Kategori kod bos olamaz!")
                 Exit Sub
             End If
             If Trim(txtKategoriKod.Text) = Trim(UstKategoriKod) Then
-                MsgBox("Üst kategori ile Kategori kodu aynı olamaz.")
+                MsgBox("Ust kategori ile Kategori kodu ayni olamaz.")
                 Exit Sub
             End If
             If Trim(UstKategoriKod) <> "" Then
                 If Mid(txtKategoriKod.Text, 1, UstKategoriKod.Length) <> UstKategoriKod Then
-                    MsgBox("Kategori kodunun üst kodu tutarsız.")
+                    MsgBox("Kategori kodunun ust kodu tutarsiz.")
                     Exit Sub
                 End If
             End If
@@ -100,7 +100,7 @@ Public Class frmKategoriItem
             cmd.Parameters.Add(New SqlClient.SqlParameter("@StokKodFormat", Trim(txtStokKodFormati.Text)))
             cmd.CommandText = "SELECT COUNT(*) FROM Kategoriler WHERE Deleted = 0 AND KategoriID <> " & KategoriID & " AND KategoriKod = @KategoriKod "
             If cmd.ExecuteScalar > 0 Then
-                MsgBox("Aynı koddan başka bir kayıt daha var!")
+                MsgBox("Ayni koddan baska bir kayit daha var!")
                 Exit Sub
             End If
             If KategoriID = 0 Then

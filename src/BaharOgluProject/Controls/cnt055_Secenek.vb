@@ -115,16 +115,16 @@ Public Class cnt055_Secenek
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("006", "Model Farkı", False, 0))
-            MasrafListesi.Add(New clsMasraf("007", "Parça Model", False, 0))
+            MasrafListesi.Add(New clsMasraf("006", "Model Farki", False, 0))
+            MasrafListesi.Add(New clsMasraf("007", "ParÃ§a Model", False, 0))
             MasrafListesi.Add(New clsMasraf("008", "Astar", False, 0))
             MasrafListesi.Add(New clsMasraf("009", "Fermuar", False, 0))
-            MasrafListesi.Add(New clsMasraf("010", "Omuz Reçme", False, 0))
+            MasrafListesi.Add(New clsMasraf("010", "Omuz ReÃ§me", False, 0))
             MasrafListesi.Add(New clsMasraf("003", "Arma", False, 0))
-            MasrafListesi.Add(New clsMasraf("004", "Özel Etiket", False, 0))
+            MasrafListesi.Add(New clsMasraf("004", "Ozel Etiket", False, 0))
             MasrafListesi.Add(New clsMasraf("S01", "Fason", False, 0))
-            MasrafListesi.Add(New clsMasraf("013", "Manşet Farkı", False, 0))
-            MasrafListesi.Add(New clsMasraf("014", "Uzun Kol Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("013", "Manset Farki", False, 0))
+            MasrafListesi.Add(New clsMasraf("014", "Uzun Kol Farki", False, 0))
 
             If NeoTable2.Rows.Count <= 0 Then Exit Sub
 
@@ -252,16 +252,16 @@ Public Class cnt055_Secenek
                                     Aciklamalar2.Add("FERMUAR: VAR")
                                 End If
                                 If If0Null(.Item("OmuzRecme")) <> 0 Then
-                                    Aciklamalar.Add("OMUZ REÇME: VAR")
-                                    Aciklamalar2.Add("OMUZ REÇME: VAR")
+                                    Aciklamalar.Add("OMUZ REÃ‡ME: VAR")
+                                    Aciklamalar2.Add("OMUZ REÃ‡ME: VAR")
                                 End If
                                 If If0Null(.Item("Arma")) > 0 Then
                                     Aciklamalar.Add("ARMA: VAR (" & If0Null(.Item("Arma")) & " adet)")
                                     Aciklamalar2.Add("ARMA: VAR (" & If0Null(.Item("Arma")) & " adet)")
                                 End If
                                 If If0Null(.Item("OzelEtiket")) <> 0 Then
-                                    Aciklamalar.Add("ÖZEL ETİKET: VAR")
-                                    Aciklamalar2.Add("ÖZEL ETİKET: VAR")
+                                    Aciklamalar.Add("OZEL ETÄ°KET: VAR")
+                                    Aciklamalar2.Add("OZEL ETÄ°KET: VAR")
                                 End If
                                 If If0Null(.Item("Fason")) <> 0 And If0Null(.Item("FasonID")) > 0 Then
                                     Aciklamalar.Add("FASON: VAR")
@@ -273,8 +273,8 @@ Public Class cnt055_Secenek
                     End If
                     'Aciklamalar.Add("------------------------------")
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "055", "SEÇENEKLER", Aciklamalar, "")
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "055", "SEÇENEKLER", Aciklamalar2, "")
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "055", "SEÃ‡ENEKLER", Aciklamalar, "")
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "055", "SEÃ‡ENEKLER", Aciklamalar2, "")
                 End If
             End If
             '-----------------------------

@@ -399,7 +399,7 @@ Partial Class frmDovizKurlari
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(16, 13)
         Me.LabelControl3.TabIndex = 6
-        Me.LabelControl3.Text = "Alış"
+        Me.LabelControl3.Text = "Alis"
         '
         'LabelControl4
         '
@@ -407,7 +407,7 @@ Partial Class frmDovizKurlari
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(23, 13)
         Me.LabelControl4.TabIndex = 8
-        Me.LabelControl4.Text = "Satış"
+        Me.LabelControl4.Text = "Satis"
         '
         'SpinEdit2
         '
@@ -431,7 +431,7 @@ Partial Class frmDovizKurlari
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(57, 13)
         Me.LabelControl5.TabIndex = 12
-        Me.LabelControl5.Text = "Efektif Satış"
+        Me.LabelControl5.Text = "Efektif Satis"
         '
         'SpinEdit3
         '
@@ -455,7 +455,7 @@ Partial Class frmDovizKurlari
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(50, 13)
         Me.LabelControl6.TabIndex = 10
-        Me.LabelControl6.Text = "Efektif Alış"
+        Me.LabelControl6.Text = "Efektif Alis"
         '
         'SpinEdit4
         '
@@ -489,7 +489,7 @@ Partial Class frmDovizKurlari
         '
         'colCurr
         '
-        Me.colCurr.Caption = "Döviz"
+        Me.colCurr.Caption = "DÃ¶viz"
         Me.colCurr.FieldName = "Curr"
         Me.colCurr.Name = "colCurr"
         Me.colCurr.Visible = True
@@ -497,7 +497,7 @@ Partial Class frmDovizKurlari
         '
         'colRate1
         '
-        Me.colRate1.Caption = "Alış"
+        Me.colRate1.Caption = "Alis"
         Me.colRate1.DisplayFormat.FormatString = "#,##0.0000"
         Me.colRate1.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colRate1.FieldName = "Rate1"
@@ -507,7 +507,7 @@ Partial Class frmDovizKurlari
         '
         'colRate2
         '
-        Me.colRate2.Caption = "Satış"
+        Me.colRate2.Caption = "Satis"
         Me.colRate2.DisplayFormat.FormatString = "#,##0.0000"
         Me.colRate2.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colRate2.FieldName = "Rate2"
@@ -517,7 +517,7 @@ Partial Class frmDovizKurlari
         '
         'colRate3
         '
-        Me.colRate3.Caption = "Efektif Alış"
+        Me.colRate3.Caption = "Efektif Alis"
         Me.colRate3.DisplayFormat.FormatString = "#,##0.0000"
         Me.colRate3.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colRate3.FieldName = "Rate3"
@@ -527,7 +527,7 @@ Partial Class frmDovizKurlari
         '
         'colRate4
         '
-        Me.colRate4.Caption = "Efektif Satış"
+        Me.colRate4.Caption = "Efektif Satis"
         Me.colRate4.DisplayFormat.FormatString = "#,##0.0000"
         Me.colRate4.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colRate4.FieldName = "Rate4"
@@ -548,7 +548,7 @@ Partial Class frmDovizKurlari
         Me.ClientSize = New System.Drawing.Size(893, 491)
         Me.FormCode = "000031"
         Me.Name = "frmDovizKurlari"
-        Me.Text = "Döviz Kurları"
+        Me.Text = "DÃ¶viz Kurlari"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

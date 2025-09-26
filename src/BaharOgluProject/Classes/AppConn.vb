@@ -517,7 +517,7 @@ Cikis:
     '                                cmd.Dispose()
 
 
-    '                                'User ın dahil olduğu gruplara bak
+    '                                'User in dahil oldugu gruplara bak
     '                                cmd = New SqlClient.SqlCommand
     '                                cmd.Connection = mVar_mainConn
     '                                cmd.Parameters.Clear()

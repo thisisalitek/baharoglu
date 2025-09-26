@@ -402,7 +402,7 @@ Partial Class cnt004_DubleLastikCep
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = ">> Artış"
+        Me.LabelControl3.Text = ">> Artis"
         '
         'LabelControl2
         '
@@ -701,7 +701,7 @@ Partial Class cnt004_DubleLastikCep
         Me.CheckEdit1.EnterMoveNextControl = True
         Me.CheckEdit1.Location = New System.Drawing.Point(109, 27)
         Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "Kendi Kumaşından"
+        Me.CheckEdit1.Properties.Caption = "Kendi Kumasindan"
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
@@ -748,7 +748,7 @@ Partial Class cnt004_DubleLastikCep
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(52, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi Sayısı"
+        Me.LabelControl6.Text = "Ã‡izgi Sayisi"
         '
         'SpinEdit1
         '

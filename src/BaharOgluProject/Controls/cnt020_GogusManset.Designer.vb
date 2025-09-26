@@ -184,7 +184,7 @@ Partial Class cnt020_GogusManset
         '
         Me.lblCaption.Margin = New System.Windows.Forms.Padding(4)
         Me.lblCaption.Size = New System.Drawing.Size(179, 22)
-        Me.lblCaption.Text = "Göğüs Manşet"
+        Me.lblCaption.Text = "GÃ¶gus Manset"
         '
         'XtraTabControl1
         '
@@ -407,7 +407,7 @@ Partial Class cnt020_GogusManset
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = "Artış"
+        Me.LabelControl3.Text = "Artis"
         '
         'LabelControl2
         '
@@ -415,7 +415,7 @@ Partial Class cnt020_GogusManset
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl2.TabIndex = 3
-        Me.LabelControl2.Text = "İp Grm."
+        Me.LabelControl2.Text = "Ä°p Grm."
         '
         'txtTur
         '
@@ -858,7 +858,7 @@ Partial Class cnt020_GogusManset
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(36, 13)
         Me.LabelControl12.TabIndex = 10
-        Me.LabelControl12.Text = "İp Grm."
+        Me.LabelControl12.Text = "Ä°p Grm."
         '
         'LabelControl13
         '
@@ -866,7 +866,7 @@ Partial Class cnt020_GogusManset
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl13.TabIndex = 11
-        Me.LabelControl13.Text = "Artış"
+        Me.LabelControl13.Text = "Artis"
         '
         'LookUpEdit3
         '
@@ -877,7 +877,7 @@ Partial Class cnt020_GogusManset
         Me.LookUpEdit3.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.LookUpEdit3.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFit
         Me.LookUpEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Çizgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
+        Me.LookUpEdit3.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("Aciklama", "Ã‡izgiler", 51, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiSayisi", "#", 62, DevExpress.Utils.FormatType.Numeric, "", True, DevExpress.Utils.HorzAlignment.Far), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("CizgiRKafaLakosID", "Cizgi RKafa Lakos ID", 121, DevExpress.Utils.FormatType.Numeric, "", False, DevExpress.Utils.HorzAlignment.Far)})
         Me.LookUpEdit3.Properties.DataSource = Me.tbCizgiRenkKafaLakos
         Me.LookUpEdit3.Properties.DisplayMember = "Aciklama"
         Me.LookUpEdit3.Properties.NullText = ""
@@ -918,7 +918,7 @@ Partial Class cnt020_GogusManset
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi"
+        Me.LabelControl6.Text = "Ã‡izgi"
         '
         'SqlCommand24
         '
@@ -1063,7 +1063,7 @@ Partial Class cnt020_GogusManset
         'cnt020_GogusManset
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Göğüs Manşet"
+        Me.Caption = "GÃ¶gus Manset"
         Me.Code = "020"
         Me.Controls.Add(Me.TextEdit2)
         Me.Margin = New System.Windows.Forms.Padding(4)

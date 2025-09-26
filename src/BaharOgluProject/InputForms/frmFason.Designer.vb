@@ -805,7 +805,7 @@ Partial Class frmFason
         Me.ComboBoxEdit1.MenuManager = Me.BarManager1
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"Boya", "Örgü", "Dikiş", "Nakış", "Fason Üretim", "Diğer"})
+        Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"Boya", "Orgu", "Dikis", "Nakis", "Fason Uretim", "Diger"})
         Me.ComboBoxEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(206, 22)
         Me.ComboBoxEdit1.TabIndex = 0
@@ -1509,7 +1509,7 @@ Partial Class frmFason
         Me.LabelControl24.Name = "LabelControl24"
         Me.LabelControl24.Size = New System.Drawing.Size(32, 16)
         Me.LabelControl24.TabIndex = 70
-        Me.LabelControl24.Text = "Parça"
+        Me.LabelControl24.Text = "ParÃ§a"
         '
         'colParca
         '

@@ -4,12 +4,12 @@ Public Class frmKumasKatalog
         Try
             If Trim(IfNull(MasterLink.CurrentRow("KatalogKod"), "")) = "" Then
                 e.Cancel = True
-                MsgBox("Lütfen katalog kodunu giriniz!")
+                MsgBox("Lutfen katalog kodunu giriniz!")
                 Exit Sub
             End If
             If Trim(IfNull(MasterLink.CurrentRow("KatalogIsmi"), "")) = "" Then
                 e.Cancel = True
-                MsgBox("Lütfen katalog ismini giriniz!")
+                MsgBox("Lutfen katalog ismini giriniz!")
                 Exit Sub
             End If
             Dim cmd As New SqlClient.SqlCommand
@@ -20,7 +20,7 @@ Public Class frmKumasKatalog
             If cmd.ExecuteScalar > 0 Then
                 cmd.Dispose()
                 e.Cancel = True
-                MsgBox("Aynı koda ait başka bir kayıt daha var.")
+                MsgBox("Ayni koda ait baska bir kayit daha var.")
                 Exit Sub
             End If
             cmd.Dispose()

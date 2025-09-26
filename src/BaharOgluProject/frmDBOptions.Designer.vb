@@ -82,7 +82,7 @@ Partial Class frmDBOptions
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(86, 13)
         Me.LabelControl2.TabIndex = 2
-        Me.LabelControl2.Text = "DB veri tabanı"
+        Me.LabelControl2.Text = "DB veri tabani"
         '
         'LabelControl3
         '
@@ -90,7 +90,7 @@ Partial Class frmDBOptions
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(79, 13)
         Me.LabelControl3.TabIndex = 3
-        Me.LabelControl3.Text = "Mikro veri tabanı"
+        Me.LabelControl3.Text = "Mikro veri tabani"
         '
         'LabelControl4
         '
@@ -114,7 +114,7 @@ Partial Class frmDBOptions
         Me.cmdCancel.Name = "cmdCancel"
         Me.cmdCancel.Size = New System.Drawing.Size(85, 32)
         Me.cmdCancel.TabIndex = 7
-        Me.cmdCancel.Text = "Vazgeç"
+        Me.cmdCancel.Text = "VazgeÃ§"
         '
         'txtServer
         '
@@ -197,7 +197,7 @@ Partial Class frmDBOptions
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(306, 164)
         Me.GroupControl1.TabIndex = 10
-        Me.GroupControl1.Text = "DB SQL Bağlantı"
+        Me.GroupControl1.Text = "DB SQL Baglanti"
         '
         'GroupControl2
         '
@@ -215,7 +215,7 @@ Partial Class frmDBOptions
         Me.GroupControl2.Name = "GroupControl2"
         Me.GroupControl2.Size = New System.Drawing.Size(312, 164)
         Me.GroupControl2.TabIndex = 11
-        Me.GroupControl2.Text = "Mikro SQL Bağlantı"
+        Me.GroupControl2.Text = "Mikro SQL Baglanti"
         '
         'txtMikro_Server
         '
@@ -280,8 +280,8 @@ Partial Class frmDBOptions
         Me.cmdCreateDB.Name = "cmdCreateDB"
         Me.cmdCreateDB.Size = New System.Drawing.Size(151, 32)
         Me.cmdCreateDB.TabIndex = 12
-        Me.cmdCreateDB.Text = "Veri Tabanı Oluştur"
-        Me.cmdCreateDB.ToolTip = "Veri tabanını oluşturur. Hazırda bir veritabanı varsa onu silmez."
+        Me.cmdCreateDB.Text = "Veri Tabani Olustur"
+        Me.cmdCreateDB.ToolTip = "Veri tabanini olusturur. Hazirda bir veritabani varsa onu silmez."
         '
         'frmDBOptions
         '
@@ -296,7 +296,7 @@ Partial Class frmDBOptions
         Me.KeyPreview = True
         Me.Name = "frmDBOptions"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Veri Tabanı Ayarları"
+        Me.Text = "Veri Tabani Ayarlari"
         CType(Me.txtServer.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtDBUser.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtDBPassword.Properties, System.ComponentModel.ISupportInitialize).EndInit()

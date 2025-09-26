@@ -196,7 +196,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(0).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(0).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(0).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(0).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -216,7 +216,7 @@ Tekrar:
                     CizgiRenkler &= " KOL:"
                 End If
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -278,7 +278,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -337,7 +337,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -394,7 +394,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -454,7 +454,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(0).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(0).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(0).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(0).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -474,7 +474,7 @@ Tekrar:
                     CizgiRenkler &= " KOL:"
                 End If
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -536,7 +536,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -593,7 +593,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiSayisi")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -650,7 +650,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -704,7 +704,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -758,7 +758,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -813,7 +813,7 @@ Tekrar:
                 dt = New DataTable
                 da.Fill(dt)
                 For i As Integer = 0 To dt.Rows.Count - 1
-                    CizgiRenkler &= "Ç" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
+                    CizgiRenkler &= "Ã‡" & If0Null(dt.Rows(i).Item("CizgiNo")) & ":" & IfNull(dt.Rows(i).Item("RenkKod"), "")
                     If i < dt.Rows.Count - 1 Then
                         CizgiRenkler &= " / "
                     End If
@@ -1121,7 +1121,7 @@ Tekrar:
             dt.Columns.Add(New DataColumn("ValueMember", GetType(String)))
             Dim dr As DataRow
             dr = dt.NewRow
-            dr("DisplayMember") = "Alım Irsaliyesi"
+            dr("DisplayMember") = "Alim Irsaliyesi"
             dr("ValueMember") = 0
             dt.Rows.Add(dr)
 

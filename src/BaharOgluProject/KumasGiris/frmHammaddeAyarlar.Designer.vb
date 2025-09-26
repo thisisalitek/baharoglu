@@ -99,7 +99,7 @@ Partial Class frmHammaddeAyarlar
         Me.cmdVazgec.Name = "cmdVazgec"
         Me.cmdVazgec.Size = New System.Drawing.Size(94, 31)
         Me.cmdVazgec.TabIndex = 1
-        Me.cmdVazgec.Text = "Vazgeç"
+        Me.cmdVazgec.Text = "VazgeÃ§"
         '
         'cmdKaydet
         '
@@ -115,7 +115,7 @@ Partial Class frmHammaddeAyarlar
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(78, 13)
         Me.LabelControl1.TabIndex = 22
-        Me.LabelControl1.Text = "Alım İrsaliye Seri"
+        Me.LabelControl1.Text = "Alim Ä°rsaliye Seri"
         '
         'txtHammaddeGiris_SeriIrsaliyeType0
         '
@@ -139,7 +139,7 @@ Partial Class frmHammaddeAyarlar
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(62, 13)
         Me.LabelControl2.TabIndex = 24
-        Me.LabelControl2.Text = "Devir Fiş Seri"
+        Me.LabelControl2.Text = "Devir Fis Seri"
         '
         'txtHammaddeGiris_SeriIrsaliyeType2
         '
@@ -155,7 +155,7 @@ Partial Class frmHammaddeAyarlar
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(100, 13)
         Me.LabelControl3.TabIndex = 26
-        Me.LabelControl3.Text = "Üretim İade Giriş Seri"
+        Me.LabelControl3.Text = "Uretim Ä°ade Giris Seri"
         '
         'txtHammadde_UretimIadeGirisIsEmriNo
         '
@@ -171,7 +171,7 @@ Partial Class frmHammaddeAyarlar
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(157, 13)
         Me.LabelControl4.TabIndex = 28
-        Me.LabelControl4.Text = "Üretim İade Giriş Sabit İş Emri No"
+        Me.LabelControl4.Text = "Uretim Ä°ade Giris Sabit Ä°s Emri No"
         '
         'frmHammaddeAyarlar
         '

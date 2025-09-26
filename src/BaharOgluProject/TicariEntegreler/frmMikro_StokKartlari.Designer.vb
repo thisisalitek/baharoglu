@@ -229,7 +229,7 @@ Partial Class frmMikro_StokKartlari
         '
         'colsto_kisa_ismi
         '
-        Me.colsto_kisa_ismi.Caption = "Kısa Ismi"
+        Me.colsto_kisa_ismi.Caption = "Kisa Ismi"
         Me.colsto_kisa_ismi.FieldName = "sto_kisa_ismi"
         Me.colsto_kisa_ismi.Name = "colsto_kisa_ismi"
         Me.colsto_kisa_ismi.Visible = True
@@ -238,7 +238,7 @@ Partial Class frmMikro_StokKartlari
         '
         'colsto_yabanci_isim
         '
-        Me.colsto_yabanci_isim.Caption = "Yabancı Isim"
+        Me.colsto_yabanci_isim.Caption = "Yabanci Isim"
         Me.colsto_yabanci_isim.FieldName = "sto_yabanci_isim"
         Me.colsto_yabanci_isim.Name = "colsto_yabanci_isim"
         Me.colsto_yabanci_isim.Visible = True

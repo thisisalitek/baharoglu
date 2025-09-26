@@ -17,7 +17,7 @@ Public Class frmKargolar
         Try
             If Trim(IfNull(MasterLink.CurrentRow("KargoIsmi"), "")) = "" Then
                 e.Cancel = True
-                MsgBox("Kargo ismi boş olamaz!")
+                MsgBox("Kargo ismi bos olamaz!")
                 Exit Sub
             End If
         Catch ex As Exception

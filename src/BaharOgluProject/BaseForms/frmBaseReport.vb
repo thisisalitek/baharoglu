@@ -62,7 +62,7 @@ Public Class frmBaseReport
 
     Public Sub FormSelect(Optional ByVal bDialog As Boolean = True, Optional ByVal Owner As Form = Nothing, Optional ByVal bMultiSelect As Boolean = False)
         'If AppConn.mainConn.State <> ConnectionState.Open Then
-        '    MsgBox("Piconn Master " & BaseTText("Veri tabanï¿½ baï¿½lantï¿½sï¿½ yok!"))
+        '    MsgBox("Piconn Master " & BaseTText("Veri tabanÃ¯Â¿Â½ baÃ¯Â¿Â½lantÃ¯Â¿Â½sÃ¯Â¿Â½ yok!"))
         '    Exit Sub
         'End If
         If AppConn.dbConn.State <> ConnectionState.Open Then
@@ -387,7 +387,7 @@ Public Class frmBaseReport
         Try
             If GridView1.FocusedRowHandle < 0 Then Exit Sub
             If GridView1.GetSelectedRows().Count <= 0 Then
-                MsgBox(BaseTText("Hiï¿½ seï¿½ili nesne yok!"))
+                MsgBox(BaseTText("HiÃ¯Â¿Â½ seÃ¯Â¿Â½ili nesne yok!"))
                 Exit Sub
 
             End If

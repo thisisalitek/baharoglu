@@ -660,7 +660,7 @@ Partial Class frmKargolar
         Me.ClientSize = New System.Drawing.Size(627, 415)
         Me.FormCode = "000020"
         Me.Name = "frmKargolar"
-        Me.Text = "Kargo ve Sevk Türleri"
+        Me.Text = "Kargo ve Sevk Turleri"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

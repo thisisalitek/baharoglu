@@ -1,5 +1,5 @@
 Module modMain
-    Public Const MSG_SearchText = "Aranan kelimeyi buraya yazınız."
+    Public Const MSG_SearchText = "Aranan kelimeyi buraya yaziniz."
     Public AppConn As New cAppConn
 
     Public DocumentClipboard_DocumentID As Guid
@@ -20,7 +20,7 @@ Module modMain
                 End If
             End If
         Catch ex As Exception
-            MsgBox("Registry hatası:" & ex.Message)
+            MsgBox("Registry hatasi:" & ex.Message)
         End Try
     End Sub
 
@@ -36,7 +36,7 @@ Module modMain
                 GridView1.ClearColumnsFilter()
             End If
         Catch ex As Exception
-            MsgBox("Registry hatası:" & ex.Message)
+            MsgBox("Registry hatasi:" & ex.Message)
         End Try
     End Sub
 
@@ -50,7 +50,7 @@ Module modMain
                 End If
             End If
         Catch ex As Exception
-            MsgBox("Registry hatası:" & ex.Message)
+            MsgBox("Registry hatasi:" & ex.Message)
         End Try
     End Sub
 
@@ -64,7 +64,7 @@ Module modMain
                 End If
             End If
         Catch ex As Exception
-            MsgBox("Registry hatası:" & ex.Message)
+            MsgBox("Registry hatasi:" & ex.Message)
         End Try
     End Sub
 
@@ -91,7 +91,7 @@ Module modMain
             End Select
             If SaveFileDialog1.ShowDialog() <> Windows.Forms.DialogResult.OK Then Exit Function
             If IO.File.Exists(SaveFileDialog1.FileName) Then
-                If MsgBox(SaveFileDialog1.FileName & vbNewLine & "Dosya zaten var! Üzerine yazmak istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Üzerine yaz?") <> MsgBoxResult.Yes Then Exit Function
+                If MsgBox(SaveFileDialog1.FileName & vbNewLine & "Dosya zaten var! Uzerine yazmak istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Uzerine yaz?") <> MsgBoxResult.Yes Then Exit Function
             End If
             Select Case tExport
                 Case typePiconnExport.XLS
@@ -110,7 +110,7 @@ Module modMain
                     GridView1.ExportToHtml(SaveFileDialog1.FileName)
             End Select
 Cikis:
-            If MsgBox("Dosyayı Açmak ister misiniz", MsgBoxStyle.Question Or MsgBoxStyle.YesNoCancel, "Dosyayı Aç?") = MsgBoxResult.Yes Then
+            If MsgBox("Dosyayi AÃ§mak ister misiniz", MsgBoxStyle.Question Or MsgBoxStyle.YesNoCancel, "Dosyayi AÃ§?") = MsgBoxResult.Yes Then
                 Try
                     Shell("Explorer.exe " & Chr(34) & SaveFileDialog1.FileName & Chr(34), AppWinStyle.NormalFocus, False)
                 Catch ex As Exception
@@ -129,7 +129,7 @@ Cikis:
 
     Public Sub LoadingShow(Optional text As String = "")
         If text = "" Then
-            loading.ProgressPanel1.Text = "Lütfen bekleyiniz"
+            loading.ProgressPanel1.Text = "Lutfen bekleyiniz"
         Else
             loading.ProgressPanel1.Text = text
         End If

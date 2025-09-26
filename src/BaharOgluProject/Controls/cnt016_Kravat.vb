@@ -70,7 +70,7 @@ Public Class cnt016_Kravat
             For Each dr As DataRow In NeoTable2.Rows
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[KRAVAT] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seçilmemiş!" & vbNewLine
+                        smsg &= "[KRAVAT] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -78,7 +78,7 @@ Public Class cnt016_Kravat
             Next
             If MasterTable2.Rows.Count > 0 Then
                 If If0Null(MasterTable2.Rows(0).Item("IntParam1")) <> 0 And Trim(IfNull(MasterTable2.Rows(0).Item("CharParam1"), "")) = "" Then
-                    smsg &= "[KRAVAT] Yazı boş olamaz!" & vbNewLine
+                    smsg &= "[KRAVAT] Yazi bos olamaz!" & vbNewLine
                     bCancel = True
                 End If
             End If
@@ -189,7 +189,7 @@ Public Class cnt016_Kravat
         Try
             If e.KeyCode = Keys.Delete And (e.Control Or e.Shift) Then
                 If GridView1.FocusedRowHandle < 0 Then Exit Sub
-                If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satir silmek istediginizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                 Dim RowIndex As Integer = 0
                 RowIndex = GridView1.GetDataSourceRowIndex(GridView1.FocusedRowHandle)
                 NeoTable1.Rows(RowIndex).Delete()

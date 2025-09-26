@@ -62,7 +62,7 @@ Public Class cnt003_Yaka
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             If MasrafListesi.Count > 0 Then
                 If MasterTable2.Rows.Count > 0 Then
@@ -103,7 +103,7 @@ Public Class cnt003_Yaka
 
             If MasterTable2.Rows.Count > 0 Then
                 If If0Null(MasterTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[YAKA] Yaka rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[YAKA] Yaka rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
             End If
@@ -111,11 +111,11 @@ Public Class cnt003_Yaka
                 Dim dr As DataRow = NeoTable2.Rows(i)
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[YAKA] #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                        smsg &= "[YAKA] #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If Trim(IfNull(dr("RKafa"), "")) = "" Then
-                        smsg &= "[YAKA] #" & i + 1 & " satırda çizgi sayısı hatalı!" & vbNewLine
+                        smsg &= "[YAKA] #" & i + 1 & " satirda Ã§izgi sayisi hatali!" & vbNewLine
                         bCancel = True
                     End If
                 End If
@@ -183,9 +183,9 @@ Public Class cnt003_Yaka
                         sbuf = "YAKA RENK:" & AnaRenk
 
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) <= 0 Then
-                            sbuf &= "   ÇİZGİ :YOK "
+                            sbuf &= "   Ã‡Ä°ZGÄ° :YOK "
                         Else
-                            sbuf &= "   ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi"))
+                            sbuf &= "   Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi"))
                         End If
                         Aciklamalar.Add(sbuf)
 
@@ -195,9 +195,9 @@ Public Class cnt003_Yaka
                         Aciklamalar2.Add(sSipBuf)
 
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) <= 0 Then
-                            sSipBuf = "YAKA ÇİZGİ :YOK "
+                            sSipBuf = "YAKA Ã‡Ä°ZGÄ° :YOK "
                         Else
-                            sSipBuf = "YAKA ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) & "   RENKLER:"
+                            sSipBuf = "YAKA Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) & "   RENKLER:"
 
                         End If
 
@@ -208,8 +208,8 @@ Public Class cnt003_Yaka
                         For Each dr As DataRow In NeoTable2.Rows
                             If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                                 CizgiNo += 1
-                                sbuf = CizgiNo & ". Çizgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
-                                sbuf &= "     " & CizgiNo & ". Çizgi -> " & IfNull(dr("RKafa"), "")
+                                sbuf = CizgiNo & ". Ã‡izgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
+                                sbuf &= "     " & CizgiNo & ". Ã‡izgi -> " & IfNull(dr("RKafa"), "")
                                 Aciklamalar.Add(sbuf)
                                 sSipBuf &= GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID"))) & " , "
                             End If
@@ -258,7 +258,7 @@ Public Class cnt003_Yaka
                         Aciklamalar2.Add(sSipBuf)
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) > 0 Then
                             If Trim(YakaCizgiRKafa) <> "" Then
-                                sSipBuf = "YAKA ÇİZGİ TÜR :" & YakaCizgiRKafa
+                                sSipBuf = "YAKA Ã‡Ä°ZGÄ° TUR :" & YakaCizgiRKafa
                                 Aciklamalar2.Add(sSipBuf)
                             End If
                         End If

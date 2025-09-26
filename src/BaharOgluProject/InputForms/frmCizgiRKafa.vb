@@ -6,7 +6,7 @@ Public Class frmCizgiRKafa
         Try
             If IfNull(MasterLink.CurrentRow("Tip"), "") = "" Then
                 e.Cancel = True
-                MsgBox("Lütfen tip seçiniz!")
+                MsgBox("Lutfen tip seÃ§iniz!")
                 Exit Sub
             End If
             Dim sbuf As String = Trim(IfNull(MasterLink.CurrentRow("RKafa"), ""))
@@ -24,9 +24,9 @@ Public Class frmCizgiRKafa
             MasterLink.CurrentRow("RKafa") = sbuf
             If If0Null(MasterLink.CurrentRow("CizgiSayisi")) <> sbuf.Split(" ").Length Then
                 e.Cancel = True
-                MsgBox("Çizgi Sayısı:" & If0Null(MasterLink.CurrentRow("CizgiSayisi")) & vbNewLine & _
-                       "Parça Sayısı:" & sbuf.Split(" ").Length & vbNewLine & _
-                       "Kafadaki boşluk sayısı çizgi sayısı ile uyumsuz!")
+                MsgBox("Ã‡izgi Sayisi:" & If0Null(MasterLink.CurrentRow("CizgiSayisi")) & vbNewLine & _
+                       "ParÃ§a Sayisi:" & sbuf.Split(" ").Length & vbNewLine & _
+                       "Kafadaki bosluk sayisi Ã§izgi sayisi ile uyumsuz!")
                 Exit Sub
 
             End If

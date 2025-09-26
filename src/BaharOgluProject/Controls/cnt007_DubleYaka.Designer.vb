@@ -452,7 +452,7 @@ Partial Class cnt007_DubleYaka
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = ">> Artış"
+        Me.LabelControl3.Text = ">> Artis"
         '
         'LabelControl2
         '
@@ -809,7 +809,7 @@ Partial Class cnt007_DubleYaka
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(52, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi Sayısı"
+        Me.LabelControl6.Text = "Ã‡izgi Sayisi"
         '
         'SpinEdit1
         '

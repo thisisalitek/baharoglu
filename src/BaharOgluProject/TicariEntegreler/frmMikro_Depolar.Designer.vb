@@ -162,7 +162,7 @@ Partial Class frmMikro_Depolar
         '
         'coldep_adi
         '
-        Me.coldep_adi.Caption = "Depo Adı"
+        Me.coldep_adi.Caption = "Depo Adi"
         Me.coldep_adi.FieldName = "dep_adi"
         Me.coldep_adi.Name = "coldep_adi"
         Me.coldep_adi.Visible = True

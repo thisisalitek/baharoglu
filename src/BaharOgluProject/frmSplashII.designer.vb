@@ -64,7 +64,7 @@ Partial Class frmSplashII
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(454, 56)
         Me.Label3.TabIndex = 7
-        Me.Label3.Text = "BAHAROĞLU MRP"
+        Me.Label3.Text = "BAHAROÄLU MRP"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'PictureBox1

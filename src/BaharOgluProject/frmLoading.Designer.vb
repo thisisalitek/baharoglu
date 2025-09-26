@@ -33,8 +33,8 @@ Partial Class frmLoading
         Me.ProgressPanel1.AppearanceCaption.Options.UseFont = True
         Me.ProgressPanel1.AppearanceDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.ProgressPanel1.AppearanceDescription.Options.UseFont = True
-        Me.ProgressPanel1.Caption = "Lütfen bekleyiniz"
-        Me.ProgressPanel1.Description = "Yükleniyor ..."
+        Me.ProgressPanel1.Caption = "Lutfen bekleyiniz"
+        Me.ProgressPanel1.Description = "Yukleniyor ..."
         Me.ProgressPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ProgressPanel1.Location = New System.Drawing.Point(0, 0)
         Me.ProgressPanel1.Name = "ProgressPanel1"
@@ -54,7 +54,7 @@ Partial Class frmLoading
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Lütfen bekleyiniz..."
+        Me.Text = "Lutfen bekleyiniz..."
         Me.TopMost = True
         Me.ResumeLayout(False)
 

@@ -3,7 +3,7 @@ Public Class frmOrguTipi
 
         Try
             Me.FormCode = "000002"
-            Me.Text = "Örgü Tipleri"
+            Me.Text = "Orgu Tipleri"
             MasterTable.SelectCommand.CommandText &= " AND bLakos=0 "
             If bDialog = True Then
                 Me.ShowDialog()
@@ -18,7 +18,7 @@ Public Class frmOrguTipi
     Public Sub FormShow_Lakos(Optional ByVal bDialog As Boolean = True)
         Try
             Me.FormCode = "000015"
-            Me.Text = "Lakos Örgü Tipleri"
+            Me.Text = "Lakos Orgu Tipleri"
             MasterTable.SelectCommand.CommandText &= " AND bLakos=1 "
             If bDialog = True Then
                 Me.ShowDialog()

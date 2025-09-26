@@ -234,7 +234,7 @@ Partial Class frmIlce
         '
         'colIlID
         '
-        Me.colIlID.Caption = "Il/Şehir"
+        Me.colIlID.Caption = "Il/Åehir"
         Me.colIlID.ColumnEdit = Me.RepositoryItemLookUpEdit1
         Me.colIlID.FieldName = "IlID"
         Me.colIlID.Name = "colIlID"
@@ -297,7 +297,7 @@ Partial Class frmIlce
         '
         'colIlceIsmi
         '
-        Me.colIlceIsmi.Caption = "İlçe İsmi"
+        Me.colIlceIsmi.Caption = "Ä°lÃ§e Ä°smi"
         Me.colIlceIsmi.FieldName = "IlceIsmi"
         Me.colIlceIsmi.Name = "colIlceIsmi"
         Me.colIlceIsmi.Visible = True
@@ -399,21 +399,21 @@ Partial Class frmIlce
         'ItemForIlID
         '
         Me.ItemForIlID.Control = Me.IlIDLookUpEdit
-        Me.ItemForIlID.CustomizationFormText = "İl/Şehir"
+        Me.ItemForIlID.CustomizationFormText = "Ä°l/Åehir"
         Me.ItemForIlID.Location = New System.Drawing.Point(0, 0)
         Me.ItemForIlID.Name = "ItemForIlID"
         Me.ItemForIlID.Size = New System.Drawing.Size(536, 24)
-        Me.ItemForIlID.Text = "İl/Şehir"
+        Me.ItemForIlID.Text = "Ä°l/Åehir"
         Me.ItemForIlID.TextSize = New System.Drawing.Size(97, 13)
         '
         'ItemForIlceIsmi
         '
         Me.ItemForIlceIsmi.Control = Me.IlceIsmiTextEdit
-        Me.ItemForIlceIsmi.CustomizationFormText = "İlçe/Semt/Belde İsmi"
+        Me.ItemForIlceIsmi.CustomizationFormText = "Ä°lÃ§e/Semt/Belde Ä°smi"
         Me.ItemForIlceIsmi.Location = New System.Drawing.Point(0, 24)
         Me.ItemForIlceIsmi.Name = "ItemForIlceIsmi"
         Me.ItemForIlceIsmi.Size = New System.Drawing.Size(536, 221)
-        Me.ItemForIlceIsmi.Text = "İlçe/Semt/Belde İsmi"
+        Me.ItemForIlceIsmi.Text = "Ä°lÃ§e/Semt/Belde Ä°smi"
         Me.ItemForIlceIsmi.TextSize = New System.Drawing.Size(97, 13)
         '
         'EmptySpaceItem1
@@ -471,7 +471,7 @@ Partial Class frmIlce
         Me.ClientSize = New System.Drawing.Size(727, 512)
         Me.FormCode = "000007"
         Me.Name = "frmIlce"
-        Me.Text = "İlçeler/Semtler/Beldeler"
+        Me.Text = "Ä°lÃ§eler/Semtler/Beldeler"
         Me.Controls.SetChildIndex(Me.txtTopInfo, 0)
         Me.Controls.SetChildIndex(Me.panelFormTop, 0)
         Me.Controls.SetChildIndex(Me.panelBottom, 0)

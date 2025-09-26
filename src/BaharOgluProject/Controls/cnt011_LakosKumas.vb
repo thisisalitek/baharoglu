@@ -81,15 +81,15 @@ Public Class cnt011_LakosKumas
             For Each dr As DataRow In NeoTable2.Rows
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("Iplik")) <= 0 Then
-                        smsg &= "[LAKOS KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' iplik seçilmemiş!" & vbNewLine
+                        smsg &= "[LAKOS KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' iplik seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[LAKOS KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seçilmemiş!" & vbNewLine
+                        smsg &= "[LAKOS KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If If0Null(dr("OrguTip")) <= 0 Then
-                        smsg &= "[LAKOS KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' örgü tipi seçilmemiş!" & vbNewLine
+                        smsg &= "[LAKOS KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' Ã¶rgu tipi seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                 End If
@@ -151,7 +151,7 @@ Public Class cnt011_LakosKumas
                             Dim sbuf As String = ""
                             sbuf = IfNull(dr("ParcaIsmi"), "") & "   IPLIK:" & GetIplikKodIsim(SqlConn.SqlConnection, If0Null(dr("Iplik")))
                             sbuf &= "   RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
-                            sbuf &= "   ÖRGÜ TİPİ:" & GetOrguTip(SqlConn.SqlConnection, If0Null(dr("OrguTip")))
+                            sbuf &= "   ORGU TÄ°PÄ°:" & GetOrguTip(SqlConn.SqlConnection, If0Null(dr("OrguTip")))
 
                             If bIlk Then
                                 AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
@@ -202,7 +202,7 @@ Public Class cnt011_LakosKumas
 
                             End If
                             '-------------------
-                            sbuf &= vbTab & " İP KG:" & Math.Round(TIpGramaj / 1000, 2) & vbTab & " KUMAŞ KG:" & Math.Round(TKumasGramaj / 1000, 2)
+                            sbuf &= vbTab & " Ä°P KG:" & Math.Round(TIpGramaj / 1000, 2) & vbTab & " KUMAÅ KG:" & Math.Round(TKumasGramaj / 1000, 2)
                             Aciklamalar.Add(sbuf)
 
                             sbuf = IfNull(dr("ParcaIsmi"), "")
@@ -239,7 +239,7 @@ Public Class cnt011_LakosKumas
         Try
             If e.KeyCode = Keys.Delete And (e.Control Or e.Shift) Then
                 If GridView1.FocusedRowHandle < 0 Then Exit Sub
-                If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satir silmek istediginizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                 Dim RowIndex As Integer = 0
                 RowIndex = GridView1.GetDataSourceRowIndex(GridView1.FocusedRowHandle)
                 NeoTable1.Rows(RowIndex).Delete()

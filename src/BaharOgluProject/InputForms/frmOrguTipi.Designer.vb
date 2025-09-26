@@ -530,11 +530,11 @@ Partial Class frmOrguTipi
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.TextEdit1
-        Me.LayoutControlItem1.CustomizationFormText = "Fiyat Farkı"
+        Me.LayoutControlItem1.CustomizationFormText = "Fiyat Farki"
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 60)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
         Me.LayoutControlItem1.Size = New System.Drawing.Size(215, 30)
-        Me.LayoutControlItem1.Text = "Fiyat Farkı"
+        Me.LayoutControlItem1.Text = "Fiyat Farki"
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(63, 13)
         Me.LayoutControlItem1.TextToControlDistance = 5
         '
@@ -629,7 +629,7 @@ Partial Class frmOrguTipi
         Me.ClientSize = New System.Drawing.Size(498, 426)
         Me.FormCode = "000002"
         Me.Name = "frmOrguTipi"
-        Me.Text = "Örgü Tipleri"
+        Me.Text = "Orgu Tipleri"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

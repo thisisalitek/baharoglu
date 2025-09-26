@@ -286,7 +286,7 @@ Partial Class cnt052_KazakYaka
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = ">> Artış"
+        Me.LabelControl3.Text = ">> Artis"
         '
         'LabelControl2
         '
@@ -294,7 +294,7 @@ Partial Class cnt052_KazakYaka
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(46, 13)
         Me.LabelControl2.TabIndex = 3
-        Me.LabelControl2.Text = "İp gramaj"
+        Me.LabelControl2.Text = "Ä°p gramaj"
         '
         'txtTur
         '
@@ -625,7 +625,7 @@ Partial Class cnt052_KazakYaka
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(52, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi Sayısı"
+        Me.LabelControl6.Text = "Ã‡izgi Sayisi"
         '
         'SpinEdit1
         '
@@ -667,7 +667,7 @@ Partial Class cnt052_KazakYaka
         Me.RadioGroup1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RadioGroup1.Location = New System.Drawing.Point(2, 20)
         Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Gömlek Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Kamyoncu Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Balıkçı Yaka")})
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "GÃ¶mlek Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Kamyoncu Yaka"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "BalikÃ§i Yaka")})
         Me.RadioGroup1.Size = New System.Drawing.Size(110, 69)
         Me.RadioGroup1.TabIndex = 7
         '

@@ -311,7 +311,7 @@ Partial Class frmSiparisToplamRaporu
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(23, 13)
         Me.LabelControl2.TabIndex = 23
-        Me.LabelControl2.Text = "2. Yıl"
+        Me.LabelControl2.Text = "2. Yil"
         '
         'LabelControl1
         '
@@ -319,7 +319,7 @@ Partial Class frmSiparisToplamRaporu
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(23, 13)
         Me.LabelControl1.TabIndex = 22
-        Me.LabelControl1.Text = "1. Yıl"
+        Me.LabelControl1.Text = "1. Yil"
         '
         'SpinEdit2
         '

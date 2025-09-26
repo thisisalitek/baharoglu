@@ -6,7 +6,7 @@ Public Class frmSiparisler
     Public Sub FormShow_CariSiparis(Optional ByVal bDialog As Boolean = True, Optional ByVal bControlMasterConn As Boolean = False, Optional ByVal bControlFirmConn As Boolean = True, Optional ByVal Owner As Form = Nothing)
         Try
             Me.FormCode = "000008"
-            Me.Text = "Müşteri Sipariş"
+            Me.Text = "Musteri Siparis"
             SiparisType = 0
             MasterTable.SelectCommand.CommandText &= " AND SiparisType=0 "
             Me.FormShow(bDialog, bControlMasterConn, bControlFirmConn, Owner)
@@ -18,7 +18,7 @@ Public Class frmSiparisler
     Public Sub FormShow_DepoSiparis(Optional ByVal bDialog As Boolean = True, Optional ByVal bControlMasterConn As Boolean = False, Optional ByVal bControlFirmConn As Boolean = True, Optional ByVal Owner As Form = Nothing)
         Try
             Me.FormCode = "000018"
-            Me.Text = "Depo Sipariş"
+            Me.Text = "Depo Siparis"
             SiparisType = 1
             MasterTable.SelectCommand.CommandText &= " AND SiparisType=1 "
             Me.FormShow(bDialog, bControlMasterConn, bControlFirmConn, Owner)
@@ -126,23 +126,23 @@ Public Class frmSiparisler
             cmd.CommandText = "Select COUNT(*) FROM Siparis WHERE Deleted = 0 And SipEvrakSeri = '" & Replace(IfNull(MasterLink.CurrentRow("SipEvrakSeri"), ""), "'", "") & "' AND SipEvrakSira=" & If0Null(MasterLink.CurrentRow("SipEvrakSira")) & " AND SiparisID<>" & If0Null(MasterLink.CurrentRow("SiparisID")) & " "
 
             If cmd.ExecuteScalar > 0 Then
-                MsgBox("Aynı sipariş numarasından başka bir kayıt var. Sıradaki numara verilecektir.")
+                MsgBox("Ayni siparis numarasindan baska bir kayit var. Siradaki numara verilecektir.")
                 YeniSipNo()
             End If
             If If0Null(MasterLink.CurrentRow("SiparisType")) = 1 Then
                 If Trim(IfNull(MasterLink.CurrentRow("Depo"), "")) = "" Then
                     e.Cancel = True
-                    MsgBox("Kaynak depo seçiniz!")
+                    MsgBox("Kaynak depo seÃ§iniz!")
                     Exit Sub
                 End If
                 If Trim(IfNull(MasterLink.CurrentRow("Depo2"), "")) = "" Then
                     e.Cancel = True
-                    MsgBox("Hedef depo seçiniz!")
+                    MsgBox("Hedef depo seÃ§iniz!")
                     Exit Sub
                 End If
                 If IfNull(MasterLink.CurrentRow("Depo"), "") = IfNull(MasterLink.CurrentRow("Depo2"), "") Then
                     e.Cancel = True
-                    MsgBox("Depolar farklı olmak zorunda")
+                    MsgBox("Depolar farkli olmak zorunda")
                     Exit Sub
                 End If
                 MasterLink.CurrentRow("CariKod") = ""
@@ -151,7 +151,7 @@ Public Class frmSiparisler
             ElseIf If0Null(MasterLink.CurrentRow("SiparisType")) = 0 Then
                 If Trim(IfNull(MasterLink.CurrentRow("CariKod"), "")) = "" Then
                     e.Cancel = True
-                    MsgBox("Lütfen cari kart seçiniz!")
+                    MsgBox("Lutfen cari kart seÃ§iniz!")
                     Exit Sub
                 End If
 
@@ -202,7 +202,7 @@ Public Class frmSiparisler
     Private Sub btnGridSipDetayRemove_ButtonClick(ByVal sender As Object, ByVal e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles btnGridSipDetayRemove.ButtonClick
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
-            If MsgBox("Satır silmek istediğinizden emin misiniz?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Satir silmek istediginizden emin misiniz?") <> MsgBoxResult.Yes Then Exit Sub
             DetailLink.CurrentRow.Delete()
             UpdateToplamlar()
             MasterTable.Save()
@@ -214,11 +214,11 @@ Public Class frmSiparisler
     Private Sub btnGridSipDetayRemove_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnGridSipDetayRemove.Click
         Try
             If EditMode = False Then
-                MsgBox("Değiştirme modu pasif!")
+                MsgBox("Degistirme modu pasif!")
                 Exit Sub
             End If
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
-            If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Satır Sil?") <> MsgBoxResult.Yes Then
+            If MsgBox("Satir silmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Satir Sil?") <> MsgBoxResult.Yes Then
                 Exit Sub
             End If
             DetailLink.CurrentRow.Delete()
@@ -231,7 +231,7 @@ Public Class frmSiparisler
     Private Sub cmdAddSipDetay_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdAddSipDetay.Click
         Try
             If EditMode = False Then
-                MsgBox("Değiştirme modu pasif!")
+                MsgBox("Degistirme modu pasif!")
                 Exit Sub
             End If
 
@@ -247,7 +247,7 @@ Public Class frmSiparisler
             Dim SipDetayID As Long
             SipDetayID = If0Null(DetailTable.Rows(DetailTable.Rows.Count - 1).Item("SipDetayID"))
             If SipDetayID <= 0 Then
-                MsgBox("Yeni sipariş açılamadı. Tekrar deneyin.")
+                MsgBox("Yeni siparis aÃ§ilamadi. Tekrar deneyin.")
                 Exit Sub
             End If
             Dim f As New frmKategoriler
@@ -289,7 +289,7 @@ Public Class frmSiparisler
     Private Sub btnGridSipDetay_ButtonClick(ByVal sender As Object, ByVal e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles btnGridSipDetay.ButtonClick
         Try
             If EditMode = False Then
-                MsgBox("Değiştirme modu pasif!")
+                MsgBox("Degistirme modu pasif!")
                 Exit Sub
             End If
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
@@ -345,7 +345,7 @@ Public Class frmSiparisler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If txtCariKodu.Properties.ReadOnly Then Exit Sub
@@ -411,7 +411,7 @@ Public Class frmSiparisler
 
                     cmd.ExecuteNonQuery()
                 Catch ex As Exception
-                    MsgBox("Mikro Entegrasyon hatası:" & ex.Message)
+                    MsgBox("Mikro Entegrasyon hatasi:" & ex.Message)
                     Exit Sub
                 End Try
                 EditMode = True
@@ -419,7 +419,7 @@ Public Class frmSiparisler
                 MasterLink.CurrentRow("Onaylayan") = AppConn.ActiveUser.UserID
                 MasterLink.CurrentRow("OnayTarihi") = Now
             Else
-                If MsgBox("Onayı kaldırmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Onayi kaldirmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
                 MasterLink.CurrentRow("Onayli") = 0
                 MasterLink.CurrentRow("Onaylayan") = 0
                 MasterLink.CurrentRow("OnayTarihi") = DateSerial(1900, 1, 1)
@@ -453,7 +453,7 @@ Public Class frmSiparisler
                 MasterLink.CurrentRow("IptalNedeni") = Mid(Replace(sbuf, "'", " "), 1, 50)
 
             Else
-                If MsgBox("İptali kaldırmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Ä°ptali kaldirmak istiyor musunuz?", MsgBoxStyle.YesNoCancel + MsgBoxStyle.Critical, "Onayla?") <> MsgBoxResult.Yes Then Exit Sub
                 MasterLink.CurrentRow("Iptal") = 0
             End If
             MasterLink.CurrentRow.EndEdit()
@@ -465,7 +465,7 @@ Public Class frmSiparisler
     Private Sub chkOnayli_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chkOnayli.CheckedChanged
         Try
             If chkOnayli.Checked Then
-                cmdOnayla.Text = "Onayı kaldır"
+                cmdOnayla.Text = "Onayi kaldir"
             Else
                 cmdOnayla.Text = "Onayla"
             End If
@@ -477,9 +477,9 @@ Public Class frmSiparisler
     Private Sub chkIptal_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chkIptal.CheckedChanged
         Try
             If chkIptal.Checked Then
-                cmdIptal.Text = "İptali kaldır"
+                cmdIptal.Text = "Ä°ptali kaldir"
             Else
-                cmdIptal.Text = "(X) İptal"
+                cmdIptal.Text = "(X) Ä°ptal"
             End If
 
         Catch ex As Exception
@@ -600,7 +600,7 @@ Public Class frmSiparisler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             Dim NewSiparisID As Long = 0
-            If MsgBox("Siparişi kopyalamak istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Kopyala?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Siparisi kopyalamak istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Kopyala?") <> MsgBoxResult.Yes Then Exit Sub
 
             NewSiparisID = CopySiparis(If0Null(MasterLink.CurrentRow("SiparisID")), AppConn.ActiveUser.UserID)
             Dim cmd As New SqlClient.SqlCommand
@@ -620,7 +620,7 @@ Public Class frmSiparisler
             da.Dispose()
 
 
-            MsgBox("Yeni sipariş " & siparisno)
+            MsgBox("Yeni siparis " & siparisno)
             btnRefresh_ItemClick(Nothing, Nothing)
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -631,7 +631,7 @@ Public Class frmSiparisler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If txtDepo.Properties.ReadOnly Then Exit Sub
@@ -661,7 +661,7 @@ Public Class frmSiparisler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If txtDepo2.Properties.ReadOnly Then Exit Sub
@@ -697,12 +697,12 @@ Public Class frmSiparisler
 
             Dim newdr As DataRow
             newdr = dt.NewRow
-            newdr("DisplayMember") = "Müşteri Sipariş"
+            newdr("DisplayMember") = "Musteri Siparis"
             newdr("ValueMember") = 0
             dt.Rows.Add(newdr)
 
             newdr = dt.NewRow
-            newdr("DisplayMember") = "Depo Sipariş"
+            newdr("DisplayMember") = "Depo Siparis"
             newdr("ValueMember") = 1
             dt.Rows.Add(newdr)
 
@@ -738,11 +738,11 @@ Public Class frmSiparisler
     Private Sub frmSiparisler_KeyDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyDown
         Try
             If e.KeyCode = Keys.T And e.Control And e.Alt Then
-                If MsgBox("Renk beden kontrolü yapılacak! onaylıyor musunuz?", MsgBoxStyle.YesNo + MsgBoxStyle.Question, "Onay?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Renk beden kontrolu yapilacak! onayliyor musunuz?", MsgBoxStyle.YesNo + MsgBoxStyle.Question, "Onay?") <> MsgBoxResult.Yes Then Exit Sub
                 If BedenKontrol() = True Then
-                    MsgBox("başarılı")
+                    MsgBox("basarili")
                 Else
-                    MsgBox("başarısız :-(")
+                    MsgBox("basarisiz :-(")
                 End If
             End If
         Catch ex As Exception
@@ -870,15 +870,15 @@ Public Class frmSiparisler
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If DetailLink.CurrentRow("Bagli") <> 0 Then
-                MsgBox("Zaten bağlı.")
+                MsgBox("Zaten bagli.")
                 Exit Sub
             End If
             If DetailLink.Position <= 0 Then
-                MsgBox("Zaten en üst satırı seçtiniz!")
+                MsgBox("Zaten en ust satiri seÃ§tiniz!")
                 Exit Sub
             End If
 
@@ -891,7 +891,7 @@ Public Class frmSiparisler
             End If
 
 
-            If MsgBox("Satırı bir üst satıra bağlayacaksınız. Onaylıyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Bağla?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Satiri bir ust satira baglayacaksiniz. Onayliyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Bagla?") <> MsgBoxResult.Yes Then Exit Sub
             DetailLink.CurrentRow("BagliSipDetayID") = ConnID
             DetailLink.CurrentRow("Bagli") = 1
             DetailLink.CurrentRow.EndEdit()
@@ -904,10 +904,10 @@ Public Class frmSiparisler
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
-            If MsgBox("Bağlantıyı iptal etmek istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Bağlantı İptal?") <> MsgBoxResult.Yes Then
+            If MsgBox("Baglantiyi iptal etmek istiyor musunuz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Baglanti Ä°ptal?") <> MsgBoxResult.Yes Then
                 Exit Sub
             End If
             DetailLink.CurrentRow("Bagli") = 0
@@ -935,15 +935,15 @@ Public Class frmSiparisler
             da.Fill(dt2)
 
             If dt.Rows.Count <> dt2.Rows.Count Then
-                MsgBox("Bağlanan satırların beden kodları tutarsız. Kontrol ediniz!")
+                MsgBox("Baglanan satirlarin beden kodlari tutarsiz. Kontrol ediniz!")
             End If
             For i = 0 To dt.Rows.Count - 1
                 If IfNull(dt.Rows(i).Item("BedenKod"), "") <> IfNull(dt2.Rows(i).Item("BedenKod"), "") Then
-                    MsgBox("Bağlanan satırların beden kodları tutarsız. Kontrol ediniz! Bdn:" & IfNull(dt.Rows(i).Item("BedenKod"), "") & " ≠ " & IfNull(dt2.Rows(i).Item("BedenKod"), ""))
+                    MsgBox("Baglanan satirlarin beden kodlari tutarsiz. Kontrol ediniz! Bdn:" & IfNull(dt.Rows(i).Item("BedenKod"), "") & " â‰  " & IfNull(dt2.Rows(i).Item("BedenKod"), ""))
                     Return False
                 End If
                 If If0Null(dt.Rows(i).Item("Miktar")) <> If0Null(dt2.Rows(i).Item("Miktar")) Then
-                    MsgBox("Bağlanan satırların miktarları tutarsız. Kontrol ediniz! Bdn:" & IfNull(dt.Rows(i).Item("BedenKod"), "") & "   Miktar:" & If0Null(dt.Rows(i).Item("Miktar")) & " ≠ " & If0Null(dt2.Rows(i).Item("Miktar")))
+                    MsgBox("Baglanan satirlarin miktarlari tutarsiz. Kontrol ediniz! Bdn:" & IfNull(dt.Rows(i).Item("BedenKod"), "") & "   Miktar:" & If0Null(dt.Rows(i).Item("Miktar")) & " â‰  " & If0Null(dt2.Rows(i).Item("Miktar")))
                     Return False
                 End If
             Next
@@ -992,7 +992,7 @@ Public Class frmSiparisler
         Try
             If DetailLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If (MsgBox("Satiri silmek istediginizden emin misiniz?", MsgBoxStyle.YesNo, "Satir sil?") <> MsgBoxResult.Yes) Then Exit Sub

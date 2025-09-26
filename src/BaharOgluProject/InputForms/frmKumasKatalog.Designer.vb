@@ -671,7 +671,7 @@ Partial Class frmKumasKatalog
         Me.ClientSize = New System.Drawing.Size(893, 491)
         Me.FormCode = "000013"
         Me.Name = "frmKumasKatalog"
-        Me.Text = "Kumaş Katalog"
+        Me.Text = "Kumas Katalog"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

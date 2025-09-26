@@ -177,7 +177,7 @@ Partial Class cnt055_Secenek
         'lblCaption
         '
         Me.lblCaption.Size = New System.Drawing.Size(71, 22)
-        Me.lblCaption.Text = "Seçenekler"
+        Me.lblCaption.Text = "SeÃ§enekler"
         '
         'XtraTabControl1
         '
@@ -442,7 +442,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit2.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "ParcaModel", True))
         Me.CheckEdit2.Location = New System.Drawing.Point(3, 20)
         Me.CheckEdit2.Name = "CheckEdit2"
-        Me.CheckEdit2.Properties.Caption = "Parça Model"
+        Me.CheckEdit2.Properties.Caption = "ParÃ§a Model"
         Me.CheckEdit2.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit2.Properties.ValueChecked = 1
         Me.CheckEdit2.Properties.ValueUnchecked = 0
@@ -454,7 +454,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "ModelFarki", True))
         Me.CheckEdit1.Location = New System.Drawing.Point(3, 3)
         Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "Model Farkı"
+        Me.CheckEdit1.Properties.Caption = "Model Farki"
         Me.CheckEdit1.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit1.Properties.ValueChecked = 1
         Me.CheckEdit1.Properties.ValueUnchecked = 0
@@ -478,7 +478,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit5.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "OmuzRecme", True))
         Me.CheckEdit5.Location = New System.Drawing.Point(3, 69)
         Me.CheckEdit5.Name = "CheckEdit5"
-        Me.CheckEdit5.Properties.Caption = "Omuz Reçme"
+        Me.CheckEdit5.Properties.Caption = "Omuz ReÃ§me"
         Me.CheckEdit5.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit5.Properties.ValueChecked = 1
         Me.CheckEdit5.Properties.ValueUnchecked = 0
@@ -610,7 +610,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit12.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "OzelEtiket", True))
         Me.CheckEdit12.Location = New System.Drawing.Point(3, 105)
         Me.CheckEdit12.Name = "CheckEdit12"
-        Me.CheckEdit12.Properties.Caption = "Özel Etiket"
+        Me.CheckEdit12.Properties.Caption = "Ozel Etiket"
         Me.CheckEdit12.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit12.Properties.ValueChecked = 1
         Me.CheckEdit12.Properties.ValueUnchecked = 0
@@ -732,7 +732,7 @@ Partial Class cnt055_Secenek
         Me.chkOzelEtiket.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "OzelEtiket", True))
         Me.chkOzelEtiket.Location = New System.Drawing.Point(3, 105)
         Me.chkOzelEtiket.Name = "chkOzelEtiket"
-        Me.chkOzelEtiket.Properties.Caption = "Özel Etiket"
+        Me.chkOzelEtiket.Properties.Caption = "Ozel Etiket"
         Me.chkOzelEtiket.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkOzelEtiket.Properties.ValueChecked = 1
         Me.chkOzelEtiket.Properties.ValueUnchecked = 0
@@ -755,7 +755,7 @@ Partial Class cnt055_Secenek
         Me.chkOmuzRecme.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "OmuzRecme", True))
         Me.chkOmuzRecme.Location = New System.Drawing.Point(3, 69)
         Me.chkOmuzRecme.Name = "chkOmuzRecme"
-        Me.chkOmuzRecme.Properties.Caption = "Omuz Reçme"
+        Me.chkOmuzRecme.Properties.Caption = "Omuz ReÃ§me"
         Me.chkOmuzRecme.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkOmuzRecme.Properties.ValueChecked = 1
         Me.chkOmuzRecme.Properties.ValueUnchecked = 0
@@ -791,7 +791,7 @@ Partial Class cnt055_Secenek
         Me.chkParcaModel.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "ParcaModel", True))
         Me.chkParcaModel.Location = New System.Drawing.Point(3, 20)
         Me.chkParcaModel.Name = "chkParcaModel"
-        Me.chkParcaModel.Properties.Caption = "Parça Model"
+        Me.chkParcaModel.Properties.Caption = "ParÃ§a Model"
         Me.chkParcaModel.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkParcaModel.Properties.ValueChecked = 1
         Me.chkParcaModel.Properties.ValueUnchecked = 0
@@ -803,7 +803,7 @@ Partial Class cnt055_Secenek
         Me.chkModelFarki.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "ModelFarki", True))
         Me.chkModelFarki.Location = New System.Drawing.Point(3, 3)
         Me.chkModelFarki.Name = "chkModelFarki"
-        Me.chkModelFarki.Properties.Caption = "Model Farkı"
+        Me.chkModelFarki.Properties.Caption = "Model Farki"
         Me.chkModelFarki.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkModelFarki.Properties.ValueChecked = 1
         Me.chkModelFarki.Properties.ValueUnchecked = 0
@@ -822,7 +822,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit6.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "MansetFarki", True))
         Me.CheckEdit6.Location = New System.Drawing.Point(3, 160)
         Me.CheckEdit6.Name = "CheckEdit6"
-        Me.CheckEdit6.Properties.Caption = "Manşet Farkı"
+        Me.CheckEdit6.Properties.Caption = "Manset Farki"
         Me.CheckEdit6.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit6.Properties.ValueChecked = 1
         Me.CheckEdit6.Properties.ValueUnchecked = 0
@@ -834,7 +834,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit7.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable1, "UzunKolFarki", True))
         Me.CheckEdit7.Location = New System.Drawing.Point(3, 179)
         Me.CheckEdit7.Name = "CheckEdit7"
-        Me.CheckEdit7.Properties.Caption = "Uzun Kol Farkı"
+        Me.CheckEdit7.Properties.Caption = "Uzun Kol Farki"
         Me.CheckEdit7.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit7.Properties.ValueChecked = 1
         Me.CheckEdit7.Properties.ValueUnchecked = 0
@@ -846,7 +846,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit8.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "UzunKolFarki", True))
         Me.CheckEdit8.Location = New System.Drawing.Point(4, 179)
         Me.CheckEdit8.Name = "CheckEdit8"
-        Me.CheckEdit8.Properties.Caption = "Uzun Kol Farkı"
+        Me.CheckEdit8.Properties.Caption = "Uzun Kol Farki"
         Me.CheckEdit8.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit8.Properties.ValueChecked = 1
         Me.CheckEdit8.Properties.ValueUnchecked = 0
@@ -858,7 +858,7 @@ Partial Class cnt055_Secenek
         Me.CheckEdit9.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.NeoTable2, "MansetFarki", True))
         Me.CheckEdit9.Location = New System.Drawing.Point(4, 160)
         Me.CheckEdit9.Name = "CheckEdit9"
-        Me.CheckEdit9.Properties.Caption = "Manşet Farkı"
+        Me.CheckEdit9.Properties.Caption = "Manset Farki"
         Me.CheckEdit9.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.CheckEdit9.Properties.ValueChecked = 1
         Me.CheckEdit9.Properties.ValueUnchecked = 0
@@ -970,7 +970,7 @@ Partial Class cnt055_Secenek
         'cnt055_Secenek
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Seçenekler"
+        Me.Caption = "SeÃ§enekler"
         Me.Code = "055"
         Me.Controls.Add(Me.TextEdit2)
         Me.Name = "cnt055_Secenek"

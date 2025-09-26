@@ -112,7 +112,7 @@ Partial Class frmReportSelect
         '
         Me.conMenuPrint.Name = "conMenuPrint"
         Me.conMenuPrint.Size = New System.Drawing.Size(217, 22)
-        Me.conMenuPrint.Text = "Yazdır"
+        Me.conMenuPrint.Text = "Yazdir"
         '
         'ToolStripMenuItem4
         '
@@ -123,7 +123,7 @@ Partial Class frmReportSelect
         '
         Me.conMenuSetDefault.Name = "conMenuSetDefault"
         Me.conMenuSetDefault.Size = New System.Drawing.Size(217, 22)
-        Me.conMenuSetDefault.Text = "* Varsayılan Olarak İşaretle"
+        Me.conMenuSetDefault.Text = "* Varsayilan Olarak Ä°saretle"
         '
         'ToolStripMenuItem6
         '
@@ -140,7 +140,7 @@ Partial Class frmReportSelect
         '
         Me.conMenuEdit.Name = "conMenuEdit"
         Me.conMenuEdit.Size = New System.Drawing.Size(217, 22)
-        Me.conMenuEdit.Text = "Düzenle"
+        Me.conMenuEdit.Text = "Duzenle"
         '
         'conMenuDelete
         '
@@ -218,19 +218,19 @@ Partial Class frmReportSelect
         Me.conMenuDesignExportImport.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.conMenuDesingExport, Me.conMenuDesingImport})
         Me.conMenuDesignExportImport.Name = "conMenuDesignExportImport"
         Me.conMenuDesignExportImport.Size = New System.Drawing.Size(217, 22)
-        Me.conMenuDesignExportImport.Text = "Tasarım Export/Import"
+        Me.conMenuDesignExportImport.Text = "Tasarim Export/Import"
         '
         'conMenuDesingExport
         '
         Me.conMenuDesingExport.Name = "conMenuDesingExport"
         Me.conMenuDesingExport.Size = New System.Drawing.Size(171, 22)
-        Me.conMenuDesingExport.Text = "Tasarımı Dışarı Ver"
+        Me.conMenuDesingExport.Text = "Tasarimi Disari Ver"
         '
         'conMenuDesingImport
         '
         Me.conMenuDesingImport.Name = "conMenuDesingImport"
         Me.conMenuDesingImport.Size = New System.Drawing.Size(171, 22)
-        Me.conMenuDesingImport.Text = "Tasarımı İçeri Al"
+        Me.conMenuDesingImport.Text = "Tasarimi Ä°Ã§eri Al"
         '
         'GridView1
         '
@@ -298,7 +298,7 @@ Partial Class frmReportSelect
         '
         Me.mnuPrint.Name = "mnuPrint"
         Me.mnuPrint.Size = New System.Drawing.Size(212, 22)
-        Me.mnuPrint.Text = "Yazdır"
+        Me.mnuPrint.Text = "Yazdir"
         '
         'ToolStripMenuItem1
         '
@@ -309,7 +309,7 @@ Partial Class frmReportSelect
         '
         Me.mnuSetDefault.Name = "mnuSetDefault"
         Me.mnuSetDefault.Size = New System.Drawing.Size(212, 22)
-        Me.mnuSetDefault.Text = "* Varsayılan Olarak İşaretle"
+        Me.mnuSetDefault.Text = "* Varsayilan Olarak Ä°saretle"
         '
         'ToolStripMenuItem8
         '
@@ -326,7 +326,7 @@ Partial Class frmReportSelect
         '
         Me.mnuEditReport.Name = "mnuEditReport"
         Me.mnuEditReport.Size = New System.Drawing.Size(212, 22)
-        Me.mnuEditReport.Text = "Düzenle"
+        Me.mnuEditReport.Text = "Duzenle"
         '
         'mnuDeleteReport
         '
@@ -404,19 +404,19 @@ Partial Class frmReportSelect
         Me.mnuDesignExportImport.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuDesingExport, Me.mnuDesingImport})
         Me.mnuDesignExportImport.Name = "mnuDesignExportImport"
         Me.mnuDesignExportImport.Size = New System.Drawing.Size(212, 22)
-        Me.mnuDesignExportImport.Text = "Tasarım Export/Import"
+        Me.mnuDesignExportImport.Text = "Tasarim Export/Import"
         '
         'mnuDesingExport
         '
         Me.mnuDesingExport.Name = "mnuDesingExport"
         Me.mnuDesingExport.Size = New System.Drawing.Size(165, 22)
-        Me.mnuDesingExport.Text = "Tasarımı Dışarı Al"
+        Me.mnuDesingExport.Text = "Tasarimi Disari Al"
         '
         'mnuDesingImport
         '
         Me.mnuDesingImport.Name = "mnuDesingImport"
         Me.mnuDesingImport.Size = New System.Drawing.Size(165, 22)
-        Me.mnuDesingImport.Text = "Tasarımı İçeri Al"
+        Me.mnuDesingImport.Text = "Tasarimi Ä°Ã§eri Al"
         '
         'ToolStripMenuItem3
         '
@@ -427,7 +427,7 @@ Partial Class frmReportSelect
         '
         Me.mnuClose.Name = "mnuClose"
         Me.mnuClose.Size = New System.Drawing.Size(212, 22)
-        Me.mnuClose.Text = "Çıkış"
+        Me.mnuClose.Text = "Ã‡ikis"
         '
         'PanelControl1
         '
@@ -464,18 +464,18 @@ Partial Class frmReportSelect
         Me.cmdPrint.Name = "cmdPrint"
         Me.cmdPrint.Size = New System.Drawing.Size(82, 32)
         Me.cmdPrint.TabIndex = 0
-        Me.cmdPrint.Text = "Yazdır (F2)"
+        Me.cmdPrint.Text = "Yazdir (F2)"
         '
         'dlgDesingExport
         '
         Me.dlgDesingExport.DefaultExt = "xml"
-        Me.dlgDesingExport.Filter = "Xml Dosyaları (*.xml)|*.xml|Tüm Dosyalar (*.*)|*.*"
+        Me.dlgDesingExport.Filter = "Xml Dosyalari (*.xml)|*.xml|Tum Dosyalar (*.*)|*.*"
         Me.dlgDesingExport.FilterIndex = 0
         '
         'dlgDesingImport
         '
         Me.dlgDesingImport.DefaultExt = "xml"
-        Me.dlgDesingImport.Filter = "Xml Dosyaları (*.xml)|*.xml|Tüm Dosyalar (*.*)|*.*"
+        Me.dlgDesingImport.Filter = "Xml Dosyalari (*.xml)|*.xml|Tum Dosyalar (*.*)|*.*"
         Me.dlgDesingImport.FilterIndex = 0
         '
         'frmReportSelect
@@ -491,7 +491,7 @@ Partial Class frmReportSelect
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmReportSelect"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Rapor Seç"
+        Me.Text = "Rapor SeÃ§"
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip1.ResumeLayout(False)
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()

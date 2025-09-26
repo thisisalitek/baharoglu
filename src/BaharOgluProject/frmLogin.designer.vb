@@ -54,7 +54,7 @@ Partial Class frmLogin
         Me.cmdLogin.Name = "cmdLogin"
         Me.cmdLogin.Size = New System.Drawing.Size(145, 44)
         Me.cmdLogin.TabIndex = 5
-        Me.cmdLogin.Text = "Giriş >>>"
+        Me.cmdLogin.Text = "Giris >>>"
         '
         'LabelControl1
         '
@@ -68,7 +68,7 @@ Partial Class frmLogin
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(121, 17)
         Me.LabelControl1.TabIndex = 1
-        Me.LabelControl1.Text = "Çalışma Tarihi"
+        Me.LabelControl1.Text = "Ã‡alisma Tarihi"
         '
         'dtToday
         '
@@ -109,7 +109,7 @@ Partial Class frmLogin
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(121, 17)
         Me.LabelControl3.TabIndex = 6
-        Me.LabelControl3.Text = "Kullanıcı Adı"
+        Me.LabelControl3.Text = "Kullanici Adi"
         '
         'LabelControl4
         '
@@ -198,7 +198,7 @@ Partial Class frmLogin
         Me.cmdExit.Size = New System.Drawing.Size(52, 44)
         Me.cmdExit.TabIndex = 6
         Me.cmdExit.Text = "X"
-        Me.cmdExit.ToolTip = "Güncelllemeler"
+        Me.cmdExit.ToolTip = "Guncelllemeler"
         '
         'LabelControl2
         '
@@ -268,7 +268,7 @@ Partial Class frmLogin
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(454, 56)
         Me.Label3.TabIndex = 33
-        Me.Label3.Text = "BAHAROĞLU MRP"
+        Me.Label3.Text = "BAHAROÄLU MRP"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'frmLogin

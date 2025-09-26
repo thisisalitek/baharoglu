@@ -128,8 +128,8 @@ Public Class cnt057_EkOzellik
                     Next
 
                     'Aciklamalar.Add("------------------------------")
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "057", "EK ÖZELLİKLER", Aciklamalar, "")
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "057", "EK ÖZELLİKLER", Aciklamalar2, "")
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "057", "EK OZELLÄ°KLER", Aciklamalar, "")
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "057", "EK OZELLÄ°KLER", Aciklamalar2, "")
                 End If
             End If
             '-----------------------------
@@ -189,7 +189,7 @@ Public Class cnt057_EkOzellik
             If e.KeyCode = Keys.Delete And (e.Control Or e.Shift) Then
                 Dim RowIndex As Integer = GridView2.GetDataSourceRowIndex(GridView2.FocusedRowHandle)
                 If RowIndex < 0 Then Exit Sub
-                If MsgBox("Satırı silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satır sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satiri silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satir sil?") <> MsgBoxResult.Yes Then Exit Sub
                 NeoTable1.Rows(RowIndex).Delete()
 
             End If
@@ -235,7 +235,7 @@ Public Class cnt057_EkOzellik
                 If dr("bStatik") = 1 Then
                     GridView1.OptionsBehavior.Editable = False
                 Else
-                    If MsgBox("Satırı silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                    If MsgBox("Satiri silmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                     dr.Delete()
                 End If
             End If

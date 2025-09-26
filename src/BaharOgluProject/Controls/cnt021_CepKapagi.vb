@@ -100,7 +100,7 @@ Public Class cnt021_CepKapagi
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             If MasrafListesi.Count > 0 Then
                 If NeoTable2.Rows.Count > 0 Then
@@ -127,11 +127,11 @@ Public Class cnt021_CepKapagi
 
             If NeoTable2.Rows.Count > 0 Then
                 If If0Null(NeoTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[CEP KAPAĞI] Rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[CEP KAPAÄI] Rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
                 If If0Null(NeoTable2.Rows(0).Item("CizgiRKafaLakosID")) <= 0 Then
-                    smsg &= "[CEP KAPAĞI] Çizgi seçilmemiş!" & vbNewLine
+                    smsg &= "[CEP KAPAÄI] Ã‡izgi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
 
@@ -142,7 +142,7 @@ Public Class cnt021_CepKapagi
                 Dim dr As DataRow = NeoTable3.Rows(i)
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[CEP KAPAĞI] #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                        smsg &= "[CEP KAPAÄI] #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -218,7 +218,7 @@ Public Class cnt021_CepKapagi
 
                     If NeoTable2.Rows.Count > 0 Then
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("RenkID")))
-                        sbuf = "CEP KAPAĞI RENK:" & AnaRenk
+                        sbuf = "CEP KAPAÄI RENK:" & AnaRenk
                         Dim nCizgi As Integer = 0
 
                         For Each dr As DataRow In NeoTable3.Rows
@@ -227,7 +227,7 @@ Public Class cnt021_CepKapagi
 
                                 Dim drRenk As DataRow = tbRenk.Rows.Find(If0Null(dr("RenkID")))
                                 If Not drRenk Is Nothing Then
-                                    sbuf &= "    " & nCizgi & ". Çizgi:" & IfNull(drRenk("RenkKod"), "")
+                                    sbuf &= "    " & nCizgi & ". Ã‡izgi:" & IfNull(drRenk("RenkKod"), "")
 
                                 End If
 
@@ -284,11 +284,11 @@ Public Class cnt021_CepKapagi
 
                     sGramajArtis = ""
                     If GramajArtis > 0 Then
-                        sGramajArtis = "  grArtış:" & GramajArtis
+                        sGramajArtis = "  grArtis:" & GramajArtis
                     End If
-                    Aciklamalar.Add("CEP KAPAĞI Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
+                    Aciklamalar.Add("CEP KAPAÄI Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
 
-                    Aciklamalar.Add("CEP KAPAĞI Adedi :" & ToplamAdet & " Tarak ")
+                    Aciklamalar.Add("CEP KAPAÄI Adedi :" & ToplamAdet & " Tarak ")
                     '---------------------
 
 
@@ -302,8 +302,8 @@ Public Class cnt021_CepKapagi
                         AnaRenkTam &= " / Garni2:" & AnaRenk2
                     End If
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "021", "CEP KAPAĞI", Aciklamalar, AnaRenkTam)
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "021", "CEP KAPAĞI", Aciklamalar2, AnaRenkTam)
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "021", "CEP KAPAÄI", Aciklamalar, AnaRenkTam)
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "021", "CEP KAPAÄI", Aciklamalar2, AnaRenkTam)
                 End If
             End If
             '-----------------------------

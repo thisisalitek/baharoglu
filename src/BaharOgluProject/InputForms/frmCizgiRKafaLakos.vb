@@ -4,7 +4,7 @@ Public Class frmCizgiRKafaLakos
         Try
             If Trim(MasterLink.CurrentRow("Aciklama")) = "" Then
                 e.Cancel = True
-                MsgBox("Açıklama alanı boş olamaz!")
+                MsgBox("AÃ§iklama alani bos olamaz!")
                 Exit Sub
             End If
         Catch ex As Exception

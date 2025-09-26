@@ -142,42 +142,42 @@ Partial Class frmBaseReport
         '
         'btnFirst
         '
-        Me.btnFirst.Caption = "ï¿½lk Kayï¿½t"
+        Me.btnFirst.Caption = "Ã¯Â¿Â½lk KayÃ¯Â¿Â½t"
         Me.btnFirst.Glyph = Global.ProbarSiparis.My.Resources.Resources.skip_backward
         Me.btnFirst.Id = 1
         Me.btnFirst.Name = "btnFirst"
         '
         'btnPrior
         '
-        Me.btnPrior.Caption = "ï¿½nceki Kayï¿½t"
+        Me.btnPrior.Caption = "Ã¯Â¿Â½nceki KayÃ¯Â¿Â½t"
         Me.btnPrior.Glyph = Global.ProbarSiparis.My.Resources.Resources.rewind1
         Me.btnPrior.Id = 2
         Me.btnPrior.Name = "btnPrior"
         '
         'btnNext
         '
-        Me.btnNext.Caption = "Sonraki Kayï¿½t"
+        Me.btnNext.Caption = "Sonraki KayÃ¯Â¿Â½t"
         Me.btnNext.Glyph = Global.ProbarSiparis.My.Resources.Resources.fast_forward
         Me.btnNext.Id = 3
         Me.btnNext.Name = "btnNext"
         '
         'btnLast
         '
-        Me.btnLast.Caption = "Son Kayï¿½t"
+        Me.btnLast.Caption = "Son KayÃ¯Â¿Â½t"
         Me.btnLast.Glyph = Global.ProbarSiparis.My.Resources.Resources.skip_forward
         Me.btnLast.Id = 4
         Me.btnLast.Name = "btnLast"
         '
         'btnPrintGrid
         '
-        Me.btnPrintGrid.Caption = "Liste Yazdï¿½r"
+        Me.btnPrintGrid.Caption = "Liste YazdÃ¯Â¿Â½r"
         Me.btnPrintGrid.Glyph = Global.ProbarSiparis.My.Resources.Resources.DXGrid
         Me.btnPrintGrid.Id = 5
         Me.btnPrintGrid.Name = "btnPrintGrid"
         '
         'btnFormPrint
         '
-        Me.btnFormPrint.Caption = "Yazdï¿½r"
+        Me.btnFormPrint.Caption = "YazdÃ¯Â¿Â½r"
         Me.btnFormPrint.Glyph = Global.ProbarSiparis.My.Resources.Resources.PrintDirectLarge
         Me.btnFormPrint.Id = 14
         Me.btnFormPrint.Name = "btnFormPrint"
@@ -230,7 +230,7 @@ Partial Class frmBaseReport
         '
         'btnHelp
         '
-        Me.btnHelp.Caption = "Yardï¿½m"
+        Me.btnHelp.Caption = "YardÃ¯Â¿Â½m"
         Me.btnHelp.Glyph = Global.ProbarSiparis.My.Resources.Resources.help1
         Me.btnHelp.Id = 9
         Me.btnHelp.Name = "btnHelp"
@@ -243,8 +243,8 @@ Partial Class frmBaseReport
         Me.btnFormPrint1Tane.Name = "btnFormPrint1Tane"
         ToolTipTitleItem1.Text = "1 Tane yazdir"
         ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "1 TANE SECï¿½Lï¿½ OLANï¿½ YAZDï¿½R. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "F9 VARSAYï¿½LAN TASARï¿½Mï¿½ , VARSAYï¿½LAN YAZï¿½Cï¿½YA Dï¿½REKT" &
-    " YAZDï¿½Rï¿½R"
+        ToolTipItem1.Text = "1 TANE SECÃ¯Â¿Â½LÃ¯Â¿Â½ OLANÃ¯Â¿Â½ YAZDÃ¯Â¿Â½R. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "F9 VARSAYÃ¯Â¿Â½LAN TASARÃ¯Â¿Â½MÃ¯Â¿Â½ , VARSAYÃ¯Â¿Â½LAN YAZÃ¯Â¿Â½CÃ¯Â¿Â½YA DÃ¯Â¿Â½REKT" &
+    " YAZDÃ¯Â¿Â½RÃ¯Â¿Â½R"
         SuperToolTip1.Items.Add(ToolTipTitleItem1)
         SuperToolTip1.Items.Add(ToolTipItem1)
         Me.btnFormPrint1Tane.SuperTip = SuperToolTip1
@@ -284,7 +284,7 @@ Partial Class frmBaseReport
         'barItem_RowCount
         '
         Me.barItem_RowCount.Border = DevExpress.XtraEditors.Controls.BorderStyles.Style3D
-        Me.barItem_RowCount.Caption = "0 Kayï¿½t"
+        Me.barItem_RowCount.Caption = "0 KayÃ¯Â¿Â½t"
         Me.barItem_RowCount.Id = 18
         Me.barItem_RowCount.Name = "barItem_RowCount"
         Me.barItem_RowCount.TextAlignment = System.Drawing.StringAlignment.Near
@@ -367,7 +367,7 @@ Partial Class frmBaseReport
         'GridView1
         '
         Me.GridView1.GridControl = Me.GridControl1
-        Me.GridView1.GroupPanelText = "Gruplamak istediï¿½iniz kolonu buraya sï¿½rï¿½kleyiniz..."
+        Me.GridView1.GroupPanelText = "Gruplamak istediÃ¯Â¿Â½iniz kolonu buraya sÃ¯Â¿Â½rÃ¯Â¿Â½kleyiniz..."
         Me.GridView1.Name = "GridView1"
         Me.GridView1.OptionsBehavior.Editable = False
         Me.GridView1.OptionsView.ColumnAutoWidth = False
@@ -461,7 +461,7 @@ Partial Class frmBaseReport
         Me.cmdCancel.Name = "cmdCancel"
         Me.cmdCancel.Size = New System.Drawing.Size(89, 34)
         Me.cmdCancel.TabIndex = 1
-        Me.cmdCancel.Text = "Vazgeï¿½"
+        Me.cmdCancel.Text = "VazgeÃ¯Â¿Â½"
         '
         'cmdSelect
         '
@@ -469,7 +469,7 @@ Partial Class frmBaseReport
         Me.cmdSelect.Name = "cmdSelect"
         Me.cmdSelect.Size = New System.Drawing.Size(89, 34)
         Me.cmdSelect.TabIndex = 0
-        Me.cmdSelect.Text = "Seï¿½ (F2)"
+        Me.cmdSelect.Text = "SeÃ¯Â¿Â½ (F2)"
         '
         'panelFormDateFilter
         '

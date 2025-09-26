@@ -5,7 +5,7 @@ Public Class frmDigerKumaslar
           
             If Trim(IfNull(MasterLink.CurrentRow("KumasKod"), "")) = "" Then
                 e.Cancel = True
-                MsgBox("Lütfen kumaş kod giriniz!")
+                MsgBox("Lutfen kumas kod giriniz!")
                 Exit Sub
             End If
            
@@ -17,7 +17,7 @@ Public Class frmDigerKumaslar
             If cmd.ExecuteScalar > 0 Then
                 cmd.Dispose()
                 e.Cancel = True
-                MsgBox("Aynı koda ait başka bir kayıt daha var.")
+                MsgBox("Ayni koda ait baska bir kayit daha var.")
                 Exit Sub
             End If
             cmd.Dispose()

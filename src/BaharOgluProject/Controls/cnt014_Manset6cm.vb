@@ -114,7 +114,7 @@ Public Class cnt014_Manset6cm
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             If MasrafListesi.Count > 0 Then
                 If NeoTable2.Rows.Count > 0 Then
@@ -141,32 +141,32 @@ Public Class cnt014_Manset6cm
 
             If NeoTable2.Rows.Count > 0 Then
                 If If0Null(NeoTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[MANŞET(6cm)] Yaka rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[MANÅET(6cm)] Yaka rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
                 If If0Null(NeoTable2.Rows(0).Item("CizgiRKafaLakosID")) <= 0 Then
-                    smsg &= "[MANŞET(6cm)] Çizgi seçilmemiş!" & vbNewLine
+                    smsg &= "[MANÅET(6cm)] Ã‡izgi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
 
                 If If0Null(NeoTable2.Rows(0).Item("bGarni1")) = 1 Then
                     If If0Null(NeoTable2.Rows(0).Item("Garni1_RenkID")) <= 0 Then
-                        smsg &= "[MANŞET(6cm)] Garni 1 Yaka rengi seçilmemiş!" & vbNewLine
+                        smsg &= "[MANÅET(6cm)] Garni 1 Yaka rengi seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If If0Null(NeoTable2.Rows(0).Item("Garni1_CizgiRKafaLakosID")) <= 0 Then
-                        smsg &= "[MANŞET(6cm)] Garni 1 Çizgi seçilmemiş!" & vbNewLine
+                        smsg &= "[MANÅET(6cm)] Garni 1 Ã‡izgi seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                 End If
 
                 If If0Null(NeoTable2.Rows(0).Item("bGarni2")) = 1 Then
                     If If0Null(NeoTable2.Rows(0).Item("Garni2_RenkID")) <= 0 Then
-                        smsg &= "[MANŞET(6cm)] Garni 2 Yaka rengi seçilmemiş!" & vbNewLine
+                        smsg &= "[MANÅET(6cm)] Garni 2 Yaka rengi seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If If0Null(NeoTable2.Rows(0).Item("Garni2_CizgiRKafaLakosID")) <= 0 Then
-                        smsg &= "[MANŞET(6cm)] Garni 2 Çizgi seçilmemiş!" & vbNewLine
+                        smsg &= "[MANÅET(6cm)] Garni 2 Ã‡izgi seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -178,7 +178,7 @@ Public Class cnt014_Manset6cm
                 Dim dr As DataRow = NeoTable3.Rows(i)
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[MANŞET(6cm)] #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                        smsg &= "[MANÅET(6cm)] #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -190,7 +190,7 @@ Public Class cnt014_Manset6cm
                     Dim dr As DataRow = tbGarni1Cizgiler.Rows(i)
                     If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                         If If0Null(dr("RenkID")) <= 0 Then
-                            smsg &= "[MANŞET(6cm)] Garni1 #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                            smsg &= "[MANÅET(6cm)] Garni1 #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                             bCancel = True
                         End If
 
@@ -203,7 +203,7 @@ Public Class cnt014_Manset6cm
                     Dim dr As DataRow = tbGarni2Cizgiler.Rows(i)
                     If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                         If If0Null(dr("RenkID")) <= 0 Then
-                            smsg &= "[MANŞET(6cm)] Garni2 #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                            smsg &= "[MANÅET(6cm)] Garni2 #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                             bCancel = True
                         End If
 
@@ -289,7 +289,7 @@ Public Class cnt014_Manset6cm
 
                     If NeoTable2.Rows.Count > 0 Then
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("RenkID")))
-                        sbuf = "MANŞET(6cm) RENK:" & AnaRenk
+                        sbuf = "MANÅET(6cm) RENK:" & AnaRenk
                         Dim nCizgi As Integer = 0
 
                         For Each dr As DataRow In NeoTable3.Rows
@@ -298,7 +298,7 @@ Public Class cnt014_Manset6cm
 
                                 Dim drRenk As DataRow = tbRenk.Rows.Find(If0Null(dr("RenkID")))
                                 If Not drRenk Is Nothing Then
-                                    sbuf &= "    " & nCizgi & ". Çizgi:" & IfNull(drRenk("RenkKod"), "")
+                                    sbuf &= "    " & nCizgi & ". Ã‡izgi:" & IfNull(drRenk("RenkKod"), "")
 
                                 End If
 
@@ -311,7 +311,7 @@ Public Class cnt014_Manset6cm
                         'Garni 1
                         If If0Null(NeoTable2.Rows(0).Item("bGarni1")) = 1 Then
                             AnaRenk1 = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("Garni1_RenkID")))
-                            sbuf = "MANŞET(6cm) Garni1 RENK:" & AnaRenk1
+                            sbuf = "MANÅET(6cm) Garni1 RENK:" & AnaRenk1
                             nCizgi = 0
 
                             For Each dr As DataRow In tbGarni1Cizgiler.Rows
@@ -320,7 +320,7 @@ Public Class cnt014_Manset6cm
 
                                     Dim drRenk As DataRow = tbRenk.Rows.Find(If0Null(dr("RenkID")))
                                     If Not drRenk Is Nothing Then
-                                        sbuf &= "    " & nCizgi & ". Çizgi:" & IfNull(drRenk("RenkKod"), "")
+                                        sbuf &= "    " & nCizgi & ". Ã‡izgi:" & IfNull(drRenk("RenkKod"), "")
 
                                     End If
 
@@ -335,7 +335,7 @@ Public Class cnt014_Manset6cm
                         'Garni 2
                         If If0Null(NeoTable2.Rows(0).Item("bGarni2")) = 1 Then
                             AnaRenk2 = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(NeoTable2.Rows(0).Item("Garni2_RenkID")))
-                            sbuf = "MANŞET(6cm) Garni2 RENK:" & AnaRenk2
+                            sbuf = "MANÅET(6cm) Garni2 RENK:" & AnaRenk2
                             nCizgi = 0
 
                             For Each dr As DataRow In tbGarni2Cizgiler.Rows
@@ -344,7 +344,7 @@ Public Class cnt014_Manset6cm
 
                                     Dim drRenk As DataRow = tbRenk.Rows.Find(If0Null(dr("RenkID")))
                                     If Not drRenk Is Nothing Then
-                                        sbuf &= "    " & nCizgi & ". Çizgi:" & IfNull(drRenk("RenkKod"), "")
+                                        sbuf &= "    " & nCizgi & ". Ã‡izgi:" & IfNull(drRenk("RenkKod"), "")
 
                                     End If
 
@@ -401,11 +401,11 @@ Public Class cnt014_Manset6cm
 
                     sGramajArtis = ""
                     If GramajArtis > 0 Then
-                        sGramajArtis = "  grArtış:" & GramajArtis
+                        sGramajArtis = "  grArtis:" & GramajArtis
                     End If
-                    Aciklamalar.Add("MANŞET(6cm) Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
+                    Aciklamalar.Add("MANÅET(6cm) Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj & " ")
 
-                    Aciklamalar.Add("MANŞET(6cm) Adedi :" & ToplamAdet & " Tarak 6.5 cm Manşet")
+                    Aciklamalar.Add("MANÅET(6cm) Adedi :" & ToplamAdet & " Tarak 6.5 cm Manset")
                     '---------------------
 
                     '-------Garni 1------------
@@ -443,11 +443,11 @@ Public Class cnt014_Manset6cm
 
                         sGramajArtis = ""
                         If GramajArtis > 0 Then
-                            sGramajArtis = "  grArtış:" & GramajArtis
+                            sGramajArtis = "  grArtis:" & GramajArtis
                         End If
 
-                        Aciklamalar.Add("MANŞET(6cm) Garni 1 Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj)
-                        Aciklamalar.Add("MANŞET(6cm) Garni 1 Adedi :" & ToplamAdet & " Tarak 6.5 cm Manşet")
+                        Aciklamalar.Add("MANÅET(6cm) Garni 1 Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj)
+                        Aciklamalar.Add("MANÅET(6cm) Garni 1 Adedi :" & ToplamAdet & " Tarak 6.5 cm Manset")
 
 
 
@@ -489,11 +489,11 @@ Public Class cnt014_Manset6cm
 
                         sGramajArtis = ""
                         If GramajArtis > 0 Then
-                            sGramajArtis = "  grArtış:" & GramajArtis
+                            sGramajArtis = "  grArtis:" & GramajArtis
                         End If
 
-                        Aciklamalar.Add("MANŞET(6cm) Garni 2 Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj)
-                        Aciklamalar.Add("MANŞET(6cm) Garni 2 Adedi :" & ToplamAdet & " Tarak 6.5 cm Manşet")
+                        Aciklamalar.Add("MANÅET(6cm) Garni 2 Gramaj :" & IpGramaj & " " & sGramajArtis & "    T.Gramaj:" & TIpGramaj)
+                        Aciklamalar.Add("MANÅET(6cm) Garni 2 Adedi :" & ToplamAdet & " Tarak 6.5 cm Manset")
 
                     End If
 
@@ -508,8 +508,8 @@ Public Class cnt014_Manset6cm
                         AnaRenkTam &= " / Garni2:" & AnaRenk2
                     End If
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "014", "MANŞET(6cm)", Aciklamalar, AnaRenkTam)
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "014", "MANŞET(6cm)", Aciklamalar2, AnaRenkTam)
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "014", "MANÅET(6cm)", Aciklamalar, AnaRenkTam)
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "014", "MANÅET(6cm)", Aciklamalar2, AnaRenkTam)
                 End If
             End If
             '-----------------------------

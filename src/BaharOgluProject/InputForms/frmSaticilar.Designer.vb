@@ -280,7 +280,7 @@ Partial Class frmSaticilar
         '
         'colSaticiIsmi
         '
-        Me.colSaticiIsmi.Caption = "Temsilci adı"
+        Me.colSaticiIsmi.Caption = "Temsilci adi"
         Me.colSaticiIsmi.FieldName = "SaticiIsmi"
         Me.colSaticiIsmi.Name = "colSaticiIsmi"
         Me.colSaticiIsmi.Visible = True
@@ -301,7 +301,7 @@ Partial Class frmSaticilar
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(68, 16)
         Me.LabelControl1.TabIndex = 1
-        Me.LabelControl1.Text = "Temsilci adı"
+        Me.LabelControl1.Text = "Temsilci adi"
         '
         'TextEdit1
         '
@@ -336,7 +336,7 @@ Partial Class frmSaticilar
         Me.ClientSize = New System.Drawing.Size(893, 491)
         Me.FormCode = "000028"
         Me.Name = "frmSaticilar"
-        Me.Text = "Müşteri temsilcileri"
+        Me.Text = "Musteri temsilcileri"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

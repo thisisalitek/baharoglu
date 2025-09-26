@@ -473,11 +473,11 @@ Partial Class frmCizgiRKafa
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.SpinEdit1
-        Me.LayoutControlItem1.CustomizationFormText = "Çizgi sayısı"
+        Me.LayoutControlItem1.CustomizationFormText = "Ã‡izgi sayisi"
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 60)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
         Me.LayoutControlItem1.Size = New System.Drawing.Size(170, 30)
-        Me.LayoutControlItem1.Text = "Çizgi sayısı"
+        Me.LayoutControlItem1.Text = "Ã‡izgi sayisi"
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(51, 13)
         Me.LayoutControlItem1.TextToControlDistance = 5
         '
@@ -535,7 +535,7 @@ Partial Class frmCizgiRKafa
         Me.ClientSize = New System.Drawing.Size(893, 491)
         Me.FormCode = "000009"
         Me.Name = "frmCizgiRKafa"
-        Me.Text = "Çizgi Renk Kafa"
+        Me.Text = "Ã‡izgi Renk Kafa"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

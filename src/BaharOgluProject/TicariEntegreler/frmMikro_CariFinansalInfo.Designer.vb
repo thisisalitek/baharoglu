@@ -39,7 +39,7 @@ Partial Class frmMikro_CariFinansalInfo
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(31, 13)
         Me.LabelControl2.TabIndex = 1
-        Me.LabelControl2.Text = "Ünvan"
+        Me.LabelControl2.Text = "Unvan"
         '
         'LabelControl3
         '

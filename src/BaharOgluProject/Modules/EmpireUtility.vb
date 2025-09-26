@@ -75,9 +75,9 @@ Public Module PiconnUtility
         sw.Close()
         sw.Dispose()
         If bShowError Then
-            MsgBox("İşlem sırasında hata oluştu!" & vbNewLine & _
+            MsgBox("Ä°slem sirasinda hata olustu!" & vbNewLine & _
             "-------------------------------------------------------------------------------------------------" & vbNewLine & _
-            "Modül:" & ModuleName & "   Fonksiyon:" & FunctionName & vbNewLine & _
+            "Modul:" & ModuleName & "   Fonksiyon:" & FunctionName & vbNewLine & _
             "-------------------------------------------------------------------------------------------------" & vbNewLine & _
             "Hata: " & Err.Number & "-" & Err.Description, MsgBoxStyle.Information)
         End If
@@ -166,7 +166,7 @@ Public Module PiconnUtility
         '* Date Created:  17.07.2006
         '* Created By: Talat
         '* Modified:
-        '* Description: belge numarasını 1 arttırır
+        '* Description: belge numarasini 1 arttirir
         '*******************************************************************************
 
         On Error GoTo IncStr_ERR
@@ -212,35 +212,35 @@ IncStr_ERR:
         '* Date Created:  17.07.2006
         '* Created By: Talat
         '* Modified:
-        '* Description: belge numarasının harfini 1 arttırır
+        '* Description: belge numarasinin harfini 1 arttirir
         '*******************************************************************************
 
         On Error GoTo IncBelgeNoSonraki_ERR
 
         Select Case harf
-            Case "Ç"
+            Case "Ã‡"
                 IncBelgeNoSonraki = "D"
-            Case "ç"
+            Case "Ã§"
                 IncBelgeNoSonraki = "d"
-            Case "ı"
+            Case "i"
                 IncBelgeNoSonraki = "i"
-            Case "İ"
+            Case "Ä°"
                 IncBelgeNoSonraki = "J"
-            Case "ğ"
+            Case "g"
                 IncBelgeNoSonraki = "h"
-            Case "Ğ"
+            Case "Ä"
                 IncBelgeNoSonraki = "H"
-            Case "ü"
+            Case "u"
                 IncBelgeNoSonraki = "v"
-            Case "Ü"
+            Case "U"
                 IncBelgeNoSonraki = "V"
-            Case "ş"
+            Case "s"
                 IncBelgeNoSonraki = "t"
-            Case "Ş"
+            Case "Å"
                 IncBelgeNoSonraki = "T"
-            Case "ö"
+            Case "Ã¶"
                 IncBelgeNoSonraki = "p"
-            Case "Ö"
+            Case "O"
                 IncBelgeNoSonraki = "P"
             Case "p"
                 If ingilizce = True Then
@@ -280,73 +280,73 @@ IncStr_ERR:
                 End If
             Case "c"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "ç"
+                    IncBelgeNoSonraki = "Ã§"
                 Else
                     IncBelgeNoSonraki = "d"
                 End If
             Case "C"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "Ç"
+                    IncBelgeNoSonraki = "Ã‡"
                 Else
                     IncBelgeNoSonraki = "D"
                 End If
             Case "h"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "ı"
+                    IncBelgeNoSonraki = "i"
                 Else
                     IncBelgeNoSonraki = "i"
                 End If
             Case "I"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "İ"
+                    IncBelgeNoSonraki = "Ä°"
                 Else
                     IncBelgeNoSonraki = "J"
                 End If
             Case "g"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "ğ"
+                    IncBelgeNoSonraki = "g"
                 Else
                     IncBelgeNoSonraki = "h"
                 End If
             Case "G"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "Ğ"
+                    IncBelgeNoSonraki = "Ä"
                 Else
                     IncBelgeNoSonraki = "H"
                 End If
             Case "o"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "ö"
+                    IncBelgeNoSonraki = "Ã¶"
                 Else
                     IncBelgeNoSonraki = "p"
                 End If
             Case "O"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "Ö"
+                    IncBelgeNoSonraki = "O"
                 Else
                     IncBelgeNoSonraki = "P"
                 End If
             Case "s"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "ş"
+                    IncBelgeNoSonraki = "s"
                 Else
                     IncBelgeNoSonraki = "t"
                 End If
             Case "S"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "Ş"
+                    IncBelgeNoSonraki = "Å"
                 Else
                     IncBelgeNoSonraki = "T"
                 End If
             Case "u"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "ü"
+                    IncBelgeNoSonraki = "u"
                 Else
                     IncBelgeNoSonraki = "v"
                 End If
             Case "U"
                 If turkce = True Then
-                    IncBelgeNoSonraki = "Ü"
+                    IncBelgeNoSonraki = "U"
                 Else
                     IncBelgeNoSonraki = "V"
                 End If
@@ -664,12 +664,12 @@ HELL:
         For i = 1 To Len(sText)
             ch = Mid(sText, i, 1)
             Select Case ch
-                Case "ş", "Ş" : ch = "S"
-                Case "i", "ı", "İ" : ch = "I"
-                Case "ç", "Ç" : ch = "C"
-                Case "ö", "Ö" : ch = "O"
-                Case "ü", "Ü" : ch = "U"
-                Case "ğ", "Ğ" : ch = "G"
+                Case "s", "Å" : ch = "S"
+                Case "i", "i", "Ä°" : ch = "I"
+                Case "Ã§", "Ã‡" : ch = "C"
+                Case "Ã¶", "O" : ch = "O"
+                Case "u", "U" : ch = "U"
+                Case "g", "Ä" : ch = "G"
 
             End Select
             sbuf &= UCase(ch)

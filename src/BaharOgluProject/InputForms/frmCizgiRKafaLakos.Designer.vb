@@ -521,7 +521,7 @@ Partial Class frmCizgiRKafaLakos
         '
         Me.ClientSize = New System.Drawing.Size(516, 416)
         Me.Name = "frmCizgiRKafaLakos"
-        Me.Text = "Çizgi Kafa (Lakos)"
+        Me.Text = "Ã‡izgi Kafa (Lakos)"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

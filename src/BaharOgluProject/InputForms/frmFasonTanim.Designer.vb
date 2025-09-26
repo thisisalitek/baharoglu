@@ -552,7 +552,7 @@ Partial Class frmFasonTanim
         Me.ClientSize = New System.Drawing.Size(941, 587)
         Me.FormCode = "000011"
         Me.Name = "frmFasonTanim"
-        Me.Text = "Fason Tanımları"
+        Me.Text = "Fason Tanimlari"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

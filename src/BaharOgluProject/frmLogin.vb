@@ -83,11 +83,11 @@ Public Class frmLogin
             AppConn.mainConn = AppConn.dbConn
 
             If AppConn.dbConn.State <> ConnectionState.Open Then
-                MsgBox("Veri tabanï¿½na baï¿½lanï¿½lamadï¿½!")
+                MsgBox("Veri tabanÃ¯Â¿Â½na baÃ¯Â¿Â½lanÃ¯Â¿Â½lamadÃ¯Â¿Â½!")
                 Exit Sub
             Else
                 If AppConn.dbTicari.State <> ConnectionState.Open Then
-                    MsgBox("Veri tabanï¿½na baï¿½lantï¿½sï¿½ var fakat Ticari veri tabanï¿½na baï¿½lanï¿½lamadï¿½!")
+                    MsgBox("Veri tabanÃ¯Â¿Â½na baÃ¯Â¿Â½lantÃ¯Â¿Â½sÃ¯Â¿Â½ var fakat Ticari veri tabanÃ¯Â¿Â½na baÃ¯Â¿Â½lanÃ¯Â¿Â½lamadÃ¯Â¿Â½!")
                     Exit Sub
                 End If
             End If
@@ -97,7 +97,7 @@ Public Class frmLogin
             End If
 
             If AppConn.ActiveUser.Login(AppConn.dbConn, txtUserName.Text, txtPassword.Text) = False Then
-                MsgBox("Giriï¿½ baï¿½arï¿½sï¿½z! Kullanï¿½cï¿½ adï¿½ veya ï¿½ifre hatalï¿½!")
+                MsgBox("GiriÃ¯Â¿Â½ baÃ¯Â¿Â½arÃ¯Â¿Â½sÃ¯Â¿Â½z! KullanÃ¯Â¿Â½cÃ¯Â¿Â½ adÃ¯Â¿Â½ veya Ã¯Â¿Â½ifre hatalÃ¯Â¿Â½!")
                 txtPassword.Text = ""
                 txtPassword.Focus()
                 Exit Sub

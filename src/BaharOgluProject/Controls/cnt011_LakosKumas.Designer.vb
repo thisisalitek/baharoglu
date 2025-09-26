@@ -178,7 +178,7 @@ Partial Class cnt011_LakosKumas
         'lblCaption
         '
         Me.lblCaption.Size = New System.Drawing.Size(386, 22)
-        Me.lblCaption.Text = "Lakos Kumaş"
+        Me.lblCaption.Text = "Lakos Kumas"
         '
         'XtraTabControl1
         '
@@ -465,7 +465,7 @@ Partial Class cnt011_LakosKumas
         '
         'colIpGramaj
         '
-        Me.colIpGramaj.Caption = "İp Grm."
+        Me.colIpGramaj.Caption = "Ä°p Grm."
         Me.colIpGramaj.FieldName = "IpGramaj"
         Me.colIpGramaj.Name = "colIpGramaj"
         Me.colIpGramaj.Visible = True
@@ -474,7 +474,7 @@ Partial Class cnt011_LakosKumas
         '
         'colKumasGramaj
         '
-        Me.colKumasGramaj.Caption = "Kmş. Grm."
+        Me.colKumasGramaj.Caption = "Kms. Grm."
         Me.colKumasGramaj.FieldName = "KumasGramaj"
         Me.colKumasGramaj.Name = "colKumasGramaj"
         Me.colKumasGramaj.Visible = True
@@ -483,7 +483,7 @@ Partial Class cnt011_LakosKumas
         '
         'colGramajArtis
         '
-        Me.colGramajArtis.Caption = "Grm. Artış"
+        Me.colGramajArtis.Caption = "Grm. Artis"
         Me.colGramajArtis.FieldName = "GramajArtis"
         Me.colGramajArtis.Name = "colGramajArtis"
         Me.colGramajArtis.Visible = True
@@ -492,7 +492,7 @@ Partial Class cnt011_LakosKumas
         '
         'colOrguTip
         '
-        Me.colOrguTip.Caption = "Örgü Tipi"
+        Me.colOrguTip.Caption = "Orgu Tipi"
         Me.colOrguTip.ColumnEdit = Me.cboOrguTip1
         Me.colOrguTip.FieldName = "OrguTip"
         Me.colOrguTip.Name = "colOrguTip"
@@ -976,7 +976,7 @@ Partial Class cnt011_LakosKumas
         'cnt011_LakosKumas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Caption = "Lakos Kumaş"
+        Me.Caption = "Lakos Kumas"
         Me.Code = "011"
         Me.Name = "cnt011_LakosKumas"
         Me.Size = New System.Drawing.Size(495, 202)

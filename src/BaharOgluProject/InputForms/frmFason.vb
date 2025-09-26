@@ -19,7 +19,7 @@ Public Class frmFason
             End If
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If IfNull(MasterLink.CurrentRow("CariKod"), "") = "" Then
-                MsgBox("Lütfen cari kod seçiniz!")
+                MsgBox("Lutfen cari kod seÃ§iniz!")
                 Exit Sub
             End If
             Dim f As New frmSiparisRaporu
@@ -240,7 +240,7 @@ Public Class frmFason
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             If CariKodButtonEdit.Properties.ReadOnly Then Exit Sub

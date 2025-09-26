@@ -505,7 +505,7 @@ Partial Class cnt006_DubleLastik
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl4.TabIndex = 8
-        Me.LabelControl4.Text = ">> Artış"
+        Me.LabelControl4.Text = ">> Artis"
         '
         'LabelControl5
         '
@@ -537,7 +537,7 @@ Partial Class cnt006_DubleLastik
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl3.TabIndex = 4
-        Me.LabelControl3.Text = ">> Artış"
+        Me.LabelControl3.Text = ">> Artis"
         '
         'LabelControl2
         '
@@ -901,7 +901,7 @@ Partial Class cnt006_DubleLastik
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(52, 13)
         Me.LabelControl6.TabIndex = 2
-        Me.LabelControl6.Text = "Çizgi Sayısı"
+        Me.LabelControl6.Text = "Ã‡izgi Sayisi"
         '
         'SpinEdit1
         '
@@ -925,7 +925,7 @@ Partial Class cnt006_DubleLastik
         Me.RadioGroup1.EnterMoveNextControl = True
         Me.RadioGroup1.Location = New System.Drawing.Point(236, 0)
         Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Tek Parça"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "2 Parça")})
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(0, "Tek ParÃ§a"), New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "2 ParÃ§a")})
         Me.RadioGroup1.Size = New System.Drawing.Size(77, 42)
         Me.RadioGroup1.TabIndex = 4
         '
@@ -1190,7 +1190,7 @@ Partial Class cnt006_DubleLastik
         Me.LabelControl9.Name = "LabelControl9"
         Me.LabelControl9.Size = New System.Drawing.Size(52, 13)
         Me.LabelControl9.TabIndex = 2
-        Me.LabelControl9.Text = "Çizgi Sayısı"
+        Me.LabelControl9.Text = "Ã‡izgi Sayisi"
         '
         'SpinEdit2
         '

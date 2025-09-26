@@ -406,7 +406,7 @@ Partial Class frmIrsaliye_Giris
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(73, 13)
         Me.LabelControl2.TabIndex = 2
-        Me.LabelControl2.Text = "Evrak Seri /Sıra"
+        Me.LabelControl2.Text = "Evrak Seri /Sira"
         '
         'LabelControl3
         '
@@ -493,7 +493,7 @@ Partial Class frmIrsaliye_Giris
         Me.lblCariUnvan.Name = "lblCariUnvan"
         Me.lblCariUnvan.Size = New System.Drawing.Size(31, 13)
         Me.lblCariUnvan.TabIndex = 17
-        Me.lblCariUnvan.Text = "Ünvan"
+        Me.lblCariUnvan.Text = "Unvan"
         '
         'LabelControl6
         '
@@ -509,7 +509,7 @@ Partial Class frmIrsaliye_Giris
         Me.lblIsEmriNo.Name = "lblIsEmriNo"
         Me.lblIsEmriNo.Size = New System.Drawing.Size(48, 13)
         Me.lblIsEmriNo.TabIndex = 19
-        Me.lblIsEmriNo.Text = "İş Emri No"
+        Me.lblIsEmriNo.Text = "Ä°s Emri No"
         Me.lblIsEmriNo.Visible = False
         '
         'DetailTable
@@ -703,7 +703,7 @@ Partial Class frmIrsaliye_Giris
         Me.XtraTabPage1.Controls.Add(Me.txtCariKodu)
         Me.XtraTabPage1.Name = "XtraTabPage1"
         Me.XtraTabPage1.Size = New System.Drawing.Size(622, 199)
-        Me.XtraTabPage1.Text = "Fiş Bilgi"
+        Me.XtraTabPage1.Text = "Fis Bilgi"
         '
         'LabelControl4
         '
@@ -745,7 +745,7 @@ Partial Class frmIrsaliye_Giris
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl15.TabIndex = 22
-        Me.LabelControl15.Text = "Türü"
+        Me.LabelControl15.Text = "Turu"
         '
         'cmdGiris
         '
@@ -775,7 +775,7 @@ Partial Class frmIrsaliye_Giris
         Me.XtraTabPage2.Controls.Add(Me.LabelControl8)
         Me.XtraTabPage2.Name = "XtraTabPage2"
         Me.XtraTabPage2.Size = New System.Drawing.Size(622, 199)
-        Me.XtraTabPage2.Text = "Giriş"
+        Me.XtraTabPage2.Text = "Giris"
         '
         'LabelControl14
         '
@@ -783,7 +783,7 @@ Partial Class frmIrsaliye_Giris
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(26, 13)
         Me.LabelControl14.TabIndex = 27
-        Me.LabelControl14.Text = "Yazıcı"
+        Me.LabelControl14.Text = "Yazici"
         '
         'cboYazici
         '
@@ -797,7 +797,7 @@ Partial Class frmIrsaliye_Giris
         '
         Me.chkAnlikBaski.Location = New System.Drawing.Point(207, 173)
         Me.chkAnlikBaski.Name = "chkAnlikBaski"
-        Me.chkAnlikBaski.Properties.Caption = "Anında etiket bas"
+        Me.chkAnlikBaski.Properties.Caption = "Aninda etiket bas"
         Me.chkAnlikBaski.Size = New System.Drawing.Size(125, 18)
         Me.chkAnlikBaski.TabIndex = 25
         '
@@ -1076,7 +1076,7 @@ Partial Class frmIrsaliye_Giris
         Me.Controls.Add(Me.PanelControl1)
         Me.Name = "frmIrsaliye_Giris"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Irsaliye Giriş"
+        Me.Text = "Irsaliye Giris"
         CType(Me.txtTarih.Properties.VistaTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtTarih.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MasterLink, System.ComponentModel.ISupportInitialize).EndInit()

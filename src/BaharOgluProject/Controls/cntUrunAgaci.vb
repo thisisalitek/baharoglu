@@ -390,15 +390,15 @@ Public Class cntUrunAgaci
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "SELECT     COUNT(*)  FROM Kategoriler WHERE Deleted = 0 And (UstKategoriID = " & CType(TreeView1.SelectedNode.Tag, kategoriItem).KategoriID & ")"
             If cmd.ExecuteScalar > 0 Then
-                MsgBox("Kategori alt hesaplara sahip. Öncelikle alt hesapları silmelisiniz!")
+                MsgBox("Kategori alt hesaplara sahip. Oncelikle alt hesaplari silmelisiniz!")
                 Exit Sub
             End If
             cmd.CommandText = "SELECT     COUNT(*)  FROM SipDetay WHERE     (Deleted = 0) And (KategoriID = " & CType(TreeView1.SelectedNode.Tag, kategoriItem).KategoriID & ")"
             If cmd.ExecuteScalar > 0 Then
-                MsgBox("Bu kategori siparişlere bağlı. Silemezsiniz!")
+                MsgBox("Bu kategori siparislere bagli. Silemezsiniz!")
                 Exit Sub
             End If
-            If MsgBox("Kategoriyi silmek istediğinizden emin misiniz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Sil?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Kategoriyi silmek istediginizden emin misiniz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Sil?") <> MsgBoxResult.Yes Then Exit Sub
 
             cmd.CommandText = "UPDATE Kategoriler SET Deleted = KategoriID , ModifiedBy=" & AppConn.ActiveUser.UserID & " , ModifiedDate=GETDATE()   WHERE (KategoriID = " & CType(TreeView1.SelectedNode.Tag, kategoriItem).KategoriID & ") "
             cmd.ExecuteNonQuery()
@@ -415,7 +415,7 @@ Public Class cntUrunAgaci
             If TreeView1.SelectedNode.Tag Is Nothing Then Exit Sub
             Kopyala_KaynakKategoriID = CType(TreeView1.SelectedNode.Tag, kategoriItem).KategoriID
 
-            mnuKategoriOzellikYapistir.Text = "Özellikleri Yapıştır (" & TreeView1.SelectedNode.Text & ")"
+            mnuKategoriOzellikYapistir.Text = "Ozellikleri Yapistir (" & TreeView1.SelectedNode.Text & ")"
             mnuKategoriOzellikYapistir.Enabled = True
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -427,7 +427,7 @@ Public Class cntUrunAgaci
             If TreeView1.SelectedNode Is Nothing Then Exit Sub
             If TreeView1.SelectedNode.Tag Is Nothing Then Exit Sub
             If Kopyala_KaynakKategoriID = CType(TreeView1.SelectedNode.Tag, kategoriItem).KategoriID Then
-                MsgBox("Aynı kategoriyi yapıştıramazsınız.")
+                MsgBox("Ayni kategoriyi yapistiramazsiniz.")
                 Exit Sub
             End If
             Dim HedefKategoriID As Long = CType(TreeView1.SelectedNode.Tag, kategoriItem).KategoriID
@@ -435,7 +435,7 @@ Public Class cntUrunAgaci
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "SELECT COUNT(*) FROM SipDetay WHERE Deleted = 0 AND KategoriID = " & HedefKategoriID
             If cmd.ExecuteScalar > 0 Then
-                MsgBox("Hedef kategoriye sipariş alınmış! Özellik kopyalayamazsınız!")
+                MsgBox("Hedef kategoriye siparis alinmis! Ozellik kopyalayamazsiniz!")
                 Exit Sub
             End If
 

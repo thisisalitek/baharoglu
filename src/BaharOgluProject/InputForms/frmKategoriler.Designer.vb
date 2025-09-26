@@ -466,7 +466,7 @@ Partial Class frmKategoriler
         '
         Me.mnuOzellikSec.Name = "mnuOzellikSec"
         Me.mnuOzellikSec.Size = New System.Drawing.Size(219, 22)
-        Me.mnuOzellikSec.Text = "Özellik Seçim Sayfası"
+        Me.mnuOzellikSec.Text = "Ozellik SeÃ§im Sayfasi"
         '
         'BedenlerFiyatlarTurHesaplariToolStripMenuItem
         '
@@ -522,7 +522,7 @@ Partial Class frmKategoriler
         Me.XtraTabPage7.Controls.Add(Me.paneltemp333)
         Me.XtraTabPage7.Name = "XtraTabPage7"
         Me.XtraTabPage7.Size = New System.Drawing.Size(610, 438)
-        Me.XtraTabPage7.Text = "Özellikler"
+        Me.XtraTabPage7.Text = "Ozellikler"
         '
         'paneltemp333
         '
@@ -827,7 +827,7 @@ Partial Class frmKategoriler
         Me.cmdCancelOzellik.Name = "cmdCancelOzellik"
         Me.cmdCancelOzellik.Size = New System.Drawing.Size(102, 31)
         Me.cmdCancelOzellik.TabIndex = 1
-        Me.cmdCancelOzellik.Text = "Vazgeç"
+        Me.cmdCancelOzellik.Text = "VazgeÃ§"
         '
         'tbSipDetay
         '
@@ -939,7 +939,7 @@ Partial Class frmKategoriler
         'cboSecenekler
         '
         Me.cboSecenekler.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.cboSecenekler.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("001", "Triko Kumaş"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("002", "Lastik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("003", "Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("004", "Duble Lastik Cep"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("017", "Duble Lastik İç Cep (çift tarflılar için)"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("005", "Duble Lastik Pilot Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("006", "Duble Lastik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("007", "Duble Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("008", "Torbalı Bant"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("009", "Etek/Gömlek/Pantolon/Badi Kumaş"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("052", "Kazak Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("054", "Garni Dikiş"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("010", "Gömlek Parametreleri (Yaka / Pens / Cep)"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("011", "L/S Kumaş"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("012", "L/S Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("013", "Lakos 2cm Manşet"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("014", "L/S 6cm Manşet"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("018", "Etek Manşet (6cm)"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("020", "Göğüs Manşet"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("019", "Kaşkorse"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("021", "Cep Kapağı"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("015", "Fular Özellikleri"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("016", "Kravat Özellikleri"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("055", "Model F. /Parça M./Astar/FarkArma/Ö. Etiket / Fason ... (Seçenekler)", System.Windows.Forms.CheckState.Checked), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("056", "Ek Fiyat", System.Windows.Forms.CheckState.Checked), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("057", "Ek Özellikler", System.Windows.Forms.CheckState.Checked)})
+        Me.cboSecenekler.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("001", "Triko Kumas"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("002", "Lastik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("003", "Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("004", "Duble Lastik Cep"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("017", "Duble Lastik Ä°Ã§ Cep (Ã§ift tarflilar iÃ§in)"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("005", "Duble Lastik Pilot Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("006", "Duble Lastik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("007", "Duble Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("008", "Torbali Bant"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("009", "Etek/GÃ¶mlek/Pantolon/Badi Kumas"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("052", "Kazak Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("054", "Garni Dikis"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("010", "GÃ¶mlek Parametreleri (Yaka / Pens / Cep)"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("011", "L/S Kumas"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("012", "L/S Yaka"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("013", "Lakos 2cm Manset"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("014", "L/S 6cm Manset"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("018", "Etek Manset (6cm)"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("020", "GÃ¶gus Manset"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("019", "Kaskorse"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("021", "Cep Kapagi"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("015", "Fular Ozellikleri"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("016", "Kravat Ozellikleri"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("055", "Model F. /ParÃ§a M./Astar/FarkArma/O. Etiket / Fason ... (SeÃ§enekler)", System.Windows.Forms.CheckState.Checked), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("056", "Ek Fiyat", System.Windows.Forms.CheckState.Checked), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("057", "Ek Ozellikler", System.Windows.Forms.CheckState.Checked)})
         Me.cboSecenekler.Location = New System.Drawing.Point(0, 0)
         Me.cboSecenekler.Name = "cboSecenekler"
         Me.cboSecenekler.Size = New System.Drawing.Size(620, 472)
@@ -1039,7 +1039,7 @@ Partial Class frmKategoriler
         Me.XtraTabPage1.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage1.Name = "XtraTabPage1"
         Me.XtraTabPage1.Size = New System.Drawing.Size(620, 507)
-        Me.XtraTabPage1.Text = "Seçenekler"
+        Me.XtraTabPage1.Text = "SeÃ§enekler"
         '
         'PanelControl2
         '
@@ -1109,13 +1109,13 @@ Partial Class frmKategoriler
         '
         Me.mnuMoveUp.Name = "mnuMoveUp"
         Me.mnuMoveUp.Size = New System.Drawing.Size(130, 22)
-        Me.mnuMoveUp.Text = "Yukarı Taşı"
+        Me.mnuMoveUp.Text = "Yukari Tasi"
         '
         'mnuMoveDown
         '
         Me.mnuMoveDown.Name = "mnuMoveDown"
         Me.mnuMoveDown.Size = New System.Drawing.Size(130, 22)
-        Me.mnuMoveDown.Text = "Aşağı Taşı"
+        Me.mnuMoveDown.Text = "Asagi Tasi"
         '
         'ToolStripMenuItem3
         '
@@ -1525,7 +1525,7 @@ Partial Class frmKategoriler
         Me.cmdKaydetFiyat.Name = "cmdKaydetFiyat"
         Me.cmdKaydetFiyat.Size = New System.Drawing.Size(129, 26)
         Me.cmdKaydetFiyat.TabIndex = 1
-        Me.cmdKaydetFiyat.Text = "Fiyatları Kaydet"
+        Me.cmdKaydetFiyat.Text = "Fiyatlari Kaydet"
         '
         'XtraTabPage4
         '
@@ -1534,7 +1534,7 @@ Partial Class frmKategoriler
         Me.XtraTabPage4.Controls.Add(Me.PanelControl12)
         Me.XtraTabPage4.Name = "XtraTabPage4"
         Me.XtraTabPage4.Size = New System.Drawing.Size(620, 507)
-        Me.XtraTabPage4.Text = "Sipariş Tamamla"
+        Me.XtraTabPage4.Text = "Siparis Tamamla"
         '
         'XtraTabControl2
         '
@@ -1650,7 +1650,7 @@ Partial Class frmKategoriler
         '
         'colDetayAciklama
         '
-        Me.colDetayAciklama.Caption = "Açıklama"
+        Me.colDetayAciklama.Caption = "AÃ§iklama"
         Me.colDetayAciklama.FieldName = "DetayAciklama"
         Me.colDetayAciklama.Name = "colDetayAciklama"
         Me.colDetayAciklama.Visible = True
@@ -1850,7 +1850,7 @@ Partial Class frmKategoriler
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(119, 28)
         Me.SimpleButton1.TabIndex = 0
-        Me.SimpleButton1.Text = "Sipariş Bilgileri >>"
+        Me.SimpleButton1.Text = "Siparis Bilgileri >>"
         '
         'PanelControl9
         '
@@ -1883,7 +1883,7 @@ Partial Class frmKategoriler
         Me.LabelControl20.Name = "LabelControl20"
         Me.LabelControl20.Size = New System.Drawing.Size(76, 13)
         Me.LabelControl20.TabIndex = 5
-        Me.LabelControl20.Text = "Okul Farkı (%) :"
+        Me.LabelControl20.Text = "Okul Farki (%) :"
         '
         'cmdIskontoUygula
         '
@@ -1908,7 +1908,7 @@ Partial Class frmKategoriler
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(114, 13)
         Me.LabelControl17.TabIndex = 2
-        Me.LabelControl17.Text = "Nakit/Diğer Iskonto (%)"
+        Me.LabelControl17.Text = "Nakit/Diger Iskonto (%)"
         '
         'txtIskonto
         '
@@ -1959,7 +1959,7 @@ Partial Class frmKategoriler
         Me.XtraTabPage6.Controls.Add(Me.PictureEdit9)
         Me.XtraTabPage6.Name = "XtraTabPage6"
         Me.XtraTabPage6.Size = New System.Drawing.Size(614, 356)
-        Me.XtraTabPage6.Text = "Sipariş Bilgileri"
+        Me.XtraTabPage6.Text = "Siparis Bilgileri"
         '
         'cmdMikroStokKod
         '
@@ -2052,7 +2052,7 @@ Partial Class frmKategoriler
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(73, 13)
         Me.LabelControl3.TabIndex = 26
-        Me.LabelControl3.Text = "Bölüm (4+4+4)"
+        Me.LabelControl3.Text = "BÃ¶lum (4+4+4)"
         '
         'cboOkul
         '
@@ -2184,7 +2184,7 @@ Partial Class frmKategoriler
         Me.LabelControl8.Name = "LabelControl8"
         Me.LabelControl8.Size = New System.Drawing.Size(41, 13)
         Me.LabelControl8.TabIndex = 9
-        Me.LabelControl8.Text = "Açıklama"
+        Me.LabelControl8.Text = "AÃ§iklama"
         '
         'TextEdit1
         '
@@ -2201,7 +2201,7 @@ Partial Class frmKategoriler
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(85, 13)
         Me.LabelControl7.TabIndex = 7
-        Me.LabelControl7.Text = "Müşteri Sipariş No"
+        Me.LabelControl7.Text = "Musteri Siparis No"
         '
         'DateEdit2
         '
@@ -2241,7 +2241,7 @@ Partial Class frmKategoriler
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(60, 13)
         Me.LabelControl5.TabIndex = 3
-        Me.LabelControl5.Text = "Sipariş Tarihi"
+        Me.LabelControl5.Text = "Siparis Tarihi"
         '
         'txtMusteri
         '
@@ -2261,7 +2261,7 @@ Partial Class frmKategoriler
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(35, 13)
         Me.LabelControl4.TabIndex = 1
-        Me.LabelControl4.Text = "Müşteri"
+        Me.LabelControl4.Text = "Musteri"
         '
         'PanelControl11
         '
@@ -2304,7 +2304,7 @@ Partial Class frmKategoriler
         Me.XtraTabPage9.Controls.Add(Me.XtraScrollableControl2)
         Me.XtraTabPage9.Name = "XtraTabPage9"
         Me.XtraTabPage9.Size = New System.Drawing.Size(614, 356)
-        Me.XtraTabPage9.Text = "Sipariş Resimleri"
+        Me.XtraTabPage9.Text = "Siparis Resimleri"
         '
         'XtraScrollableControl2
         '
@@ -2518,7 +2518,7 @@ Partial Class frmKategoriler
         '
         'colEkFiyatAciklama
         '
-        Me.colEkFiyatAciklama.Caption = "Ek Fiyat Açıklama"
+        Me.colEkFiyatAciklama.Caption = "Ek Fiyat AÃ§iklama"
         Me.colEkFiyatAciklama.FieldName = "MasrafIsmi"
         Me.colEkFiyatAciklama.Name = "colEkFiyatAciklama"
         Me.colEkFiyatAciklama.Visible = True
@@ -2587,7 +2587,7 @@ Partial Class frmKategoriler
         '
         Me.mnuOzellikSecimSayfasi.Name = "mnuOzellikSecimSayfasi"
         Me.mnuOzellikSecimSayfasi.Size = New System.Drawing.Size(219, 22)
-        Me.mnuOzellikSecimSayfasi.Text = "Özellik Seçim Sayfası"
+        Me.mnuOzellikSecimSayfasi.Text = "Ozellik SeÃ§im Sayfasi"
         '
         'mnuBedenlerFiyatlarMasraflar
         '
@@ -2605,7 +2605,7 @@ Partial Class frmKategoriler
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
         Me.ToolStripMenuItem5.Size = New System.Drawing.Size(219, 22)
-        Me.ToolStripMenuItem5.Text = "Özellik Seçim Sayfası"
+        Me.ToolStripMenuItem5.Text = "Ozellik SeÃ§im Sayfasi"
         '
         'ToolStripMenuItem6
         '
@@ -2989,7 +2989,7 @@ Partial Class frmKategoriler
         Me.KeyPreview = True
         Me.Name = "frmKategoriler"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Ürün Ağacı /Ürün Tanımlamaları"
+        Me.Text = "Urun Agaci /Urun Tanimlamalari"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.panelParametreler, System.ComponentModel.ISupportInitialize).EndInit()

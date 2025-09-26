@@ -75,7 +75,7 @@ Public Class frmPlanlananTahsilatVeOdemeler
         Try
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If EditMode = False Then
-                MsgBox("Değiştirme modu aktif değil!")
+                MsgBox("Degistirme modu aktif degil!")
                 Exit Sub
             End If
             ' If CariKodButtonEdit.Properties.ReadOnly Then Exit Sub

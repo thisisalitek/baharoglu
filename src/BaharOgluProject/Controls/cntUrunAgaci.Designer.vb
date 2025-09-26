@@ -102,7 +102,7 @@ Partial Class cntUrunAgaci
         '
         Me.mnuDuzelt.Name = "mnuDuzelt"
         Me.mnuDuzelt.Size = New System.Drawing.Size(170, 22)
-        Me.mnuDuzelt.Text = "Düzelt"
+        Me.mnuDuzelt.Text = "Duzelt"
         '
         'SilToolStripMenuItem
         '
@@ -119,14 +119,14 @@ Partial Class cntUrunAgaci
         '
         Me.mnuKategoriOzellikKopyala.Name = "mnuKategoriOzellikKopyala"
         Me.mnuKategoriOzellikKopyala.Size = New System.Drawing.Size(170, 22)
-        Me.mnuKategoriOzellikKopyala.Text = "Özellikleri Kopyala"
+        Me.mnuKategoriOzellikKopyala.Text = "Ozellikleri Kopyala"
         '
         'mnuKategoriOzellikYapistir
         '
         Me.mnuKategoriOzellikYapistir.Enabled = False
         Me.mnuKategoriOzellikYapistir.Name = "mnuKategoriOzellikYapistir"
         Me.mnuKategoriOzellikYapistir.Size = New System.Drawing.Size(170, 22)
-        Me.mnuKategoriOzellikYapistir.Text = "Özellikleri Yapıştır"
+        Me.mnuKategoriOzellikYapistir.Text = "Ozellikleri Yapistir"
         '
         'ImageList1
         '

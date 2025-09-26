@@ -444,7 +444,7 @@ Partial Class cnt015_Fular
         '
         'colIpGramaj
         '
-        Me.colIpGramaj.Caption = "İp Grm."
+        Me.colIpGramaj.Caption = "Ä°p Grm."
         Me.colIpGramaj.FieldName = "IpGramaj"
         Me.colIpGramaj.Name = "colIpGramaj"
         Me.colIpGramaj.Visible = True
@@ -778,7 +778,7 @@ Partial Class cnt015_Fular
         '
         'colRenkID
         '
-        Me.colRenkID.Caption = "İp Rengi"
+        Me.colRenkID.Caption = "Ä°p Rengi"
         Me.colRenkID.ColumnEdit = Me.cboGridRenk
         Me.colRenkID.FieldName = "RenkID"
         Me.colRenkID.Name = "colRenkID"
@@ -850,7 +850,7 @@ Partial Class cnt015_Fular
         Me.RadioGroup1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.RadioGroup1.Location = New System.Drawing.Point(0, 68)
         Me.RadioGroup1.Name = "RadioGroup1"
-        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Yuvarlak"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Oval"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Kalkan"), New DevExpress.XtraEditors.Controls.RadioGroupItem(99, "Diğer")})
+        Me.RadioGroup1.Properties.Items.AddRange(New DevExpress.XtraEditors.Controls.RadioGroupItem() {New DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Yuvarlak"), New DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Oval"), New DevExpress.XtraEditors.Controls.RadioGroupItem(3, "Kalkan"), New DevExpress.XtraEditors.Controls.RadioGroupItem(99, "Diger")})
         Me.RadioGroup1.Size = New System.Drawing.Size(258, 28)
         Me.RadioGroup1.TabIndex = 4
         '

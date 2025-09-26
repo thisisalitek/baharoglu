@@ -160,7 +160,7 @@ Public Class frmReportItem
             If bFound Then
 
                 cmd.Dispose()
-                MsgBox(AppConn.PiconnLanguage.TText("Ayni raport isminden başka bir kayit daha var. Lütfen rapor ismini degistiriniz."))
+                MsgBox(AppConn.PiconnLanguage.TText("Ayni raport isminden baska bir kayit daha var. Lutfen rapor ismini degistiriniz."))
 
                 Exit Sub
             End If

@@ -1,8 +1,8 @@
 # Fix line endings from LF to CRLF for Windows
 Write-Host "Starting line endings fix..."
 
-# Get all relevant files
-$files = Get-ChildItem -Recurse -Include *.vb,*.config,*.xml,*.vbproj,*.sln | Where-Object { -not $_.PSIsContainer }
+# Get all relevant files from current directory and subdirectories
+$files = Get-ChildItem -Path . -Recurse -Include *.vb,*.config,*.xml,*.vbproj,*.sln,*.resx | Where-Object { -not $_.PSIsContainer }
 
 Write-Host "Found $($files.Count) files to process"
 

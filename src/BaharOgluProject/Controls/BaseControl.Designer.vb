@@ -492,7 +492,7 @@ Partial Class BaseControl
         Me.chkSecmeli.Dock = System.Windows.Forms.DockStyle.Right
         Me.chkSecmeli.Location = New System.Drawing.Point(167, 2)
         Me.chkSecmeli.Name = "chkSecmeli"
-        Me.chkSecmeli.Properties.Caption = "Seçmeli"
+        Me.chkSecmeli.Properties.Caption = "SeÃ§meli"
         Me.chkSecmeli.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkSecmeli.Properties.ValueChecked = 1
         Me.chkSecmeli.Properties.ValueUnchecked = 0

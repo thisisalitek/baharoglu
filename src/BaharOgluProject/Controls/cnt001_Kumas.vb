@@ -73,18 +73,18 @@ Public Class cnt001_Kumas
             For Each dr As DataRow In NeoTable2.Rows
                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                     If If0Null(dr("Iplik")) <= 0 Then
-                        smsg &= "[TRIKO KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' iplik seçilmemiş!" & vbNewLine
+                        smsg &= "[TRIKO KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' iplik seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If If0Null(dr("RenkID")) <= 0 Then
-                        smsg &= "[TRIKO KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seçilmemiş!" & vbNewLine
+                        smsg &= "[TRIKO KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' renk seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
                     If Mid(KategoriKod, 1, 3) = "M.6" Then
 
                     Else
                         If If0Null(dr("OrguTip")) <= 0 Then
-                            smsg &= "[TRIKO KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' örgü tipi seçilmemiş!" & vbNewLine
+                            smsg &= "[TRIKO KUMAS] '" & IfNull(dr("ParcaIsmi"), "") & "' Ã¶rgu tipi seÃ§ilmemis!" & vbNewLine
                             bCancel = True
                         End If
                     End If
@@ -157,7 +157,7 @@ Public Class cnt001_Kumas
                             If Mid(KategoriKod, 1, 3) = "M.6" Then
 
                             Else
-                                sbuf &= "   ÖRGÜ TİPİ:" & GetOrguTip(SqlConn.SqlConnection, If0Null(dr("OrguTip")))
+                                sbuf &= "   ORGU TÄ°PÄ°:" & GetOrguTip(SqlConn.SqlConnection, If0Null(dr("OrguTip")))
                             End If
 
 
@@ -205,7 +205,7 @@ Public Class cnt001_Kumas
 
                             End If
                             '-------------------
-                            sbuf &= vbTab & " İP KG:" & Math.Round(TIpGramaj / 1000, 2) & vbTab & " KUMAŞ KG:" & Math.Round(TKumasGramaj / 1000, 2)
+                            sbuf &= vbTab & " Ä°P KG:" & Math.Round(TIpGramaj / 1000, 2) & vbTab & " KUMAÅ KG:" & Math.Round(TKumasGramaj / 1000, 2)
                             Aciklamalar.Add(sbuf)
 
                             sbuf = IfNull(dr("ParcaIsmi"), "")
@@ -214,15 +214,15 @@ Public Class cnt001_Kumas
                             If Mid(KategoriKod, 1, 3) = "M.6" Then
 
                             Else
-                                sbuf &= "   ÖRGÜ TİPİ:" & GetOrguTip(SqlConn.SqlConnection, If0Null(dr("OrguTip")))
+                                sbuf &= "   ORGU TÄ°PÄ°:" & GetOrguTip(SqlConn.SqlConnection, If0Null(dr("OrguTip")))
                             End If
                             Aciklamalar2.Add(sbuf)
                         End If
                     Next
                     'Aciklamalar.Add("------------------------------")
 
-                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "001", "TRİKO KUMAS", Aciklamalar, AnaRenk)
-                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "001", "TRİKO KUMAS", Aciklamalar2, AnaRenk)
+                    UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "001", "TRÄ°KO KUMAS", Aciklamalar, AnaRenk)
+                    SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "001", "TRÄ°KO KUMAS", Aciklamalar2, AnaRenk)
                 End If
             End If
             '-----------------------------
@@ -248,7 +248,7 @@ Public Class cnt001_Kumas
         Try
             If e.KeyCode = Keys.Delete And (e.Control Or e.Shift) Then
                 If GridView1.FocusedRowHandle < 0 Then Exit Sub
-                If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satır Sil?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Satir silmek istediginizden emin misiniz?", MsgBoxStyle.YesNo + MsgBoxStyle.Critical, "Satir Sil?") <> MsgBoxResult.Yes Then Exit Sub
                 Dim RowIndex As Integer = 0
                 RowIndex = GridView1.GetDataSourceRowIndex(GridView1.FocusedRowHandle)
                 NeoTable1.Rows(RowIndex).Delete()

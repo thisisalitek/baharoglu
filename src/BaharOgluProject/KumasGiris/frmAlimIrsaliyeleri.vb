@@ -53,7 +53,7 @@ Public Class frmAlimIrsaliyeleri
             Dim RowIndex As Integer = GridView1.GetDataSourceRowIndex(GridView1.FocusedRowHandle)
             If RowIndex < 0 Then Exit Sub
             Dim dr As DataRow = MasterTable.Rows(RowIndex)
-            If MsgBox("Irsaliyeyi silmek istediğinizden emin misiniz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Irsaliye Sil?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Irsaliyeyi silmek istediginizden emin misiniz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Irsaliye Sil?") <> MsgBoxResult.Yes Then Exit Sub
             Dim cmd As New SqlClient.SqlCommand
             cmd.Connection = AppConn.dbConn
             cmd.CommandText = "UPDATE KumasGiris SET Deleted = KumasGirisID WHERE KumasGirisID=" & If0Null(dr("KumasGirisID")) & " " & vbNewLine
@@ -134,7 +134,7 @@ Public Class frmAlimIrsaliyeleri
                     cmd.CommandText = "exec spENT_KumasGiris " & ar(i)
                     cmd.ExecuteNonQuery()
                 Catch ex As Exception
-                    If MsgBox("Hata:" & ex.Message & vbNewLine & "Diğer aktarımlara devam etmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNo, "Hata?") <> MsgBoxResult.Yes Then
+                    If MsgBox("Hata:" & ex.Message & vbNewLine & "Diger aktarimlara devam etmek istiyor musunuz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNo, "Hata?") <> MsgBoxResult.Yes Then
                         Exit For
                     End If
                 End Try

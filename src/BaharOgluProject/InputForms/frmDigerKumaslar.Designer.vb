@@ -686,11 +686,11 @@ Partial Class frmDigerKumaslar
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.TextEdit1
-        Me.LayoutControlItem1.CustomizationFormText = "Fiyat Farkı"
+        Me.LayoutControlItem1.CustomizationFormText = "Fiyat Farki"
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 48)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
         Me.LayoutControlItem1.Size = New System.Drawing.Size(160, 24)
-        Me.LayoutControlItem1.Text = "Fiyat Farkı"
+        Me.LayoutControlItem1.Text = "Fiyat Farki"
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(53, 13)
         '
         'EmptySpaceItem2
@@ -782,7 +782,7 @@ Partial Class frmDigerKumaslar
         Me.ClientSize = New System.Drawing.Size(595, 457)
         Me.FormCode = "000014"
         Me.Name = "frmDigerKumaslar"
-        Me.Text = "Diğer Kumaşlar"
+        Me.Text = "Diger Kumaslar"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)

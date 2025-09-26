@@ -212,9 +212,9 @@ Partial Class frmBaseForm
         '
         'btnEdit
         '
-        Me.btnEdit.Caption = "Değiştir"
+        Me.btnEdit.Caption = "Degistir"
         Me.btnEdit.Glyph = Global.ProbarSiparis.My.Resources.Resources.note_edit
-        Me.btnEdit.Hint = "Değiştir"
+        Me.btnEdit.Hint = "Degistir"
         Me.btnEdit.Id = 39
         Me.btnEdit.Name = "btnEdit"
         '
@@ -230,10 +230,10 @@ Partial Class frmBaseForm
         '
         'btnCancel
         '
-        Me.btnCancel.Caption = "Vazgeç"
+        Me.btnCancel.Caption = "VazgeÃ§"
         Me.btnCancel.Enabled = False
         Me.btnCancel.Glyph = CType(resources.GetObject("btnCancel.Glyph"), System.Drawing.Image)
-        Me.btnCancel.Hint = "Vazgeç"
+        Me.btnCancel.Hint = "VazgeÃ§"
         Me.btnCancel.Id = 19
         Me.btnCancel.Name = "btnCancel"
         '
@@ -249,33 +249,33 @@ Partial Class frmBaseForm
         '
         'btnFirst
         '
-        Me.btnFirst.Caption = "Ilk Kayıt"
+        Me.btnFirst.Caption = "Ilk Kayit"
         Me.btnFirst.Glyph = CType(resources.GetObject("btnFirst.Glyph"), System.Drawing.Image)
-        Me.btnFirst.Hint = "İlk Kayıt"
+        Me.btnFirst.Hint = "Ä°lk Kayit"
         Me.btnFirst.Id = 23
         Me.btnFirst.Name = "btnFirst"
         '
         'btnPrior
         '
-        Me.btnPrior.Caption = "Bir Önceki Kayıt"
+        Me.btnPrior.Caption = "Bir Onceki Kayit"
         Me.btnPrior.Glyph = CType(resources.GetObject("btnPrior.Glyph"), System.Drawing.Image)
-        Me.btnPrior.Hint = "Önceki Kayıt"
+        Me.btnPrior.Hint = "Onceki Kayit"
         Me.btnPrior.Id = 24
         Me.btnPrior.Name = "btnPrior"
         '
         'btnNext
         '
-        Me.btnNext.Caption = "Bir Sonraki Kayıt"
+        Me.btnNext.Caption = "Bir Sonraki Kayit"
         Me.btnNext.Glyph = CType(resources.GetObject("btnNext.Glyph"), System.Drawing.Image)
-        Me.btnNext.Hint = "Sonraki Kayıt"
+        Me.btnNext.Hint = "Sonraki Kayit"
         Me.btnNext.Id = 25
         Me.btnNext.Name = "btnNext"
         '
         'btnLast
         '
-        Me.btnLast.Caption = "Son Kayıt"
+        Me.btnLast.Caption = "Son Kayit"
         Me.btnLast.Glyph = CType(resources.GetObject("btnLast.Glyph"), System.Drawing.Image)
-        Me.btnLast.Hint = "En Son Kayıt"
+        Me.btnLast.Hint = "En Son Kayit"
         Me.btnLast.Id = 26
         Me.btnLast.Name = "btnLast"
         '
@@ -289,18 +289,18 @@ Partial Class frmBaseForm
         '
         'btnFormPrint
         '
-        Me.btnFormPrint.Caption = "Form Yazdır"
+        Me.btnFormPrint.Caption = "Form Yazdir"
         Me.btnFormPrint.Glyph = Global.ProbarSiparis.My.Resources.Resources.PrintDirectLarge
-        Me.btnFormPrint.Hint = "Kaydı Yazdır"
+        Me.btnFormPrint.Hint = "Kaydi Yazdir"
         Me.btnFormPrint.Id = 27
         Me.btnFormPrint.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P))
         Me.btnFormPrint.Name = "btnFormPrint"
         '
         'btnPrintGrid
         '
-        Me.btnPrintGrid.Caption = "Liste Yazdır"
+        Me.btnPrintGrid.Caption = "Liste Yazdir"
         Me.btnPrintGrid.Glyph = Global.ProbarSiparis.My.Resources.Resources.DXGrid
-        Me.btnPrintGrid.Hint = "Grid Yazdır"
+        Me.btnPrintGrid.Hint = "Grid Yazdir"
         Me.btnPrintGrid.Id = 5
         Me.btnPrintGrid.ItemShortcut = New DevExpress.XtraBars.BarShortcut(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Alt) _
                 Or System.Windows.Forms.Keys.P))
@@ -310,7 +310,7 @@ Partial Class frmBaseForm
         '
         Me.btnExport.Caption = "Export"
         Me.btnExport.Glyph = CType(resources.GetObject("btnExport.Glyph"), System.Drawing.Image)
-        Me.btnExport.Hint = "Dışarı Al (Export)"
+        Me.btnExport.Hint = "Disari Al (Export)"
         Me.btnExport.Id = 8
         Me.btnExport.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.btnExportExcel), New DevExpress.XtraBars.LinkPersistInfo(Me.btnExportPDF), New DevExpress.XtraBars.LinkPersistInfo(Me.btnExportTXT), New DevExpress.XtraBars.LinkPersistInfo(Me.btnExportCSV), New DevExpress.XtraBars.LinkPersistInfo(Me.btnExportHTML), New DevExpress.XtraBars.LinkPersistInfo(Me.btnExportXml, True), New DevExpress.XtraBars.LinkPersistInfo(Me.btnImport), New DevExpress.XtraBars.LinkPersistInfo(Me.btnLanguageOptions)})
         Me.btnExport.Name = "btnExport"
@@ -377,9 +377,9 @@ Partial Class frmBaseForm
         '
         'btnDisapprove
         '
-        Me.btnDisapprove.Caption = "Onayı Kaldır"
+        Me.btnDisapprove.Caption = "Onayi Kaldir"
         Me.btnDisapprove.Glyph = CType(resources.GetObject("btnDisapprove.Glyph"), System.Drawing.Image)
-        Me.btnDisapprove.Hint = "Onayı Kaldır"
+        Me.btnDisapprove.Hint = "Onayi Kaldir"
         Me.btnDisapprove.Id = 36
         Me.btnDisapprove.Name = "btnDisapprove"
         Me.btnDisapprove.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph
@@ -387,9 +387,9 @@ Partial Class frmBaseForm
         '
         'btnHelp
         '
-        Me.btnHelp.Caption = "Yardım"
+        Me.btnHelp.Caption = "Yardim"
         Me.btnHelp.Glyph = Global.ProbarSiparis.My.Resources.Resources.help
-        Me.btnHelp.Hint = "Yardım"
+        Me.btnHelp.Hint = "Yardim"
         Me.btnHelp.Id = 28
         Me.btnHelp.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.btnHelp_ShortCuts)})
         Me.btnHelp.Name = "btnHelp"
@@ -397,7 +397,7 @@ Partial Class frmBaseForm
         '
         'btnHelp_ShortCuts
         '
-        Me.btnHelp_ShortCuts.Caption = "Kısa Yollar"
+        Me.btnHelp_ShortCuts.Caption = "Kisa Yollar"
         Me.btnHelp_ShortCuts.Id = 29
         Me.btnHelp_ShortCuts.Name = "btnHelp_ShortCuts"
         '
@@ -455,7 +455,7 @@ Partial Class frmBaseForm
         '
         'btnHelp1
         '
-        Me.btnHelp1.Caption = "Yardım"
+        Me.btnHelp1.Caption = "Yardim"
         Me.btnHelp1.Glyph = Global.ProbarSiparis.My.Resources.Resources.help3
         Me.btnHelp1.Id = 16
         Me.btnHelp1.ItemShortcut = New DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F1)
@@ -464,7 +464,7 @@ Partial Class frmBaseForm
         'mnuDocumentView_Tile
         '
         Me.mnuDocumentView_Tile.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check
-        Me.mnuDocumentView_Tile.Caption = "Döşeme"
+        Me.mnuDocumentView_Tile.Caption = "DÃ¶seme"
         Me.mnuDocumentView_Tile.Id = 30
         Me.mnuDocumentView_Tile.Name = "mnuDocumentView_Tile"
         '
@@ -486,20 +486,20 @@ Partial Class frmBaseForm
         'mnuDocumentView_Detail
         '
         Me.mnuDocumentView_Detail.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check
-        Me.mnuDocumentView_Detail.Caption = "Ayrıntılar"
+        Me.mnuDocumentView_Detail.Caption = "Ayrintilar"
         Me.mnuDocumentView_Detail.Id = 33
         Me.mnuDocumentView_Detail.Name = "mnuDocumentView_Detail"
         '
         'mnuDocumentView_LargeIcon
         '
         Me.mnuDocumentView_LargeIcon.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check
-        Me.mnuDocumentView_LargeIcon.Caption = "Büyük Simge"
+        Me.mnuDocumentView_LargeIcon.Caption = "Buyuk Simge"
         Me.mnuDocumentView_LargeIcon.Id = 34
         Me.mnuDocumentView_LargeIcon.Name = "mnuDocumentView_LargeIcon"
         '
         'mnuRecordInfo
         '
-        Me.mnuRecordInfo.Caption = "Kayıt Bilgisi"
+        Me.mnuRecordInfo.Caption = "Kayit Bilgisi"
         Me.mnuRecordInfo.Id = 38
         Me.mnuRecordInfo.Name = "mnuRecordInfo"
         '
@@ -550,18 +550,18 @@ Partial Class frmBaseForm
         Me.mnuShowRecord.ShortcutKeyDisplayString = ""
         Me.mnuShowRecord.ShortcutKeys = System.Windows.Forms.Keys.F6
         Me.mnuShowRecord.Size = New System.Drawing.Size(159, 22)
-        Me.mnuShowRecord.Text = "Kaydı Göster"
+        Me.mnuShowRecord.Text = "Kaydi GÃ¶ster"
         '
         'mnuUserRecordInfo
         '
         Me.mnuUserRecordInfo.Name = "mnuUserRecordInfo"
         Me.mnuUserRecordInfo.Size = New System.Drawing.Size(159, 22)
-        Me.mnuUserRecordInfo.Text = "Kayıt Bilgisi"
+        Me.mnuUserRecordInfo.Text = "Kayit Bilgisi"
         '
         'GridView1
         '
         Me.GridView1.GridControl = Me.GridControl1
-        Me.GridView1.GroupPanelText = "Gruplamak istediğiniz kolonu buraya sürükleyiniz..."
+        Me.GridView1.GroupPanelText = "Gruplamak istediginiz kolonu buraya surukleyiniz..."
         Me.GridView1.Name = "GridView1"
         Me.GridView1.OptionsBehavior.Editable = False
         Me.GridView1.OptionsSelection.MultiSelect = True
@@ -629,7 +629,7 @@ Partial Class frmBaseForm
         Me.btnSetDate_ThisYear.Name = "btnSetDate_ThisYear"
         Me.btnSetDate_ThisYear.Size = New System.Drawing.Size(56, 23)
         Me.btnSetDate_ThisYear.TabIndex = 2
-        Me.btnSetDate_ThisYear.Text = "Bu yıl"
+        Me.btnSetDate_ThisYear.Text = "Bu yil"
         '
         'btnSetDate_ThisMonth
         '
@@ -662,7 +662,7 @@ Partial Class frmBaseForm
         Me.chkDate2.Name = "chkDate2"
         Me.chkDate2.Properties.Appearance.Options.UseTextOptions = True
         Me.chkDate2.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.chkDate2.Properties.Caption = "Bitiş Tarihi"
+        Me.chkDate2.Properties.Caption = "Bitis Tarihi"
         Me.chkDate2.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.chkDate2.Size = New System.Drawing.Size(99, 19)
         Me.chkDate2.TabIndex = 2
@@ -683,7 +683,7 @@ Partial Class frmBaseForm
         Me.chkDate1.Name = "chkDate1"
         Me.chkDate1.Properties.Appearance.Options.UseTextOptions = True
         Me.chkDate1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near
-        Me.chkDate1.Properties.Caption = "Başlangıç Tarihi"
+        Me.chkDate1.Properties.Caption = "BaslangiÃ§ Tarihi"
         Me.chkDate1.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.chkDate1.Size = New System.Drawing.Size(99, 19)
         Me.chkDate1.TabIndex = 0
@@ -708,8 +708,8 @@ Partial Class frmBaseForm
         Me.lblMainWarning1.Name = "lblMainWarning1"
         Me.lblMainWarning1.Size = New System.Drawing.Size(887, 19)
         Me.lblMainWarning1.TabIndex = 2
-        Me.lblMainWarning1.Text = "Uyarı: Kaydı getirmek için ""F6"" tuşu veya listeyi çift tıklayın. Kaydı değiştirme" &
-    "k için ""Değiştir"" butonunu kullanınız."
+        Me.lblMainWarning1.Text = "Uyari: Kaydi getirmek iÃ§in ""F6"" tusu veya listeyi Ã§ift tiklayin. Kaydi degistirme" &
+    "k iÃ§in ""Degistir"" butonunu kullaniniz."
         Me.lblMainWarning1.Visible = False
         '
         'BaseTab2
@@ -815,7 +815,7 @@ Partial Class frmBaseForm
         Me.cmdCancel.Name = "cmdCancel"
         Me.cmdCancel.Size = New System.Drawing.Size(89, 34)
         Me.cmdCancel.TabIndex = 1
-        Me.cmdCancel.Text = "Vazgeç"
+        Me.cmdCancel.Text = "VazgeÃ§"
         '
         'cmdSelect
         '
@@ -823,7 +823,7 @@ Partial Class frmBaseForm
         Me.cmdSelect.Name = "cmdSelect"
         Me.cmdSelect.Size = New System.Drawing.Size(89, 34)
         Me.cmdSelect.TabIndex = 0
-        Me.cmdSelect.Text = "Seç (F2)"
+        Me.cmdSelect.Text = "SeÃ§ (F2)"
         '
         'panelFormTop
         '
@@ -870,7 +870,7 @@ Partial Class frmBaseForm
         '
         'dlgDocumentFileOpen
         '
-        Me.dlgDocumentFileOpen.Filter = "Tüm Dosyalar (*.*)|*.*"
+        Me.dlgDocumentFileOpen.Filter = "Tum Dosyalar (*.*)|*.*"
         '
         'MasterTable
         '

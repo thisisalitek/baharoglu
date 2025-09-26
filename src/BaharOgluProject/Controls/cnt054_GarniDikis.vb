@@ -98,15 +98,15 @@ Public Class cnt054_GarniDikis
                         Dim Aciklamalar2 As New ArrayList
                         Dim sbuf As String = ""
                         Select Case If0Null(NeoTable2.Rows(0).Item("GarniDikis"))
-                            Case 1 : sbuf = "REÇMELİ"
+                            Case 1 : sbuf = "REÃ‡MELÄ°"
                             Case 2 : sbuf = "OVERLOKLU"
                             Case 3 : sbuf = "KARYOKALI"
 
                         End Select
-                        Aciklamalar.Add("GARNİ DİKİŞ:" & sbuf)
-                        Aciklamalar2.Add("GARNİ DİKİŞ:" & sbuf)
-                        UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "054", "GARNİ DİKİŞ", Aciklamalar, "")
-                        SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "054", "GARNİ DİKİŞ", Aciklamalar2, "")
+                        Aciklamalar.Add("GARNÄ° DÄ°KÄ°Å:" & sbuf)
+                        Aciklamalar2.Add("GARNÄ° DÄ°KÄ°Å:" & sbuf)
+                        UretimBilgiYaz(SqlConn.SqlConnection, SipDetayID, "054", "GARNÄ° DÄ°KÄ°Å", Aciklamalar, "")
+                        SiparisBilgiYaz(SqlConn.SqlConnection, SipDetayID, "054", "GARNÄ° DÄ°KÄ°Å", Aciklamalar2, "")
                     End If
                 End If
 

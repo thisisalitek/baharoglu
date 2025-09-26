@@ -4,7 +4,7 @@ Public Class frmFasonTanim
         Try
             If IfNull(MasterLink.CurrentRow("FasonAciklama"), "") = "" Then
                 e.Cancel = True
-                MsgBox("Fason Açıklama boş olamaz!")
+                MsgBox("Fason AÃ§iklama bos olamaz!")
 
                 Exit Sub
             End If

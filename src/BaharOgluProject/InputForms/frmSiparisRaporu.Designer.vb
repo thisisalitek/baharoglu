@@ -62,18 +62,18 @@ Partial Class frmSiparisRaporu
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.mnuSiparisiAc = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.DurumunuDeğiştirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ÜretimHazırlıkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DurumunuDegistirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UretimHazirlikToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetUretimde = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetOrgude = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetBoyada = New System.Windows.Forms.ToolStripMenuItem()
         Me.KesimHazirlikToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetKesimde = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ÜtüdeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UtudeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetDepoda = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetKilis = New System.Windows.Forms.ToolStripMenuItem()
         Me.FasondaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YakaÖrgüToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YakaOrguToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSetBitti = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
         Me.mnuSetBos = New System.Windows.Forms.ToolStripMenuItem()
@@ -654,7 +654,7 @@ Partial Class frmSiparisRaporu
         '
         'colKategoriKod
         '
-        Me.colKategoriKod.Caption = "Ürün Kod"
+        Me.colKategoriKod.Caption = "Urun Kod"
         Me.colKategoriKod.FieldName = "KategoriKod"
         Me.colKategoriKod.Name = "colKategoriKod"
         Me.colKategoriKod.Visible = True
@@ -662,7 +662,7 @@ Partial Class frmSiparisRaporu
         '
         'colKategoriIsim
         '
-        Me.colKategoriIsim.Caption = "Ürün İsmi"
+        Me.colKategoriIsim.Caption = "Urun Ä°smi"
         Me.colKategoriIsim.FieldName = "KategoriIsim"
         Me.colKategoriIsim.Name = "colKategoriIsim"
         Me.colKategoriIsim.Visible = True
@@ -697,7 +697,7 @@ Partial Class frmSiparisRaporu
         '
         'colSiparisiAlanID
         '
-        Me.colSiparisiAlanID.Caption = "Şiparişi Alan"
+        Me.colSiparisiAlanID.Caption = "Åiparisi Alan"
         Me.colSiparisiAlanID.ColumnEdit = Me.RepositoryItemLookUpEdit5
         Me.colSiparisiAlanID.FieldName = "SiparisAlanID"
         Me.colSiparisiAlanID.Name = "colSiparisiAlanID"
@@ -766,7 +766,7 @@ Partial Class frmSiparisRaporu
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSiparisiAc, Me.ToolStripMenuItem1, Me.DurumunuDeğiştirToolStripMenuItem, Me.ToolStripMenuItem4, Me.FasonFisiniAcToolStripMenuItem, Me.ToolStripMenuItem3, Me.mnuSiparisYaz, Me.ToolStripMenuItem5, Me.KayitBilgisiToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSiparisiAc, Me.ToolStripMenuItem1, Me.DurumunuDegistirToolStripMenuItem, Me.ToolStripMenuItem4, Me.FasonFisiniAcToolStripMenuItem, Me.ToolStripMenuItem3, Me.mnuSiparisYaz, Me.ToolStripMenuItem5, Me.KayitBilgisiToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(180, 158)
         '
@@ -774,37 +774,37 @@ Partial Class frmSiparisRaporu
         '
         Me.mnuSiparisiAc.Name = "mnuSiparisiAc"
         Me.mnuSiparisiAc.Size = New System.Drawing.Size(179, 26)
-        Me.mnuSiparisiAc.Text = "Sipariş Fişini Aç"
+        Me.mnuSiparisiAc.Text = "Siparis Fisini AÃ§"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(176, 6)
         '
-        'DurumunuDeğiştirToolStripMenuItem
+        'DurumunuDegistirToolStripMenuItem
         '
-        Me.DurumunuDeğiştirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ÜretimHazırlıkToolStripMenuItem, Me.mnuSetUretimde, Me.mnuSetOrgude, Me.mnuSetBoyada, Me.KesimHazirlikToolStripMenuItem, Me.mnuSetKesimde, Me.ÜtüdeToolStripMenuItem, Me.mnuSetDepoda, Me.mnuSetKilis, Me.FasondaToolStripMenuItem, Me.YakaÖrgüToolStripMenuItem, Me.mnuSetBitti, Me.ToolStripMenuItem2, Me.mnuSetBos})
-        Me.DurumunuDeğiştirToolStripMenuItem.Name = "DurumunuDeğiştirToolStripMenuItem"
-        Me.DurumunuDeğiştirToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
-        Me.DurumunuDeğiştirToolStripMenuItem.Text = "Durumunu Değiştir"
+        Me.DurumunuDegistirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UretimHazirlikToolStripMenuItem, Me.mnuSetUretimde, Me.mnuSetOrgude, Me.mnuSetBoyada, Me.KesimHazirlikToolStripMenuItem, Me.mnuSetKesimde, Me.UtudeToolStripMenuItem, Me.mnuSetDepoda, Me.mnuSetKilis, Me.FasondaToolStripMenuItem, Me.YakaOrguToolStripMenuItem, Me.mnuSetBitti, Me.ToolStripMenuItem2, Me.mnuSetBos})
+        Me.DurumunuDegistirToolStripMenuItem.Name = "DurumunuDegistirToolStripMenuItem"
+        Me.DurumunuDegistirToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
+        Me.DurumunuDegistirToolStripMenuItem.Text = "Durumunu Degistir"
         '
-        'ÜretimHazırlıkToolStripMenuItem
+        'UretimHazirlikToolStripMenuItem
         '
-        Me.ÜretimHazırlıkToolStripMenuItem.Name = "ÜretimHazırlıkToolStripMenuItem"
-        Me.ÜretimHazırlıkToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
-        Me.ÜretimHazırlıkToolStripMenuItem.Text = "Hazırlık"
+        Me.UretimHazirlikToolStripMenuItem.Name = "UretimHazirlikToolStripMenuItem"
+        Me.UretimHazirlikToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.UretimHazirlikToolStripMenuItem.Text = "Hazirlik"
         '
         'mnuSetUretimde
         '
         Me.mnuSetUretimde.Name = "mnuSetUretimde"
         Me.mnuSetUretimde.Size = New System.Drawing.Size(148, 22)
-        Me.mnuSetUretimde.Text = "Üretimde"
+        Me.mnuSetUretimde.Text = "Uretimde"
         '
         'mnuSetOrgude
         '
         Me.mnuSetOrgude.Name = "mnuSetOrgude"
         Me.mnuSetOrgude.Size = New System.Drawing.Size(148, 22)
-        Me.mnuSetOrgude.Text = "Örgüde"
+        Me.mnuSetOrgude.Text = "Orgude"
         '
         'mnuSetBoyada
         '
@@ -824,11 +824,11 @@ Partial Class frmSiparisRaporu
         Me.mnuSetKesimde.Size = New System.Drawing.Size(148, 22)
         Me.mnuSetKesimde.Text = "Kesimde"
         '
-        'ÜtüdeToolStripMenuItem
+        'UtudeToolStripMenuItem
         '
-        Me.ÜtüdeToolStripMenuItem.Name = "ÜtüdeToolStripMenuItem"
-        Me.ÜtüdeToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
-        Me.ÜtüdeToolStripMenuItem.Text = "Ütüde"
+        Me.UtudeToolStripMenuItem.Name = "UtudeToolStripMenuItem"
+        Me.UtudeToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.UtudeToolStripMenuItem.Text = "Utude"
         '
         'mnuSetDepoda
         '
@@ -848,11 +848,11 @@ Partial Class frmSiparisRaporu
         Me.FasondaToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.FasondaToolStripMenuItem.Text = "Fasonda"
         '
-        'YakaÖrgüToolStripMenuItem
+        'YakaOrguToolStripMenuItem
         '
-        Me.YakaÖrgüToolStripMenuItem.Name = "YakaÖrgüToolStripMenuItem"
-        Me.YakaÖrgüToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
-        Me.YakaÖrgüToolStripMenuItem.Text = "Yaka Örgü"
+        Me.YakaOrguToolStripMenuItem.Name = "YakaOrguToolStripMenuItem"
+        Me.YakaOrguToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.YakaOrguToolStripMenuItem.Text = "Yaka Orgu"
         '
         'mnuSetBitti
         '
@@ -869,7 +869,7 @@ Partial Class frmSiparisRaporu
         '
         Me.mnuSetBos.Name = "mnuSetBos"
         Me.mnuSetBos.Size = New System.Drawing.Size(148, 22)
-        Me.mnuSetBos.Text = "Boş"
+        Me.mnuSetBos.Text = "Bos"
         '
         'ToolStripMenuItem4
         '
@@ -892,7 +892,7 @@ Partial Class frmSiparisRaporu
         Me.mnuSiparisYaz.Image = Global.ProbarSiparis.My.Resources.Resources.print_16
         Me.mnuSiparisYaz.Name = "mnuSiparisYaz"
         Me.mnuSiparisYaz.Size = New System.Drawing.Size(179, 26)
-        Me.mnuSiparisYaz.Text = "Yazdır"
+        Me.mnuSiparisYaz.Text = "Yazdir"
         '
         'ToolStripMenuItem5
         '
@@ -922,7 +922,7 @@ Partial Class frmSiparisRaporu
         '
         'colsSiparisType
         '
-        Me.colsSiparisType.Caption = "Türü"
+        Me.colsSiparisType.Caption = "Turu"
         Me.colsSiparisType.FieldName = "sSiparisType"
         Me.colsSiparisType.Name = "colsSiparisType"
         Me.colsSiparisType.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Count, "sSiparisType", "Sayi: {0}")})
@@ -1060,7 +1060,7 @@ Partial Class frmSiparisRaporu
         Me.CheckedListBoxControl1.Appearance.Options.UseBackColor = True
         Me.CheckedListBoxControl1.CheckOnClick = True
         Me.CheckedListBoxControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CheckedListBoxControl1.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("HAZIRLIK", "Hazırlık"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("URETIMDE", "Üretimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("ORGUDE", "Örgüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYADA", "Boyada"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIM-HAZIRLIK", "Kesim Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIMDE", "Kesimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("UTUDE", "Ütüde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("DEPODA", "Depoda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KILIS", "Kilis' te"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("FASONDA", "Fasonda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("YAKA-ORGU", "Yaka Örgü"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BITTI", "Bitti"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("", "{Boş}")})
+        Me.CheckedListBoxControl1.Items.AddRange(New DevExpress.XtraEditors.Controls.CheckedListBoxItem() {New DevExpress.XtraEditors.Controls.CheckedListBoxItem("HAZIRLIK", "Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("URETIMDE", "Uretimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("ORGUDE", "Orgude"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BOYADA", "Boyada"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIM-HAZIRLIK", "Kesim Hazirlik"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KESIMDE", "Kesimde"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("UTUDE", "Utude"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("DEPODA", "Depoda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("KILIS", "Kilis' te"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("FASONDA", "Fasonda"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("YAKA-ORGU", "Yaka Orgu"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("BITTI", "Bitti"), New DevExpress.XtraEditors.Controls.CheckedListBoxItem("", "{Bos}")})
         Me.CheckedListBoxControl1.Location = New System.Drawing.Point(2, 20)
         Me.CheckedListBoxControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckedListBoxControl1.MultiColumn = True
@@ -1386,7 +1386,7 @@ Partial Class frmSiparisRaporu
         '
         'colCreatedBy
         '
-        Me.colCreatedBy.Caption = "Oluşturan"
+        Me.colCreatedBy.Caption = "Olusturan"
         Me.colCreatedBy.ColumnEdit = Me.RepositoryItemLookUpEdit1
         Me.colCreatedBy.FieldName = "CreatedBy"
         Me.colCreatedBy.Name = "colCreatedBy"
@@ -1405,7 +1405,7 @@ Partial Class frmSiparisRaporu
         '
         'colCreatedDate
         '
-        Me.colCreatedDate.Caption = "Oluşturma Zamanı"
+        Me.colCreatedDate.Caption = "Olusturma Zamani"
         Me.colCreatedDate.DisplayFormat.FormatString = "dd.MM.yyyy HH:mm:ss"
         Me.colCreatedDate.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime
         Me.colCreatedDate.FieldName = "CreatedDate"
@@ -1413,7 +1413,7 @@ Partial Class frmSiparisRaporu
         '
         'colModifiedBy
         '
-        Me.colModifiedBy.Caption = "Son Değiştiren"
+        Me.colModifiedBy.Caption = "Son Degistiren"
         Me.colModifiedBy.ColumnEdit = Me.RepositoryItemLookUpEdit2
         Me.colModifiedBy.FieldName = "ModifiedBy"
         Me.colModifiedBy.Name = "colModifiedBy"
@@ -1434,7 +1434,7 @@ Partial Class frmSiparisRaporu
         '
         'colModifiedDate
         '
-        Me.colModifiedDate.Caption = "Değiştirme Zamanı"
+        Me.colModifiedDate.Caption = "Degistirme Zamani"
         Me.colModifiedDate.DisplayFormat.FormatString = "dd.MM.yyyy HH:mm:ss"
         Me.colModifiedDate.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime
         Me.colModifiedDate.FieldName = "ModifiedDate"
@@ -2070,7 +2070,7 @@ Partial Class frmSiparisRaporu
         Me.FormCode = "000017"
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "frmSiparisRaporu"
-        Me.Text = "Sipariş Raporu"
+        Me.Text = "Siparis Raporu"
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)
         Me.Controls.SetChildIndex(Me.barDockControlRight, 0)
@@ -2170,7 +2170,7 @@ Partial Class frmSiparisRaporu
     Friend WithEvents colsAnaRenk As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colDurumu As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents DurumunuDeğiştirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DurumunuDegistirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents mnuSetUretimde As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents mnuSetBitti As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripSeparator
@@ -2233,8 +2233,8 @@ Partial Class frmSiparisRaporu
     Friend WithEvents colDovizTipi As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colDovizKuru As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents FasondaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ÜretimHazırlıkToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ÜtüdeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents UretimHazirlikToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents UtudeToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents tbUsers As NeoDAC.NeoTable
     Friend WithEvents SqlCommand8 As SqlClient.SqlCommand
     Friend WithEvents SqlCommand6 As SqlClient.SqlCommand
@@ -2246,7 +2246,7 @@ Partial Class frmSiparisRaporu
     Friend WithEvents colCreatedDate As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colModifiedBy As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colModifiedDate As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents YakaÖrgüToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents YakaOrguToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents KesimHazirlikToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents colSevkAdet As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colSevkTutar As DevExpress.XtraGrid.Columns.GridColumn

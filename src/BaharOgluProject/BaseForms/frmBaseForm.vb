@@ -225,13 +225,13 @@ Public Class frmBaseForm
 
         If bControlMasterConn Then
             If AppConn.mainConn.State <> ConnectionState.Open Then
-                MsgBox("Piconn Master Veri tabanı bağlantısı yok!")
+                MsgBox("Piconn Master Veri tabani baglantisi yok!")
                 Exit Sub
             End If
         End If
         If bControlFirmConn Then
             If AppConn.dbConn.State <> ConnectionState.Open Then
-                MsgBox("Piconn Veri tabanı bağlantısı yok!")
+                MsgBox("Piconn Veri tabani baglantisi yok!")
                 Exit Sub
             End If
         End If
@@ -260,13 +260,13 @@ Public Class frmBaseForm
     Public Sub FormSelect(Optional ByVal bControlMasterConn As Boolean = True, Optional ByVal bControlFirmConn As Boolean = True, Optional ByVal bMultiSelect_ As Boolean = False)
         If bControlMasterConn Then
             If AppConn.mainConn.State <> ConnectionState.Open Then
-                MsgBox("Piconn Master Veri tabanı bağlantısı yok!")
+                MsgBox("Piconn Master Veri tabani baglantisi yok!")
                 Exit Sub
             End If
         End If
         If bControlFirmConn Then
             If AppConn.dbConn.State <> ConnectionState.Open Then
-                MsgBox("Piconn Veri tabanı bağlantısı yok!")
+                MsgBox("Piconn Veri tabani baglantisi yok!")
                 Exit Sub
             End If
         End If
@@ -503,7 +503,7 @@ Public Class frmBaseForm
         Try
             If Bar1.Visible Then
                 If btnCancel.Visibility = DevExpress.XtraBars.BarItemVisibility.Always And btnCancel.Enabled = True Then
-                    If MsgBox(BaseTText("Form verileri değişti. Kaydetmeden çıkmak istedinize emin misiniz?"), MsgBoxStyle.Information + MsgBoxStyle.YesNo, BaseTText("Çıkış?")) <> MsgBoxResult.Yes Then
+                    If MsgBox(BaseTText("Form verileri degisti. Kaydetmeden Ã§ikmak istedinize emin misiniz?"), MsgBoxStyle.Information + MsgBoxStyle.YesNo, BaseTText("Ã‡ikis?")) <> MsgBoxResult.Yes Then
                         e.Cancel = True
                         Exit Sub
                     End If
@@ -553,7 +553,7 @@ Public Class frmBaseForm
 
         Try
             If GridView1.GetSelectedRows().Count <= 0 Then
-                MsgBox(BaseTText("Hiç seçili nesne yok!"))
+                MsgBox(BaseTText("HiÃ§ seÃ§ili nesne yok!"))
                 Exit Sub
 
             End If
@@ -598,7 +598,7 @@ Public Class frmBaseForm
                 ElseIf Bar1.LinksPersistInfo.Item(i).Item.Name = btnCancel.Name Then
                     Bar1.LinksPersistInfo.Item(i).Item.Enabled = True
                 ElseIf Bar1.LinksPersistInfo.Item(i).Item.Name = btnApprove.Name Or Bar1.LinksPersistInfo.Item(i).Item.Name = btnDisapprove.Name Then
-                    'Bişey yapma
+                    'Bisey yapma
                 Else
 
                     Bar1.LinksPersistInfo.Item(i).Item.Enabled = False
@@ -635,7 +635,7 @@ Public Class frmBaseForm
                 ElseIf Bar1.LinksPersistInfo.Item(i).Item.Name = btnCancel.Name Then
                     Bar1.LinksPersistInfo.Item(i).Item.Enabled = False
                 ElseIf Bar1.LinksPersistInfo.Item(i).Item.Name = btnApprove.Name Or Bar1.LinksPersistInfo.Item(i).Item.Name = btnDisapprove.Name Then
-                    'Bişey yapma
+                    'Bisey yapma
                 Else
                     Bar1.LinksPersistInfo.Item(i).Item.Enabled = True
                 End If
@@ -867,7 +867,7 @@ Public Class frmBaseForm
 
             If AppConn.dbConnStr = "" Then Exit Sub
             If AppConn.ApplicationCode Is Nothing Then
-                'MsgBox("ApplicationCode belirtilmemiş!")
+                'MsgBox("ApplicationCode belirtilmemis!")
                 'Exit Sub
                 AppConn.ApplicationCode = "PiconnCevahir"
             End If
@@ -933,7 +933,7 @@ Public Class frmBaseForm
             Set_UserInfo_Parameters()
 
             If MasterTable.Columns.Count <= 0 Then
-                MsgBox("LÜTFEN TABLO KOLONLARINI CREATE EDINIZ!")
+                MsgBox("LUTFEN TABLO KOLONLARINI CREATE EDINIZ!")
             End If
 
             Set_DataTables_TableName()
@@ -1422,7 +1422,7 @@ Public Class frmBaseForm
             If btnCancel.Visibility <> DevExpress.XtraBars.BarItemVisibility.Always Or btnCancel.Enabled = False Then Exit Sub
             If MasterTable.Active = False Then Exit Sub
             If MasterLink.Position < 0 Then Exit Sub
-            If MsgBox(BaseTText("Yaptığınız değişiklikler geri alınacak, emin misiniz?"), MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, BaseTText("Vazgeç?")) <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox(BaseTText("Yaptiginiz degisiklikler geri alinacak, emin misiniz?"), MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, BaseTText("VazgeÃ§?")) <> MsgBoxResult.Yes Then Exit Sub
             If MasterTable.Active Then MasterTable.RejectChanges()
             If DetailTable.Active Then DetailTable.RejectChanges()
             If DetailTable2.Active Then DetailTable2.RejectChanges()
@@ -1488,7 +1488,7 @@ Public Class frmBaseForm
                 Exit Function
             End If
 
-            If MsgBox(BaseTText("Kaydı silmek istediğinizden emin misiniz?"), MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, BaseTText("Sil?")) <> MsgBoxResult.Yes Then GoTo Cikis
+            If MsgBox(BaseTText("Kaydi silmek istediginizden emin misiniz?"), MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, BaseTText("Sil?")) <> MsgBoxResult.Yes Then GoTo Cikis
 
             EditMode = True
 
@@ -1556,7 +1556,7 @@ Cikis:
             If e1.Cancel Then
                 Exit Function
             End If
-            Dim ret As MsgBoxResult = MsgBox(BaseTText("Kaydetmek istediğinizden emin misiniz?"), MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, BaseTText("Kaydet?"))
+            Dim ret As MsgBoxResult = MsgBox(BaseTText("Kaydetmek istediginizden emin misiniz?"), MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, BaseTText("Kaydet?"))
 
             If ret = MsgBoxResult.No Then
                 If MasterTable.Active Then MasterTable.RejectChanges()
@@ -1808,7 +1808,7 @@ Cikis:
             If MasterTable.Columns.Count <= 0 Then Exit Sub
             If MasterLink.CurrentRow Is Nothing Then Exit Sub
             If GridView1.SelectedRowsCount > 1 Then
-                MsgBox(BaseTText("Lütfen tek kayıt seçiniz."))
+                MsgBox(BaseTText("Lutfen tek kayit seÃ§iniz."))
                 Exit Sub
             End If
             Dim e2 As New ItemFormSaveEventArgs
@@ -1913,12 +1913,12 @@ Cikis:
             'If IsNullGuid(nID) Then Exit Sub
             Dim sText As String = ""
             sText = "ID" & vbTab & vbTab & ": " & nID.ToString & vbNewLine
-            sText &= "Oluşturan" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, CreatedBy) & vbNewLine
-            sText &= "Oluşturma Tarihi" & vbTab & ": " & CreatedDate & vbNewLine
-            sText &= "Değiştiren" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, ModifiedBy) & vbNewLine
-            sText &= "Değiştirme Tarihi" & vbTab & ": " & ModifiedDate & vbNewLine
-            MsgBox(sText, MsgBoxStyle.OkOnly Or MsgBoxStyle.Information, "Kayıt Bilgisi")
-            'MsgBox(sText, MsgBoxStyle.Information, "Kayıt Bilgisi")
+            sText &= "Olusturan" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, CreatedBy) & vbNewLine
+            sText &= "Olusturma Tarihi" & vbTab & ": " & CreatedDate & vbNewLine
+            sText &= "Degistiren" & vbTab & vbTab & ": " & GetUserFullName(MasterConn.SqlConnection, ModifiedBy) & vbNewLine
+            sText &= "Degistirme Tarihi" & vbTab & ": " & ModifiedDate & vbNewLine
+            MsgBox(sText, MsgBoxStyle.OkOnly Or MsgBoxStyle.Information, "Kayit Bilgisi")
+            'MsgBox(sText, MsgBoxStyle.Information, "Kayit Bilgisi")
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -2043,7 +2043,7 @@ Cikis:
 
     Public Sub EditFormWarning()
         Beep()
-        ShowError("Lütfen değiştirme butonunu kullanarak kayıt değiştiriniz!")
+        ShowError("Lutfen degistirme butonunu kullanarak kayit degistiriniz!")
     End Sub
     Private Sub tmrShowError_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tmrShowError.Tick
         Try
@@ -2147,11 +2147,11 @@ Cikis:
 
             'End With
 
-            'IMPORT IŞLEMİ
+            'IMPORT IÅLEMÄ°
             RaiseEvent BeforeImport(sender, e1) 'burada kontrol edilecek veri
             If e1.Cancel Then Exit Sub
 
-            'veri kontrolü başarılı ki bu adıma gelmiş
+            'veri kontrolu basarili ki bu adima gelmis
             If mVar_UseStandartImport = True Then
 
                 For Each dr As DataRow In ImportTable.Rows
@@ -2229,11 +2229,11 @@ Cikis:
 
             'End With
 
-            'IMPORT IŞLEMİ
+            'IMPORT IÅLEMÄ°
             RaiseEvent BeforeImport_Detail1(New Object, e1) 'burada kontrol edilecek veri
             If e1.Cancel Then Exit Sub
 
-            'veri kontrolü başarılı ki bu adıma gelmiş
+            'veri kontrolu basarili ki bu adima gelmis
             If mVar_UseStandartImport = True Then
 
                 For Each dr As DataRow In ImportTable.Rows

@@ -830,7 +830,7 @@ Partial Class frmSiparisler
         Me.cboOdemeDurumu.MenuManager = Me.BarManager1
         Me.cboOdemeDurumu.Name = "cboOdemeDurumu"
         Me.cboOdemeDurumu.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cboOdemeDurumu.Properties.Items.AddRange(New Object() {"", "ÖDEMESİ GELDİ", "KISMİ ÖDEME"})
+        Me.cboOdemeDurumu.Properties.Items.AddRange(New Object() {"", "ODEMESÄ° GELDÄ°", "KISMÄ° ODEME"})
         Me.cboOdemeDurumu.Size = New System.Drawing.Size(161, 20)
         Me.cboOdemeDurumu.StyleController = Me.DataLayoutControl1
         Me.cboOdemeDurumu.TabIndex = 12
@@ -1212,41 +1212,41 @@ Partial Class frmSiparisler
         'LayoutControlItem5
         '
         Me.LayoutControlItem5.Control = Me.cboSiparisType
-        Me.LayoutControlItem5.CustomizationFormText = "Türü"
+        Me.LayoutControlItem5.CustomizationFormText = "Turu"
         Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
         Me.LayoutControlItem5.Size = New System.Drawing.Size(235, 24)
-        Me.LayoutControlItem5.Text = "Türü"
+        Me.LayoutControlItem5.Text = "Turu"
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(74, 13)
         '
         'LayoutControlItem7
         '
         Me.LayoutControlItem7.Control = Me.TextEdit10
-        Me.LayoutControlItem7.CustomizationFormText = "Ödenen"
+        Me.LayoutControlItem7.CustomizationFormText = "Odenen"
         Me.LayoutControlItem7.Location = New System.Drawing.Point(621, 72)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
         Me.LayoutControlItem7.Size = New System.Drawing.Size(172, 24)
-        Me.LayoutControlItem7.Text = "Ödenen"
+        Me.LayoutControlItem7.Text = "Odenen"
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(74, 13)
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.cboOdemeDurumu
-        Me.LayoutControlItem6.CustomizationFormText = "Ödeme Durumu"
+        Me.LayoutControlItem6.CustomizationFormText = "Odeme Durumu"
         Me.LayoutControlItem6.Location = New System.Drawing.Point(377, 72)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
         Me.LayoutControlItem6.Size = New System.Drawing.Size(244, 24)
-        Me.LayoutControlItem6.Text = "Ödeme Durumu"
+        Me.LayoutControlItem6.Text = "Odeme Durumu"
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(74, 13)
         '
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.TextEdit1
-        Me.LayoutControlItem8.CustomizationFormText = "Okul Farkı(%)"
+        Me.LayoutControlItem8.CustomizationFormText = "Okul Farki(%)"
         Me.LayoutControlItem8.Location = New System.Drawing.Point(690, 24)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
         Me.LayoutControlItem8.Size = New System.Drawing.Size(167, 24)
-        Me.LayoutControlItem8.Text = "Okul Farkı(%)"
+        Me.LayoutControlItem8.Text = "Okul Farki(%)"
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(74, 13)
         '
         'GridControl2
@@ -1274,14 +1274,14 @@ Partial Class frmSiparisler
         '
         Me.mnuSipDetayBagla.Name = "mnuSipDetayBagla"
         Me.mnuSipDetayBagla.Size = New System.Drawing.Size(178, 26)
-        Me.mnuSipDetayBagla.Text = "Ustteki Satıra Bağla"
+        Me.mnuSipDetayBagla.Text = "Ustteki Satira Bagla"
         '
         'mnuSipDetayBaglantiIptal
         '
         Me.mnuSipDetayBaglantiIptal.Image = Global.ProbarSiparis.My.Resources.Resources.delete_16
         Me.mnuSipDetayBaglantiIptal.Name = "mnuSipDetayBaglantiIptal"
         Me.mnuSipDetayBaglantiIptal.Size = New System.Drawing.Size(178, 26)
-        Me.mnuSipDetayBaglantiIptal.Text = "Bağlantıyı iptal et"
+        Me.mnuSipDetayBaglantiIptal.Text = "Baglantiyi iptal et"
         '
         'ToolStripMenuItem1
         '
@@ -1782,7 +1782,7 @@ Partial Class frmSiparisler
         '
         'colBagli
         '
-        Me.colBagli.Caption = "Bağlı?"
+        Me.colBagli.Caption = "Bagli?"
         Me.colBagli.ColumnEdit = Me.RepositoryItemCheckEdit3
         Me.colBagli.FieldName = "Bagli"
         Me.colBagli.Name = "colBagli"
@@ -1876,7 +1876,7 @@ Partial Class frmSiparisler
         Me.XtraTabPage1.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage1.Name = "XtraTabPage1"
         Me.XtraTabPage1.Size = New System.Drawing.Size(881, 293)
-        Me.XtraTabPage1.Text = "Sipariş"
+        Me.XtraTabPage1.Text = "Siparis"
         '
         'PanelControl1
         '
@@ -2301,7 +2301,7 @@ Partial Class frmSiparisler
         Me.chkIptal.Location = New System.Drawing.Point(278, 7)
         Me.chkIptal.MenuManager = Me.BarManager1
         Me.chkIptal.Name = "chkIptal"
-        Me.chkIptal.Properties.Caption = "İptal?"
+        Me.chkIptal.Properties.Caption = "Ä°ptal?"
         Me.chkIptal.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkIptal.Properties.ReadOnly = True
         Me.chkIptal.Properties.ValueChecked = 1
@@ -2317,7 +2317,7 @@ Partial Class frmSiparisler
         Me.cmdIptal.Name = "cmdIptal"
         Me.cmdIptal.Size = New System.Drawing.Size(120, 25)
         Me.cmdIptal.TabIndex = 3
-        Me.cmdIptal.Text = "(X) İptal"
+        Me.cmdIptal.Text = "(X) Ä°ptal"
         '
         'chkOnayli
         '
@@ -2325,7 +2325,7 @@ Partial Class frmSiparisler
         Me.chkOnayli.Location = New System.Drawing.Point(10, 7)
         Me.chkOnayli.MenuManager = Me.BarManager1
         Me.chkOnayli.Name = "chkOnayli"
-        Me.chkOnayli.Properties.Caption = "Onaylı?"
+        Me.chkOnayli.Properties.Caption = "Onayli?"
         Me.chkOnayli.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkOnayli.Properties.ReadOnly = True
         Me.chkOnayli.Properties.ValueChecked = 1
@@ -2343,7 +2343,7 @@ Partial Class frmSiparisler
         '
         'colOnayli
         '
-        Me.colOnayli.Caption = "Onaylı?"
+        Me.colOnayli.Caption = "Onayli?"
         Me.colOnayli.ColumnEdit = Me.RepositoryItemCheckEdit1
         Me.colOnayli.FieldName = "Onayli"
         Me.colOnayli.Name = "colOnayli"
@@ -2431,7 +2431,7 @@ Partial Class frmSiparisler
         '
         'colIptal
         '
-        Me.colIptal.Caption = "İptal?"
+        Me.colIptal.Caption = "Ä°ptal?"
         Me.colIptal.ColumnEdit = Me.RepositoryItemCheckEdit2
         Me.colIptal.FieldName = "Iptal"
         Me.colIptal.Name = "colIptal"
@@ -2459,7 +2459,7 @@ Partial Class frmSiparisler
         Me.chkShowIptal.Location = New System.Drawing.Point(610, 24)
         Me.chkShowIptal.MenuManager = Me.BarManager1
         Me.chkShowIptal.Name = "chkShowIptal"
-        Me.chkShowIptal.Properties.Caption = "İptalleride göster"
+        Me.chkShowIptal.Properties.Caption = "Ä°ptalleride gÃ¶ster"
         Me.chkShowIptal.Properties.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
         Me.chkShowIptal.Properties.ValueChecked = 1
         Me.chkShowIptal.Properties.ValueUnchecked = 0
@@ -2557,7 +2557,7 @@ Partial Class frmSiparisler
         '
         'colOdemeDurumu
         '
-        Me.colOdemeDurumu.Caption = "Ödeme Durumu"
+        Me.colOdemeDurumu.Caption = "Odeme Durumu"
         Me.colOdemeDurumu.FieldName = "OdemeDurumu"
         Me.colOdemeDurumu.Name = "colOdemeDurumu"
         Me.colOdemeDurumu.Visible = True
@@ -2566,7 +2566,7 @@ Partial Class frmSiparisler
         '
         'colOdenen
         '
-        Me.colOdenen.Caption = "Ödenen"
+        Me.colOdenen.Caption = "Odenen"
         Me.colOdenen.FieldName = "Odenen"
         Me.colOdenen.Name = "colOdenen"
         Me.colOdenen.Visible = True
@@ -3306,7 +3306,7 @@ Partial Class frmSiparisler
         Me.ClientSize = New System.Drawing.Size(893, 652)
         Me.FormCode = "000008"
         Me.Name = "frmSiparisler"
-        Me.Text = "Siparişler"
+        Me.Text = "Siparisler"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Controls.SetChildIndex(Me.barDockControlTop, 0)
         Me.Controls.SetChildIndex(Me.barDockControlBottom, 0)

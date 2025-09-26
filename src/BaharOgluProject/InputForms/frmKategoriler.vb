@@ -49,7 +49,7 @@ Public Class frmKategoriler
 
     Public Sub FormShow()
         Try
-            'Me.Text = "Ürün Ağacı"
+            'Me.Text = "Urun Agaci"
             InitializeConnection()
             RefreshList()
             Me.Show()
@@ -61,10 +61,10 @@ Public Class frmKategoriler
     Public Sub FormShow_NewSiparis(ByVal SipDetayID_ As Long)
         Try
             If SipDetayID_ <= 0 Then
-                MsgBox("Yeni sipariş açılamadı. Tekrar deneyin.")
+                MsgBox("Yeni siparis aÃ§ilamadi. Tekrar deneyin.")
                 Exit Sub
             End If
-            Me.Text = "Yeni - Sipariş Detay"
+            Me.Text = "Yeni - Siparis Detay"
             InitializeConnection()
             SipDetayID = SipDetayID_
             ApplicationMode = True
@@ -80,7 +80,7 @@ Public Class frmKategoriler
 
     Public Sub FormShow_Edit(ByVal SipDetayID_ As Long)
         Try
-            Me.Text = "Düzelt - Sipariş Detay"
+            Me.Text = "Duzelt - Siparis Detay"
 
             InitializeConnection()
             bEkFiyatlariYukleme = True
@@ -105,7 +105,7 @@ Public Class frmKategoriler
 
     Public Sub FormShow_Repair(ByVal SipDetayID_ As Long)
         Try
-            Me.Text = "Düzelt - Sipariş Detay"
+            Me.Text = "Duzelt - Siparis Detay"
             InitializeConnection()
             bEkFiyatlariYukleme = True
             SipDetayID = SipDetayID_
@@ -879,19 +879,19 @@ Public Class frmKategoriler
             End If
             If tbSipDetay.Rows.Count <= 0 Then Exit Sub
             If If0Null(tbSipDetay.Rows(0).Item("OkulID")) <= 0 Then
-                MsgBox("Lüten okul seçiniz!")
+                MsgBox("Luten okul seÃ§iniz!")
                 Exit Sub
             End If
             If Trim(IfNull(tbSipDetay.Rows(0).Item("BolumKod"), "")) = "" Then
-                MsgBox("Lüten bölüm seçiniz! Hangi 4+4+4 olacak?")
+                MsgBox("Luten bÃ¶lum seÃ§iniz! Hangi 4+4+4 olacak?")
                 Exit Sub
             End If
             If IfNull(tbSipDetay.Rows(0).Item("Tarih"), DateSerial(1900, 1, 1)) > IfNull(tbSipDetay.Rows(0).Item("TerminTarihi"), DateSerial(1900, 1, 1)) Then
-                MsgBox("Termin tarihi sipariş tarihinden küçük olamaz!")
+                MsgBox("Termin tarihi siparis tarihinden kuÃ§uk olamaz!")
                 Exit Sub
             End If
             If bRepairMode = False Then
-                If MsgBox("Kaydetmek istediğinizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Kaydet?") <> MsgBoxResult.Yes Then Exit Sub
+                If MsgBox("Kaydetmek istediginizden emin misiniz?", MsgBoxStyle.Question + MsgBoxStyle.YesNoCancel, "Kaydet?") <> MsgBoxResult.Yes Then Exit Sub
             End If
 
             If Save() = True Then
@@ -1018,7 +1018,7 @@ Public Class frmKategoriler
                                     tbSipDetay.Rows(0).Item("StokKod") = IfNull(dtMikro.Rows(0).Item("sto_kod"), "")
                                     tbSipDetay.Rows(0).Item("StokIsmi") = IfNull(dtMikro.Rows(0).Item("sto_isim"), "")
                                 Else
-                                    MsgBox("Bu ürün kategorisinin mikrodaki stok kodu yanlış!")
+                                    MsgBox("Bu urun kategorisinin mikrodaki stok kodu yanlis!")
 
                                 End If
                                 daMikro.Dispose()
@@ -1315,7 +1315,7 @@ Public Class frmKategoriler
     Private Sub mnuFiyatSil_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuFiyatSil.Click
         Try
             If GridView1.FocusedRowHandle < 0 Then Exit Sub
-            If MsgBox("Satır silmek istediğinizden emin misiniz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satır sil?") <> MsgBoxResult.Yes Then Exit Sub
+            If MsgBox("Satir silmek istediginizden emin misiniz?", MsgBoxStyle.Critical + MsgBoxStyle.YesNoCancel, "Satir sil?") <> MsgBoxResult.Yes Then Exit Sub
 
             Dim rowIndex As Integer = GridView1.GetDataSourceRowIndex(GridView1.FocusedRowHandle)
             tbKategoriFiyat.Rows(rowIndex).Delete()
@@ -1644,25 +1644,25 @@ Public Class frmKategoriler
         Try
 
             Dim MasrafListesi As New ArrayList
-            MasrafListesi.Add(New ClsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New ClsMasraf("001", "Ã‡izgi Farki", False, 0))
             MasrafListesi.Add(New ClsMasraf("002", "Duble Lastik", False, 0))
             MasrafListesi.Add(New ClsMasraf("003", "Arma", False, 0))
-            MasrafListesi.Add(New ClsMasraf("004", "Özel Etiket", False, 0))
-            MasrafListesi.Add(New ClsMasraf("005", "Örgü Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("006", "Model Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("007", "Parça Model", False, 0))
+            MasrafListesi.Add(New ClsMasraf("004", "Ozel Etiket", False, 0))
+            MasrafListesi.Add(New ClsMasraf("005", "Orgu Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("006", "Model Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("007", "ParÃ§a Model", False, 0))
             MasrafListesi.Add(New ClsMasraf("008", "Astar", False, 0))
             MasrafListesi.Add(New ClsMasraf("009", "Fermuar", False, 0))
-            MasrafListesi.Add(New ClsMasraf("010", "Omuz Reçme", False, 0))
-            MasrafListesi.Add(New ClsMasraf("011", "Cep Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("012", "Farklı Kumaş", False, 0))
-            MasrafListesi.Add(New ClsMasraf("013", "Manşet Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("014", "Uzun Kol Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("015", "Kapşon Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("016", "Çıtçıt Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("017", "Kapşon Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("018", "Ön Kapak Farkı", False, 0))
-            MasrafListesi.Add(New ClsMasraf("S02", "Kumaş Farkı", False, 0))
+            MasrafListesi.Add(New ClsMasraf("010", "Omuz ReÃ§me", False, 0))
+            MasrafListesi.Add(New ClsMasraf("011", "Cep Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("012", "Farkli Kumas", False, 0))
+            MasrafListesi.Add(New ClsMasraf("013", "Manset Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("014", "Uzun Kol Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("015", "Kapson Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("016", "Ã‡itÃ§it Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("017", "Kapson Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("018", "On Kapak Farki", False, 0))
+            MasrafListesi.Add(New ClsMasraf("S02", "Kumas Farki", False, 0))
 
 
             For i As Integer = 0 To MasrafListesi.Count - 1

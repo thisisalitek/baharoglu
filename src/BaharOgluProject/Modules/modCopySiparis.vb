@@ -38,12 +38,12 @@ Module modCopySiparis
             NewSiparisID = If0Null(cmd.ExecuteScalar)
             If NewSiparisID <= 0 Then
                 trans.Rollback()
-                MsgBox("İşlem başarısız!")
+                MsgBox("Ä°slem basarisiz!")
                 Return 0
             End If
             If CopySipDetay(trans, SiparisID, NewSiparisID, UserID) = False Then
                 trans.Rollback()
-                MsgBox("İşlem başarısız!")
+                MsgBox("Ä°slem basarisiz!")
                 Return 0
             End If
             trans.Commit()

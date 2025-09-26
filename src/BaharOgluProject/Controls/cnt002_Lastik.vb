@@ -67,7 +67,7 @@ Public Class cnt002_Lastik
     Private Sub MasraflariUygula()
         Try
             MasrafListesi.Clear()
-            MasrafListesi.Add(New clsMasraf("001", "Çizgi Farkı", False, 0))
+            MasrafListesi.Add(New clsMasraf("001", "Ã‡izgi Farki", False, 0))
 
             If MasrafListesi.Count > 0 Then
                 If MasterTable2.Rows.Count > 0 Then
@@ -106,7 +106,7 @@ Public Class cnt002_Lastik
 
             If MasterTable2.Rows.Count > 0 Then
                 If If0Null(MasterTable2.Rows(0).Item("RenkID")) <= 0 Then
-                    smsg &= "[LASTIK] Lastik bel rengi seçilmemiş!" & vbNewLine
+                    smsg &= "[LASTIK] Lastik bel rengi seÃ§ilmemis!" & vbNewLine
                     bCancel = True
                 End If
                
@@ -116,12 +116,12 @@ Public Class cnt002_Lastik
                     If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                         Debug.Print(If0Null(dr("SipDetayParamID")))
                         If If0Null(dr("RenkID")) <= 0 Then
-                            smsg &= "[LASTIK] belde #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                            smsg &= "[LASTIK] belde #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                             bCancel = True
                         End If
 
                         If Trim(IfNull(dr("RKafa"), "")) = "" Then
-                            smsg &= "[LASTIK] belde #" & i + 1 & " satırda çizgi sayısı hatalı!" & vbNewLine
+                            smsg &= "[LASTIK] belde #" & i + 1 & " satirda Ã§izgi sayisi hatali!" & vbNewLine
                             bCancel = True
                         End If
                     End If
@@ -131,7 +131,7 @@ Public Class cnt002_Lastik
                 If If0Null(MasterTable2.Rows(0).Item("IntParam1")) = 1 Then
 
                     If If0Null(MasterTable2.Rows(0).Item("RenkID2")) <= 0 Then
-                        smsg &= "[LASTIK] Lastik kol rengi seçilmemiş!" & vbNewLine
+                        smsg &= "[LASTIK] Lastik kol rengi seÃ§ilmemis!" & vbNewLine
                         bCancel = True
                     End If
 
@@ -139,11 +139,11 @@ Public Class cnt002_Lastik
                         Dim dr As DataRow = NeoTable3.Rows(i)
                         If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                             If If0Null(dr("RenkID")) <= 0 Then
-                                smsg &= "[LASTIK] kolda #" & i + 1 & " satırda renk seçilmemiş!" & vbNewLine
+                                smsg &= "[LASTIK] kolda #" & i + 1 & " satirda renk seÃ§ilmemis!" & vbNewLine
                                 bCancel = True
                             End If
                             If Trim(IfNull(dr("RKafa"), "")) = "" Then
-                                smsg &= "[LASTIK] kolda #" & i + 1 & " satırda çizgi sayısı hatalı!" & vbNewLine
+                                smsg &= "[LASTIK] kolda #" & i + 1 & " satirda Ã§izgi sayisi hatali!" & vbNewLine
                                 bCancel = True
                             End If
                         End If
@@ -222,9 +222,9 @@ Public Class cnt002_Lastik
                     Dim AnaRenk As String = ""
                     Dim AnaRenkKol As String = ""
                     If RadioGroup1.SelectedIndex = 0 Then
-                        Aciklamalar.Add("BEL+KOL Tek Parça")
+                        Aciklamalar.Add("BEL+KOL Tek ParÃ§a")
                     Else
-                        Aciklamalar.Add("BEL ve KOL  Ayrı 2 Parça")
+                        Aciklamalar.Add("BEL ve KOL  Ayri 2 ParÃ§a")
                     End If
 
                     If MasterTable2.Rows.Count > 0 Then
@@ -237,21 +237,21 @@ Public Class cnt002_Lastik
                         AnaRenk = GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID")))
 
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) <= 0 Then
-                            sbuf &= "   ÇİZGİ :YOK "
+                            sbuf &= "   Ã‡Ä°ZGÄ° :YOK "
                         Else
-                            sbuf &= "   ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi"))
+                            sbuf &= "   Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi"))
                         End If
                         Aciklamalar.Add(sbuf)
 
 
                         '------------
                         Dim sSipBuf As String = ""
-                        sSipBuf = "LASTİK RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID")))
+                        sSipBuf = "LASTÄ°K RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID")))
                         Aciklamalar2.Add(sSipBuf)
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) <= 0 Then
-                            sSipBuf = "LASTİK ÇİZGİ :YOK "
+                            sSipBuf = "LASTÄ°K Ã‡Ä°ZGÄ° :YOK "
                         Else
-                            sSipBuf = "LASTİK ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) & "   RENKLER:"
+                            sSipBuf = "LASTÄ°K Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) & "   RENKLER:"
 
                         End If
 
@@ -306,8 +306,8 @@ Public Class cnt002_Lastik
                         For Each dr As DataRow In NeoTable2.Rows
                             If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                                 CizgiNo += 1
-                                sbuf = CizgiNo & ". Çizgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
-                                sbuf &= "     " & CizgiNo & ". Çizgi -> " & IfNull(dr("RKafa"), "")
+                                sbuf = CizgiNo & ". Ã‡izgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
+                                sbuf &= "     " & CizgiNo & ". Ã‡izgi -> " & IfNull(dr("RKafa"), "")
                                 Aciklamalar.Add(sbuf)
                                 sSipBuf &= GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID"))) & " , "
                             End If
@@ -323,7 +323,7 @@ Public Class cnt002_Lastik
                         Aciklamalar2.Add(sSipBuf)
                         If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi")) > 0 Then
                             If Trim(BelCizgiRKafa) <> "" Then
-                                sSipBuf = "LASTİK ÇİZGİ TÜR :" & BelCizgiRKafa
+                                sSipBuf = "LASTÄ°K Ã‡Ä°ZGÄ° TUR :" & BelCizgiRKafa
                                 Aciklamalar2.Add(sSipBuf)
                             End If
                         End If
@@ -334,19 +334,19 @@ Public Class cnt002_Lastik
                             sbuf = "LASTIK KOL RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID2")))
 
                             If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi2")) <= 0 Then
-                                sbuf &= "   ÇİZGİ :YOK "
+                                sbuf &= "   Ã‡Ä°ZGÄ° :YOK "
                             Else
-                                sbuf &= "   ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi2"))
+                                sbuf &= "   Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi2"))
                             End If
                             AciklamalarKol.Add(sbuf)
 
                             '------------
-                            sSipBuf = "LASTİK KOL RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID2")))
+                            sSipBuf = "LASTÄ°K KOL RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(MasterTable2.Rows(0).Item("RenkID2")))
                             Aciklamalar2Kol.Add(sSipBuf)
                             If If0Null(MasterTable2.Rows(0).Item("CizgiSayisi2")) <= 0 Then
-                                sSipBuf = "LASTİK KOL ÇİZGİ :YOK "
+                                sSipBuf = "LASTÄ°K KOL Ã‡Ä°ZGÄ° :YOK "
                             Else
-                                sSipBuf = "LASTİK KOL ÇİZGİ :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi2")) & "   RENKLER:"
+                                sSipBuf = "LASTÄ°K KOL Ã‡Ä°ZGÄ° :" & If0Null(MasterTable2.Rows(0).Item("CizgiSayisi2")) & "   RENKLER:"
 
                             End If
 
@@ -357,8 +357,8 @@ Public Class cnt002_Lastik
                             For Each dr As DataRow In NeoTable3.Rows
                                 If dr.RowState <> DataRowState.Deleted And dr.RowState <> DataRowState.Detached Then
                                     CizgiNo += 1
-                                    sbuf = CizgiNo & ". Çizgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
-                                    sbuf &= "     " & CizgiNo & ". Çizgi -> " & IfNull(dr("RKafa"), "")
+                                    sbuf = CizgiNo & ". Ã‡izgi ->  RENK:" & GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID")))
+                                    sbuf &= "     " & CizgiNo & ". Ã‡izgi -> " & IfNull(dr("RKafa"), "")
                                     AciklamalarKol.Add(sbuf)
                                     sSipBuf &= GetRenkKodIsim(SqlConn.SqlConnection, If0Null(dr("RenkID"))) & " , "
                                 End If

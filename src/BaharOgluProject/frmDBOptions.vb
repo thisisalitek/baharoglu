@@ -63,9 +63,9 @@ Public Class frmDBOptions
             Dim conn As SqlClient.SqlConnection = ConnectSQL_ConnStr(connstr)
             If conn.State = ConnectionState.Open Then
                 conn.Close()
-                MsgBox("Bağlantı başarılı :-)")
+                MsgBox("Baglanti basarili :-)")
             Else
-                MsgBox("Bağlantı başarısız :-(")
+                MsgBox("Baglanti basarisiz :-(")
             End If
 
         Catch ex As Exception
@@ -81,9 +81,9 @@ Public Class frmDBOptions
             Dim conn As SqlClient.SqlConnection = ConnectSQL_ConnStr(connstr)
             If conn.State = ConnectionState.Open Then
                 conn.Close()
-                MsgBox("Bağlantı başarılı :-)")
+                MsgBox("Baglanti basarili :-)")
             Else
-                MsgBox("Bağlantı başarısız :-(")
+                MsgBox("Baglanti basarisiz :-(")
             End If
 
         Catch ex As Exception
@@ -136,12 +136,12 @@ Public Class frmDBOptions
             Dim conn As SqlClient.SqlConnection = ConnectSQL_ConnStr(connstr)
             If conn.State <> ConnectionState.Open Then
 
-                MsgBox("Bağlantı başarısız :-(")
+                MsgBox("Baglanti basarisiz :-(")
                 Exit Sub
             End If
 
             If AddDatabase(conn, txtDatabase.Text) = True Then
-                MsgBox("Veri tabanı başarı ile oluşturuldu :-)")
+                MsgBox("Veri tabani basari ile olusturuldu :-)")
             End If
 
 
@@ -171,7 +171,7 @@ Public Class frmDBOptions
         rs.Close()
         If bBulundu Then
             
-            MsgBox("Bu veri tabanı mevcut. Başka bir veri tabanı ismi deneyiniz!")
+            MsgBox("Bu veri tabani mevcut. Baska bir veri tabani ismi deneyiniz!")
             Return False
 
         End If
@@ -213,7 +213,7 @@ Public Class frmDBOptions
             If RunVersionScript(cmd.Connection, "sql_dbcreator.sql") Then
                 GoTo basarili
             Else
-                MsgBox("Veri tabanı script hatası oluştu. Sistem yöneticiniz ile görüşünüz.")
+                MsgBox("Veri tabani script hatasi olustu. Sistem yÃ¶neticiniz ile gÃ¶rusunuz.")
                 Return False
             End If
         End If
